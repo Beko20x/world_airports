@@ -1,0 +1,42 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][PORT SAID]>
+        <[string8][lname][PORT SAID, Egypt]>
+        <[string8][icao][HEPS]>
+        <[string8][country][eg]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][32.240064 31.279393]>
+        <[float64][height][2.4]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][32.245312 31.280191]>
+        <[float64][tower_height][2.4]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][10]>
+			<[tmvector2d][threshold1][32.228194 31.282278]>
+			<[tmvector2d][endpoint1][32.228194 31.282278]>
+			<[string8]   [appltsys1][sals]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][28]>
+			<[tmvector2d][threshold2][32.251933 31.276508]>
+			<[tmvector2d][endpoint2][32.251933 31.276508]>
+			<[string8]   [appltsys2][sals]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][45.11]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][32.243248 31.280045]>
+			<[float64][heading][0.00]>
+			<[string8][name][Ramp]>
+		  >
+		>
+    >
+>

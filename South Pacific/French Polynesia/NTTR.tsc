@@ -1,0 +1,42 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Raiatea]>
+        <[string8][lname][Raiatea, French Polynesia]>
+        <[string8][icao][NTTR]>
+        <[string8][country][pf]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-151.465856 -16.722862]>
+        <[float64][height][0.9]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-151.466709 -16.725120]>
+        <[float64][tower_height][0.9]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][07]>
+			<[tmvector2d][threshold1][-151.472394 -16.723539]>
+			<[tmvector2d][endpoint1][-151.472394 -16.723539]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][25]>
+			<[tmvector2d][threshold2][-151.459317 -16.722186]>
+			<[tmvector2d][endpoint2][-151.459317 -16.722186]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][29.87]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-151.466889 -16.724065]>
+			<[float64][heading][0.00]>
+			<[string8][name][Custom Startup Location]>
+		  >
+		>
+    >
+>

@@ -1,0 +1,52 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Nordhorn-Lingen]>
+        <[string8][lname][Nordhorn-Lingen, Germany (civil)]>
+        <[string8][icao][EDWN]>
+        <[string8][country][de]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][7.185005 52.457667]>
+        <[float64][height][26.5]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][7.178245 52.457780]>
+        <[float64][tower_height][36.3]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][6]>
+			<[tmvector2d][threshold1][7.181327 52.456156]>
+			<[tmvector2d][endpoint1][7.179495 52.455402]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][none]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][24]>
+			<[tmvector2d][threshold2][7.188683 52.459179]>
+			<[tmvector2d][endpoint2][7.190516 52.459932]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][none]>
+			<[string8]   [reil2][none]>
+			<[float64][width][20.12]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][7.176540 52.457353]>
+			<[float64][heading][58.61]>
+			<[string8][name][Front of Hangars]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][7.176593 52.458006]>
+			<[float64][heading][143.37]>
+			<[string8][name][Fuel Station]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][7.178038 52.457679]>
+			<[float64][heading][132.80]>
+			<[string8][name][W Tower]>
+		  >
+		>
+    >
+>

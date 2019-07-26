@@ -1,0 +1,92 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][HAMMOND NORTHSHORE RGNL]>
+        <[string8][lname][HAMMOND NORTHSHORE RGNL, USA]>
+        <[string8][icao][KHDC]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-90.417785 30.521661]>
+        <[float64][height][13.7]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][0 0]>
+        <[float64][tower_height][0.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][13]>
+			<[tmvector2d][threshold1][-90.425148 30.527926]>
+			<[tmvector2d][endpoint1][-90.425148 30.527926]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][31]>
+			<[tmvector2d][threshold2][-90.412283 30.516980]>
+			<[tmvector2d][endpoint2][-90.410422 30.515396]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][30.48]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][18]>
+			<[tmvector2d][threshold1][-90.419222 30.528597]>
+			<[tmvector2d][endpoint1][-90.419222 30.528597]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][36]>
+			<[tmvector2d][threshold2][-90.419089 30.514844]>
+			<[tmvector2d][endpoint2][-90.419089 30.514844]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][45.72]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-90.422120 30.523089]>
+			<[float64][heading][0.00]>
+			<[string8][name][Hammond Air Center]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-90.425799 30.527144]>
+			<[float64][heading][14.15]>
+			<[string8][name][Hold Short Rwy 13]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-90.420175 30.527749]>
+			<[float64][heading][25.00]>
+			<[string8][name][Hold Short Rwy 18]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-90.411486 30.515055]>
+			<[float64][heading][90.00]>
+			<[string8][name][Hold Short Rwy 31]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-90.420011 30.514977]>
+			<[float64][heading][132.98]>
+			<[string8][name][Hold Short Rwy 36]>
+		  >
+		  <[tmsimulator_parking_position][element][5]
+			<[tmvector2d][position][-90.421532 30.518668]>
+			<[float64][heading][270.00]>
+			<[string8][name][Ramp]>
+		  >
+		  <[tmsimulator_parking_position][element][6]
+			<[tmvector2d][position][-90.408416 30.516531]>
+			<[float64][heading][270.00]>
+			<[string8][name][Top Gun FBO]>
+		  >
+		  <[tmsimulator_parking_position][element][7]
+			<[tmvector2d][position][-90.421224 30.519869]>
+			<[float64][heading][270.00]>
+			<[string8][name][Top Gun Self-Serve Fuel]>
+		  >
+		>
+    >
+>

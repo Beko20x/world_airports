@@ -1,0 +1,77 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Newton City]>
+        <[string8][lname][Newton City, USA]>
+        <[string8][icao][KEWK]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-97.276386 38.055271]>
+        <[float64][height][467.3]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][0 0]>
+        <[float64][tower_height][0.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][17]>
+			<[tmvector2d][threshold1][-97.276386 38.064886]>
+			<[tmvector2d][endpoint1][-97.276386 38.064886]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][35]>
+			<[tmvector2d][threshold2][-97.276386 38.045656]>
+			<[tmvector2d][endpoint2][-97.276386 38.045656]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][29.87]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][08]>
+			<[tmvector2d][threshold1][-97.278993 38.060737]>
+			<[tmvector2d][endpoint1][-97.278993 38.060737]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][26]>
+			<[tmvector2d][threshold2][-97.266836 38.060737]>
+			<[tmvector2d][endpoint2][-97.266836 38.060737]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][17.98]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-97.277505 38.064802]>
+			<[float64][heading][90.00]>
+			<[string8][name][Hold Short Rwy 17]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-97.266906 38.060352]>
+			<[float64][heading][0.00]>
+			<[string8][name][Hold Short Rwy 26]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-97.277554 38.045727]>
+			<[float64][heading][90.00]>
+			<[string8][name][Hold Short Rwy 35]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-97.278711 38.060035]>
+			<[float64][heading][0.00]>
+			<[string8][name][Hold Short Rwy 8]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-97.279751 38.052062]>
+			<[float64][heading][270.00]>
+			<[string8][name][Metro North FBO]>
+		  >
+		>
+    >
+>

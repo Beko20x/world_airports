@@ -1,0 +1,70 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][HASTINGS MUNI]>
+        <[string8][lname][HASTINGS MUNI, USA]>
+        <[string8][icao][KHSI]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-98.427893 40.606689]>
+        <[float64][height][597.7]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-98.427521 40.600176]>
+        <[float64][tower_height][599.5]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][14]>
+			<[tmvector2d][threshold1][-98.433648 40.614379]>
+			<[tmvector2d][endpoint1][-98.433648 40.614379]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][32]>
+			<[tmvector2d][threshold2][-98.424697 40.602416]>
+			<[tmvector2d][endpoint2][-98.422138 40.598998]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][29.87]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][04]>
+			<[tmvector2d][threshold1][-98.433793 40.598937]>
+			<[tmvector2d][endpoint1][-98.433793 40.598937]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][22]>
+			<[tmvector2d][threshold2][-98.421967 40.607399]>
+			<[tmvector2d][endpoint2][-98.421967 40.607399]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][22.86]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		  <[tmsimulator_helipad][element][0]
+			<[tmvector2d][position][-98.425476 40.597726]>
+			<[string8][type_name][building]>
+			<[float64][radius][8]>
+			<[float64][heading][88.38]>
+			<[float64][height][0]>
+			<[string8][name][Helipad]>
+		  >
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-98.425903 40.599095]>
+			<[float64][heading][206.56]>
+			<[string8][name][Hangers]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-98.427257 40.600281]>
+			<[float64][heading][270.00]>
+			<[string8][name][New Ramp Start 2]>
+		  >
+		>
+    >
+>

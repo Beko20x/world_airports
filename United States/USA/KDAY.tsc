@@ -1,0 +1,177 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][JAMES M COX DAYTON INTL]>
+        <[string8][lname][JAMES M COX DAYTON INTL, USA]>
+        <[string8][icao][KDAY]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-84.230038 39.903618]>
+        <[float64][height][307.5]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-84.221199 39.898708]>
+        <[float64][tower_height][338.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][06L]>
+			<[tmvector2d][threshold1][-84.246017 39.895111]>
+			<[tmvector2d][endpoint1][-84.246017 39.895111]>
+			<[string8]   [appltsys1][alsf-2]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][24R]>
+			<[tmvector2d][threshold2][-84.214058 39.912125]>
+			<[tmvector2d][endpoint2][-84.214058 39.912125]>
+			<[string8]   [appltsys2][malsr]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][18]>
+			<[tmvector2d][threshold1][-84.212050 39.917325]>
+			<[tmvector2d][endpoint1][-84.212050 39.917325]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][36]>
+			<[tmvector2d][threshold2][-84.211269 39.894000]>
+			<[tmvector2d][endpoint2][-84.211269 39.894000]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][2]
+			<[string8][name1][06R]>
+			<[tmvector2d][threshold1][-84.222403 39.890997]>
+			<[tmvector2d][endpoint1][-84.222403 39.890997]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][24L]>
+			<[tmvector2d][threshold2][-84.201875 39.901919]>
+			<[tmvector2d][endpoint2][-84.201875 39.901919]>
+			<[string8]   [appltsys2][malsr]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-84.203055 39.897341]>
+			<[float64][heading][325.00]>
+			<[string8][name][Hanger 1]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-84.199123 39.897143]>
+			<[float64][heading][180.00]>
+			<[string8][name][Hanger 2]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-84.200337 39.898635]>
+			<[float64][heading][270.00]>
+			<[string8][name][Hanger 3]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-84.201275 39.899161]>
+			<[float64][heading][270.00]>
+			<[string8][name][Parking East 1]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-84.200827 39.899895]>
+			<[float64][heading][270.00]>
+			<[string8][name][Parking East 2]>
+		  >
+		  <[tmsimulator_parking_position][element][5]
+			<[tmvector2d][position][-84.209246 39.903279]>
+			<[float64][heading][180.00]>
+			<[string8][name][Parking North 1]>
+		  >
+		  <[tmsimulator_parking_position][element][6]
+			<[tmvector2d][position][-84.209269 39.902507]>
+			<[float64][heading][0.00]>
+			<[string8][name][Parking North 2]>
+		  >
+		  <[tmsimulator_parking_position][element][7]
+			<[tmvector2d][position][-84.207508 39.905634]>
+			<[float64][heading][270.00]>
+			<[string8][name][Parking North 3]>
+		  >
+		  <[tmsimulator_parking_position][element][8]
+			<[tmvector2d][position][-84.227699 39.899438]>
+			<[float64][heading][45.00]>
+			<[string8][name][Parking South 1]>
+		  >
+		  <[tmsimulator_parking_position][element][9]
+			<[tmvector2d][position][-84.223402 39.910250]>
+			<[float64][heading][325.00]>
+			<[string8][name][Ramp East 1]>
+		  >
+		  <[tmsimulator_parking_position][element][10]
+			<[tmvector2d][position][-84.224916 39.909422]>
+			<[float64][heading][325.00]>
+			<[string8][name][Ramp East 2]>
+		  >
+		  <[tmsimulator_parking_position][element][11]
+			<[tmvector2d][position][-84.234688 39.904395]>
+			<[float64][heading][0.00]>
+			<[string8][name][Ramp West 1]>
+		  >
+		  <[tmsimulator_parking_position][element][12]
+			<[tmvector2d][position][-84.237245 39.902855]>
+			<[float64][heading][145.00]>
+			<[string8][name][Ramp West 2]>
+		  >
+		  <[tmsimulator_parking_position][element][13]
+			<[tmvector2d][position][-84.221677 39.900882]>
+			<[float64][heading][55.00]>
+			<[string8][name][Terminal 1]>
+		  >
+		  <[tmsimulator_parking_position][element][14]
+			<[tmvector2d][position][-84.220221 39.900590]>
+			<[float64][heading][325.00]>
+			<[string8][name][Terminal 2]>
+		  >
+		  <[tmsimulator_parking_position][element][15]
+			<[tmvector2d][position][-84.219352 39.901080]>
+			<[float64][heading][325.00]>
+			<[string8][name][Terminal 3]>
+		  >
+		  <[tmsimulator_parking_position][element][16]
+			<[tmvector2d][position][-84.218784 39.900826]>
+			<[float64][heading][145.00]>
+			<[string8][name][Terminal 4]>
+		  >
+		  <[tmsimulator_parking_position][element][17]
+			<[tmvector2d][position][-84.219419 39.900511]>
+			<[float64][heading][145.00]>
+			<[string8][name][Terminal 5]>
+		  >
+		  <[tmsimulator_parking_position][element][18]
+			<[tmvector2d][position][-84.218971 39.899017]>
+			<[float64][heading][325.00]>
+			<[string8][name][Terminal 6]>
+		  >
+		  <[tmsimulator_parking_position][element][19]
+			<[tmvector2d][position][-84.218387 39.899284]>
+			<[float64][heading][325.00]>
+			<[string8][name][Terminal 7]>
+		  >
+		  <[tmsimulator_parking_position][element][20]
+			<[tmvector2d][position][-84.218051 39.898946]>
+			<[float64][heading][145.00]>
+			<[string8][name][Terminal 8]>
+		  >
+		  <[tmsimulator_parking_position][element][21]
+			<[tmvector2d][position][-84.218623 39.898590]>
+			<[float64][heading][145.00]>
+			<[string8][name][Terminal 9]>
+		  >
+		>
+    >
+>

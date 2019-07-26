@@ -1,0 +1,52 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Key West Intl]>
+        <[string8][lname][Key West Intl, USA]>
+        <[string8][icao][KEYW]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-81.759546 24.556123]>
+        <[float64][height][0.6]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-81.755606 24.553915]>
+        <[float64][tower_height][0.6]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][09]>
+			<[tmvector2d][threshold1][-81.766353 24.556057]>
+			<[tmvector2d][endpoint1][-81.766767 24.556053]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][27]>
+			<[tmvector2d][threshold2][-81.752739 24.556190]>
+			<[tmvector2d][endpoint2][-81.752325 24.556194]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][30.48]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-81.752813 24.555382]>
+			<[float64][heading][80.00]>
+			<[string8][name][Hold Short Rwy 27]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-81.766045 24.555240]>
+			<[float64][heading][270.00]>
+			<[string8][name][Hold Short Rwy 9]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-81.756837 24.554876]>
+			<[float64][heading][0.00]>
+			<[string8][name][Island City Flying Service]>
+		  >
+		>
+    >
+>

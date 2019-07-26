@@ -1,0 +1,770 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Dublin]>
+        <[string8][lname][Dublin, Ireland]>
+        <[string8][icao][EIDW]>
+        <[string8][country][ie]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-6.270326 53.421346]>
+        <[float64][height][73.8]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-6.262078 53.428438]>
+        <[float64][tower_height][93.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][10]>
+			<[tmvector2d][threshold1][-6.290074 53.422431]>
+			<[tmvector2d][endpoint1][-6.290074 53.422431]>
+			<[string8]   [appltsys1][alsf-2]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][28]>
+			<[tmvector2d][threshold2][-6.250578 53.420261]>
+			<[tmvector2d][endpoint2][-6.250578 53.420261]>
+			<[string8]   [appltsys2][alsf-2]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][45.11]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][16]>
+			<[tmvector2d][threshold1][-6.261977 53.436990]>
+			<[tmvector2d][endpoint1][-6.261977 53.436990]>
+			<[string8]   [appltsys1][alsf-1]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][34]>
+			<[tmvector2d][threshold2][-6.249593 53.419906]>
+			<[tmvector2d][endpoint2][-6.249593 53.419906]>
+			<[string8]   [appltsys2][malsf]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][60.96]>
+		  >
+		  <[tmsimulator_runway][element][2]
+			<[string8][name1][11]>
+			<[tmvector2d][threshold1][-6.261513 53.436432]>
+			<[tmvector2d][endpoint1][-6.262268 53.436553]>
+			<[string8]   [appltsys1][malsf]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][29]>
+			<[tmvector2d][threshold2][-6.242808 53.433443]>
+			<[tmvector2d][endpoint2][-6.242808 53.433443]>
+			<[string8]   [appltsys2][malsf]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][60.96]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		  <[tmsimulator_helipad][element][0]
+			<[tmvector2d][position][-6.263786 53.419219]>
+			<[string8][type_name][building]>
+			<[float64][radius][8]>
+			<[float64][heading][210.00]>
+			<[float64][height][0]>
+			<[string8][name][South Heli Area]>
+		  >
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-6.246295 53.425343]>
+			<[float64][heading][20.00]>
+			<[string8][name][Default Start (Stand 36)]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-6.234230 53.430577]>
+			<[float64][heading][182.81]>
+			<[string8][name][Stand (Nth Apron SR Techniks)]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-6.249113 53.427824]>
+			<[float64][heading][72.66]>
+			<[string8][name][Stand 10]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-6.240467 53.431829]>
+			<[float64][heading][15.00]>
+			<[string8][name][Stand 100 (Nth Apron Corporate)]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-6.239786 53.431720]>
+			<[float64][heading][15.00]>
+			<[string8][name][Stand 101 (Nth Apron Corporate)]>
+		  >
+		  <[tmsimulator_parking_position][element][5]
+			<[tmvector2d][position][-6.239182 53.431621]>
+			<[float64][heading][15.00]>
+			<[string8][name][Stand 102 (Nth Apron Corporate)]>
+		  >
+		  <[tmsimulator_parking_position][element][6]
+			<[tmvector2d][position][-6.237938 53.430671]>
+			<[float64][heading][132.63]>
+			<[string8][name][Stand 103 (Nth Apron Maintenance)]>
+		  >
+		  <[tmsimulator_parking_position][element][7]
+			<[tmvector2d][position][-6.237400 53.430665]>
+			<[float64][heading][156.90]>
+			<[string8][name][Stand 104 (Nth Apron Maintenance)]>
+		  >
+		  <[tmsimulator_parking_position][element][8]
+			<[tmvector2d][position][-6.236444 53.430645]>
+			<[float64][heading][157.71]>
+			<[string8][name][Stand 105 (Nth Apron Maintenance)]>
+		  >
+		  <[tmsimulator_parking_position][element][9]
+			<[tmvector2d][position][-6.235649 53.430405]>
+			<[float64][heading][238.44]>
+			<[string8][name][Stand 106 (Nth Apron Maintenance)]>
+		  >
+		  <[tmsimulator_parking_position][element][10]
+			<[tmvector2d][position][-6.246269 53.431044]>
+			<[float64][heading][188.21]>
+			<[string8][name][Stand 107]>
+		  >
+		  <[tmsimulator_parking_position][element][11]
+			<[tmvector2d][position][-6.247193 53.431197]>
+			<[float64][heading][184.08]>
+			<[string8][name][Stand 108C]>
+		  >
+		  <[tmsimulator_parking_position][element][12]
+			<[tmvector2d][position][-6.246874 53.431186]>
+			<[float64][heading][183.34]>
+			<[string8][name][Stand 108L]>
+		  >
+		  <[tmsimulator_parking_position][element][13]
+			<[tmvector2d][position][-6.247546 53.431219]>
+			<[float64][heading][182.72]>
+			<[string8][name][Stand 108R]>
+		  >
+		  <[tmsimulator_parking_position][element][14]
+			<[tmvector2d][position][-6.248485 53.431293]>
+			<[float64][heading][190.26]>
+			<[string8][name][Stand 109C]>
+		  >
+		  <[tmsimulator_parking_position][element][15]
+			<[tmvector2d][position][-6.248196 53.431276]>
+			<[float64][heading][184.53]>
+			<[string8][name][Stand 109L]>
+		  >
+		  <[tmsimulator_parking_position][element][16]
+			<[tmvector2d][position][-6.248852 53.431321]>
+			<[float64][heading][184.19]>
+			<[string8][name][Stand 109R]>
+		  >
+		  <[tmsimulator_parking_position][element][17]
+			<[tmvector2d][position][-6.248856 53.427413]>
+			<[float64][heading][30.31]>
+			<[string8][name][Stand 11]>
+		  >
+		  <[tmsimulator_parking_position][element][18]
+			<[tmvector2d][position][-6.249734 53.431373]>
+			<[float64][heading][183.99]>
+			<[string8][name][Stand 110C]>
+		  >
+		  <[tmsimulator_parking_position][element][19]
+			<[tmvector2d][position][-6.249495 53.431366]>
+			<[float64][heading][184.82]>
+			<[string8][name][Stand 110L]>
+		  >
+		  <[tmsimulator_parking_position][element][20]
+			<[tmvector2d][position][-6.250151 53.431405]>
+			<[float64][heading][185.87]>
+			<[string8][name][Stand 110R]>
+		  >
+		  <[tmsimulator_parking_position][element][21]
+			<[tmvector2d][position][-6.251016 53.431429]>
+			<[float64][heading][185.88]>
+			<[string8][name][Stand 111C]>
+		  >
+		  <[tmsimulator_parking_position][element][22]
+			<[tmvector2d][position][-6.250798 53.431437]>
+			<[float64][heading][184.28]>
+			<[string8][name][Stand 111L]>
+		  >
+		  <[tmsimulator_parking_position][element][23]
+			<[tmvector2d][position][-6.251457 53.431447]>
+			<[float64][heading][184.81]>
+			<[string8][name][Stand 111R]>
+		  >
+		  <[tmsimulator_parking_position][element][24]
+			<[tmvector2d][position][-6.248679 53.427428]>
+			<[float64][heading][56.38]>
+			<[string8][name][Stand 11L]>
+		  >
+		  <[tmsimulator_parking_position][element][25]
+			<[tmvector2d][position][-6.248131 53.427444]>
+			<[float64][heading][359.81]>
+			<[string8][name][Stand 12]>
+		  >
+		  <[tmsimulator_parking_position][element][26]
+			<[tmvector2d][position][-6.248829 53.429829]>
+			<[float64][heading][334.30]>
+			<[string8][name][Stand 124T]>
+		  >
+		  <[tmsimulator_parking_position][element][27]
+			<[tmvector2d][position][-6.248113 53.429943]>
+			<[float64][heading][8.11]>
+			<[string8][name][Stand 125]>
+		  >
+		  <[tmsimulator_parking_position][element][28]
+			<[tmvector2d][position][-6.247463 53.429903]>
+			<[float64][heading][7.13]>
+			<[string8][name][Stand 126]>
+		  >
+		  <[tmsimulator_parking_position][element][29]
+			<[tmvector2d][position][-6.246800 53.429877]>
+			<[float64][heading][7.58]>
+			<[string8][name][Stand 127]>
+		  >
+		  <[tmsimulator_parking_position][element][30]
+			<[tmvector2d][position][-6.247507 53.427552]>
+			<[float64][heading][320.00]>
+			<[string8][name][Stand 13]>
+		  >
+		  <[tmsimulator_parking_position][element][31]
+			<[tmvector2d][position][-6.247051 53.427805]>
+			<[float64][heading][312.07]>
+			<[string8][name][Stand 14]>
+		  >
+		  <[tmsimulator_parking_position][element][32]
+			<[tmvector2d][position][-6.246392 53.427990]>
+			<[float64][heading][7.60]>
+			<[string8][name][Stand 15]>
+		  >
+		  <[tmsimulator_parking_position][element][33]
+			<[tmvector2d][position][-6.246470 53.427999]>
+			<[float64][heading][3.69]>
+			<[string8][name][Stand 15L]>
+		  >
+		  <[tmsimulator_parking_position][element][34]
+			<[tmvector2d][position][-6.245821 53.426952]>
+			<[float64][heading][140.00]>
+			<[string8][name][Stand 31]>
+		  >
+		  <[tmsimulator_parking_position][element][35]
+			<[tmvector2d][position][-6.246376 53.426776]>
+			<[float64][heading][157.53]>
+			<[string8][name][Stand 32]>
+		  >
+		  <[tmsimulator_parking_position][element][36]
+			<[tmvector2d][position][-6.247093 53.426560]>
+			<[float64][heading][140.00]>
+			<[string8][name][Stand 33]>
+		  >
+		  <[tmsimulator_parking_position][element][37]
+			<[tmvector2d][position][-6.247105 53.426118]>
+			<[float64][heading][81.22]>
+			<[string8][name][Stand 34]>
+		  >
+		  <[tmsimulator_parking_position][element][38]
+			<[tmvector2d][position][-6.246984 53.425604]>
+			<[float64][heading][70.43]>
+			<[string8][name][Stand 35]>
+		  >
+		  <[tmsimulator_parking_position][element][39]
+			<[tmvector2d][position][-6.246295 53.425343]>
+			<[float64][heading][20.00]>
+			<[string8][name][Stand 36]>
+		  >
+		  <[tmsimulator_parking_position][element][40]
+			<[tmvector2d][position][-6.246648 53.425297]>
+			<[float64][heading][39.93]>
+			<[string8][name][Stand 36L]>
+		  >
+		  <[tmsimulator_parking_position][element][41]
+			<[tmvector2d][position][-6.246118 53.425162]>
+			<[float64][heading][7.56]>
+			<[string8][name][Stand 36R]>
+		  >
+		  <[tmsimulator_parking_position][element][42]
+			<[tmvector2d][position][-6.245341 53.425454]>
+			<[float64][heading][355.00]>
+			<[string8][name][Stand 37]>
+		  >
+		  <[tmsimulator_parking_position][element][43]
+			<[tmvector2d][position][-6.244985 53.425846]>
+			<[float64][heading][306.28]>
+			<[string8][name][Stand 38]>
+		  >
+		  <[tmsimulator_parking_position][element][44]
+			<[tmvector2d][position][-6.244583 53.426206]>
+			<[float64][heading][301.62]>
+			<[string8][name][Stand 39]>
+		  >
+		  <[tmsimulator_parking_position][element][45]
+			<[tmvector2d][position][-6.243630 53.425826]>
+			<[float64][heading][39.90]>
+			<[string8][name][Stand 39A]>
+		  >
+		  <[tmsimulator_parking_position][element][46]
+			<[tmvector2d][position][-6.243184 53.425292]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 41]>
+		  >
+		  <[tmsimulator_parking_position][element][47]
+			<[tmvector2d][position][-6.243002 53.425218]>
+			<[float64][heading][10.00]>
+			<[string8][name][Stand 41R]>
+		  >
+		  <[tmsimulator_parking_position][element][48]
+			<[tmvector2d][position][-6.242591 53.425098]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 42]>
+		  >
+		  <[tmsimulator_parking_position][element][49]
+			<[tmvector2d][position][-6.241985 53.424901]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 43]>
+		  >
+		  <[tmsimulator_parking_position][element][50]
+			<[tmvector2d][position][-6.241796 53.424827]>
+			<[float64][heading][10.00]>
+			<[string8][name][Stand 43R]>
+		  >
+		  <[tmsimulator_parking_position][element][51]
+			<[tmvector2d][position][-6.241341 53.424685]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 44]>
+		  >
+		  <[tmsimulator_parking_position][element][52]
+			<[tmvector2d][position][-6.240701 53.424477]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 45]>
+		  >
+		  <[tmsimulator_parking_position][element][53]
+			<[tmvector2d][position][-6.240591 53.424438]>
+			<[float64][heading][10.00]>
+			<[string8][name][Stand 45R]>
+		  >
+		  <[tmsimulator_parking_position][element][54]
+			<[tmvector2d][position][-6.240118 53.424301]>
+			<[float64][heading][25.60]>
+			<[string8][name][Stand 46]>
+		  >
+		  <[tmsimulator_parking_position][element][55]
+			<[tmvector2d][position][-6.239633 53.424085]>
+			<[float64][heading][63.83]>
+			<[string8][name][Stand 47]>
+		  >
+		  <[tmsimulator_parking_position][element][56]
+			<[tmvector2d][position][-6.239851 53.423595]>
+			<[float64][heading][126.71]>
+			<[string8][name][Stand 48]>
+		  >
+		  <[tmsimulator_parking_position][element][57]
+			<[tmvector2d][position][-6.242195 53.423210]>
+			<[float64][heading][205.55]>
+			<[string8][name][Stand 49]>
+		  >
+		  <[tmsimulator_parking_position][element][58]
+			<[tmvector2d][position][-6.242320 53.423266]>
+			<[float64][heading][205.60]>
+			<[string8][name][Stand 50]>
+		  >
+		  <[tmsimulator_parking_position][element][59]
+			<[tmvector2d][position][-6.242873 53.423405]>
+			<[float64][heading][209.00]>
+			<[string8][name][Stand 51]>
+		  >
+		  <[tmsimulator_parking_position][element][60]
+			<[tmvector2d][position][-6.243310 53.423577]>
+			<[float64][heading][207.25]>
+			<[string8][name][Stand 52]>
+		  >
+		  <[tmsimulator_parking_position][element][61]
+			<[tmvector2d][position][-6.243511 53.423615]>
+			<[float64][heading][207.25]>
+			<[string8][name][Stand 53]>
+		  >
+		  <[tmsimulator_parking_position][element][62]
+			<[tmvector2d][position][-6.244309 53.423852]>
+			<[float64][heading][207.25]>
+			<[string8][name][Stand 54]>
+		  >
+		  <[tmsimulator_parking_position][element][63]
+			<[tmvector2d][position][-6.244445 53.423946]>
+			<[float64][heading][207.25]>
+			<[string8][name][Stand 55]>
+		  >
+		  <[tmsimulator_parking_position][element][64]
+			<[tmvector2d][position][-6.244852 53.424035]>
+			<[float64][heading][209.00]>
+			<[string8][name][stand 56]>
+		  >
+		  <[tmsimulator_parking_position][element][65]
+			<[tmvector2d][position][-6.258697 53.427398]>
+			<[float64][heading][68.27]>
+			<[string8][name][Stand 600]>
+		  >
+		  <[tmsimulator_parking_position][element][66]
+			<[tmvector2d][position][-6.258888 53.427670]>
+			<[float64][heading][66.41]>
+			<[string8][name][Stand 601]>
+		  >
+		  <[tmsimulator_parking_position][element][67]
+			<[tmvector2d][position][-6.259092 53.427945]>
+			<[float64][heading][67.10]>
+			<[string8][name][Stand 602]>
+		  >
+		  <[tmsimulator_parking_position][element][68]
+			<[tmvector2d][position][-6.259295 53.425904]>
+			<[float64][heading][7.67]>
+			<[string8][name][Stand 610]>
+		  >
+		  <[tmsimulator_parking_position][element][69]
+			<[tmvector2d][position][-6.260297 53.425807]>
+			<[float64][heading][7.60]>
+			<[string8][name][Stand 611C]>
+		  >
+		  <[tmsimulator_parking_position][element][70]
+			<[tmvector2d][position][-6.260611 53.425884]>
+			<[float64][heading][7.58]>
+			<[string8][name][Stand 611L]>
+		  >
+		  <[tmsimulator_parking_position][element][71]
+			<[tmvector2d][position][-6.259958 53.425851]>
+			<[float64][heading][7.59]>
+			<[string8][name][Stand 611R]>
+		  >
+		  <[tmsimulator_parking_position][element][72]
+			<[tmvector2d][position][-6.261599 53.425887]>
+			<[float64][heading][7.60]>
+			<[string8][name][Stand 612C]>
+		  >
+		  <[tmsimulator_parking_position][element][73]
+			<[tmvector2d][position][-6.261915 53.425956]>
+			<[float64][heading][7.13]>
+			<[string8][name][Stand 612L]>
+		  >
+		  <[tmsimulator_parking_position][element][74]
+			<[tmvector2d][position][-6.261260 53.425914]>
+			<[float64][heading][3.81]>
+			<[string8][name][Stand 612R]>
+		  >
+		  <[tmsimulator_parking_position][element][75]
+			<[tmvector2d][position][-6.262781 53.425951]>
+			<[float64][heading][7.60]>
+			<[string8][name][Stand 613C]>
+		  >
+		  <[tmsimulator_parking_position][element][76]
+			<[tmvector2d][position][-6.263222 53.426011]>
+			<[float64][heading][7.60]>
+			<[string8][name][Stand 613L]>
+		  >
+		  <[tmsimulator_parking_position][element][77]
+			<[tmvector2d][position][-6.262562 53.425986]>
+			<[float64][heading][3.80]>
+			<[string8][name][Stand 613R]>
+		  >
+		  <[tmsimulator_parking_position][element][78]
+			<[tmvector2d][position][-6.264411 53.424541]>
+			<[float64][heading][185.71]>
+			<[string8][name][Stand 614C]>
+		  >
+		  <[tmsimulator_parking_position][element][79]
+			<[tmvector2d][position][-6.264251 53.424417]>
+			<[float64][heading][183.93]>
+			<[string8][name][Stand 614L]>
+		  >
+		  <[tmsimulator_parking_position][element][80]
+			<[tmvector2d][position][-6.264903 53.424447]>
+			<[float64][heading][184.33]>
+			<[string8][name][Stand 614R]>
+		  >
+		  <[tmsimulator_parking_position][element][81]
+			<[tmvector2d][position][-6.263245 53.424475]>
+			<[float64][heading][187.80]>
+			<[string8][name][Stand 615C]>
+		  >
+		  <[tmsimulator_parking_position][element][82]
+			<[tmvector2d][position][-6.262946 53.424353]>
+			<[float64][heading][185.72]>
+			<[string8][name][Stand 615L]>
+		  >
+		  <[tmsimulator_parking_position][element][83]
+			<[tmvector2d][position][-6.263598 53.424382]>
+			<[float64][heading][187.53]>
+			<[string8][name][Stand 615R]>
+		  >
+		  <[tmsimulator_parking_position][element][84]
+			<[tmvector2d][position][-6.261948 53.424413]>
+			<[float64][heading][184.06]>
+			<[string8][name][Stand 616C]>
+		  >
+		  <[tmsimulator_parking_position][element][85]
+			<[tmvector2d][position][-6.261640 53.424310]>
+			<[float64][heading][183.81]>
+			<[string8][name][Stand 616L]>
+		  >
+		  <[tmsimulator_parking_position][element][86]
+			<[tmvector2d][position][-6.262290 53.424334]>
+			<[float64][heading][184.56]>
+			<[string8][name][Stand 616R]>
+		  >
+		  <[tmsimulator_parking_position][element][87]
+			<[tmvector2d][position][-6.260674 53.424447]>
+			<[float64][heading][225.68]>
+			<[string8][name][Stand 617C]>
+		  >
+		  <[tmsimulator_parking_position][element][88]
+			<[tmvector2d][position][-6.260333 53.424421]>
+			<[float64][heading][228.33]>
+			<[string8][name][Stand 617L]>
+		  >
+		  <[tmsimulator_parking_position][element][89]
+			<[tmvector2d][position][-6.260959 53.424409]>
+			<[float64][heading][186.62]>
+			<[string8][name][Stand 617R]>
+		  >
+		  <[tmsimulator_parking_position][element][90]
+			<[tmvector2d][position][-6.239865 53.422933]>
+			<[float64][heading][85.00]>
+			<[string8][name][Stand 63]>
+		  >
+		  <[tmsimulator_parking_position][element][91]
+			<[tmvector2d][position][-6.239789 53.422860]>
+			<[float64][heading][81.77]>
+			<[string8][name][Stand 64]>
+		  >
+		  <[tmsimulator_parking_position][element][92]
+			<[tmvector2d][position][-6.239982 53.422849]>
+			<[float64][heading][48.36]>
+			<[string8][name][Stand 65]>
+		  >
+		  <[tmsimulator_parking_position][element][93]
+			<[tmvector2d][position][-6.239321 53.422719]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 66]>
+		  >
+		  <[tmsimulator_parking_position][element][94]
+			<[tmvector2d][position][-6.238771 53.422570]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 67]>
+		  >
+		  <[tmsimulator_parking_position][element][95]
+			<[tmvector2d][position][-6.238232 53.422413]>
+			<[float64][heading][29.00]>
+			<[string8][name][Stand 68]>
+		  >
+		  <[tmsimulator_parking_position][element][96]
+			<[tmvector2d][position][-6.237687 53.422245]>
+			<[float64][heading][27.25]>
+			<[string8][name][Stand 69]>
+		  >
+		  <[tmsimulator_parking_position][element][97]
+			<[tmvector2d][position][-6.247583 53.428888]>
+			<[float64][heading][189.07]>
+			<[string8][name][Stand 6T]>
+		  >
+		  <[tmsimulator_parking_position][element][98]
+			<[tmvector2d][position][-6.248231 53.428687]>
+			<[float64][heading][138.31]>
+			<[string8][name][Stand 7]>
+		  >
+		  <[tmsimulator_parking_position][element][99]
+			<[tmvector2d][position][-6.248530 53.428677]>
+			<[float64][heading][264.32]>
+			<[string8][name][Stand 7S]>
+		  >
+		  <[tmsimulator_parking_position][element][100]
+			<[tmvector2d][position][-6.248716 53.428432]>
+			<[float64][heading][130.90]>
+			<[string8][name][Stand 8]>
+		  >
+		  <[tmsimulator_parking_position][element][101]
+			<[tmvector2d][position][-6.251866 53.432130]>
+			<[float64][heading][184.44]>
+			<[string8][name][Stand 83]>
+		  >
+		  <[tmsimulator_parking_position][element][102]
+			<[tmvector2d][position][-6.251854 53.432079]>
+			<[float64][heading][273.90]>
+			<[string8][name][Stand 83S]>
+		  >
+		  <[tmsimulator_parking_position][element][103]
+			<[tmvector2d][position][-6.254338 53.432714]>
+			<[float64][heading][73.30]>
+			<[string8][name][Stand 84]>
+		  >
+		  <[tmsimulator_parking_position][element][104]
+			<[tmvector2d][position][-6.253676 53.432425]>
+			<[float64][heading][67.54]>
+			<[string8][name][Stand 85]>
+		  >
+		  <[tmsimulator_parking_position][element][105]
+			<[tmvector2d][position][-6.253263 53.431994]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 86]>
+		  >
+		  <[tmsimulator_parking_position][element][106]
+			<[tmvector2d][position][-6.253219 53.431783]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 86R]>
+		  >
+		  <[tmsimulator_parking_position][element][107]
+			<[tmvector2d][position][-6.253120 53.431816]>
+			<[float64][heading][182.11]>
+			<[string8][name][Stand 86S]>
+		  >
+		  <[tmsimulator_parking_position][element][108]
+			<[tmvector2d][position][-6.252996 53.431608]>
+			<[float64][heading][66.26]>
+			<[string8][name][Stand 87]>
+		  >
+		  <[tmsimulator_parking_position][element][109]
+			<[tmvector2d][position][-6.252700 53.431030]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 88R]>
+		  >
+		  <[tmsimulator_parking_position][element][110]
+			<[tmvector2d][position][-6.252497 53.431081]>
+			<[float64][heading][156.94]>
+			<[string8][name][Stand 88S]>
+		  >
+		  <[tmsimulator_parking_position][element][111]
+			<[tmvector2d][position][-6.252760 53.431257]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 88T]>
+		  >
+		  <[tmsimulator_parking_position][element][112]
+			<[tmvector2d][position][-6.252488 53.430897]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 89T]>
+		  >
+		  <[tmsimulator_parking_position][element][113]
+			<[tmvector2d][position][-6.249126 53.428363]>
+			<[float64][heading][263.37]>
+			<[string8][name][Stand 8S]>
+		  >
+		  <[tmsimulator_parking_position][element][114]
+			<[tmvector2d][position][-6.249152 53.428180]>
+			<[float64][heading][112.36]>
+			<[string8][name][Stand 9]>
+		  >
+		  <[tmsimulator_parking_position][element][115]
+			<[tmvector2d][position][-6.252210 53.430367]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 90R]>
+		  >
+		  <[tmsimulator_parking_position][element][116]
+			<[tmvector2d][position][-6.252309 53.430523]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 90T]>
+		  >
+		  <[tmsimulator_parking_position][element][117]
+			<[tmvector2d][position][-6.252065 53.430156]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 91T]>
+		  >
+		  <[tmsimulator_parking_position][element][118]
+			<[tmvector2d][position][-6.251808 53.429804]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 92T]>
+		  >
+		  <[tmsimulator_parking_position][element][119]
+			<[tmvector2d][position][-6.251568 53.429441]>
+			<[float64][heading][66.00]>
+			<[string8][name][Stand 93T]>
+		  >
+		  <[tmsimulator_parking_position][element][120]
+			<[tmvector2d][position][-6.250718 53.428930]>
+			<[float64][heading][22.66]>
+			<[string8][name][Stand 94R]>
+		  >
+		  <[tmsimulator_parking_position][element][121]
+			<[tmvector2d][position][-6.251218 53.429076]>
+			<[float64][heading][46.06]>
+			<[string8][name][Stand 94T]>
+		  >
+		  <[tmsimulator_parking_position][element][122]
+			<[tmvector2d][position][-6.250496 53.428938]>
+			<[float64][heading][359.99]>
+			<[string8][name][Stand 95T]>
+		  >
+		  <[tmsimulator_parking_position][element][123]
+			<[tmvector2d][position][-6.249910 53.429240]>
+			<[float64][heading][314.62]>
+			<[string8][name][Stand 96T]>
+		  >
+		  <[tmsimulator_parking_position][element][124]
+			<[tmvector2d][position][-6.249376 53.429474]>
+			<[float64][heading][316.03]>
+			<[string8][name][Stand 97T]>
+		  >
+		  <[tmsimulator_parking_position][element][125]
+			<[tmvector2d][position][-6.261363 53.430061]>
+			<[float64][heading][0.00]>
+			<[string8][name][Stand Aer Lingus West Hanger]>
+		  >
+		  <[tmsimulator_parking_position][element][126]
+			<[tmvector2d][position][-6.261965 53.430492]>
+			<[float64][heading][176.75]>
+			<[string8][name][Stand AeroClub]>
+		  >
+		  <[tmsimulator_parking_position][element][127]
+			<[tmvector2d][position][-6.244120 53.422368]>
+			<[float64][heading][324.42]>
+			<[string8][name][Stand C11]>
+		  >
+		  <[tmsimulator_parking_position][element][128]
+			<[tmvector2d][position][-6.243521 53.422625]>
+			<[float64][heading][315.84]>
+			<[string8][name][Stand C12]>
+		  >
+		  <[tmsimulator_parking_position][element][129]
+			<[tmvector2d][position][-6.245982 53.423418]>
+			<[float64][heading][133.25]>
+			<[string8][name][Stand C8]>
+		  >
+		  <[tmsimulator_parking_position][element][130]
+			<[tmvector2d][position][-6.246466 53.423150]>
+			<[float64][heading][141.94]>
+			<[string8][name][Stand C9]>
+		  >
+		  <[tmsimulator_parking_position][element][131]
+			<[tmvector2d][position][-6.246709 53.423087]>
+			<[float64][heading][146.93]>
+			<[string8][name][Stand C9R]>
+		  >
+		  <[tmsimulator_parking_position][element][132]
+			<[tmvector2d][position][-6.262273 53.430888]>
+			<[float64][heading][272.41]>
+			<[string8][name][Stand Coastguard SAR]>
+		  >
+		  <[tmsimulator_parking_position][element][133]
+			<[tmvector2d][position][-6.242273 53.435809]>
+			<[float64][heading][226.00]>
+			<[string8][name][Stand Engine Test Site 1]>
+		  >
+		  <[tmsimulator_parking_position][element][134]
+			<[tmvector2d][position][-6.238585 53.431199]>
+			<[float64][heading][234.91]>
+			<[string8][name][Stand Engine Test Site 3]>
+		  >
+		  <[tmsimulator_parking_position][element][135]
+			<[tmvector2d][position][-6.236007 53.431160]>
+			<[float64][heading][282.77]>
+			<[string8][name][Stand Engine Test Site 4]>
+		  >
+		  <[tmsimulator_parking_position][element][136]
+			<[tmvector2d][position][-6.244481 53.432262]>
+			<[float64][heading][218.00]>
+			<[string8][name][Stand Light Aircraft Parking A]>
+		  >
+		  <[tmsimulator_parking_position][element][137]
+			<[tmvector2d][position][-6.241548 53.432161]>
+			<[float64][heading][241.56]>
+			<[string8][name][Stand Light Aircraft Parking B]>
+		  >
+		  <[tmsimulator_parking_position][element][138]
+			<[tmvector2d][position][-6.260467 53.427357]>
+			<[float64][heading][136.64]>
+			<[string8][name][Stand West GA Apron]>
+		  >
+		>
+    >
+>

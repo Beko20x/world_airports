@@ -1,0 +1,42 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Fukushima]>
+        <[string8][lname][Fukushima, Japan]>
+        <[string8][icao][RJSF]>
+        <[string8][country][jp]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][140.427974 37.227429]>
+        <[float64][height][371.9]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][140.431917 37.227924]>
+        <[float64][tower_height][409.3]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][01]>
+			<[tmvector2d][threshold1][140.427433 37.216175]>
+			<[tmvector2d][endpoint1][140.427433 37.216175]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][19]>
+			<[tmvector2d][threshold2][140.428514 37.238683]>
+			<[tmvector2d][endpoint2][140.428514 37.238683]>
+			<[string8]   [appltsys2][sals]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][60.05]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][140.429775 37.225961]>
+			<[float64][heading][92.00]>
+			<[string8][name][Gate C 3]>
+		  >
+		>
+    >
+>

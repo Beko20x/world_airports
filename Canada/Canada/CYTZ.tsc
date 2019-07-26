@@ -1,0 +1,82 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Toronto City Centre]>
+        <[string8][lname][Toronto City Centre, Canada]>
+        <[string8][icao][CYTZ]>
+        <[string8][country][ca]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-79.396175 43.629232]>
+        <[float64][height][76.5]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-79.399099 43.630345]>
+        <[float64][tower_height][101.5]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][08]>
+			<[tmvector2d][threshold1][-79.403364 43.627465]>
+			<[tmvector2d][endpoint1][-79.403364 43.627465]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][right]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][26]>
+			<[tmvector2d][threshold2][-79.388987 43.630998]>
+			<[tmvector2d][endpoint2][-79.388987 43.630998]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][right]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][06]>
+			<[tmvector2d][threshold1][-79.397556 43.625843]>
+			<[tmvector2d][endpoint1][-79.397556 43.625843]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][right]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][24]>
+			<[tmvector2d][threshold2][-79.389207 43.630930]>
+			<[tmvector2d][endpoint2][-79.389207 43.630930]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][right]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][2]
+			<[string8][name1][15]>
+			<[tmvector2d][threshold1][-79.400828 43.629609]>
+			<[tmvector2d][endpoint1][-79.400828 43.629609]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][right]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][33]>
+			<[tmvector2d][threshold2][-79.394050 43.623734]>
+			<[tmvector2d][endpoint2][-79.394050 43.623734]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][right]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-79.397842 43.631079]>
+			<[float64][heading][234.12]>
+			<[string8][name][FBO]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-79.395460 43.631771]>
+			<[float64][heading][277.59]>
+			<[string8][name][Terminal]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-79.396096 43.630262]>
+			<[float64][heading][345.58]>
+			<[string8][name][Transient GA parking]>
+		  >
+		>
+    >
+>

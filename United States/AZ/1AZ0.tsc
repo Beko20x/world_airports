@@ -1,0 +1,47 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][MOBILE]>
+        <[string8][lname][MOBILE, AZ]>
+        <[string8][icao][1AZ0]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-112.266670 33.100138]>
+        <[float64][height][384.4]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][0 0]>
+        <[float64][tower_height][0.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][09]>
+			<[tmvector2d][threshold1][-112.273888 33.101390]>
+			<[tmvector2d][endpoint1][-112.273888 33.101390]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][none]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][27]>
+			<[tmvector2d][threshold2][-112.259451 33.098885]>
+			<[tmvector2d][endpoint2][-112.259451 33.098885]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][none]>
+			<[string8]   [reil2][none]>
+			<[float64][width][22.86]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-112.266364 33.098976]>
+			<[float64][heading][12.51]>
+			<[string8][name][Park Position 10]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-112.266670 33.099258]>
+			<[float64][heading][191.51]>
+			<[string8][name][Park Position 2]>
+		  >
+		>
+    >
+>

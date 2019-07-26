@@ -1,0 +1,93 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][OLYMPIA]>
+        <[string8][lname][OLYMPIA, USA]>
+        <[string8][icao][KOLM]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-122.904807 46.968810]>
+        <[float64][height][63.7]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-122.908666 46.973618]>
+        <[float64][tower_height][88.7]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][17]>
+			<[tmvector2d][threshold1][-122.902647 46.976204]>
+			<[tmvector2d][endpoint1][-122.902647 46.976204]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][35]>
+			<[tmvector2d][threshold2][-122.906966 46.961415]>
+			<[tmvector2d][endpoint2][-122.906966 46.961415]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][08]>
+			<[tmvector2d][threshold1][-122.908241 46.971161]>
+			<[tmvector2d][endpoint1][-122.908241 46.971161]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][26]>
+			<[tmvector2d][threshold2][-122.892062 46.968466]>
+			<[tmvector2d][endpoint2][-122.892062 46.968466]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		  <[tmsimulator_helipad][element][0]
+			<[tmvector2d][position][-122.891493 46.965291]>
+			<[string8][type_name][building]>
+			<[float64][radius][8]>
+			<[float64][heading][0.00]>
+			<[float64][height][0]>
+			<[string8][name][Heliport Helipad]>
+		  >
+		  <[tmsimulator_helipad][element][1]
+			<[tmvector2d][position][-122.891056 46.964625]>
+			<[string8][type_name][building]>
+			<[float64][radius][8]>
+			<[float64][heading][88.03]>
+			<[float64][height][0]>
+			<[string8][name][Heliport Ramp Start]>
+		  >
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-122.905945 46.961323]>
+			<[float64][heading][282.30]>
+			<[string8][name][Hold Short Rwy 35 Twy F]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-122.907455 46.963577]>
+			<[float64][heading][90.78]>
+			<[string8][name][Hold Short Rwy 35 Twy L]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-122.907967 46.961632]>
+			<[float64][heading][104.65]>
+			<[string8][name][Hold Short Rwy 35 Twy W]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-122.905131 46.976465]>
+			<[float64][heading][103.51]>
+			<[string8][name][ILS Hold Short Rwy 17]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-122.909109 46.975664]>
+			<[float64][heading][133.75]>
+			<[string8][name][Terminal Ramp Start]>
+		  >
+		>
+    >
+>

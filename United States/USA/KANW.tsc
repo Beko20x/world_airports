@@ -1,0 +1,70 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][AINSWORTH MUNI]>
+        <[string8][lname][AINSWORTH MUNI, USA]>
+        <[string8][icao][KANW]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-99.996515 42.576772]>
+        <[float64][height][789.1]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-100.000634 42.577088]>
+        <[float64][tower_height][791.3]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][17]>
+			<[tmvector2d][threshold1][-99.996663 42.585673]>
+			<[tmvector2d][endpoint1][-99.996663 42.585673]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][35]>
+			<[tmvector2d][threshold2][-99.996368 42.567871]>
+			<[tmvector2d][endpoint2][-99.996368 42.567871]>
+			<[string8]   [appltsys2][malsr]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][34.14]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][13]>
+			<[tmvector2d][threshold1][-99.995926 42.587555]>
+			<[tmvector2d][endpoint1][-99.995926 42.587555]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][31]>
+			<[tmvector2d][threshold2][-99.981266 42.576985]>
+			<[tmvector2d][endpoint2][-99.981266 42.576985]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][22.86]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		  <[tmsimulator_helipad][element][0]
+			<[tmvector2d][position][-100.000400 42.576694]>
+			<[string8][type_name][building]>
+			<[float64][radius][8]>
+			<[float64][heading][86.47]>
+			<[float64][height][0]>
+			<[string8][name][Helipad]>
+		  >
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-100.000591 42.576514]>
+			<[float64][heading][359.64]>
+			<[string8][name][GA Parking]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-100.001073 42.574778]>
+			<[float64][heading][17.28]>
+			<[string8][name][Hanger Area]>
+		  >
+		>
+    >
+>

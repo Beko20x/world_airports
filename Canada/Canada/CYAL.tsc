@@ -1,0 +1,57 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Alert Bay]>
+        <[string8][lname][Alert Bay, Canada]>
+        <[string8][icao][CYAL]>
+        <[string8][country][ca]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-126.909286 50.575981]>
+        <[float64][height][0.3]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-126.915384 50.577373]>
+        <[float64][tower_height][25.3]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][27]>
+			<[tmvector2d][threshold1][-126.903832 50.574581]>
+			<[tmvector2d][endpoint1][-126.903832 50.574581]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][none]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][09]>
+			<[tmvector2d][threshold2][-126.914741 50.577381]>
+			<[tmvector2d][endpoint2][-126.914741 50.577381]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][none]>
+			<[string8]   [reil2][none]>
+			<[float64][width][22.86]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-126.903476 50.575343]>
+			<[float64][heading][245.90]>
+			<[string8][name][Hold Short 27]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-126.903728 50.575414]>
+			<[float64][heading][248.75]>
+			<[string8][name][Hold Short 27-1]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-126.914753 50.577623]>
+			<[float64][heading][116.20]>
+			<[string8][name][Ramp Start 1]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-126.914885 50.577487]>
+			<[float64][heading][64.83]>
+			<[string8][name][Ramp Start 2]>
+		  >
+		>
+    >
+>

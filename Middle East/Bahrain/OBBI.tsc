@@ -1,0 +1,57 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][BAHRAIN INTL]>
+        <[string8][lname][BAHRAIN INTL, Bahrain]>
+        <[string8][icao][OBBI]>
+        <[string8][country][bh]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][50.633598 26.270834]>
+        <[float64][height][1.8]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][50.633373 26.266670]>
+        <[float64][tower_height][11.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][12L]>
+			<[tmvector2d][threshold1][50.619602 26.278904]>
+			<[tmvector2d][endpoint1][50.617028 26.280389]>
+			<[string8]   [appltsys1][calvert]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][30R]>
+			<[tmvector2d][threshold2][50.647593 26.262763]>
+			<[tmvector2d][endpoint2][50.650167 26.261278]>
+			<[string8]   [appltsys2][sals]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][60.05]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][12R]>
+			<[tmvector2d][threshold1][50.632499 26.269511]>
+			<[tmvector2d][endpoint1][50.629925 26.270997]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][30L]>
+			<[tmvector2d][threshold2][50.650244 26.259270]>
+			<[tmvector2d][endpoint2][50.651261 26.258683]>
+			<[string8]   [appltsys2][malsr]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][45.11]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][50.630043 26.269039]>
+			<[float64][heading][200.00]>
+			<[string8][name][Ramp]>
+		  >
+		>
+    >
+>

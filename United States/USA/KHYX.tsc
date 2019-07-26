@@ -1,0 +1,67 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Saginaw Co H W Browne]>
+        <[string8][lname][Saginaw Co H W Browne, USA]>
+        <[string8][icao][KHYX]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-83.862892 43.433918]>
+        <[float64][height][183.2]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][0 0]>
+        <[float64][tower_height][0.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][09]>
+			<[tmvector2d][threshold1][-83.872335 43.433906]>
+			<[tmvector2d][endpoint1][-83.872335 43.433906]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][27]>
+			<[tmvector2d][threshold2][-83.853448 43.433930]>
+			<[tmvector2d][endpoint2][-83.853448 43.433930]>
+			<[string8]   [appltsys2][malsr]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][29.87]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][05]>
+			<[tmvector2d][threshold1][-83.865581 43.429819]>
+			<[tmvector2d][endpoint1][-83.865912 43.429574]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][23]>
+			<[tmvector2d][threshold2][-83.858470 43.435092]>
+			<[tmvector2d][endpoint2][-83.858112 43.435358]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][17.98]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-83.860654 43.430346]>
+			<[float64][heading][178.26]>
+			<[string8][name][Ramp 1]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-83.862481 43.430322]>
+			<[float64][heading][357.27]>
+			<[string8][name][Ramp 2]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-83.858058 43.429795]>
+			<[float64][heading][271.97]>
+			<[string8][name][T hangars]>
+		  >
+		>
+    >
+>

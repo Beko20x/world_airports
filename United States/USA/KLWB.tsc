@@ -1,0 +1,62 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][GREENBRIER VALLEY]>
+        <[string8][lname][GREENBRIER VALLEY, USA]>
+        <[string8][icao][KLWB]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-80.399482 37.858307]>
+        <[float64][height][701.6]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-80.404524 37.856543]>
+        <[float64][tower_height][721.5]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][04]>
+			<[tmvector2d][threshold1][-80.406489 37.850461]>
+			<[tmvector2d][endpoint1][-80.406489 37.850461]>
+			<[string8]   [appltsys1][malsr]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][22]>
+			<[tmvector2d][threshold2][-80.392475 37.866153]>
+			<[tmvector2d][endpoint2][-80.392475 37.866153]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-80.407320 37.855667]>
+			<[float64][heading][215.20]>
+			<[string8][name][Parking W 1]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-80.406807 37.855750]>
+			<[float64][heading][25.00]>
+			<[string8][name][Parking W 2]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-80.403948 37.856521]>
+			<[float64][heading][35.20]>
+			<[string8][name][Terminal 1]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-80.403594 37.856328]>
+			<[float64][heading][35.20]>
+			<[string8][name][Terminal 2]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-80.403469 37.856811]>
+			<[float64][heading][215.20]>
+			<[string8][name][Terminal 3]>
+		  >
+		>
+    >
+>

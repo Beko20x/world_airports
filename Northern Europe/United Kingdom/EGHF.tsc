@@ -1,0 +1,47 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Lee on Solent]>
+        <[string8][lname][Lee on Solent, United Kingdom]>
+        <[string8][icao][EGHF]>
+        <[string8][country][gb]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-1.207310 50.815334]>
+        <[float64][height][9.8]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-1.211185 50.810876]>
+        <[float64][tower_height][34.7]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][05]>
+			<[tmvector2d][threshold1][-1.213924 50.811184]>
+			<[tmvector2d][endpoint1][-1.213924 50.811184]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][none]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][23]>
+			<[tmvector2d][threshold2][-1.200696 50.819484]>
+			<[tmvector2d][endpoint2][-1.200696 50.819484]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][none]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-1.193989 50.813978]>
+			<[float64][heading][250.00]>
+			<[string8][name][GA Hangar]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-1.210304 50.817213]>
+			<[float64][heading][180.00]>
+			<[string8][name][SAR Ramp]>
+		  >
+		>
+    >
+>

@@ -1,0 +1,67 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Southern California Logistics]>
+        <[string8][lname][Southern California Logistics, USA]>
+        <[string8][icao][KVCV]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-117.386574 34.600977]>
+        <[float64][height][879.3]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-117.374914 34.587512]>
+        <[float64][tower_height][904.3]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][17]>
+			<[tmvector2d][threshold1][-117.386783 34.621650]>
+			<[tmvector2d][endpoint1][-117.386783 34.621650]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][right]>
+			<[string8]   [reil1][omni]>
+			<[string8][name2][35]>
+			<[tmvector2d][threshold2][-117.386364 34.580303]>
+			<[tmvector2d][endpoint2][-117.386364 34.580303]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][right]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][03]>
+			<[tmvector2d][threshold1][-117.387750 34.582706]>
+			<[tmvector2d][endpoint1][-117.387750 34.582706]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][right]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][21]>
+			<[tmvector2d][threshold2][-117.366461 34.600600]>
+			<[tmvector2d][endpoint2][-117.366461 34.600600]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][right]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-117.369242 34.592350]>
+			<[float64][heading][270.00]>
+			<[string8][name][East jet ramp]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-117.376729 34.588034]>
+			<[float64][heading][305.68]>
+			<[string8][name][GA ramp]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-117.381615 34.583932]>
+			<[float64][heading][315.00]>
+			<[string8][name][West Jet ramp]>
+		  >
+		>
+    >
+>

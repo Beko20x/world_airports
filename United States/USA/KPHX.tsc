@@ -1,0 +1,147 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][Phoenix Sky Harbor Intl]>
+        <[string8][lname][Phoenix Sky Harbor Intl, USA]>
+        <[string8][icao][KPHX]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-112.010965 33.440842]>
+        <[float64][height][345.9]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-112.005598 33.435590]>
+        <[float64][tower_height][437.4]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][08]>
+			<[tmvector2d][threshold1][-112.027329 33.440859]>
+			<[tmvector2d][endpoint1][-112.029794 33.440861]>
+			<[string8]   [appltsys1][malsf]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][26]>
+			<[tmvector2d][threshold2][-111.992136 33.440823]>
+			<[tmvector2d][endpoint2][-111.992136 33.440823]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][omni]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][07L]>
+			<[tmvector2d][threshold1][-112.027100 33.431057]>
+			<[tmvector2d][endpoint1][-112.027100 33.431057]>
+			<[string8]   [appltsys1][sals]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][25R]>
+			<[tmvector2d][threshold2][-111.993348 33.431037]>
+			<[tmvector2d][endpoint2][-111.993348 33.431037]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		  <[tmsimulator_runway][element][2]
+			<[string8][name1][07R]>
+			<[tmvector2d][threshold1][-112.027103 33.428858]>
+			<[tmvector2d][endpoint1][-112.027103 33.428858]>
+			<[string8]   [appltsys1][sals]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][25L]>
+			<[tmvector2d][threshold2][-112.001539 33.428844]>
+			<[tmvector2d][endpoint2][-112.001539 33.428844]>
+			<[string8]   [appltsys2][sals]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-112.011578 33.427166]>
+			<[float64][heading][0.00]>
+			<[string8][name][AANG Apron]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-111.990126 33.438606]>
+			<[float64][heading][180.00]>
+			<[string8][name][AWE Hangar]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-112.009348 33.436505]>
+			<[float64][heading][90.00]>
+			<[string8][name][Delta Gate 16]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-112.021667 33.427087]>
+			<[float64][heading][180.57]>
+			<[string8][name][GA 1]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-111.993894 33.433449]>
+			<[float64][heading][326.23]>
+			<[string8][name][Gate C18 (SWA)]>
+		  >
+		  <[tmsimulator_parking_position][element][5]
+			<[tmvector2d][position][-111.996225 33.434081]>
+			<[float64][heading][285.04]>
+			<[string8][name][Gate C4 (SWA)]>
+		  >
+		  <[tmsimulator_parking_position][element][6]
+			<[tmvector2d][position][-111.998960 33.433435]>
+			<[float64][heading][359.12]>
+			<[string8][name][Gate D8 (SWA)]>
+		  >
+		  <[tmsimulator_parking_position][element][7]
+			<[tmvector2d][position][-112.016718 33.425083]>
+			<[float64][heading][90.00]>
+			<[string8][name][South cargo ramp]>
+		  >
+		  <[tmsimulator_parking_position][element][8]
+			<[tmvector2d][position][-112.018109 33.425260]>
+			<[float64][heading][90.00]>
+			<[string8][name][South cargo, remote position]>
+		  >
+		  <[tmsimulator_parking_position][element][9]
+			<[tmvector2d][position][-111.990302 33.433250]>
+			<[float64][heading][0.00]>
+			<[string8][name][SWA Hangar]>
+		  >
+		  <[tmsimulator_parking_position][element][10]
+			<[tmvector2d][position][-111.998753 33.437429]>
+			<[float64][heading][270.00]>
+			<[string8][name][T4 Gate A5]>
+		  >
+		  <[tmsimulator_parking_position][element][11]
+			<[tmvector2d][position][-111.994768 33.437245]>
+			<[float64][heading][90.00]>
+			<[string8][name][T4 Gate B24]>
+		  >
+		  <[tmsimulator_parking_position][element][12]
+			<[tmvector2d][position][-112.013821 33.433238]>
+			<[float64][heading][0.60]>
+			<[string8][name][Term 2 Gate 13]>
+		  >
+		  <[tmsimulator_parking_position][element][13]
+			<[tmvector2d][position][-112.012824 33.435264]>
+			<[float64][heading][273.18]>
+			<[string8][name][Terminal 2]>
+		  >
+		  <[tmsimulator_parking_position][element][14]
+			<[tmvector2d][position][-112.008053 33.434522]>
+			<[float64][heading][270.00]>
+			<[string8][name][Terminal 3s]>
+		  >
+		  <[tmsimulator_parking_position][element][15]
+			<[tmvector2d][position][-112.025136 33.434449]>
+			<[float64][heading][0.00]>
+			<[string8][name][West Cargo Ramp]>
+		  >
+		>
+    >
+>

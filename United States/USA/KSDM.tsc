@@ -1,0 +1,77 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][BROWN FLD MUNI]>
+        <[string8][lname][BROWN FLD MUNI, USA]>
+        <[string8][icao][KSDM]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-116.979212 32.571137]>
+        <[float64][height][160.3]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][-116.979020 32.569175]>
+        <[float64][tower_height][183.5]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][08R]>
+			<[tmvector2d][threshold1][-116.984321 32.571566]>
+			<[tmvector2d][endpoint1][-116.984321 32.571566]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][none]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][26L]>
+			<[tmvector2d][threshold2][-116.974103 32.570707]>
+			<[tmvector2d][endpoint2][-116.974103 32.570707]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][none]>
+			<[string8]   [reil2][none]>
+			<[float64][width][22.86]>
+		  >
+		  <[tmsimulator_runway][element][1]
+			<[string8][name1][08L]>
+			<[tmvector2d][threshold1][-116.993494 32.573762]>
+			<[tmvector2d][endpoint1][-116.993494 32.573762]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][none]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][26R]>
+			<[tmvector2d][threshold2][-116.967742 32.571634]>
+			<[tmvector2d][endpoint2][-116.967742 32.571634]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][none]>
+			<[string8]   [reil2][none]>
+			<[float64][width][46.02]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-116.984981 32.570621]>
+			<[float64][heading][282.72]>
+			<[string8][name][Main Transient Parking]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-116.992341 32.571105]>
+			<[float64][heading][286.70]>
+			<[string8][name][SW hangars]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-116.985130 32.570222]>
+			<[float64][heading][279.78]>
+			<[string8][name][Terminal]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-116.987197 32.569962]>
+			<[float64][heading][287.88]>
+			<[string8][name][Transient parking 1]>
+		  >
+		  <[tmsimulator_parking_position][element][4]
+			<[tmvector2d][position][-116.990286 32.570639]>
+			<[float64][heading][14.25]>
+			<[string8][name][Transient parking 2]>
+		  >
+		>
+    >
+>

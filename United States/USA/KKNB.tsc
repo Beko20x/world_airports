@@ -1,0 +1,57 @@
+<[file][][]
+    <[tmsimulator_scenery_place][][]
+        <[string8][type][airport]>
+        <[string8][sname][KANAB MUNI]>
+        <[string8][lname][KANAB MUNI, USA]>
+        <[string8][icao][KKNB]>
+        <[string8][country][us]>
+        <[string8][coordinate_system][lonlat]>
+        <[vector2_float64][position][-112.531470 37.010524]>
+        <[float64][height][1483.8]>
+        <[float64][size][5000]>
+        <[vector2_float64][tower_position][0 0]>
+        <[float64][tower_height][0.0]>
+        <[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+		  <[tmsimulator_runway][element][0]
+			<[string8][name1][01]>
+			<[tmvector2d][threshold1][-112.535256 37.002586]>
+			<[tmvector2d][endpoint1][-112.535256 37.002586]>
+			<[string8]   [appltsys1][none]>
+			<[string8]   [papi1][left]>
+			<[string8]   [reil1][none]>
+			<[string8][name2][19]>
+			<[tmvector2d][threshold2][-112.527683 37.018461]>
+			<[tmvector2d][endpoint2][-112.527683 37.018461]>
+			<[string8]   [appltsys2][none]>
+			<[string8]   [papi2][left]>
+			<[string8]   [reil2][none]>
+			<[float64][width][22.86]>
+		  >
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		  <[tmsimulator_parking_position][element][0]
+			<[tmvector2d][position][-112.530530 37.009793]>
+			<[float64][heading][21.00]>
+			<[string8][name][FBO]>
+		  >
+		  <[tmsimulator_parking_position][element][1]
+			<[tmvector2d][position][-112.534504 37.002477]>
+			<[float64][heading][266.94]>
+			<[string8][name][Hold Short Rwy 1]>
+		  >
+		  <[tmsimulator_parking_position][element][2]
+			<[tmvector2d][position][-112.527027 37.018109]>
+			<[float64][heading][309.10]>
+			<[string8][name][Hold Short Rwy 19]>
+		  >
+		  <[tmsimulator_parking_position][element][3]
+			<[tmvector2d][position][-112.530687 37.009166]>
+			<[float64][heading][21.00]>
+			<[string8][name][Self-Serve Fuel]>
+		  >
+		>
+    >
+>
