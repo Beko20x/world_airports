@@ -12,51 +12,75 @@
         <[vector2_float64][tower_position][19.787227 50.073301]>
         <[float64][tower_height][271.6]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][07]>
-			<[tmvector2d][threshold1][19.768095 50.075397]>
-			<[tmvector2d][endpoint1][19.768095 50.075397]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][25]>
-			<[tmvector2d][threshold2][19.800780 50.079948]>
-			<[tmvector2d][endpoint2][19.802911 50.080245]>
-			<[string8]   [appltsys2][alsf-1]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][60.05]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][19.800283 50.072900]>
-			<[float64][heading][166.00]>
-			<[string8][name][Aircraft stand 1]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][19.801017 50.072983]>
-			<[float64][heading][166.00]>
-			<[string8][name][Aircraft stand 2]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][19.801800 50.073100]>
-			<[float64][heading][166.00]>
-			<[string8][name][Aircraft stand 3]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][19.802733 50.073233]>
-			<[float64][heading][166.00]>
-			<[string8][name][Aircraft stand 4]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][19.803517 50.073333]>
-			<[float64][heading][166.00]>
-			<[string8][name][Aircraft stand 5]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][19.787227 50.073301]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][19.795978 50.074770]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][19.770980 50.073751]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][19.794812 50.077118]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][07]>
+                <[tmvector2d][threshold1][19.768095 50.075397]>
+                <[tmvector2d][endpoint1][19.768095 50.075397]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][none]>
+                <[string8][reil1][omni]>
+                <[string8][name2][25]>
+                <[tmvector2d][threshold2][19.800780 50.079948]>
+                <[tmvector2d][endpoint2][19.802911 50.080245]>
+                <[string8][appltsys2][alsf-1]>
+                <[string8][papi2][none]>
+                <[string8][reil2][omni]>
+                <[float64][width][60.05]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][19.800283 50.072900]>
+                <[float64][heading][166.00]>
+                <[string8][name][Aircraft stand 1]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][19.801017 50.072983]>
+                <[float64][heading][166.00]>
+                <[string8][name][Aircraft stand 2]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][19.801800 50.073100]>
+                <[float64][heading][166.00]>
+                <[string8][name][Aircraft stand 3]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][19.802733 50.073233]>
+                <[float64][heading][166.00]>
+                <[string8][name][Aircraft stand 4]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][19.803517 50.073333]>
+                <[float64][heading][166.00]>
+                <[string8][name][Aircraft stand 5]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

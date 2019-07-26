@@ -12,66 +12,90 @@
         <[vector2_float64][tower_position][-64.974743 18.339039]>
         <[float64][tower_height][32.0]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][10]>
-			<[tmvector2d][threshold1][-64.983428 18.336872]>
-			<[tmvector2d][endpoint1][-64.983428 18.336872]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][28]>
-			<[tmvector2d][threshold2][-64.969565 18.337460]>
-			<[tmvector2d][endpoint2][-64.963261 18.337728]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-64.966588 18.338933]>
-			<[float64][heading][0.00]>
-			<[string8][name][Alliance Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-64.971647 18.331847]>
-			<[float64][heading][181.74]>
-			<[string8][name][Cargo Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-64.967611 18.339482]>
-			<[float64][heading][88.17]>
-			<[string8][name][ExecuJet Flight Services]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-64.979785 18.335936]>
-			<[float64][heading][266.22]>
-			<[string8][name][Hold Short Rwy 10]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-64.963564 18.336926]>
-			<[float64][heading][61.47]>
-			<[string8][name][Hold Short Rwy 28]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-64.963052 18.339062]>
-			<[float64][heading][0.00]>
-			<[string8][name][ST. Thomas Jet Center]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-64.972093 18.335665]>
-			<[float64][heading][178.34]>
-			<[string8][name][Terminal 1]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-64.972764 18.334466]>
-			<[float64][heading][42.09]>
-			<[string8][name][Terminal 2]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-64.974743 18.339039]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-64.962831 18.328267]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-64.982389 18.336378]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-64.962643 18.337013]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][10]>
+                <[tmvector2d][threshold1][-64.983428 18.336872]>
+                <[tmvector2d][endpoint1][-64.983428 18.336872]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][28]>
+                <[tmvector2d][threshold2][-64.969565 18.337460]>
+                <[tmvector2d][endpoint2][-64.963261 18.337728]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-64.966588 18.338933]>
+                <[float64][heading][0.00]>
+                <[string8][name][Alliance Aviation]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-64.971647 18.331847]>
+                <[float64][heading][181.74]>
+                <[string8][name][Cargo Ramp]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-64.967611 18.339482]>
+                <[float64][heading][88.17]>
+                <[string8][name][ExecuJet Flight Services]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-64.979785 18.335936]>
+                <[float64][heading][266.22]>
+                <[string8][name][Hold Short Rwy 10]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-64.963564 18.336926]>
+                <[float64][heading][61.47]>
+                <[string8][name][Hold Short Rwy 28]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-64.963052 18.339062]>
+                <[float64][heading][0.00]>
+                <[string8][name][ST. Thomas Jet Center]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-64.972093 18.335665]>
+                <[float64][heading][178.34]>
+                <[string8][name][Terminal 1]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-64.972764 18.334466]>
+                <[float64][heading][42.09]>
+                <[string8][name][Terminal 2]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

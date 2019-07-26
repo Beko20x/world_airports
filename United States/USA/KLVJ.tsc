@@ -10,46 +10,70 @@
         <[float64][height][13.4]>
         <[float64][size][5000]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][14]>
-			<[tmvector2d][threshold1][-95.246072 29.526125]>
-			<[tmvector2d][endpoint1][-95.246072 29.526125]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][32]>
-			<[tmvector2d][threshold2][-95.238231 29.516450]>
-			<[tmvector2d][endpoint2][-95.238231 29.516450]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][22.86]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-95.242055 29.518945]>
-			<[float64][heading][44.00]>
-			<[string8][name][Gen Avia.Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-95.246419 29.525853]>
-			<[float64][heading][43.00]>
-			<[string8][name][Hold Short Rwy14]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-95.238379 29.515910]>
-			<[float64][heading][43.00]>
-			<[string8][name][Hold Short Rwy32]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-95.241635 29.515696]>
-			<[float64][heading][44.00]>
-			<[string8][name][T-Hanger]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-95.240709 29.515602]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-95.246252 29.525683]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-95.238126 29.517092]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-95.239298 29.523712]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][14]>
+                <[tmvector2d][threshold1][-95.246072 29.526125]>
+                <[tmvector2d][endpoint1][-95.246072 29.526125]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][omni]>
+                <[string8][name2][32]>
+                <[tmvector2d][threshold2][-95.238231 29.516450]>
+                <[tmvector2d][endpoint2][-95.238231 29.516450]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][omni]>
+                <[float64][width][22.86]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-95.242055 29.518945]>
+                <[float64][heading][44.00]>
+                <[string8][name][Gen Avia.Parking]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-95.246419 29.525853]>
+                <[float64][heading][43.00]>
+                <[string8][name][Hold Short Rwy14]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-95.238379 29.515910]>
+                <[float64][heading][43.00]>
+                <[string8][name][Hold Short Rwy32]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-95.241635 29.515696]>
+                <[float64][heading][44.00]>
+                <[string8][name][T-Hanger]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

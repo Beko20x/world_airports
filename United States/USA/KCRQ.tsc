@@ -12,66 +12,98 @@
         <[vector2_float64][tower_position][-117.276082 33.127141]>
         <[float64][tower_height][125.9]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][06]>
-			<[tmvector2d][threshold1][-117.287108 33.127116]>
-			<[tmvector2d][endpoint1][-117.287926 33.126984]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][24]>
-			<[tmvector2d][threshold2][-117.272009 33.129553]>
-			<[tmvector2d][endpoint2][-117.272009 33.129553]>
-			<[string8]   [appltsys2][malsr]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-117.278079 33.127267]>
-			<[float64][heading][357.84]>
-			<[string8][name][Fuel Pad]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-117.280672 33.126674]>
-			<[float64][heading][78.41]>
-			<[string8][name][Jetsource ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-117.283152 33.129169]>
-			<[float64][heading][170.22]>
-			<[string8][name][North Ramp 1]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-117.276745 33.130176]>
-			<[float64][heading][171.67]>
-			<[string8][name][North Ramp 2]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-117.283273 33.126041]>
-			<[float64][heading][80.13]>
-			<[string8][name][Pinnacle Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-117.278559 33.126845]>
-			<[float64][heading][345.96]>
-			<[string8][name][Premier Jet ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-117.282129 33.123828]>
-			<[float64][heading][347.54]>
-			<[string8][name][SW ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-117.274464 33.127242]>
-			<[float64][heading][251.08]>
-			<[string8][name][Western Flight Svcs ramp]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-117.276082 33.127141]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-117.281756 33.125369]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-117.276786 33.129737]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-117.275466 33.128448]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][06]>
+                <[tmvector2d][threshold1][-117.287108 33.127116]>
+                <[tmvector2d][endpoint1][-117.287926 33.126984]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][24]>
+                <[tmvector2d][threshold2][-117.272009 33.129553]>
+                <[tmvector2d][endpoint2][-117.272009 33.129553]>
+                <[string8][appltsys2][malsr]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][-117.272167 33.128047]>
+                <[string8][type_name][building]>
+                <[float64][radius][10.5]>
+                <[float64][heading][260.30]>
+                <[float64][height][0]>
+                <[string8][name][H1]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-117.278079 33.127267]>
+                <[float64][heading][357.84]>
+                <[string8][name][Fuel Pad]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-117.280672 33.126674]>
+                <[float64][heading][78.41]>
+                <[string8][name][Jetsource ramp]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-117.283152 33.129169]>
+                <[float64][heading][170.22]>
+                <[string8][name][North Ramp 1]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-117.276745 33.130176]>
+                <[float64][heading][171.67]>
+                <[string8][name][North Ramp 2]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-117.283273 33.126041]>
+                <[float64][heading][80.13]>
+                <[string8][name][Pinnacle Aviation]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-117.278559 33.126845]>
+                <[float64][heading][345.96]>
+                <[string8][name][Premier Jet ramp]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-117.282129 33.123828]>
+                <[float64][heading][347.54]>
+                <[string8][name][SW ramp]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-117.274464 33.127242]>
+                <[float64][heading][251.08]>
+                <[string8][name][Western Flight Svcs ramp]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

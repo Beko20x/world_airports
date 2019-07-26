@@ -12,46 +12,75 @@
         <[vector2_float64][tower_position][136.107660 -1.192088]>
         <[float64][tower_height][41.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][11]>
-			<[tmvector2d][threshold1][136.092858 -1.184725]>
-			<[tmvector2d][endpoint1][136.092858 -1.184725]>
-			<[string8]   [appltsys1][alsf-1]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][29]>
-			<[tmvector2d][threshold2][136.123117 -1.195319]>
-			<[tmvector2d][endpoint2][136.123117 -1.195319]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][136.099065 -1.183814]>
-			<[float64][heading][357.00]>
-			<[string8][name][Biak IAF]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][136.107825 -1.191335]>
-			<[float64][heading][289.30]>
-			<[string8][name][Biak International]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][136.107639 -1.187018]>
-			<[float64][heading][150.00]>
-			<[string8][name][Biak Maintenance]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][136.105667 -1.190688]>
-			<[float64][heading][199.30]>
-			<[string8][name][Biak Regional]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][136.107660 -1.192088]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][136.104683 -1.190600]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][136.106954 -1.190358]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][136.122180 -1.195409]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][136.093571 -1.184360]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][11]>
+                <[tmvector2d][threshold1][136.092858 -1.184725]>
+                <[tmvector2d][endpoint1][136.092858 -1.184725]>
+                <[string8][appltsys1][alsf-1]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][29]>
+                <[tmvector2d][threshold2][136.123117 -1.195319]>
+                <[tmvector2d][endpoint2][136.123117 -1.195319]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][136.099065 -1.183814]>
+                <[float64][heading][357.00]>
+                <[string8][name][Biak IAF]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][136.107825 -1.191335]>
+                <[float64][heading][289.30]>
+                <[string8][name][Biak International]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][136.107639 -1.187018]>
+                <[float64][heading][150.00]>
+                <[string8][name][Biak Maintenance]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][136.105667 -1.190688]>
+                <[float64][heading][199.30]>
+                <[string8][name][Biak Regional]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

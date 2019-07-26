@@ -12,61 +12,80 @@
         <[vector2_float64][tower_position][-122.114410 37.458511]>
         <[float64][tower_height][16.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][31]>
-			<[tmvector2d][threshold1][-122.112500 37.458545]>
-			<[tmvector2d][endpoint1][-122.111985 37.458026]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][uni]>
-			<[string8][name2][xxx]>
-			<[tmvector2d][threshold2][-122.117661 37.463752]>
-			<[tmvector2d][endpoint2][-122.117661 37.463752]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][uni]>
-			<[float64][width][22.86]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-122.113967 37.453889]>
-			<[float64][heading][0.00]>
-			<[string8][name][Advantage Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-122.117973 37.463214]>
-			<[float64][heading][3.56]>
-			<[string8][name][Runup 13]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-122.112574 37.457715]>
-			<[float64][heading][24.00]>
-			<[string8][name][Runup 31]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-122.111330 37.455004]>
-			<[float64][heading][290.53]>
-			<[string8][name][Terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-122.112899 37.454968]>
-			<[float64][heading][180.16]>
-			<[string8][name][Transient Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-122.114443 37.458722]>
-			<[float64][heading][89.54]>
-			<[string8][name][Wash Station]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-122.114567 37.454792]>
-			<[float64][heading][0.00]>
-			<[string8][name][West Valley Flying Club]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-122.114410 37.458511]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-122.115282 37.454083]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-122.113079 37.459802]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][31]>
+                <[tmvector2d][threshold1][-122.112500 37.458545]>
+                <[tmvector2d][endpoint1][-122.111985 37.458026]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][uni]>
+                <[string8][name2][xxx]>
+                <[tmvector2d][threshold2][-122.117661 37.463752]>
+                <[tmvector2d][endpoint2][-122.117661 37.463752]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][uni]>
+                <[float64][width][22.86]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-122.113967 37.453889]>
+                <[float64][heading][0.00]>
+                <[string8][name][Advantage Aviation]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-122.117973 37.463214]>
+                <[float64][heading][3.56]>
+                <[string8][name][Runup 13]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-122.112574 37.457715]>
+                <[float64][heading][24.00]>
+                <[string8][name][Runup 31]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-122.111330 37.455004]>
+                <[float64][heading][290.53]>
+                <[string8][name][Terminal]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-122.112899 37.454968]>
+                <[float64][heading][180.16]>
+                <[string8][name][Transient Parking]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-122.114443 37.458722]>
+                <[float64][heading][89.54]>
+                <[string8][name][Wash Station]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-122.114567 37.454792]>
+                <[float64][heading][0.00]>
+                <[string8][name][West Valley Flying Club]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

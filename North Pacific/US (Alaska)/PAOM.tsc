@@ -12,96 +12,115 @@
         <[vector2_float64][tower_position][-165.433197 64.512146]>
         <[float64][tower_height][26.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][10]>
-			<[tmvector2d][threshold1][-165.468017 64.514303]>
-			<[tmvector2d][endpoint1][-165.468017 64.514303]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][28]>
-			<[tmvector2d][threshold2][-165.432189 64.508758]>
-			<[tmvector2d][endpoint2][-165.432189 64.508758]>
-			<[string8]   [appltsys2][malsr]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][46.02]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][03]>
-			<[tmvector2d][threshold1][-165.451783 64.507231]>
-			<[tmvector2d][endpoint1][-165.451783 64.507231]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][21]>
-			<[tmvector2d][threshold2][-165.428258 64.518617]>
-			<[tmvector2d][endpoint2][-165.428258 64.518617]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-165.425851 64.516886]>
-			<[float64][heading][220.00]>
-			<[string8][name][Air National Guard]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-165.443974 64.507980]>
-			<[float64][heading][0.00]>
-			<[string8][name][Alaska Air]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-165.429109 64.511046]>
-			<[float64][heading][202.81]>
-			<[string8][name][Alaska Cab]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-165.425191 64.516068]>
-			<[float64][heading][311.00]>
-			<[string8][name][ANG Hangar]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-165.442482 64.508241]>
-			<[float64][heading][294.79]>
-			<[string8][name][Bering Air]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-165.431110 64.511486]>
-			<[float64][heading][189.02]>
-			<[string8][name][Crowley Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-165.440058 64.507871]>
-			<[float64][heading][294.71]>
-			<[string8][name][Era Alaska]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-165.433346 64.511647]>
-			<[float64][heading][135.04]>
-			<[string8][name][FSS]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][-165.434929 64.514044]>
-			<[float64][heading][305.87]>
-			<[string8][name][GA Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][-165.439117 64.507727]>
-			<[float64][heading][0.00]>
-			<[string8][name][Grant Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][10]
-			<[tmvector2d][position][-165.445708 64.507160]>
-			<[float64][heading][0.00]>
-			<[string8][name][South Terminal]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-165.433197 64.512146]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-165.433608 64.506931]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-165.436654 64.511460]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][10]>
+                <[tmvector2d][threshold1][-165.468017 64.514303]>
+                <[tmvector2d][endpoint1][-165.468017 64.514303]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][28]>
+                <[tmvector2d][threshold2][-165.432189 64.508758]>
+                <[tmvector2d][endpoint2][-165.432189 64.508758]>
+                <[string8][appltsys2][malsr]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][46.02]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][03]>
+                <[tmvector2d][threshold1][-165.451783 64.507231]>
+                <[tmvector2d][endpoint1][-165.451783 64.507231]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][21]>
+                <[tmvector2d][threshold2][-165.428258 64.518617]>
+                <[tmvector2d][endpoint2][-165.428258 64.518617]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-165.425851 64.516886]>
+                <[float64][heading][220.00]>
+                <[string8][name][Air National Guard]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-165.443974 64.507980]>
+                <[float64][heading][0.00]>
+                <[string8][name][Alaska Air]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-165.429109 64.511046]>
+                <[float64][heading][202.81]>
+                <[string8][name][Alaska Cab]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-165.425191 64.516068]>
+                <[float64][heading][311.00]>
+                <[string8][name][ANG Hangar]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-165.442482 64.508241]>
+                <[float64][heading][294.79]>
+                <[string8][name][Bering Air]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-165.431110 64.511486]>
+                <[float64][heading][189.02]>
+                <[string8][name][Crowley Aviation]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-165.440058 64.507871]>
+                <[float64][heading][294.71]>
+                <[string8][name][Era Alaska]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-165.433346 64.511647]>
+                <[float64][heading][135.04]>
+                <[string8][name][FSS]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][-165.434929 64.514044]>
+                <[float64][heading][305.87]>
+                <[string8][name][GA Parking]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][-165.439117 64.507727]>
+                <[float64][heading][0.00]>
+                <[string8][name][Grant Aviation]>
+            >
+            <[tmsimulator_parking_position][element][10]
+                <[tmvector2d][position][-165.445708 64.507160]>
+                <[float64][heading][0.00]>
+                <[string8][name][South Terminal]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

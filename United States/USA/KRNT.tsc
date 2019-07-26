@@ -12,96 +12,120 @@
         <[vector2_float64][tower_position][-122.217289 47.491852]>
         <[float64][tower_height][40.2]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][16]>
-			<[tmvector2d][threshold1][-122.216629 47.498993]>
-			<[tmvector2d][endpoint1][-122.216853 47.500472]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][34]>
-			<[tmvector2d][threshold2][-122.214888 47.487481]>
-			<[tmvector2d][endpoint2][-122.214633 47.485794]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][60.96]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-122.209795 47.500577]>
-			<[float64][heading][346.76]>
-			<[string8][name][Assembly Hanger 1]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-122.207825 47.502297]>
-			<[float64][heading][250.34]>
-			<[string8][name][Assembly Hanger 2]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-122.212865 47.487982]>
-			<[float64][heading][266.42]>
-			<[string8][name][Main Test Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-122.217020 47.491869]>
-			<[float64][heading][351.87]>
-			<[string8][name][Operations (GA)]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-122.216906 47.490408]>
-			<[float64][heading][351.95]>
-			<[string8][name][Refuel (GA)]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-122.210369 47.485583]>
-			<[float64][heading][240.78]>
-			<[string8][name][SE GA Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-122.217753 47.500930]>
-			<[float64][heading][356.42]>
-			<[string8][name][Seaplane Dock]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-122.217947 47.500875]>
-			<[float64][heading][356.42]>
-			<[string8][name][Seaplane Dock 2]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][-122.217496 47.500592]>
-			<[float64][heading][358.33]>
-			<[string8][name][Seaplane Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][-122.212653 47.487076]>
-			<[float64][heading][259.69]>
-			<[string8][name][South Paint Barn]>
-		  >
-		  <[tmsimulator_parking_position][element][10]
-			<[tmvector2d][position][-122.216993 47.488653]>
-			<[float64][heading][84.74]>
-			<[string8][name][West Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][11]
-			<[tmvector2d][position][-122.218332 47.496452]>
-			<[float64][heading][347.47]>
-			<[string8][name][West Ramp (GA) 1]>
-		  >
-		  <[tmsimulator_parking_position][element][12]
-			<[tmvector2d][position][-122.218245 47.498155]>
-			<[float64][heading][355.00]>
-			<[string8][name][West Ramp (GA) 2]>
-		  >
-		  <[tmsimulator_parking_position][element][13]
-			<[tmvector2d][position][-122.218513 47.498069]>
-			<[float64][heading][175.00]>
-			<[string8][name][West Ramp (GA) 3]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-122.217289 47.491852]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-122.217322 47.491948]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-122.217458 47.499736]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-122.213848 47.485737]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][16]>
+                <[tmvector2d][threshold1][-122.216629 47.498993]>
+                <[tmvector2d][endpoint1][-122.216853 47.500472]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][34]>
+                <[tmvector2d][threshold2][-122.214888 47.487481]>
+                <[tmvector2d][endpoint2][-122.214633 47.485794]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][60.96]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-122.209795 47.500577]>
+                <[float64][heading][346.76]>
+                <[string8][name][Assembly Hanger 1]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-122.207825 47.502297]>
+                <[float64][heading][250.34]>
+                <[string8][name][Assembly Hanger 2]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-122.212865 47.487982]>
+                <[float64][heading][266.42]>
+                <[string8][name][Main Test Ramp]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-122.217020 47.491869]>
+                <[float64][heading][351.87]>
+                <[string8][name][Operations (GA)]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-122.216906 47.490408]>
+                <[float64][heading][351.95]>
+                <[string8][name][Refuel (GA)]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-122.210369 47.485583]>
+                <[float64][heading][240.78]>
+                <[string8][name][SE GA Ramp]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-122.217753 47.500930]>
+                <[float64][heading][356.42]>
+                <[string8][name][Seaplane Dock]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-122.217947 47.500875]>
+                <[float64][heading][356.42]>
+                <[string8][name][Seaplane Dock 2]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][-122.217496 47.500592]>
+                <[float64][heading][358.33]>
+                <[string8][name][Seaplane Ramp]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][-122.212653 47.487076]>
+                <[float64][heading][259.69]>
+                <[string8][name][South Paint Barn]>
+            >
+            <[tmsimulator_parking_position][element][10]
+                <[tmvector2d][position][-122.216993 47.488653]>
+                <[float64][heading][84.74]>
+                <[string8][name][West Ramp]>
+            >
+            <[tmsimulator_parking_position][element][11]
+                <[tmvector2d][position][-122.218332 47.496452]>
+                <[float64][heading][347.47]>
+                <[string8][name][West Ramp (GA) 1]>
+            >
+            <[tmsimulator_parking_position][element][12]
+                <[tmvector2d][position][-122.218245 47.498155]>
+                <[float64][heading][355.00]>
+                <[string8][name][West Ramp (GA) 2]>
+            >
+            <[tmsimulator_parking_position][element][13]
+                <[tmvector2d][position][-122.218513 47.498069]>
+                <[float64][heading][175.00]>
+                <[string8][name][West Ramp (GA) 3]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

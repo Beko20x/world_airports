@@ -1,8 +1,8 @@
 # world_aptdat
 More than 27,000 generic airports for Aerofly FS2 (scenery)
  
-	15453 airports
- 
+  total 22102 airports: 15514 airports, 584 water airports, 6004 heliports
+  
  To instal just unzip all or selected airport files into '\Documents\Aerofly FS 2\scenery\places\' folder.
  
  It is recommended to remove duplicated arports on your own.

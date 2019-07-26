@@ -10,46 +10,65 @@
         <[float64][height][1.8]>
         <[float64][size][5000]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][06]>
-			<[tmvector2d][threshold1][-71.923948 41.074218]>
-			<[tmvector2d][endpoint1][-71.925389 41.073203]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][24]>
-			<[tmvector2d][threshold2][-71.917371 41.078853]>
-			<[tmvector2d][endpoint2][-71.916150 41.079714]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][22.86]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-71.923178 41.073173]>
-			<[float64][heading][314.45]>
-			<[string8][name][Gen Avia Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-71.916405 41.079053]>
-			<[float64][heading][48.02]>
-			<[string8][name][Hold Short Rwy 24]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-71.924812 41.073126]>
-			<[float64][heading][315.69]>
-			<[string8][name][Hold Short Rwy 6]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-71.924197 41.073369]>
-			<[float64][heading][47.34]>
-			<[string8][name][Transient Ramp]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-71.923469 41.073117]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-71.923833 41.074026]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-71.916647 41.079087]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][06]>
+                <[tmvector2d][threshold1][-71.923948 41.074218]>
+                <[tmvector2d][endpoint1][-71.925389 41.073203]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][24]>
+                <[tmvector2d][threshold2][-71.917371 41.078853]>
+                <[tmvector2d][endpoint2][-71.916150 41.079714]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][22.86]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-71.923178 41.073173]>
+                <[float64][heading][314.45]>
+                <[string8][name][Gen Avia Parking]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-71.916405 41.079053]>
+                <[float64][heading][48.02]>
+                <[string8][name][Hold Short Rwy 24]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-71.924812 41.073126]>
+                <[float64][heading][315.69]>
+                <[string8][name][Hold Short Rwy 6]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-71.924197 41.073369]>
+                <[float64][heading][47.34]>
+                <[string8][name][Transient Ramp]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

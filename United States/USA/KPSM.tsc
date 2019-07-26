@@ -12,46 +12,70 @@
         <[vector2_float64][tower_position][-70.818811 43.084312]>
         <[float64][tower_height][100.6]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][16]>
-			<[tmvector2d][threshold1][-70.832057 43.088807]>
-			<[tmvector2d][endpoint1][-70.834100 43.091320]>
-			<[string8]   [appltsys1][malsr]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][34]>
-			<[tmvector2d][threshold2][-70.812387 43.064622]>
-			<[tmvector2d][endpoint2][-70.812387 43.064622]>
-			<[string8]   [appltsys2][malsr]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-70.811249 43.073238]>
-			<[float64][heading][57.18]>
-			<[string8][name][Cargo]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-70.809469 43.070985]>
-			<[float64][heading][330.72]>
-			<[string8][name][General Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-70.822281 43.085755]>
-			<[float64][heading][322.23]>
-			<[string8][name][NH ANG]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-70.818324 43.082151]>
-			<[float64][heading][58.97]>
-			<[string8][name][Passenger Terminal]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-70.818811 43.084312]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-70.822225 43.078913]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-70.835139 43.091061]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-70.812833 43.063967]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][16]>
+                <[tmvector2d][threshold1][-70.832057 43.088807]>
+                <[tmvector2d][endpoint1][-70.834100 43.091320]>
+                <[string8][appltsys1][malsr]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][34]>
+                <[tmvector2d][threshold2][-70.812387 43.064622]>
+                <[tmvector2d][endpoint2][-70.812387 43.064622]>
+                <[string8][appltsys2][malsr]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-70.811249 43.073238]>
+                <[float64][heading][57.18]>
+                <[string8][name][Cargo]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-70.809469 43.070985]>
+                <[float64][heading][330.72]>
+                <[string8][name][General Aviation]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-70.822281 43.085755]>
+                <[float64][heading][322.23]>
+                <[string8][name][NH ANG]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-70.818324 43.082151]>
+                <[float64][heading][58.97]>
+                <[string8][name][Passenger Terminal]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

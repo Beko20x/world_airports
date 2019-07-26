@@ -12,196 +12,220 @@
         <[vector2_float64][tower_position][-8.497818 51.843866]>
         <[float64][tower_height][169.8]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][17]>
-			<[tmvector2d][threshold1][-8.496154 51.850082]>
-			<[tmvector2d][endpoint1][-8.496154 51.850082]>
-			<[string8]   [appltsys1][calvert-2]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][35]>
-			<[tmvector2d][threshold2][-8.485512 51.832084]>
-			<[tmvector2d][endpoint2][-8.485512 51.832084]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.11]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][07]>
-			<[tmvector2d][threshold1][-8.495705 51.841425]>
-			<[tmvector2d][endpoint1][-8.495705 51.841425]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][25]>
-			<[tmvector2d][threshold2][-8.478853 51.846831]>
-			<[tmvector2d][endpoint2][-8.478853 51.846831]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][45.11]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		  <[tmsimulator_helipad][element][0]
-			<[tmvector2d][position][-8.485514 51.837991]>
-			<[string8][type_name][building]>
-			<[float64][radius][8]>
-			<[float64][heading][335.64]>
-			<[float64][height][0]>
-			<[string8][name][GA Helicopter Bluestar Apron]>
-		  >
-		  <[tmsimulator_helipad][element][1]
-			<[tmvector2d][position][-8.485499 51.837698]>
-			<[string8][type_name][building]>
-			<[float64][radius][8]>
-			<[float64][heading][333.18]>
-			<[float64][height][0]>
-			<[string8][name][GA Helicopter BlueStar Pad 1]>
-		  >
-		  <[tmsimulator_helipad][element][2]
-			<[tmvector2d][position][-8.485601 51.837813]>
-			<[string8][type_name][building]>
-			<[float64][radius][8]>
-			<[float64][heading][333.18]>
-			<[float64][height][0]>
-			<[string8][name][GA Helicopter BlueStar Pad 2]>
-		  >
-		  <[tmsimulator_helipad][element][3]
-			<[tmvector2d][position][-8.486496 51.838351]>
-			<[string8][type_name][building]>
-			<[float64][radius][8]>
-			<[float64][heading][335.64]>
-			<[float64][height][0]>
-			<[string8][name][GA Helicopter Exec Pad]>
-		  >
-		  <[tmsimulator_helipad][element][4]
-			<[tmvector2d][position][-8.488244 51.845210]>
-			<[string8][type_name][building]>
-			<[float64][radius][8]>
-			<[float64][heading][152.00]>
-			<[float64][height][0]>
-			<[string8][name][Stand Apron Heli Parking]>
-		  >
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-8.484946 51.838583]>
-			<[float64][heading][250.00]>
-			<[string8][name][GA Aeroclub Apron]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-8.485273 51.838937]>
-			<[float64][heading][238.64]>
-			<[string8][name][GA Aeroclub Bay6]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-8.486042 51.838560]>
-			<[float64][heading][159.55]>
-			<[string8][name][GA Executive Apron]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-8.490894 51.849211]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 10]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-8.491126 51.849620]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 11]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-8.491675 51.850038]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 12]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-8.491981 51.850512]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 13]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-8.492031 51.850720]>
-			<[float64][heading][160.00]>
-			<[string8][name][Stand 14S]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][-8.492228 51.850883]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 15]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][-8.492457 51.851267]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 16]>
-		  >
-		  <[tmsimulator_parking_position][element][10]
-			<[tmvector2d][position][-8.492295 51.851581]>
-			<[float64][heading][160.00]>
-			<[string8][name][Stand 17S]>
-		  >
-		  <[tmsimulator_parking_position][element][11]
-			<[tmvector2d][position][-8.492352 51.851793]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 18 Widebody]>
-		  >
-		  <[tmsimulator_parking_position][element][12]
-			<[tmvector2d][position][-8.492411 51.851458]>
-			<[float64][heading][25.00]>
-			<[string8][name][Stand 19 Widebody]>
-		  >
-		  <[tmsimulator_parking_position][element][13]
-			<[tmvector2d][position][-8.488910 51.845060]>
-			<[float64][heading][240.34]>
-			<[string8][name][Stand 1W]>
-		  >
-		  <[tmsimulator_parking_position][element][14]
-			<[tmvector2d][position][-8.492841 51.852165]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 20 Widebody]>
-		  >
-		  <[tmsimulator_parking_position][element][15]
-			<[tmvector2d][position][-8.489581 51.845095]>
-			<[float64][heading][340.00]>
-			<[string8][name][Stand 2N]>
-		  >
-		  <[tmsimulator_parking_position][element][16]
-			<[tmvector2d][position][-8.489869 51.845590]>
-			<[float64][heading][340.00]>
-			<[string8][name][Stand 3N]>
-		  >
-		  <[tmsimulator_parking_position][element][17]
-			<[tmvector2d][position][-8.490142 51.846094]>
-			<[float64][heading][340.00]>
-			<[string8][name][Stand 4N]>
-		  >
-		  <[tmsimulator_parking_position][element][18]
-			<[tmvector2d][position][-8.490442 51.846675]>
-			<[float64][heading][340.00]>
-			<[string8][name][Stand 5N]>
-		  >
-		  <[tmsimulator_parking_position][element][19]
-			<[tmvector2d][position][-8.490137 51.847379]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 6]>
-		  >
-		  <[tmsimulator_parking_position][element][20]
-			<[tmvector2d][position][-8.490125 51.847828]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 7]>
-		  >
-		  <[tmsimulator_parking_position][element][21]
-			<[tmvector2d][position][-8.490350 51.848297]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 8]>
-		  >
-		  <[tmsimulator_parking_position][element][22]
-			<[tmvector2d][position][-8.490628 51.848748]>
-			<[float64][heading][70.00]>
-			<[string8][name][Stand 9 Airbridge]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-8.497818 51.843866]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-8.489369 51.845817]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-8.488729 51.841453]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-8.493490 51.849073]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][17]>
+                <[tmvector2d][threshold1][-8.496154 51.850082]>
+                <[tmvector2d][endpoint1][-8.496154 51.850082]>
+                <[string8][appltsys1][calvert-2]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][35]>
+                <[tmvector2d][threshold2][-8.485512 51.832084]>
+                <[tmvector2d][endpoint2][-8.485512 51.832084]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.11]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][07]>
+                <[tmvector2d][threshold1][-8.495705 51.841425]>
+                <[tmvector2d][endpoint1][-8.495705 51.841425]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][25]>
+                <[tmvector2d][threshold2][-8.478853 51.846831]>
+                <[tmvector2d][endpoint2][-8.478853 51.846831]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][45.11]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][-8.485514 51.837991]>
+                <[string8][type_name][building]>
+                <[float64][radius][8]>
+                <[float64][heading][335.64]>
+                <[float64][height][0]>
+                <[string8][name][GA Helicopter Bluestar Apron]>
+            >
+            <[tmsimulator_helipad][element][1]
+                <[tmvector2d][position][-8.485499 51.837698]>
+                <[string8][type_name][building]>
+                <[float64][radius][8]>
+                <[float64][heading][333.18]>
+                <[float64][height][0]>
+                <[string8][name][GA Helicopter BlueStar Pad 1]>
+            >
+            <[tmsimulator_helipad][element][2]
+                <[tmvector2d][position][-8.485601 51.837813]>
+                <[string8][type_name][building]>
+                <[float64][radius][8]>
+                <[float64][heading][333.18]>
+                <[float64][height][0]>
+                <[string8][name][GA Helicopter BlueStar Pad 2]>
+            >
+            <[tmsimulator_helipad][element][3]
+                <[tmvector2d][position][-8.486496 51.838351]>
+                <[string8][type_name][building]>
+                <[float64][radius][8]>
+                <[float64][heading][335.64]>
+                <[float64][height][0]>
+                <[string8][name][GA Helicopter Exec Pad]>
+            >
+            <[tmsimulator_helipad][element][4]
+                <[tmvector2d][position][-8.488244 51.845210]>
+                <[string8][type_name][building]>
+                <[float64][radius][8]>
+                <[float64][heading][152.00]>
+                <[float64][height][0]>
+                <[string8][name][Stand Apron Heli Parking]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-8.484946 51.838583]>
+                <[float64][heading][250.00]>
+                <[string8][name][GA Aeroclub Apron]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-8.485273 51.838937]>
+                <[float64][heading][238.64]>
+                <[string8][name][GA Aeroclub Bay6]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-8.486042 51.838560]>
+                <[float64][heading][159.55]>
+                <[string8][name][GA Executive Apron]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-8.490894 51.849211]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 10]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-8.491126 51.849620]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 11]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-8.491675 51.850038]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 12]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-8.491981 51.850512]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 13]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-8.492031 51.850720]>
+                <[float64][heading][160.00]>
+                <[string8][name][Stand 14S]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][-8.492228 51.850883]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 15]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][-8.492457 51.851267]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 16]>
+            >
+            <[tmsimulator_parking_position][element][10]
+                <[tmvector2d][position][-8.492295 51.851581]>
+                <[float64][heading][160.00]>
+                <[string8][name][Stand 17S]>
+            >
+            <[tmsimulator_parking_position][element][11]
+                <[tmvector2d][position][-8.492352 51.851793]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 18 Widebody]>
+            >
+            <[tmsimulator_parking_position][element][12]
+                <[tmvector2d][position][-8.492411 51.851458]>
+                <[float64][heading][25.00]>
+                <[string8][name][Stand 19 Widebody]>
+            >
+            <[tmsimulator_parking_position][element][13]
+                <[tmvector2d][position][-8.488910 51.845060]>
+                <[float64][heading][240.34]>
+                <[string8][name][Stand 1W]>
+            >
+            <[tmsimulator_parking_position][element][14]
+                <[tmvector2d][position][-8.492841 51.852165]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 20 Widebody]>
+            >
+            <[tmsimulator_parking_position][element][15]
+                <[tmvector2d][position][-8.489581 51.845095]>
+                <[float64][heading][340.00]>
+                <[string8][name][Stand 2N]>
+            >
+            <[tmsimulator_parking_position][element][16]
+                <[tmvector2d][position][-8.489869 51.845590]>
+                <[float64][heading][340.00]>
+                <[string8][name][Stand 3N]>
+            >
+            <[tmsimulator_parking_position][element][17]
+                <[tmvector2d][position][-8.490142 51.846094]>
+                <[float64][heading][340.00]>
+                <[string8][name][Stand 4N]>
+            >
+            <[tmsimulator_parking_position][element][18]
+                <[tmvector2d][position][-8.490442 51.846675]>
+                <[float64][heading][340.00]>
+                <[string8][name][Stand 5N]>
+            >
+            <[tmsimulator_parking_position][element][19]
+                <[tmvector2d][position][-8.490137 51.847379]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 6]>
+            >
+            <[tmsimulator_parking_position][element][20]
+                <[tmvector2d][position][-8.490125 51.847828]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 7]>
+            >
+            <[tmsimulator_parking_position][element][21]
+                <[tmvector2d][position][-8.490350 51.848297]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 8]>
+            >
+            <[tmsimulator_parking_position][element][22]
+                <[tmvector2d][position][-8.490628 51.848748]>
+                <[float64][heading][70.00]>
+                <[string8][name][Stand 9 Airbridge]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

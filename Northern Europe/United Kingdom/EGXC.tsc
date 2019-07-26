@@ -12,66 +12,95 @@
         <[vector2_float64][tower_position][-0.170155 53.094711]>
         <[float64][tower_height][13.4]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][08]>
-			<[tmvector2d][threshold1][-0.185562 53.089344]>
-			<[tmvector2d][endpoint1][-0.185562 53.089344]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][26]>
-			<[tmvector2d][threshold2][-0.146694 53.096986]>
-			<[tmvector2d][endpoint2][-0.146694 53.096986]>
-			<[string8]   [appltsys2][calvert]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][60.96]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-0.177252 53.093849]>
-			<[float64][heading][22.00]>
-			<[string8][name][Mil Apron 1]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-0.177821 53.093362]>
-			<[float64][heading][205.00]>
-			<[string8][name][Mil Apron 10]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-0.178145 53.093454]>
-			<[float64][heading][205.00]>
-			<[string8][name][Mil Apron 11]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-0.178465 53.093542]>
-			<[float64][heading][205.00]>
-			<[string8][name][Mil Apron 12]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-0.177491 53.093908]>
-			<[float64][heading][22.00]>
-			<[string8][name][Mil Apron 2]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-0.177731 53.093967]>
-			<[float64][heading][22.00]>
-			<[string8][name][Mil Apron 3]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-0.177959 53.094027]>
-			<[float64][heading][22.00]>
-			<[string8][name][Mil Apron 4]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-0.178209 53.094088]>
-			<[float64][heading][22.00]>
-			<[string8][name][Mil Apron 5]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-0.170155 53.094711]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-0.147579 53.098527]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-0.185095 53.087679]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-0.145385 53.096449]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-0.168970 53.091003]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][08]>
+                <[tmvector2d][threshold1][-0.185562 53.089344]>
+                <[tmvector2d][endpoint1][-0.185562 53.089344]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][26]>
+                <[tmvector2d][threshold2][-0.146694 53.096986]>
+                <[tmvector2d][endpoint2][-0.146694 53.096986]>
+                <[string8][appltsys2][calvert]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][60.96]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-0.177252 53.093849]>
+                <[float64][heading][22.00]>
+                <[string8][name][Mil Apron 1]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-0.177821 53.093362]>
+                <[float64][heading][205.00]>
+                <[string8][name][Mil Apron 10]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-0.178145 53.093454]>
+                <[float64][heading][205.00]>
+                <[string8][name][Mil Apron 11]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-0.178465 53.093542]>
+                <[float64][heading][205.00]>
+                <[string8][name][Mil Apron 12]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-0.177491 53.093908]>
+                <[float64][heading][22.00]>
+                <[string8][name][Mil Apron 2]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-0.177731 53.093967]>
+                <[float64][heading][22.00]>
+                <[string8][name][Mil Apron 3]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-0.177959 53.094027]>
+                <[float64][heading][22.00]>
+                <[string8][name][Mil Apron 4]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-0.178209 53.094088]>
+                <[float64][heading][22.00]>
+                <[string8][name][Mil Apron 5]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

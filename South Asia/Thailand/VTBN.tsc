@@ -12,31 +12,58 @@
         <[vector2_float64][tower_position][99.871264 12.416943]>
         <[float64][tower_height][24.4]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][9]>
-			<[tmvector2d][threshold1][99.866326 12.417459]>
-			<[tmvector2d][endpoint1][99.866326 12.417459]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][27]>
-			<[tmvector2d][threshold2][99.872762 12.417547]>
-			<[tmvector2d][endpoint2][99.872762 12.417547]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][99.871977 12.416934]>
-			<[float64][heading][359.20]>
-			<[string8][name][Pran Buri W Start]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][99.871264 12.416943]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][99.872045 12.417995]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][99.866403 12.417941]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][9]>
+                <[tmvector2d][threshold1][99.866326 12.417459]>
+                <[tmvector2d][endpoint1][99.866326 12.417459]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][27]>
+                <[tmvector2d][threshold2][99.872762 12.417547]>
+                <[tmvector2d][endpoint2][99.872762 12.417547]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][99.866989 12.417922]>
+                <[string8][type_name][building]>
+                <[float64][radius][4.6]>
+                <[float64][heading][89.20]>
+                <[float64][height][0]>
+                <[string8][name][H1]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][99.871977 12.416934]>
+                <[float64][heading][359.20]>
+                <[string8][name][Pran Buri W Start]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

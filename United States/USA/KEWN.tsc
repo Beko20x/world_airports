@@ -12,61 +12,95 @@
         <[vector2_float64][tower_position][-77.043541 35.076729]>
         <[float64][tower_height][36.0]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][04]>
-			<[tmvector2d][threshold1][-77.048286 35.065442]>
-			<[tmvector2d][endpoint1][-77.048286 35.065442]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][22]>
-			<[tmvector2d][threshold2][-77.038044 35.079614]>
-			<[tmvector2d][endpoint2][-77.038044 35.079614]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.72]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][13]>
-			<[tmvector2d][threshold1][-77.047867 35.077044]>
-			<[tmvector2d][endpoint1][-77.047867 35.077044]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][31]>
-			<[tmvector2d][threshold2][-77.037325 35.070286]>
-			<[tmvector2d][endpoint2][-77.037325 35.070286]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.72]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-77.039421 35.074051]>
-			<[float64][heading][40.00]>
-			<[string8][name][Air Cargo]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-77.039085 35.072865]>
-			<[float64][heading][130.00]>
-			<[string8][name][FEDEX]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-77.044571 35.076752]>
-			<[float64][heading][40.00]>
-			<[string8][name][General Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-77.035149 35.079185]>
-			<[float64][heading][120.00]>
-			<[string8][name][Terminal ARFF]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-77.043541 35.076729]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-77.038879 35.074142]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-77.049149 35.065861]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-77.037178 35.079197]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-77.047249 35.077686]>
+            >
+            <[tmsimulator_scenery_object][element][5]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-77.037941 35.069641]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][04]>
+                <[tmvector2d][threshold1][-77.048286 35.065442]>
+                <[tmvector2d][endpoint1][-77.048286 35.065442]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][22]>
+                <[tmvector2d][threshold2][-77.038044 35.079614]>
+                <[tmvector2d][endpoint2][-77.038044 35.079614]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.72]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][13]>
+                <[tmvector2d][threshold1][-77.047867 35.077044]>
+                <[tmvector2d][endpoint1][-77.047867 35.077044]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][31]>
+                <[tmvector2d][threshold2][-77.037325 35.070286]>
+                <[tmvector2d][endpoint2][-77.037325 35.070286]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.72]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-77.039421 35.074051]>
+                <[float64][heading][40.00]>
+                <[string8][name][Air Cargo]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-77.039085 35.072865]>
+                <[float64][heading][130.00]>
+                <[string8][name][FEDEX]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-77.044571 35.076752]>
+                <[float64][heading][40.00]>
+                <[string8][name][General Aviation]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-77.035149 35.079185]>
+                <[float64][heading][120.00]>
+                <[string8][name][Terminal ARFF]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

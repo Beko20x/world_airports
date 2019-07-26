@@ -10,41 +10,65 @@
         <[float64][height][143.3]>
         <[float64][size][5000]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][17L]>
-			<[tmvector2d][threshold1][-97.073808 31.651600]>
-			<[tmvector2d][endpoint1][-97.073808 31.651600]>
-			<[string8]   [appltsys1][malsr]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][35R]>
-			<[tmvector2d][threshold2][-97.072625 31.627981]>
-			<[tmvector2d][endpoint2][-97.072625 31.627981]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][45.72]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][17R]>
-			<[tmvector2d][threshold1][-97.075831 31.643761]>
-			<[tmvector2d][endpoint1][-97.075831 31.643761]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][35L]>
-			<[tmvector2d][threshold2][-97.074961 31.626486]>
-			<[tmvector2d][endpoint2][-97.074961 31.626486]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][45.72]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-97.075127 31.644199]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-97.073104 31.652037]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-97.073329 31.627544]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-97.075664 31.626048]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][17L]>
+                <[tmvector2d][threshold1][-97.073808 31.651600]>
+                <[tmvector2d][endpoint1][-97.073808 31.651600]>
+                <[string8][appltsys1][malsr]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][35R]>
+                <[tmvector2d][threshold2][-97.072625 31.627981]>
+                <[tmvector2d][endpoint2][-97.072625 31.627981]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][45.72]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][17R]>
+                <[tmvector2d][threshold1][-97.075831 31.643761]>
+                <[tmvector2d][endpoint1][-97.075831 31.643761]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][35L]>
+                <[tmvector2d][threshold2][-97.074961 31.626486]>
+                <[tmvector2d][endpoint2][-97.074961 31.626486]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][45.72]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

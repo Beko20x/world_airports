@@ -12,51 +12,80 @@
         <[vector2_float64][tower_position][-82.430712 35.304043]>
         <[float64][tower_height][661.7]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][14]>
-			<[tmvector2d][threshold1][-82.437416 35.310405]>
-			<[tmvector2d][endpoint1][-82.437416 35.310405]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][32]>
-			<[tmvector2d][threshold2][-82.432720 35.305052]>
-			<[tmvector2d][endpoint2][-82.432720 35.305052]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][30.48]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][15]>
-			<[tmvector2d][threshold1][-82.435684 35.310057]>
-			<[tmvector2d][endpoint1][-82.436433 35.310872]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][33]>
-			<[tmvector2d][threshold2][-82.431118 35.305088]>
-			<[tmvector2d][endpoint2][-82.430236 35.304128]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][12.19]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-82.430474 35.304010]>
-			<[float64][heading][326.56]>
-			<[string8][name][Hendersonville Muni]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-82.433065 35.305098]>
-			<[float64][heading][60.85]>
-			<[string8][name][WNC Air Museum]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-82.430712 35.304043]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-82.432959 35.307732]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-82.435881 35.307953]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-82.436371 35.310402]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-82.430294 35.303918]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][14]>
+                <[tmvector2d][threshold1][-82.437416 35.310405]>
+                <[tmvector2d][endpoint1][-82.437416 35.310405]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][32]>
+                <[tmvector2d][threshold2][-82.432720 35.305052]>
+                <[tmvector2d][endpoint2][-82.432720 35.305052]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][30.48]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][15]>
+                <[tmvector2d][threshold1][-82.435684 35.310057]>
+                <[tmvector2d][endpoint1][-82.436433 35.310872]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][33]>
+                <[tmvector2d][threshold2][-82.431118 35.305088]>
+                <[tmvector2d][endpoint2][-82.430236 35.304128]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][12.19]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-82.430474 35.304010]>
+                <[float64][heading][326.56]>
+                <[string8][name][Hendersonville Muni]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-82.433065 35.305098]>
+                <[float64][heading][60.85]>
+                <[string8][name][WNC Air Museum]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

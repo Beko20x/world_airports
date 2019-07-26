@@ -12,41 +12,65 @@
         <[vector2_float64][tower_position][-0.839384 51.322752]>
         <[float64][tower_height][108.2]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][07]>
-			<[tmvector2d][threshold1][-0.855353 51.322397]>
-			<[tmvector2d][endpoint1][-0.856657 51.322125]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][25]>
-			<[tmvector2d][threshold2][-0.840028 51.325594]>
-			<[tmvector2d][endpoint2][-0.838260 51.325963]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-0.844245 51.322496]>
-			<[float64][heading][84.99]>
-			<[string8][name][Apron]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-0.843216 51.323408]>
-			<[float64][heading][254.66]>
-			<[string8][name][Grass Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-0.854831 51.324489]>
-			<[float64][heading][149.55]>
-			<[string8][name][North Apron]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-0.839384 51.322752]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-0.844812 51.323249]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-0.853121 51.321614]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-0.854141 51.325020]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][07]>
+                <[tmvector2d][threshold1][-0.855353 51.322397]>
+                <[tmvector2d][endpoint1][-0.856657 51.322125]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][25]>
+                <[tmvector2d][threshold2][-0.840028 51.325594]>
+                <[tmvector2d][endpoint2][-0.838260 51.325963]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-0.844245 51.322496]>
+                <[float64][heading][84.99]>
+                <[string8][name][Apron]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-0.843216 51.323408]>
+                <[float64][heading][254.66]>
+                <[string8][name][Grass Parking]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-0.854831 51.324489]>
+                <[float64][heading][149.55]>
+                <[string8][name][North Apron]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

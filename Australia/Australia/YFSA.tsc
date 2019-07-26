@@ -12,31 +12,45 @@
         <[vector2_float64][tower_position][143.571450 -18.587012]>
         <[float64][tower_height][421.8]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][9]>
-			<[tmvector2d][threshold1][143.560538 -18.585726]>
-			<[tmvector2d][endpoint1][143.560538 -18.585726]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][27]>
-			<[tmvector2d][threshold2][143.571790 -18.587510]>
-			<[tmvector2d][endpoint2][143.571790 -18.587510]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][15.85]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][143.571182 -18.587058]>
-			<[float64][heading][168.32]>
-			<[string8][name][New Ramp Start 59]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][143.571450 -18.587012]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][143.570584 -18.587087]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][9]>
+                <[tmvector2d][threshold1][143.560538 -18.585726]>
+                <[tmvector2d][endpoint1][143.560538 -18.585726]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][27]>
+                <[tmvector2d][threshold2][143.571790 -18.587510]>
+                <[tmvector2d][endpoint2][143.571790 -18.587510]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][15.85]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][143.571182 -18.587058]>
+                <[float64][heading][168.32]>
+                <[string8][name][New Ramp Start 59]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

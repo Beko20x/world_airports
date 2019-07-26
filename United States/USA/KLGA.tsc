@@ -12,61 +12,95 @@
         <[vector2_float64][tower_position][-73.874579 40.775557]>
         <[float64][tower_height][49.7]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][04]>
-			<[tmvector2d][threshold1][-73.884120 40.769165]>
-			<[tmvector2d][endpoint1][-73.884120 40.769165]>
-			<[string8]   [appltsys1][malsr]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][22]>
-			<[tmvector2d][threshold2][-73.870675 40.785429]>
-			<[tmvector2d][endpoint2][-73.870675 40.785429]>
-			<[string8]   [appltsys2][alsf-1]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][13]>
-			<[tmvector2d][threshold1][-73.878519 40.782285]>
-			<[tmvector2d][endpoint1][-73.878519 40.782285]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][31]>
-			<[tmvector2d][threshold2][-73.857127 40.772064]>
-			<[tmvector2d][endpoint2][-73.857127 40.772064]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-73.869109 40.774571]>
-			<[float64][heading][314.49]>
-			<[string8][name][Central Terminal Air Canada]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-73.883799 40.773318]>
-			<[float64][heading][5.40]>
-			<[string8][name][Delta Shuttle]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-73.860848 40.769516]>
-			<[float64][heading][302.00]>
-			<[string8][name][Delta Terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-73.864829 40.772256]>
-			<[float64][heading][305.00]>
-			<[string8][name][US Airways]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-73.874579 40.775557]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-73.874556 40.775545]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-73.885042 40.769594]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-73.870541 40.784732]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-73.878329 40.782809]>
+            >
+            <[tmsimulator_scenery_object][element][5]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-73.857706 40.771368]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][04]>
+                <[tmvector2d][threshold1][-73.884120 40.769165]>
+                <[tmvector2d][endpoint1][-73.884120 40.769165]>
+                <[string8][appltsys1][malsr]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][22]>
+                <[tmvector2d][threshold2][-73.870675 40.785429]>
+                <[tmvector2d][endpoint2][-73.870675 40.785429]>
+                <[string8][appltsys2][alsf-1]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][13]>
+                <[tmvector2d][threshold1][-73.878519 40.782285]>
+                <[tmvector2d][endpoint1][-73.878519 40.782285]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][31]>
+                <[tmvector2d][threshold2][-73.857127 40.772064]>
+                <[tmvector2d][endpoint2][-73.857127 40.772064]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-73.869109 40.774571]>
+                <[float64][heading][314.49]>
+                <[string8][name][Central Terminal Air Canada]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-73.883799 40.773318]>
+                <[float64][heading][5.40]>
+                <[string8][name][Delta Shuttle]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-73.860848 40.769516]>
+                <[float64][heading][302.00]>
+                <[string8][name][Delta Terminal]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-73.864829 40.772256]>
+                <[float64][heading][305.00]>
+                <[string8][name][US Airways]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

@@ -12,46 +12,75 @@
         <[vector2_float64][tower_position][-81.044960 29.078932]>
         <[float64][tower_height][37.8]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][05]>
-			<[tmvector2d][threshold1][-81.050508 29.077336]>
-			<[tmvector2d][endpoint1][-81.051464 29.076631]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][23]>
-			<[tmvector2d][threshold2][-81.042825 29.082998]>
-			<[tmvector2d][endpoint2][-81.041869 29.083703]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][53.95]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-81.045860 29.079615]>
-			<[float64][heading][95.00]>
-			<[string8][name][Ramp Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-81.042862 29.083569]>
-			<[float64][heading][95.00]>
-			<[string8][name][Rwy23]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-81.048424 29.078234]>
-			<[float64][heading][275.00]>
-			<[string8][name][Rwy5]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-81.045529 29.079387]>
-			<[float64][heading][187.20]>
-			<[string8][name][Spruce Creek Aviation FBO]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-81.044960 29.078932]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-81.043785 29.077145]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-81.051370 29.077118]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-81.042222 29.083011]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-81.046281 29.079727]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][05]>
+                <[tmvector2d][threshold1][-81.050508 29.077336]>
+                <[tmvector2d][endpoint1][-81.051464 29.076631]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][23]>
+                <[tmvector2d][threshold2][-81.042825 29.082998]>
+                <[tmvector2d][endpoint2][-81.041869 29.083703]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][53.95]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-81.045860 29.079615]>
+                <[float64][heading][95.00]>
+                <[string8][name][Ramp Parking]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-81.042862 29.083569]>
+                <[float64][heading][95.00]>
+                <[string8][name][Rwy23]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-81.048424 29.078234]>
+                <[float64][heading][275.00]>
+                <[string8][name][Rwy5]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-81.045529 29.079387]>
+                <[float64][heading][187.20]>
+                <[string8][name][Spruce Creek Aviation FBO]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

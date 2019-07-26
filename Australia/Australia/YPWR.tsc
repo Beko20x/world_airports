@@ -12,56 +12,80 @@
         <[vector2_float64][tower_position][136.808487 -31.146680]>
         <[float64][tower_height][168.9]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][18]>
-			<[tmvector2d][threshold1][136.813871 -31.135072]>
-			<[tmvector2d][endpoint1][136.813871 -31.135072]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][36]>
-			<[tmvector2d][threshold2][136.811340 -31.156375]>
-			<[tmvector2d][endpoint2][136.811340 -31.156375]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][45.11]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][12]>
-			<[tmvector2d][threshold1][136.813050 -31.135399]>
-			<[tmvector2d][endpoint1][136.813050 -31.135399]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][30]>
-			<[tmvector2d][threshold2][136.828941 -31.145065]>
-			<[tmvector2d][endpoint2][136.828941 -31.145065]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][49.99]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][136.806096 -31.145396]>
-			<[float64][heading][97.13]>
-			<[string8][name][New Ramp Start 10]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][136.806063 -31.145585]>
-			<[float64][heading][92.49]>
-			<[string8][name][New Ramp Start 11]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][136.806817 -31.157167]>
-			<[float64][heading][91.27]>
-			<[string8][name][New Ramp Start 9]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][136.808487 -31.146680]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][136.807433 -31.145459]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][136.809418 -31.146394]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][136.809364 -31.157493]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][18]>
+                <[tmvector2d][threshold1][136.813871 -31.135072]>
+                <[tmvector2d][endpoint1][136.813871 -31.135072]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][36]>
+                <[tmvector2d][threshold2][136.811340 -31.156375]>
+                <[tmvector2d][endpoint2][136.811340 -31.156375]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][45.11]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][12]>
+                <[tmvector2d][threshold1][136.813050 -31.135399]>
+                <[tmvector2d][endpoint1][136.813050 -31.135399]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][30]>
+                <[tmvector2d][threshold2][136.828941 -31.145065]>
+                <[tmvector2d][endpoint2][136.828941 -31.145065]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][49.99]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][136.806096 -31.145396]>
+                <[float64][heading][97.13]>
+                <[string8][name][New Ramp Start 10]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][136.806063 -31.145585]>
+                <[float64][heading][92.49]>
+                <[string8][name][New Ramp Start 11]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][136.806817 -31.157167]>
+                <[float64][heading][91.27]>
+                <[string8][name][New Ramp Start 9]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

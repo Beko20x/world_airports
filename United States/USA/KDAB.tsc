@@ -12,136 +12,180 @@
         <[vector2_float64][tower_position][-81.055814 29.178863]>
         <[float64][tower_height][56.1]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][07L]>
-			<[tmvector2d][threshold1][-81.075909 29.173312]>
-			<[tmvector2d][endpoint1][-81.077794 29.172549]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][25R]>
-			<[tmvector2d][threshold2][-81.047922 29.184650]>
-			<[tmvector2d][endpoint2][-81.047922 29.184650]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][16]>
-			<[tmvector2d][threshold1][-81.056330 29.190880]>
-			<[tmvector2d][endpoint1][-81.056330 29.190880]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][34]>
-			<[tmvector2d][threshold2][-81.049032 29.175670]>
-			<[tmvector2d][endpoint2][-81.049032 29.175670]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		  <[tmsimulator_runway][element][2]
-			<[string8][name1][07R]>
-			<[tmvector2d][threshold1][-81.056842 29.176033]>
-			<[tmvector2d][endpoint1][-81.056842 29.176033]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][25L]>
-			<[tmvector2d][threshold2][-81.047756 29.179725]>
-			<[tmvector2d][endpoint2][-81.047756 29.179725]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-81.046974 29.181816]>
-			<[float64][heading][40.00]>
-			<[string8][name][Cloud Dancer Aviation]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-81.056969 29.185707]>
-			<[float64][heading][337.66]>
-			<[string8][name][Daytona Jet Aircraft]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-81.051639 29.185492]>
-			<[float64][heading][65.00]>
-			<[string8][name][Embry-Riddle Univ. Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-81.061317 29.184126]>
-			<[float64][heading][82.00]>
-			<[string8][name][Gate 1]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-81.060577 29.183985]>
-			<[float64][heading][262.00]>
-			<[string8][name][Gate 2]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-81.061394 29.183764]>
-			<[float64][heading][82.00]>
-			<[string8][name][Gate 3]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-81.057137 29.190457]>
-			<[float64][heading][67.00]>
-			<[string8][name][Hold Short Rwy16 @ W]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-81.048135 29.180111]>
-			<[float64][heading][180.64]>
-			<[string8][name][Hold Short Rwy25L @ S]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][-81.048417 29.185448]>
-			<[float64][heading][155.11]>
-			<[string8][name][Hold Short Rwy25R @ N]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][-81.050018 29.175490]>
-			<[float64][heading][94.00]>
-			<[string8][name][Hold Short Rwy34 @ W]>
-		  >
-		  <[tmsimulator_parking_position][element][10]
-			<[tmvector2d][position][-81.076582 29.173973]>
-			<[float64][heading][161.74]>
-			<[string8][name][Hold Short Rwy7L @N]>
-		  >
-		  <[tmsimulator_parking_position][element][11]
-			<[tmvector2d][position][-81.056961 29.176558]>
-			<[float64][heading][155.00]>
-			<[string8][name][Hold Short Rwy7R @ S]>
-		  >
-		  <[tmsimulator_parking_position][element][12]
-			<[tmvector2d][position][-81.049416 29.181185]>
-			<[float64][heading][157.00]>
-			<[string8][name][Lynch Corporate Services]>
-		  >
-		  <[tmsimulator_parking_position][element][13]
-			<[tmvector2d][position][-81.047077 29.177835]>
-			<[float64][heading][334.63]>
-			<[string8][name][Remote Gen Avia. Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][14]
-			<[tmvector2d][position][-81.056620 29.186546]>
-			<[float64][heading][337.93]>
-			<[string8][name][SheltAir Aviation Services]>
-		  >
-		  <[tmsimulator_parking_position][element][15]
-			<[tmvector2d][position][-81.058609 29.177608]>
-			<[float64][heading][65.00]>
-			<[string8][name][Yelvington Jet Aviation]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-81.055814 29.178863]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-81.057219 29.186326]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-81.066721 29.177836]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-81.047523 29.183908]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-81.054207 29.187836]>
+            >
+            <[tmsimulator_scenery_object][element][5]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-81.048841 29.178915]>
+            >
+            <[tmsimulator_scenery_object][element][6]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-81.056046 29.176752]>
+            >
+            <[tmsimulator_scenery_object][element][7]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-81.050432 29.182154]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][07L]>
+                <[tmvector2d][threshold1][-81.075909 29.173312]>
+                <[tmvector2d][endpoint1][-81.077794 29.172549]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][25R]>
+                <[tmvector2d][threshold2][-81.047922 29.184650]>
+                <[tmvector2d][endpoint2][-81.047922 29.184650]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][16]>
+                <[tmvector2d][threshold1][-81.056330 29.190880]>
+                <[tmvector2d][endpoint1][-81.056330 29.190880]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][34]>
+                <[tmvector2d][threshold2][-81.049032 29.175670]>
+                <[tmvector2d][endpoint2][-81.049032 29.175670]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+            <[tmsimulator_runway][element][2]
+                <[string8][name1][07R]>
+                <[tmvector2d][threshold1][-81.056842 29.176033]>
+                <[tmvector2d][endpoint1][-81.056842 29.176033]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][25L]>
+                <[tmvector2d][threshold2][-81.047756 29.179725]>
+                <[tmvector2d][endpoint2][-81.047756 29.179725]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-81.046974 29.181816]>
+                <[float64][heading][40.00]>
+                <[string8][name][Cloud Dancer Aviation]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-81.056969 29.185707]>
+                <[float64][heading][337.66]>
+                <[string8][name][Daytona Jet Aircraft]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-81.051639 29.185492]>
+                <[float64][heading][65.00]>
+                <[string8][name][Embry-Riddle Univ. Ramp]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-81.061317 29.184126]>
+                <[float64][heading][82.00]>
+                <[string8][name][Gate 1]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-81.060577 29.183985]>
+                <[float64][heading][262.00]>
+                <[string8][name][Gate 2]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-81.061394 29.183764]>
+                <[float64][heading][82.00]>
+                <[string8][name][Gate 3]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-81.057137 29.190457]>
+                <[float64][heading][67.00]>
+                <[string8][name][Hold Short Rwy16 @ W]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-81.048135 29.180111]>
+                <[float64][heading][180.64]>
+                <[string8][name][Hold Short Rwy25L @ S]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][-81.048417 29.185448]>
+                <[float64][heading][155.11]>
+                <[string8][name][Hold Short Rwy25R @ N]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][-81.050018 29.175490]>
+                <[float64][heading][94.00]>
+                <[string8][name][Hold Short Rwy34 @ W]>
+            >
+            <[tmsimulator_parking_position][element][10]
+                <[tmvector2d][position][-81.076582 29.173973]>
+                <[float64][heading][161.74]>
+                <[string8][name][Hold Short Rwy7L @N]>
+            >
+            <[tmsimulator_parking_position][element][11]
+                <[tmvector2d][position][-81.056961 29.176558]>
+                <[float64][heading][155.00]>
+                <[string8][name][Hold Short Rwy7R @ S]>
+            >
+            <[tmsimulator_parking_position][element][12]
+                <[tmvector2d][position][-81.049416 29.181185]>
+                <[float64][heading][157.00]>
+                <[string8][name][Lynch Corporate Services]>
+            >
+            <[tmsimulator_parking_position][element][13]
+                <[tmvector2d][position][-81.047077 29.177835]>
+                <[float64][heading][334.63]>
+                <[string8][name][Remote Gen Avia. Parking]>
+            >
+            <[tmsimulator_parking_position][element][14]
+                <[tmvector2d][position][-81.056620 29.186546]>
+                <[float64][heading][337.93]>
+                <[string8][name][SheltAir Aviation Services]>
+            >
+            <[tmsimulator_parking_position][element][15]
+                <[tmvector2d][position][-81.058609 29.177608]>
+                <[float64][heading][65.00]>
+                <[string8][name][Yelvington Jet Aviation]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

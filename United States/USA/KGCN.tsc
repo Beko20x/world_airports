@@ -12,46 +12,75 @@
         <[vector2_float64][tower_position][-112.142269 35.951704]>
         <[float64][tower_height][2039.4]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][03]>
-			<[tmvector2d][threshold1][-112.156833 35.942993]>
-			<[tmvector2d][endpoint1][-112.156833 35.942993]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][21]>
-			<[tmvector2d][threshold2][-112.137006 35.961746]>
-			<[tmvector2d][endpoint2][-112.137006 35.961746]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][46.02]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-112.136345 35.959714]>
-			<[float64][heading][220.60]>
-			<[string8][name][GA parking]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-112.142755 35.953650]>
-			<[float64][heading][40.60]>
-			<[string8][name][South GA ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-112.134905 35.960975]>
-			<[float64][heading][220.60]>
-			<[string8][name][Terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-112.134317 35.961955]>
-			<[float64][heading][220.60]>
-			<[string8][name][Transient Parking]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-112.142269 35.951704]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-112.135713 35.957715]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-112.145406 35.953182]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-112.156600 35.943800]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-112.137400 35.960900]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][03]>
+                <[tmvector2d][threshold1][-112.156833 35.942993]>
+                <[tmvector2d][endpoint1][-112.156833 35.942993]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][21]>
+                <[tmvector2d][threshold2][-112.137006 35.961746]>
+                <[tmvector2d][endpoint2][-112.137006 35.961746]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][46.02]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-112.136345 35.959714]>
+                <[float64][heading][220.60]>
+                <[string8][name][GA parking]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-112.142755 35.953650]>
+                <[float64][heading][40.60]>
+                <[string8][name][South GA ramp]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-112.134905 35.960975]>
+                <[float64][heading][220.60]>
+                <[string8][name][Terminal]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-112.134317 35.961955]>
+                <[float64][heading][220.60]>
+                <[string8][name][Transient Parking]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

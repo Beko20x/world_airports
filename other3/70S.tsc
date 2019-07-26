@@ -12,36 +12,50 @@
         <[vector2_float64][tower_position][-117.358727 47.786144]>
         <[float64][tower_height][582.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][16]>
-			<[tmvector2d][threshold1][-117.358217 47.790587]>
-			<[tmvector2d][endpoint1][-117.358217 47.790587]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][34]>
-			<[tmvector2d][threshold2][-117.358149 47.783786]>
-			<[tmvector2d][endpoint2][-117.358149 47.783786]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][9.14]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-117.359013 47.784705]>
-			<[float64][heading][90.00]>
-			<[string8][name][Dirt Ramp Start]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-117.359026 47.786498]>
-			<[float64][heading][90.00]>
-			<[string8][name][Hanger Start]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-117.358727 47.786144]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-117.357591 47.786982]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][16]>
+                <[tmvector2d][threshold1][-117.358217 47.790587]>
+                <[tmvector2d][endpoint1][-117.358217 47.790587]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][34]>
+                <[tmvector2d][threshold2][-117.358149 47.783786]>
+                <[tmvector2d][endpoint2][-117.358149 47.783786]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][9.14]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-117.359013 47.784705]>
+                <[float64][heading][90.00]>
+                <[string8][name][Dirt Ramp Start]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-117.359026 47.786498]>
+                <[float64][heading][90.00]>
+                <[string8][name][Hanger Start]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

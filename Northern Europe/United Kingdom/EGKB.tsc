@@ -12,86 +12,110 @@
         <[vector2_float64][tower_position][0.029180 51.331967]>
         <[float64][tower_height][191.4]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][03]>
-			<[tmvector2d][threshold1][0.028195 51.325359]>
-			<[tmvector2d][endpoint1][0.026857 51.323608]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][uni]>
-			<[string8][name2][21]>
-			<[tmvector2d][threshold2][0.038037 51.338234]>
-			<[tmvector2d][endpoint2][0.038037 51.338234]>
-			<[string8]   [appltsys2][calvert]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][uni]>
-			<[float64][width][45.11]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][11]>
-			<[tmvector2d][threshold1][0.027856 51.323441]>
-			<[tmvector2d][endpoint1][0.027856 51.323441]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][29]>
-			<[tmvector2d][threshold2][0.038753 51.321556]>
-			<[tmvector2d][endpoint2][0.038753 51.321556]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][17.98]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][0.029338 51.321942]>
-			<[float64][heading][66.03]>
-			<[string8][name][King Air Flight school Pa24]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][0.030624 51.333537]>
-			<[float64][heading][202.77]>
-			<[string8][name][Main Ramp 2]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][0.030081 51.332725]>
-			<[float64][heading][202.77]>
-			<[string8][name][Main Ramp 4]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][0.029467 51.332131]>
-			<[float64][heading][190.95]>
-			<[string8][name][Main Ramp Terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][0.034902 51.325590]>
-			<[float64][heading][264.48]>
-			<[string8][name][North Ramp Flight School C172]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][0.024893 51.326384]>
-			<[float64][heading][24.30]>
-			<[string8][name][Old Military ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][0.037692 51.320387]>
-			<[float64][heading][285.12]>
-			<[string8][name][South Ramp Large AC]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][0.036692 51.320627]>
-			<[float64][heading][284.83]>
-			<[string8][name][Southramp GA C172]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][0.035672 51.320638]>
-			<[float64][heading][314.46]>
-			<[string8][name][SouthRamp GA LJ25]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][0.029180 51.331967]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][0.030886 51.324114]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][0.030927 51.323670]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][0.030924 51.333620]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][03]>
+                <[tmvector2d][threshold1][0.028195 51.325359]>
+                <[tmvector2d][endpoint1][0.026857 51.323608]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][uni]>
+                <[string8][name2][21]>
+                <[tmvector2d][threshold2][0.038037 51.338234]>
+                <[tmvector2d][endpoint2][0.038037 51.338234]>
+                <[string8][appltsys2][calvert]>
+                <[string8][papi2][left]>
+                <[string8][reil2][uni]>
+                <[float64][width][45.11]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][11]>
+                <[tmvector2d][threshold1][0.027856 51.323441]>
+                <[tmvector2d][endpoint1][0.027856 51.323441]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][29]>
+                <[tmvector2d][threshold2][0.038753 51.321556]>
+                <[tmvector2d][endpoint2][0.038753 51.321556]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][17.98]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][0.029338 51.321942]>
+                <[float64][heading][66.03]>
+                <[string8][name][King Air Flight school Pa24]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][0.030624 51.333537]>
+                <[float64][heading][202.77]>
+                <[string8][name][Main Ramp 2]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][0.030081 51.332725]>
+                <[float64][heading][202.77]>
+                <[string8][name][Main Ramp 4]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][0.029467 51.332131]>
+                <[float64][heading][190.95]>
+                <[string8][name][Main Ramp Terminal]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][0.034902 51.325590]>
+                <[float64][heading][264.48]>
+                <[string8][name][North Ramp Flight School C172]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][0.024893 51.326384]>
+                <[float64][heading][24.30]>
+                <[string8][name][Old Military ramp]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][0.037692 51.320387]>
+                <[float64][heading][285.12]>
+                <[string8][name][South Ramp Large AC]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][0.036692 51.320627]>
+                <[float64][heading][284.83]>
+                <[string8][name][Southramp GA C172]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][0.035672 51.320638]>
+                <[float64][heading][314.46]>
+                <[string8][name][SouthRamp GA LJ25]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

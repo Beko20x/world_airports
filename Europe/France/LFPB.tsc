@@ -12,151 +12,196 @@
         <[vector2_float64][tower_position][2.442692 48.961271]>
         <[float64][tower_height][99.4]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][09]>
-			<[tmvector2d][threshold1][2.420345 48.963608]>
-			<[tmvector2d][endpoint1][2.420345 48.963608]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][27]>
-			<[tmvector2d][threshold2][2.445544 48.965026]>
-			<[tmvector2d][endpoint2][2.445544 48.965026]>
-			<[string8]   [appltsys2][sals]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.11]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][07]>
-			<[tmvector2d][threshold1][2.422768 48.964518]>
-			<[tmvector2d][endpoint1][2.420164 48.963814]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][25]>
-			<[tmvector2d][threshold2][2.450368 48.971986]>
-			<[tmvector2d][endpoint2][2.458190 48.974103]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][54.86]>
-		  >
-		  <[tmsimulator_runway][element][2]
-			<[string8][name1][03]>
-			<[tmvector2d][threshold1][2.426963 48.948763]>
-			<[tmvector2d][endpoint1][2.426963 48.948763]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][21]>
-			<[tmvector2d][threshold2][2.442169 48.970570]>
-			<[tmvector2d][endpoint2][2.442169 48.970570]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][60.05]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][2.445269 48.962054]>
-			<[float64][heading][237.85]>
-			<[string8][name][Apron D Falcon]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][2.441702 48.960866]>
-			<[float64][heading][204.00]>
-			<[string8][name][Apron E]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][2.444300 48.960334]>
-			<[float64][heading][229.89]>
-			<[string8][name][Apron F1 Falcon]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][2.443334 48.958696]>
-			<[float64][heading][293.13]>
-			<[string8][name][Apron F2 Transair]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][2.431524 48.948891]>
-			<[float64][heading][300.21]>
-			<[string8][name][Apron G (Victor 1)]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][2.440748 48.954455]>
-			<[float64][heading][291.37]>
-			<[string8][name][Apron H0 EADS]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][2.439730 48.953084]>
-			<[float64][heading][296.57]>
-			<[string8][name][Apron H1]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][2.437856 48.951058]>
-			<[float64][heading][296.85]>
-			<[string8][name][Apron H4]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][2.441700 48.957250]>
-			<[float64][heading][24.00]>
-			<[string8][name][Apron I Darta]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][2.437875 48.956674]>
-			<[float64][heading][18.63]>
-			<[string8][name][Apron J Embraer]>
-		  >
-		  <[tmsimulator_parking_position][element][10]
-			<[tmvector2d][position][2.439084 48.956205]>
-			<[float64][heading][114.00]>
-			<[string8][name][Apron J Uni]>
-		  >
-		  <[tmsimulator_parking_position][element][11]
-			<[tmvector2d][position][2.445960 48.962901]>
-			<[float64][heading][24.00]>
-			<[string8][name][Apron K Signature]>
-		  >
-		  <[tmsimulator_parking_position][element][12]
-			<[tmvector2d][position][2.437228 48.953277]>
-			<[float64][heading][205.00]>
-			<[string8][name][Apron L - Air Enterprise]>
-		  >
-		  <[tmsimulator_parking_position][element][13]
-			<[tmvector2d][position][2.448242 48.962982]>
-			<[float64][heading][164.74]>
-			<[string8][name][Apron M]>
-		  >
-		  <[tmsimulator_parking_position][element][14]
-			<[tmvector2d][position][2.438182 48.955157]>
-			<[float64][heading][127.57]>
-			<[string8][name][Apron N Aero Stock]>
-		  >
-		  <[tmsimulator_parking_position][element][15]
-			<[tmvector2d][position][2.439776 48.959354]>
-			<[float64][heading][201.16]>
-			<[string8][name][F3 Privat]>
-		  >
-		  <[tmsimulator_parking_position][element][16]
-			<[tmvector2d][position][2.424831 48.955808]>
-			<[float64][heading][114.91]>
-			<[string8][name][Military 1]>
-		  >
-		  <[tmsimulator_parking_position][element][17]
-			<[tmvector2d][position][2.427474 48.959038]>
-			<[float64][heading][119.66]>
-			<[string8][name][Military 2]>
-		  >
-		  <[tmsimulator_parking_position][element][18]
-			<[tmvector2d][position][2.427711 48.957730]>
-			<[float64][heading][204.00]>
-			<[string8][name][Military Apron]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][2.442692 48.961271]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][2.438576 48.969897]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][2.439534 48.963316]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][2.428295 48.964873]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][2.429062 48.949822]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][09]>
+                <[tmvector2d][threshold1][2.420345 48.963608]>
+                <[tmvector2d][endpoint1][2.420345 48.963608]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][27]>
+                <[tmvector2d][threshold2][2.445544 48.965026]>
+                <[tmvector2d][endpoint2][2.445544 48.965026]>
+                <[string8][appltsys2][sals]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.11]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][07]>
+                <[tmvector2d][threshold1][2.422768 48.964518]>
+                <[tmvector2d][endpoint1][2.420164 48.963814]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][25]>
+                <[tmvector2d][threshold2][2.450368 48.971986]>
+                <[tmvector2d][endpoint2][2.458190 48.974103]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][54.86]>
+            >
+            <[tmsimulator_runway][element][2]
+                <[string8][name1][03]>
+                <[tmvector2d][threshold1][2.426963 48.948763]>
+                <[tmvector2d][endpoint1][2.426963 48.948763]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][21]>
+                <[tmvector2d][threshold2][2.442169 48.970570]>
+                <[tmvector2d][endpoint2][2.442169 48.970570]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][60.05]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][2.452724 48.969693]>
+                <[string8][type_name][building]>
+                <[float64][radius][23.9]>
+                <[float64][heading][248.71]>
+                <[float64][height][0]>
+                <[string8][name][H3]>
+            >
+            <[tmsimulator_helipad][element][1]
+                <[tmvector2d][position][2.450190 48.969062]>
+                <[string8][type_name][building]>
+                <[float64][radius][13.6]>
+                <[float64][heading][78.24]>
+                <[float64][height][0]>
+                <[string8][name][H5]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][2.445269 48.962054]>
+                <[float64][heading][237.85]>
+                <[string8][name][Apron D Falcon]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][2.441702 48.960866]>
+                <[float64][heading][204.00]>
+                <[string8][name][Apron E]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][2.444300 48.960334]>
+                <[float64][heading][229.89]>
+                <[string8][name][Apron F1 Falcon]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][2.443334 48.958696]>
+                <[float64][heading][293.13]>
+                <[string8][name][Apron F2 Transair]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][2.431524 48.948891]>
+                <[float64][heading][300.21]>
+                <[string8][name][Apron G (Victor 1)]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][2.440748 48.954455]>
+                <[float64][heading][291.37]>
+                <[string8][name][Apron H0 EADS]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][2.439730 48.953084]>
+                <[float64][heading][296.57]>
+                <[string8][name][Apron H1]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][2.437856 48.951058]>
+                <[float64][heading][296.85]>
+                <[string8][name][Apron H4]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][2.441700 48.957250]>
+                <[float64][heading][24.00]>
+                <[string8][name][Apron I Darta]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][2.437875 48.956674]>
+                <[float64][heading][18.63]>
+                <[string8][name][Apron J Embraer]>
+            >
+            <[tmsimulator_parking_position][element][10]
+                <[tmvector2d][position][2.439084 48.956205]>
+                <[float64][heading][114.00]>
+                <[string8][name][Apron J Uni]>
+            >
+            <[tmsimulator_parking_position][element][11]
+                <[tmvector2d][position][2.445960 48.962901]>
+                <[float64][heading][24.00]>
+                <[string8][name][Apron K Signature]>
+            >
+            <[tmsimulator_parking_position][element][12]
+                <[tmvector2d][position][2.437228 48.953277]>
+                <[float64][heading][205.00]>
+                <[string8][name][Apron L - Air Enterprise]>
+            >
+            <[tmsimulator_parking_position][element][13]
+                <[tmvector2d][position][2.448242 48.962982]>
+                <[float64][heading][164.74]>
+                <[string8][name][Apron M]>
+            >
+            <[tmsimulator_parking_position][element][14]
+                <[tmvector2d][position][2.438182 48.955157]>
+                <[float64][heading][127.57]>
+                <[string8][name][Apron N Aero Stock]>
+            >
+            <[tmsimulator_parking_position][element][15]
+                <[tmvector2d][position][2.439776 48.959354]>
+                <[float64][heading][201.16]>
+                <[string8][name][F3 Privat]>
+            >
+            <[tmsimulator_parking_position][element][16]
+                <[tmvector2d][position][2.424831 48.955808]>
+                <[float64][heading][114.91]>
+                <[string8][name][Military 1]>
+            >
+            <[tmsimulator_parking_position][element][17]
+                <[tmvector2d][position][2.427474 48.959038]>
+                <[float64][heading][119.66]>
+                <[string8][name][Military 2]>
+            >
+            <[tmsimulator_parking_position][element][18]
+                <[tmvector2d][position][2.427711 48.957730]>
+                <[float64][heading][204.00]>
+                <[string8][name][Military Apron]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

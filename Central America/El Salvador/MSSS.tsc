@@ -12,26 +12,50 @@
         <[vector2_float64][tower_position][-89.114938 13.695329]>
         <[float64][tower_height][653.8]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][15]>
-			<[tmvector2d][threshold1][-89.124448 13.707827]>
-			<[tmvector2d][endpoint1][-89.124448 13.707827]>
-			<[string8]   [appltsys1][rail]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][33]>
-			<[tmvector2d][threshold2][-89.115251 13.689777]>
-			<[tmvector2d][endpoint2][-89.115251 13.689777]>
-			<[string8]   [appltsys2][rail]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.11]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-89.114938 13.695329]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-89.118539 13.699434]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-89.124082 13.709151]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-89.115637 13.689833]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][15]>
+                <[tmvector2d][threshold1][-89.124448 13.707827]>
+                <[tmvector2d][endpoint1][-89.124448 13.707827]>
+                <[string8][appltsys1][rail]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][33]>
+                <[tmvector2d][threshold2][-89.115251 13.689777]>
+                <[tmvector2d][endpoint2][-89.115251 13.689777]>
+                <[string8][appltsys2][rail]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.11]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

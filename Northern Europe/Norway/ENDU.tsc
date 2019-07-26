@@ -12,46 +12,70 @@
         <[vector2_float64][tower_position][18.541785 69.059296]>
         <[float64][tower_height][107.3]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][10]>
-			<[tmvector2d][threshold1][18.509838 69.059519]>
-			<[tmvector2d][endpoint1][18.509838 69.059519]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][28]>
-			<[tmvector2d][threshold2][18.567966 69.052345]>
-			<[tmvector2d][endpoint2][18.567966 69.052345]>
-			<[string8]   [appltsys2][calvert]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.11]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][18.537796 69.059155]>
-			<[float64][heading][160.00]>
-			<[string8][name][Airline terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][18.511648 69.060779]>
-			<[float64][heading][160.00]>
-			<[string8][name][Holding point 10]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][18.568530 69.053550]>
-			<[float64][heading][160.00]>
-			<[string8][name][Holding point 28]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][18.544988 69.058083]>
-			<[float64][heading][300.00]>
-			<[string8][name][NAC apron]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][18.541785 69.059296]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][18.540204 69.057275]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][18.511258 69.058699]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][18.566043 69.052123]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][10]>
+                <[tmvector2d][threshold1][18.509838 69.059519]>
+                <[tmvector2d][endpoint1][18.509838 69.059519]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][28]>
+                <[tmvector2d][threshold2][18.567966 69.052345]>
+                <[tmvector2d][endpoint2][18.567966 69.052345]>
+                <[string8][appltsys2][calvert]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.11]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][18.537796 69.059155]>
+                <[float64][heading][160.00]>
+                <[string8][name][Airline terminal]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][18.511648 69.060779]>
+                <[float64][heading][160.00]>
+                <[string8][name][Holding point 10]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][18.568530 69.053550]>
+                <[float64][heading][160.00]>
+                <[string8][name][Holding point 28]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][18.544988 69.058083]>
+                <[float64][heading][300.00]>
+                <[string8][name][NAC apron]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

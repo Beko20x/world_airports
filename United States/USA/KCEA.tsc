@@ -10,41 +10,50 @@
         <[float64][height][420.0]>
         <[float64][size][5000]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][17]>
-			<[tmvector2d][threshold1][-97.250589 37.650629]>
-			<[tmvector2d][endpoint1][-97.250586 37.653908]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][35]>
-			<[tmvector2d][threshold2][-97.250594 37.646551]>
-			<[tmvector2d][endpoint2][-97.250597 37.643272]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][11.89]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-97.250255 37.653265]>
-			<[float64][heading][0.00]>
-			<[string8][name][Hold Short Rwy 17]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-97.250256 37.643755]>
-			<[float64][heading][180.00]>
-			<[string8][name][Hold Short Rwy 35]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-97.248299 37.647805]>
-			<[float64][heading][180.00]>
-			<[string8][name][Ramp]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-97.251293 37.650380]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][17]>
+                <[tmvector2d][threshold1][-97.250589 37.650629]>
+                <[tmvector2d][endpoint1][-97.250586 37.653908]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][35]>
+                <[tmvector2d][threshold2][-97.250594 37.646551]>
+                <[tmvector2d][endpoint2][-97.250597 37.643272]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][11.89]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-97.250255 37.653265]>
+                <[float64][heading][0.00]>
+                <[string8][name][Hold Short Rwy 17]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-97.250256 37.643755]>
+                <[float64][heading][180.00]>
+                <[string8][name][Hold Short Rwy 35]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-97.248299 37.647805]>
+                <[float64][heading][180.00]>
+                <[string8][name][Ramp]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

@@ -12,96 +12,125 @@
         <[vector2_float64][tower_position][-83.960185 33.976688]>
         <[float64][tower_height][341.7]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][07]>
-			<[tmvector2d][threshold1][-83.971236 33.974428]>
-			<[tmvector2d][endpoint1][-83.971236 33.974428]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][25]>
-			<[tmvector2d][threshold2][-83.953494 33.981736]>
-			<[tmvector2d][endpoint2][-83.953494 33.981736]>
-			<[string8]   [appltsys2][malsr]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-83.967327 33.974072]>
-			<[float64][heading][243.00]>
-			<[string8][name][Aircraft Specialists Jet Center FBO]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-83.961868 33.981632]>
-			<[float64][heading][190.95]>
-			<[string8][name][County Hanger]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-83.966897 33.980140]>
-			<[float64][heading][252.00]>
-			<[string8][name][Gen Avia. Parking North]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-83.968883 33.973860]>
-			<[float64][heading][153.60]>
-			<[string8][name][Gen Avia. Parking South]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-83.953154 33.981057]>
-			<[float64][heading][334.00]>
-			<[string8][name][Hold Short Rwy25]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-83.970753 33.973766]>
-			<[float64][heading][334.00]>
-			<[string8][name][Hold Short Rwy7 @ A]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-83.971629 33.975183]>
-			<[float64][heading][154.00]>
-			<[string8][name][Hold Short Rwy7 @ B]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-83.963394 33.981441]>
-			<[float64][heading][250.00]>
-			<[string8][name][Landmark Aviation FBO]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][-83.971680 33.972446]>
-			<[float64][heading][80.00]>
-			<[string8][name][Ramp Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][-83.972427 33.972031]>
-			<[float64][heading][10.00]>
-			<[string8][name][Remote Parking]>
-		  >
-		  <[tmsimulator_parking_position][element][10]
-			<[tmvector2d][position][-83.953694 33.980143]>
-			<[float64][heading][3.25]>
-			<[string8][name][Run-up Pad Rwy25]>
-		  >
-		  <[tmsimulator_parking_position][element][11]
-			<[tmvector2d][position][-83.970831 33.973455]>
-			<[float64][heading][25.00]>
-			<[string8][name][Run-up Pad Rwy7]>
-		  >
-		  <[tmsimulator_parking_position][element][12]
-			<[tmvector2d][position][-83.967863 33.981007]>
-			<[float64][heading][161.00]>
-			<[string8][name][T-Hanger Northside]>
-		  >
-		  <[tmsimulator_parking_position][element][13]
-			<[tmvector2d][position][-83.962509 33.975845]>
-			<[float64][heading][331.00]>
-			<[string8][name][T-Hanger Southside]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-83.960185 33.976688]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-83.971085 33.969479]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-83.970016 33.974274]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-83.953934 33.980984]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-83.963202 33.979275]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][07]>
+                <[tmvector2d][threshold1][-83.971236 33.974428]>
+                <[tmvector2d][endpoint1][-83.971236 33.974428]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][25]>
+                <[tmvector2d][threshold2][-83.953494 33.981736]>
+                <[tmvector2d][endpoint2][-83.953494 33.981736]>
+                <[string8][appltsys2][malsr]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-83.967327 33.974072]>
+                <[float64][heading][243.00]>
+                <[string8][name][Aircraft Specialists Jet Center FBO]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-83.961868 33.981632]>
+                <[float64][heading][190.95]>
+                <[string8][name][County Hanger]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-83.966897 33.980140]>
+                <[float64][heading][252.00]>
+                <[string8][name][Gen Avia. Parking North]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-83.968883 33.973860]>
+                <[float64][heading][153.60]>
+                <[string8][name][Gen Avia. Parking South]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-83.953154 33.981057]>
+                <[float64][heading][334.00]>
+                <[string8][name][Hold Short Rwy25]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-83.970753 33.973766]>
+                <[float64][heading][334.00]>
+                <[string8][name][Hold Short Rwy7 @ A]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-83.971629 33.975183]>
+                <[float64][heading][154.00]>
+                <[string8][name][Hold Short Rwy7 @ B]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-83.963394 33.981441]>
+                <[float64][heading][250.00]>
+                <[string8][name][Landmark Aviation FBO]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][-83.971680 33.972446]>
+                <[float64][heading][80.00]>
+                <[string8][name][Ramp Parking]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][-83.972427 33.972031]>
+                <[float64][heading][10.00]>
+                <[string8][name][Remote Parking]>
+            >
+            <[tmsimulator_parking_position][element][10]
+                <[tmvector2d][position][-83.953694 33.980143]>
+                <[float64][heading][3.25]>
+                <[string8][name][Run-up Pad Rwy25]>
+            >
+            <[tmsimulator_parking_position][element][11]
+                <[tmvector2d][position][-83.970831 33.973455]>
+                <[float64][heading][25.00]>
+                <[string8][name][Run-up Pad Rwy7]>
+            >
+            <[tmsimulator_parking_position][element][12]
+                <[tmvector2d][position][-83.967863 33.981007]>
+                <[float64][heading][161.00]>
+                <[string8][name][T-Hanger Northside]>
+            >
+            <[tmsimulator_parking_position][element][13]
+                <[tmvector2d][position][-83.962509 33.975845]>
+                <[float64][heading][331.00]>
+                <[string8][name][T-Hanger Southside]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

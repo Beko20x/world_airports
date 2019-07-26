@@ -12,56 +12,80 @@
         <[vector2_float64][tower_position][-70.601594 19.402306]>
         <[float64][tower_height][201.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][11]>
-			<[tmvector2d][threshold1][-70.616886 19.408764]>
-			<[tmvector2d][endpoint1][-70.616886 19.408764]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][29]>
-			<[tmvector2d][threshold2][-70.592492 19.403419]>
-			<[tmvector2d][endpoint2][-70.592492 19.403419]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][45.11]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-70.604363 19.404943]>
-			<[float64][heading][13.24]>
-			<[string8][name][Back-taxi to Rwy 11]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-70.599880 19.403953]>
-			<[float64][heading][13.24]>
-			<[string8][name][Back-taxi to Rwy 29]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-70.598979 19.402196]>
-			<[float64][heading][192.58]>
-			<[string8][name][Cargo Spot C2]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-70.605099 19.403392]>
-			<[float64][heading][103.10]>
-			<[string8][name][Gen Avia Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-70.601744 19.402887]>
-			<[float64][heading][192.58]>
-			<[string8][name][Terminal Gate B3]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-70.602782 19.402944]>
-			<[float64][heading][166.13]>
-			<[string8][name][Terminal Gate B5]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-70.601594 19.402306]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-70.601853 19.402091]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-70.600419 19.405870]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-70.607871 19.406073]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][11]>
+                <[tmvector2d][threshold1][-70.616886 19.408764]>
+                <[tmvector2d][endpoint1][-70.616886 19.408764]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][29]>
+                <[tmvector2d][threshold2][-70.592492 19.403419]>
+                <[tmvector2d][endpoint2][-70.592492 19.403419]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][45.11]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-70.604363 19.404943]>
+                <[float64][heading][13.24]>
+                <[string8][name][Back-taxi to Rwy 11]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-70.599880 19.403953]>
+                <[float64][heading][13.24]>
+                <[string8][name][Back-taxi to Rwy 29]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-70.598979 19.402196]>
+                <[float64][heading][192.58]>
+                <[string8][name][Cargo Spot C2]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-70.605099 19.403392]>
+                <[float64][heading][103.10]>
+                <[string8][name][Gen Avia Ramp]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-70.601744 19.402887]>
+                <[float64][heading][192.58]>
+                <[string8][name][Terminal Gate B3]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-70.602782 19.402944]>
+                <[float64][heading][166.13]>
+                <[string8][name][Terminal Gate B5]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

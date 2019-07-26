@@ -12,49 +12,73 @@
         <[vector2_float64][tower_position][-68.536798 63.751146]>
         <[float64][tower_height][48.8]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][17]>
-			<[tmvector2d][threshold1][-68.574714 63.764989]>
-			<[tmvector2d][endpoint1][-68.574714 63.764989]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][35]>
-			<[tmvector2d][threshold2][-68.537403 63.748141]>
-			<[tmvector2d][endpoint2][-68.537403 63.748141]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][60.96]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		  <[tmsimulator_helipad][element][0]
-			<[tmvector2d][position][-68.542812 63.755772]>
-			<[string8][type_name][building]>
-			<[float64][radius][8]>
-			<[float64][heading][140.00]>
-			<[float64][height][0]>
-			<[string8][name][Canadian Helicopter]>
-		  >
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-68.541390 63.755187]>
-			<[float64][heading][309.06]>
-			<[string8][name][Air Nunavut]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-68.545714 63.757342]>
-			<[float64][heading][311.43]>
-			<[string8][name][Ken Borek Air]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-68.535889 63.750774]>
-			<[float64][heading][289.86]>
-			<[string8][name][Terminal]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-68.536798 63.751146]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-68.552947 63.757912]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-68.571095 63.764587]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-68.540872 63.748525]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][17]>
+                <[tmvector2d][threshold1][-68.574714 63.764989]>
+                <[tmvector2d][endpoint1][-68.574714 63.764989]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][35]>
+                <[tmvector2d][threshold2][-68.537403 63.748141]>
+                <[tmvector2d][endpoint2][-68.537403 63.748141]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][60.96]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][-68.542812 63.755772]>
+                <[string8][type_name][building]>
+                <[float64][radius][8]>
+                <[float64][heading][140.00]>
+                <[float64][height][0]>
+                <[string8][name][Canadian Helicopter]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-68.541390 63.755187]>
+                <[float64][heading][309.06]>
+                <[string8][name][Air Nunavut]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-68.545714 63.757342]>
+                <[float64][heading][311.43]>
+                <[string8][name][Ken Borek Air]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-68.535889 63.750774]>
+                <[float64][heading][289.86]>
+                <[string8][name][Terminal]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

@@ -12,71 +12,98 @@
         <[vector2_float64][tower_position][12.504048 41.953537]>
         <[float64][tower_height][41.8]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][16]>
-			<[tmvector2d][threshold1][12.500451 41.956054]>
-			<[tmvector2d][endpoint1][12.500007 41.956960]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][34]>
-			<[tmvector2d][threshold2][12.504021 41.948757]>
-			<[tmvector2d][endpoint2][12.504493 41.947793]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][12.505201 41.950380]>
-			<[float64][heading][87.02]>
-			<[string8][name][ACB 1]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][12.505261 41.950032]>
-			<[float64][heading][87.16]>
-			<[string8][name][ACB 2]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][12.505125 41.950920]>
-			<[float64][heading][87.07]>
-			<[string8][name][Fuel]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][12.504019 41.955403]>
-			<[float64][heading][268.31]>
-			<[string8][name][General Avi 1]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][12.504020 41.954753]>
-			<[float64][heading][270.45]>
-			<[string8][name][General Avi 2]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][12.504021 41.954966]>
-			<[float64][heading][268.66]>
-			<[string8][name][General Avi 3]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][12.503870 41.954292]>
-			<[float64][heading][270.94]>
-			<[string8][name][General Avi 6]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][12.503567 41.954632]>
-			<[float64][heading][43.38]>
-			<[string8][name][General Avi 7]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][12.503863 41.953990]>
-			<[float64][heading][270.57]>
-			<[string8][name][General Avi 8]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][12.504048 41.953537]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][12.503743 41.954701]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][12.501071 41.953242]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][16]>
+                <[tmvector2d][threshold1][12.500451 41.956054]>
+                <[tmvector2d][endpoint1][12.500007 41.956960]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][34]>
+                <[tmvector2d][threshold2][12.504021 41.948757]>
+                <[tmvector2d][endpoint2][12.504493 41.947793]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][12.502554 41.954379]>
+                <[string8][type_name][building]>
+                <[float64][radius][20.0]>
+                <[float64][heading][159.99]>
+                <[float64][height][0]>
+                <[string8][name][H1]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][12.505201 41.950380]>
+                <[float64][heading][87.02]>
+                <[string8][name][ACB 1]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][12.505261 41.950032]>
+                <[float64][heading][87.16]>
+                <[string8][name][ACB 2]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][12.505125 41.950920]>
+                <[float64][heading][87.07]>
+                <[string8][name][Fuel]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][12.504019 41.955403]>
+                <[float64][heading][268.31]>
+                <[string8][name][General Avi 1]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][12.504020 41.954753]>
+                <[float64][heading][270.45]>
+                <[string8][name][General Avi 2]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][12.504021 41.954966]>
+                <[float64][heading][268.66]>
+                <[string8][name][General Avi 3]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][12.503870 41.954292]>
+                <[float64][heading][270.94]>
+                <[string8][name][General Avi 6]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][12.503567 41.954632]>
+                <[float64][heading][43.38]>
+                <[string8][name][General Avi 7]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][12.503863 41.953990]>
+                <[float64][heading][270.57]>
+                <[string8][name][General Avi 8]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

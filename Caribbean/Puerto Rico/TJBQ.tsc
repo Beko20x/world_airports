@@ -12,56 +12,80 @@
         <[vector2_float64][tower_position][-67.135716 18.494985]>
         <[float64][tower_height][102.7]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][08]>
-			<[tmvector2d][threshold1][-67.144267 18.490279]>
-			<[tmvector2d][endpoint1][-67.145356 18.489950]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][26]>
-			<[tmvector2d][threshold2][-67.113075 18.499700]>
-			<[tmvector2d][endpoint2][-67.113075 18.499700]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][60.96]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-67.135201 18.494891]>
-			<[float64][heading][340.32]>
-			<[string8][name][Air Carrier Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-67.138728 18.494334]>
-			<[float64][heading][72.30]>
-			<[string8][name][Copeca Jet Center]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-67.132717 18.495632]>
-			<[float64][heading][341.58]>
-			<[string8][name][Fed Ex Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-67.112991 18.498855]>
-			<[float64][heading][345.65]>
-			<[string8][name][Hold Short Rwy 26]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-67.145242 18.490941]>
-			<[float64][heading][182.15]>
-			<[string8][name][Hold Short Rwy 8]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-67.129394 18.498907]>
-			<[float64][heading][73.29]>
-			<[string8][name][Western Aviation Service Corp.]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-67.135716 18.494985]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-67.135876 18.495239]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-67.142360 18.489971]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-67.113467 18.498614]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][08]>
+                <[tmvector2d][threshold1][-67.144267 18.490279]>
+                <[tmvector2d][endpoint1][-67.145356 18.489950]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][26]>
+                <[tmvector2d][threshold2][-67.113075 18.499700]>
+                <[tmvector2d][endpoint2][-67.113075 18.499700]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][60.96]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-67.135201 18.494891]>
+                <[float64][heading][340.32]>
+                <[string8][name][Air Carrier Ramp]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-67.138728 18.494334]>
+                <[float64][heading][72.30]>
+                <[string8][name][Copeca Jet Center]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-67.132717 18.495632]>
+                <[float64][heading][341.58]>
+                <[string8][name][Fed Ex Ramp]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-67.112991 18.498855]>
+                <[float64][heading][345.65]>
+                <[string8][name][Hold Short Rwy 26]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-67.145242 18.490941]>
+                <[float64][heading][182.15]>
+                <[string8][name][Hold Short Rwy 8]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-67.129394 18.498907]>
+                <[float64][heading][73.29]>
+                <[string8][name][Western Aviation Service Corp.]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

@@ -12,76 +12,115 @@
         <[vector2_float64][tower_position][-93.221601 30.124819]>
         <[float64][tower_height][4.6]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][15]>
-			<[tmvector2d][threshold1][-93.227919 30.128728]>
-			<[tmvector2d][endpoint1][-93.227919 30.128728]>
-			<[string8]   [appltsys1][malsr]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][33]>
-			<[tmvector2d][threshold2][-93.219131 30.112572]>
-			<[tmvector2d][endpoint2][-93.219131 30.112572]>
-			<[string8]   [appltsys2][odals]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][46.02]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][05]>
-			<[tmvector2d][threshold1][-93.229742 30.128506]>
-			<[tmvector2d][endpoint1][-93.229742 30.128506]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][23]>
-			<[tmvector2d][threshold2][-93.216797 30.137328]>
-			<[tmvector2d][endpoint2][-93.216797 30.137328]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-93.222483 30.125532]>
-			<[float64][heading][245.96]>
-			<[string8][name][Gen Avia Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-93.226724 30.128691]>
-			<[float64][heading][231.80]>
-			<[string8][name][Hold Short Rwy 15]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-93.216402 30.136752]>
-			<[float64][heading][326.28]>
-			<[string8][name][Hold Short Rwy 23]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-93.218140 30.112885]>
-			<[float64][heading][245.82]>
-			<[string8][name][Hold Short Rwy 33]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-93.228996 30.127848]>
-			<[float64][heading][304.15]>
-			<[string8][name][Hold Short Rwy 5]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-93.218402 30.118854]>
-			<[float64][heading][164.03]>
-			<[string8][name][South Ramp]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-93.221767 30.125359]>
-			<[float64][heading][245.96]>
-			<[string8][name][Vision Aviation FBO]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\tower_obj]>
+                <[vector3_float64][position][-93.221601 30.124819]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-93.221762 30.124718]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-93.223215 30.133661]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-93.218223 30.113295]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-93.226633 30.127882]>
+            >
+            <[tmsimulator_scenery_object][element][5]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-93.217063 30.136525]>
+            >
+            <[tmsimulator_scenery_object][element][6]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-93.225423 30.122422]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][15]>
+                <[tmvector2d][threshold1][-93.227919 30.128728]>
+                <[tmvector2d][endpoint1][-93.227919 30.128728]>
+                <[string8][appltsys1][malsr]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][33]>
+                <[tmvector2d][threshold2][-93.219131 30.112572]>
+                <[tmvector2d][endpoint2][-93.219131 30.112572]>
+                <[string8][appltsys2][odals]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][46.02]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][05]>
+                <[tmvector2d][threshold1][-93.229742 30.128506]>
+                <[tmvector2d][endpoint1][-93.229742 30.128506]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][23]>
+                <[tmvector2d][threshold2][-93.216797 30.137328]>
+                <[tmvector2d][endpoint2][-93.216797 30.137328]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-93.222483 30.125532]>
+                <[float64][heading][245.96]>
+                <[string8][name][Gen Avia Ramp]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-93.226724 30.128691]>
+                <[float64][heading][231.80]>
+                <[string8][name][Hold Short Rwy 15]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-93.216402 30.136752]>
+                <[float64][heading][326.28]>
+                <[string8][name][Hold Short Rwy 23]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-93.218140 30.112885]>
+                <[float64][heading][245.82]>
+                <[string8][name][Hold Short Rwy 33]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-93.228996 30.127848]>
+                <[float64][heading][304.15]>
+                <[string8][name][Hold Short Rwy 5]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-93.218402 30.118854]>
+                <[float64][heading][164.03]>
+                <[string8][name][South Ramp]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-93.221767 30.125359]>
+                <[float64][heading][245.96]>
+                <[string8][name][Vision Aviation FBO]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

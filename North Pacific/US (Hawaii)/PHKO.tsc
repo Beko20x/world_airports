@@ -12,71 +12,90 @@
         <[vector2_float64][tower_position][-156.041507 19.734081]>
         <[float64][tower_height][31.7]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][17]>
-			<[tmvector2d][threshold1][-156.044477 19.753777]>
-			<[tmvector2d][endpoint1][-156.044369 19.754993]>
-			<[string8]   [appltsys1][sals]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][35]>
-			<[tmvector2d][threshold2][-156.047144 19.723694]>
-			<[tmvector2d][endpoint2][-156.047144 19.723694]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][45.72]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-156.042766 19.726511]>
-			<[float64][heading][182.91]>
-			<[string8][name][Fuel Farm]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-156.042265 19.732649]>
-			<[float64][heading][3.37]>
-			<[string8][name][GA 1]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-156.042029 19.733252]>
-			<[float64][heading][180.00]>
-			<[string8][name][GA 2]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-156.041938 19.733637]>
-			<[float64][heading][3.58]>
-			<[string8][name][GA 3]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-156.042205 19.734851]>
-			<[float64][heading][154.13]>
-			<[string8][name][Gate 1]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-156.042188 19.735405]>
-			<[float64][heading][155.62]>
-			<[string8][name][Gate 2]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][-156.042130 19.735937]>
-			<[float64][heading][156.47]>
-			<[string8][name][Gate 3]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][-156.042116 19.736617]>
-			<[float64][heading][151.31]>
-			<[string8][name][Gate 4]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][-156.042093 19.737119]>
-			<[float64][heading][148.48]>
-			<[string8][name][Gate 5]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-156.041507 19.734081]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-156.043965 19.739538]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-156.044460 19.740162]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][17]>
+                <[tmvector2d][threshold1][-156.044477 19.753777]>
+                <[tmvector2d][endpoint1][-156.044369 19.754993]>
+                <[string8][appltsys1][sals]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][35]>
+                <[tmvector2d][threshold2][-156.047144 19.723694]>
+                <[tmvector2d][endpoint2][-156.047144 19.723694]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][45.72]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-156.042766 19.726511]>
+                <[float64][heading][182.91]>
+                <[string8][name][Fuel Farm]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-156.042265 19.732649]>
+                <[float64][heading][3.37]>
+                <[string8][name][GA 1]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-156.042029 19.733252]>
+                <[float64][heading][180.00]>
+                <[string8][name][GA 2]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-156.041938 19.733637]>
+                <[float64][heading][3.58]>
+                <[string8][name][GA 3]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-156.042205 19.734851]>
+                <[float64][heading][154.13]>
+                <[string8][name][Gate 1]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-156.042188 19.735405]>
+                <[float64][heading][155.62]>
+                <[string8][name][Gate 2]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][-156.042130 19.735937]>
+                <[float64][heading][156.47]>
+                <[string8][name][Gate 3]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][-156.042116 19.736617]>
+                <[float64][heading][151.31]>
+                <[string8][name][Gate 4]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][-156.042093 19.737119]>
+                <[float64][heading][148.48]>
+                <[string8][name][Gate 5]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

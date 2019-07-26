@@ -12,36 +12,60 @@
         <[vector2_float64][tower_position][-72.659907 -38.267430]>
         <[float64][tower_height][272.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][18]>
-			<[tmvector2d][threshold1][-72.663045 -38.274662]>
-			<[tmvector2d][endpoint1][-72.663045 -38.274662]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][none]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][36]>
-			<[tmvector2d][threshold2][-72.660498 -38.267745]>
-			<[tmvector2d][endpoint2][-72.660498 -38.267745]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][none]>
-			<[string8]   [reil2][none]>
-			<[float64][width][17.98]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-72.660352 -38.267486]>
-			<[float64][heading][223.36]>
-			<[string8][name][Start North]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-72.662729 -38.268732]>
-			<[float64][heading][57.99]>
-			<[string8][name][Start Ramp]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-72.659907 -38.267430]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-72.664049 -38.272517]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-72.662394 -38.273645]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-72.661095 -38.268510]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][18]>
+                <[tmvector2d][threshold1][-72.663045 -38.274662]>
+                <[tmvector2d][endpoint1][-72.663045 -38.274662]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][none]>
+                <[string8][reil1][none]>
+                <[string8][name2][36]>
+                <[tmvector2d][threshold2][-72.660498 -38.267745]>
+                <[tmvector2d][endpoint2][-72.660498 -38.267745]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][none]>
+                <[string8][reil2][none]>
+                <[float64][width][17.98]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-72.660352 -38.267486]>
+                <[float64][heading][223.36]>
+                <[string8][name][Start North]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-72.662729 -38.268732]>
+                <[float64][heading][57.99]>
+                <[string8][name][Start Ramp]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

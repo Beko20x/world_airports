@@ -10,71 +10,100 @@
         <[float64][height][396.8]>
         <[float64][size][5000]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][13]>
-			<[tmvector2d][threshold1][-98.428036 45.455236]>
-			<[tmvector2d][endpoint1][-98.428036 45.455236]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][31]>
-			<[tmvector2d][threshold2][-98.409047 45.441842]>
-			<[tmvector2d][endpoint2][-98.409047 45.441842]>
-			<[string8]   [appltsys2][malsf]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][29.87]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][17]>
-			<[tmvector2d][threshold1][-98.427353 45.455553]>
-			<[tmvector2d][endpoint1][-98.427353 45.455553]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][35]>
-			<[tmvector2d][threshold2][-98.427325 45.440469]>
-			<[tmvector2d][endpoint2][-98.427325 45.440469]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-98.422529 45.455265]>
-			<[float64][heading][315.20]>
-			<[string8][name][Aberdeen Flying Service]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-98.419012 45.452709]>
-			<[float64][heading][45.23]>
-			<[string8][name][Air Carrier Terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-98.425734 45.455621]>
-			<[float64][heading][252.50]>
-			<[string8][name][Hold Short Rwy 13 & 17]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-98.408298 45.442545]>
-			<[float64][heading][225.20]>
-			<[string8][name][Hold Short Rwy 31]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][-98.425846 45.440720]>
-			<[float64][heading][214.60]>
-			<[string8][name][Hold Short Rwy 35]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][-98.423842 45.456204]>
-			<[float64][heading][315.20]>
-			<[string8][name][Quest Aviation]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-98.423314 45.456988]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-98.423814 45.449743]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-98.426545 45.456251]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-98.413491 45.443937]>
+            >
+            <[tmsimulator_scenery_object][element][4]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-98.426535 45.441331]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][13]>
+                <[tmvector2d][threshold1][-98.428036 45.455236]>
+                <[tmvector2d][endpoint1][-98.428036 45.455236]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][31]>
+                <[tmvector2d][threshold2][-98.409047 45.441842]>
+                <[tmvector2d][endpoint2][-98.409047 45.441842]>
+                <[string8][appltsys2][malsf]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][29.87]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][17]>
+                <[tmvector2d][threshold1][-98.427353 45.455553]>
+                <[tmvector2d][endpoint1][-98.427353 45.455553]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][35]>
+                <[tmvector2d][threshold2][-98.427325 45.440469]>
+                <[tmvector2d][endpoint2][-98.427325 45.440469]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-98.422529 45.455265]>
+                <[float64][heading][315.20]>
+                <[string8][name][Aberdeen Flying Service]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-98.419012 45.452709]>
+                <[float64][heading][45.23]>
+                <[string8][name][Air Carrier Terminal]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-98.425734 45.455621]>
+                <[float64][heading][252.50]>
+                <[string8][name][Hold Short Rwy 13 & 17]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-98.408298 45.442545]>
+                <[float64][heading][225.20]>
+                <[string8][name][Hold Short Rwy 31]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][-98.425846 45.440720]>
+                <[float64][heading][214.60]>
+                <[string8][name][Hold Short Rwy 35]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][-98.423842 45.456204]>
+                <[float64][heading][315.20]>
+                <[string8][name][Quest Aviation]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

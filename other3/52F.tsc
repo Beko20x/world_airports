@@ -12,46 +12,70 @@
         <[vector2_float64][tower_position][-97.232910 33.050850]>
         <[float64][tower_height][196.0]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][17]>
-			<[tmvector2d][threshold1][-97.232239 33.046814]>
-			<[tmvector2d][endpoint1][-97.232239 33.054653]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][35]>
-			<[tmvector2d][threshold2][-97.232239 33.051350]>
-			<[tmvector2d][endpoint2][-97.232239 33.045036]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][12.19]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-97.231888 33.054527]>
-			<[float64][heading][270.00]>
-			<[string8][name][Hold Short Rwy17]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-97.231873 33.045174]>
-			<[float64][heading][270.00]>
-			<[string8][name][Hold SHort Rwy35]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-97.233315 33.053501]>
-			<[float64][heading][180.00]>
-			<[string8][name][Marcair, Inc.]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][-97.233063 33.049793]>
-			<[float64][heading][90.00]>
-			<[string8][name][North Texas Flight Academy]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][-97.232910 33.050850]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][-97.236038 33.054371]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-97.232506 33.053135]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][-97.232559 33.045918]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][17]>
+                <[tmvector2d][threshold1][-97.232239 33.046814]>
+                <[tmvector2d][endpoint1][-97.232239 33.054653]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][35]>
+                <[tmvector2d][threshold2][-97.232239 33.051350]>
+                <[tmvector2d][endpoint2][-97.232239 33.045036]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][12.19]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-97.231888 33.054527]>
+                <[float64][heading][270.00]>
+                <[string8][name][Hold Short Rwy17]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-97.231873 33.045174]>
+                <[float64][heading][270.00]>
+                <[string8][name][Hold SHort Rwy35]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-97.233315 33.053501]>
+                <[float64][heading][180.00]>
+                <[string8][name][Marcair, Inc.]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][-97.233063 33.049793]>
+                <[float64][heading][90.00]>
+                <[string8][name][North Texas Flight Academy]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

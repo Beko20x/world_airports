@@ -12,81 +12,105 @@
         <[vector2_float64][tower_position][8.642457 49.962805]>
         <[float64][tower_height][127.1]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][09L]>
-			<[tmvector2d][threshold1][8.631678 49.960393]>
-			<[tmvector2d][endpoint1][8.631103 49.960367]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][27R]>
-			<[tmvector2d][threshold2][8.649786 49.961204]>
-			<[tmvector2d][endpoint2][8.651897 49.961299]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][24.99]>
-		  >
-		  <[tmsimulator_runway][element][1]
-			<[string8][name1][09R]>
-			<[tmvector2d][threshold1][8.645139 49.959418]>
-			<[tmvector2d][endpoint1][8.642622 49.959300]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][27L]>
-			<[tmvector2d][threshold2][8.650635 49.959674]>
-			<[tmvector2d][endpoint2][8.651982 49.959737]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][none]>
-			<[float64][width][29.87]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][8.643235 49.962000]>
-			<[float64][heading][266.20]>
-			<[string8][name][Apuron Asphalt W]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][8.644414 49.962734]>
-			<[float64][heading][264.70]>
-			<[string8][name][Grasvorfeld 1]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][8.645738 49.962090]>
-			<[float64][heading][267.00]>
-			<[string8][name][Grasvorfeld 2]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][8.644873 49.963655]>
-			<[float64][heading][183.26]>
-			<[string8][name][Hangar Center]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][8.640787 49.963253]>
-			<[float64][heading][150.00]>
-			<[string8][name][Hangar Courtyard]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][8.641626 49.962060]>
-			<[float64][heading][354.50]>
-			<[string8][name][Tanking]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][8.647917 49.962992]>
-			<[float64][heading][215.72]>
-			<[string8][name][Terminal]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][8.642599 49.962579]>
-			<[float64][heading][150.00]>
-			<[string8][name][Tower Building]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][8.642457 49.962805]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][8.642459 49.962814]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][8.646141 49.960208]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][8.636874 49.961061]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][09L]>
+                <[tmvector2d][threshold1][8.631678 49.960393]>
+                <[tmvector2d][endpoint1][8.631103 49.960367]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][27R]>
+                <[tmvector2d][threshold2][8.649786 49.961204]>
+                <[tmvector2d][endpoint2][8.651897 49.961299]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][24.99]>
+            >
+            <[tmsimulator_runway][element][1]
+                <[string8][name1][09R]>
+                <[tmvector2d][threshold1][8.645139 49.959418]>
+                <[tmvector2d][endpoint1][8.642622 49.959300]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][27L]>
+                <[tmvector2d][threshold2][8.650635 49.959674]>
+                <[tmvector2d][endpoint2][8.651982 49.959737]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][none]>
+                <[float64][width][29.87]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][8.643235 49.962000]>
+                <[float64][heading][266.20]>
+                <[string8][name][Apuron Asphalt W]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][8.644414 49.962734]>
+                <[float64][heading][264.70]>
+                <[string8][name][Grasvorfeld 1]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][8.645738 49.962090]>
+                <[float64][heading][267.00]>
+                <[string8][name][Grasvorfeld 2]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][8.644873 49.963655]>
+                <[float64][heading][183.26]>
+                <[string8][name][Hangar Center]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][8.640787 49.963253]>
+                <[float64][heading][150.00]>
+                <[string8][name][Hangar Courtyard]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][8.641626 49.962060]>
+                <[float64][heading][354.50]>
+                <[string8][name][Tanking]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][8.647917 49.962992]>
+                <[float64][heading][215.72]>
+                <[string8][name][Terminal]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][8.642599 49.962579]>
+                <[float64][heading][150.00]>
+                <[string8][name][Tower Building]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

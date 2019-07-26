@@ -12,76 +12,132 @@
         <[vector2_float64][tower_position][9.399140 41.922817]>
         <[float64][tower_height][44.5]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][18]>
-			<[tmvector2d][threshold1][9.405260 41.936375]>
-			<[tmvector2d][endpoint1][9.405260 41.936375]>
-			<[string8]   [appltsys1][calvert-2]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][omni]>
-			<[string8][name2][36]>
-			<[tmvector2d][threshold2][9.405386 41.912857]>
-			<[tmvector2d][endpoint2][9.405386 41.912857]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][45.11]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][9.400854 41.927683]>
-			<[float64][heading][269.61]>
-			<[string8][name][Mil cargo Ramp 10]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][9.400837 41.928376]>
-			<[float64][heading][269.61]>
-			<[string8][name][Mil cargo Ramp 11]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][9.400845 41.926979]>
-			<[float64][heading][269.61]>
-			<[string8][name][Mil cargo Ramp 9]>
-		  >
-		  <[tmsimulator_parking_position][element][3]
-			<[tmvector2d][position][9.399535 41.924087]>
-			<[float64][heading][89.42]>
-			<[string8][name][Military Ramp 1]>
-		  >
-		  <[tmsimulator_parking_position][element][4]
-			<[tmvector2d][position][9.399507 41.927194]>
-			<[float64][heading][89.12]>
-			<[string8][name][Military Ramp 2]>
-		  >
-		  <[tmsimulator_parking_position][element][5]
-			<[tmvector2d][position][9.399513 41.926823]>
-			<[float64][heading][89.12]>
-			<[string8][name][Military Ramp 4]>
-		  >
-		  <[tmsimulator_parking_position][element][6]
-			<[tmvector2d][position][9.399578 41.921677]>
-			<[float64][heading][89.12]>
-			<[string8][name][Military Ramp 6]>
-		  >
-		  <[tmsimulator_parking_position][element][7]
-			<[tmvector2d][position][9.399573 41.921276]>
-			<[float64][heading][89.12]>
-			<[string8][name][Military Ramp 7]>
-		  >
-		  <[tmsimulator_parking_position][element][8]
-			<[tmvector2d][position][9.398977 41.920155]>
-			<[float64][heading][89.12]>
-			<[string8][name][Military Ramp 8]>
-		  >
-		  <[tmsimulator_parking_position][element][9]
-			<[tmvector2d][position][9.399582 41.918620]>
-			<[float64][heading][89.12]>
-			<[string8][name][Military Ramp 9]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][....	ower_obj]>
+                <[vector3_float64][position][9.399140 41.922817]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][....eacon_obj]>
+                <[vector3_float64][position][9.404110 41.924303]>
+            >
+            <[tmsimulator_scenery_object][element][2]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][9.401302 41.922747]>
+            >
+            <[tmsimulator_scenery_object][element][3]
+                <[string8][type][object]>
+                <[string8][geometry][....windsock_obj]>
+                <[vector3_float64][position][9.401302 41.922747]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][18]>
+                <[tmvector2d][threshold1][9.405260 41.936375]>
+                <[tmvector2d][endpoint1][9.405260 41.936375]>
+                <[string8][appltsys1][calvert-2]>
+                <[string8][papi1][left]>
+                <[string8][reil1][omni]>
+                <[string8][name2][36]>
+                <[tmvector2d][threshold2][9.405386 41.912857]>
+                <[tmvector2d][endpoint2][9.405386 41.912857]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][45.11]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+            <[tmsimulator_helipad][element][0]
+                <[tmvector2d][position][9.400353 41.928871]>
+                <[string8][type_name][building]>
+                <[float64][radius][17.1]>
+                <[float64][heading][0.00]>
+                <[float64][height][0]>
+                <[string8][name][H1]>
+            >
+            <[tmsimulator_helipad][element][1]
+                <[tmvector2d][position][9.402824 41.928898]>
+                <[string8][type_name][building]>
+                <[float64][radius][17.1]>
+                <[float64][heading][0.00]>
+                <[float64][height][0]>
+                <[string8][name][H2]>
+            >
+            <[tmsimulator_helipad][element][2]
+                <[tmvector2d][position][9.399966 41.930081]>
+                <[string8][type_name][building]>
+                <[float64][radius][17.1]>
+                <[float64][heading][0.00]>
+                <[float64][height][0]>
+                <[string8][name][H3]>
+            >
+            <[tmsimulator_helipad][element][3]
+                <[tmvector2d][position][9.399958 41.930474]>
+                <[string8][type_name][building]>
+                <[float64][radius][17.1]>
+                <[float64][heading][0.00]>
+                <[float64][height][0]>
+                <[string8][name][H4]>
+            >
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][9.400854 41.927683]>
+                <[float64][heading][269.61]>
+                <[string8][name][Mil cargo Ramp 10]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][9.400837 41.928376]>
+                <[float64][heading][269.61]>
+                <[string8][name][Mil cargo Ramp 11]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][9.400845 41.926979]>
+                <[float64][heading][269.61]>
+                <[string8][name][Mil cargo Ramp 9]>
+            >
+            <[tmsimulator_parking_position][element][3]
+                <[tmvector2d][position][9.399535 41.924087]>
+                <[float64][heading][89.42]>
+                <[string8][name][Military Ramp 1]>
+            >
+            <[tmsimulator_parking_position][element][4]
+                <[tmvector2d][position][9.399507 41.927194]>
+                <[float64][heading][89.12]>
+                <[string8][name][Military Ramp 2]>
+            >
+            <[tmsimulator_parking_position][element][5]
+                <[tmvector2d][position][9.399513 41.926823]>
+                <[float64][heading][89.12]>
+                <[string8][name][Military Ramp 4]>
+            >
+            <[tmsimulator_parking_position][element][6]
+                <[tmvector2d][position][9.399578 41.921677]>
+                <[float64][heading][89.12]>
+                <[string8][name][Military Ramp 6]>
+            >
+            <[tmsimulator_parking_position][element][7]
+                <[tmvector2d][position][9.399573 41.921276]>
+                <[float64][heading][89.12]>
+                <[string8][name][Military Ramp 7]>
+            >
+            <[tmsimulator_parking_position][element][8]
+                <[tmvector2d][position][9.398977 41.920155]>
+                <[float64][heading][89.12]>
+                <[string8][name][Military Ramp 8]>
+            >
+            <[tmsimulator_parking_position][element][9]
+                <[tmvector2d][position][9.399582 41.918620]>
+                <[float64][heading][89.12]>
+                <[string8][name][Military Ramp 9]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >

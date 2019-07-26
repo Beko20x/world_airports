@@ -10,41 +10,55 @@
         <[float64][height][137.8]>
         <[float64][size][5000]>
         <[bool][autoheight][true]>
-		<[list_tmsimulator_runway][runways][]
-		  <[tmsimulator_runway][element][0]
-			<[string8][name1][09]>
-			<[tmvector2d][threshold1][-89.546072 34.384444]>
-			<[tmvector2d][endpoint1][-89.546072 34.384444]>
-			<[string8]   [appltsys1][none]>
-			<[string8]   [papi1][left]>
-			<[string8]   [reil1][none]>
-			<[string8][name2][27]>
-			<[tmvector2d][threshold2][-89.527517 34.384219]>
-			<[tmvector2d][endpoint2][-89.527517 34.384219]>
-			<[string8]   [appltsys2][none]>
-			<[string8]   [papi2][left]>
-			<[string8]   [reil2][omni]>
-			<[float64][width][30.48]>
-		  >
-		>
-		<[list_tmsimulator_helipad][helipads][]
-		>
-		<[list_tmsimulator_parking_position][parking_positions][]
-		  <[tmsimulator_parking_position][element][0]
-			<[tmvector2d][position][-89.539600 34.382921]>
-			<[float64][heading][180.00]>
-			<[string8][name][General Aviation Services]>
-		  >
-		  <[tmsimulator_parking_position][element][1]
-			<[tmvector2d][position][-89.527779 34.383205]>
-			<[float64][heading][55.22]>
-			<[string8][name][Hold Short Rwy 27]>
-		  >
-		  <[tmsimulator_parking_position][element][2]
-			<[tmvector2d][position][-89.545874 34.383435]>
-			<[float64][heading][310.15]>
-			<[string8][name][Hold Short Rwy 9]>
-		  >
-		>
+        <[list_tmsimulator_scenery_object][objects][]
+            <[tmsimulator_scenery_object][element][0]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\beacon_obj]>
+                <[vector3_float64][position][-89.539817 34.381883]>
+            >
+            <[tmsimulator_scenery_object][element][1]
+                <[string8][type][object]>
+                <[string8][geometry][..\..\windsock_obj]>
+                <[vector3_float64][position][-89.537789 34.385305]>
+            >
+        >
+        <[list_tmsimulator_runway][runways][]
+            <[tmsimulator_runway][element][0]
+                <[string8][name1][09]>
+                <[tmvector2d][threshold1][-89.546072 34.384444]>
+                <[tmvector2d][endpoint1][-89.546072 34.384444]>
+                <[string8][appltsys1][none]>
+                <[string8][papi1][left]>
+                <[string8][reil1][none]>
+                <[string8][name2][27]>
+                <[tmvector2d][threshold2][-89.527517 34.384219]>
+                <[tmvector2d][endpoint2][-89.527517 34.384219]>
+                <[string8][appltsys2][none]>
+                <[string8][papi2][left]>
+                <[string8][reil2][omni]>
+                <[float64][width][30.48]>
+            >
+        >
+        <[list_tmsimulator_helipad][helipads][]
+        >
+        <[list_tmsimulator_parking_position][parking_positions][]
+            <[tmsimulator_parking_position][element][0]
+                <[tmvector2d][position][-89.539600 34.382921]>
+                <[float64][heading][180.00]>
+                <[string8][name][General Aviation Services]>
+            >
+            <[tmsimulator_parking_position][element][1]
+                <[tmvector2d][position][-89.527779 34.383205]>
+                <[float64][heading][55.22]>
+                <[string8][name][Hold Short Rwy 27]>
+            >
+            <[tmsimulator_parking_position][element][2]
+                <[tmvector2d][position][-89.545874 34.383435]>
+                <[float64][heading][310.15]>
+                <[string8][name][Hold Short Rwy 9]>
+            >
+        >
+        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
+        >
     >
 >
