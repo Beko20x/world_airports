@@ -1,6 +1,8 @@
 # world_aptdat
  World generic airports for Aerofly FS2 (scenery)
  
+	15453 airports
+ 
  To instal just unzip all or selected airport files into '\Documents\Aerofly FS 2\scenery\places\' folder.
  
  It is recommended to remove duplicated arports on your own.
