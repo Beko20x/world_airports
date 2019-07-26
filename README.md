@@ -1,5 +1,5 @@
 # world_aptdat
- World generic airports for Aerofly FS2 (scenery)
+More than 27,000 generic airports for Aerofly FS2 (scenery)
  
 	15453 airports
  
