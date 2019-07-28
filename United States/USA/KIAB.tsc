@@ -1,86 +1,88 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Mc Connell AFB]>
-        <[string8][lname][Mc Connell AFB, USA]>
-        <[string8][icao][KIAB]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-97.269021 37.623361]>
-        <[float64][height][417.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-97.271698 37.627075]>
-        <[float64][tower_height][478.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][01L]>
-                <[tmvector2d][threshold1][-97.273494 37.607272]>
-                <[tmvector2d][endpoint1][-97.273494 37.607272]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][19R]>
-                <[tmvector2d][threshold2][-97.264547 37.639450]>
-                <[tmvector2d][endpoint2][-97.264547 37.639450]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.96]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][01R]>
-                <[tmvector2d][threshold1][-97.270711 37.606783]>
-                <[tmvector2d][endpoint1][-97.270711 37.606783]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][19L]>
-                <[tmvector2d][threshold2][-97.261758 37.638969]>
-                <[tmvector2d][endpoint2][-97.261758 37.638969]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][91.44]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-97.267624 37.640465]>
-                <[float64][heading][100.00]>
-                <[string8][name][ANG Ramp]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-97.259293 37.628841]>
-                <[float64][heading][90.00]>
-                <[string8][name][Base Ops]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-97.275269 37.622501]>
-                <[float64][heading][0.00]>
-                <[string8][name][Boeing]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-97.262283 37.620403]>
-                <[float64][heading][0.00]>
-                <[string8][name][Hot Cargo]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-97.258743 37.635689]>
-                <[float64][heading][100.00]>
-                <[string8][name][Mass Parking]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-97.261505 37.625038]>
-                <[float64][heading][0.00]>
-                <[string8][name][Trans Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Mc Connell AFB]>
+		<[string8][lname][Mc Connell AFB, USA]>
+		<[string8][icao][KIAB]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-97.269021 37.623361]>
+		<[float64][height][417.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-97.271698 37.627075]>
+		<[float64][tower_height][478.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01L]>
+				<[tmvector2d][threshold1][-97.273494 37.607272]>
+				<[tmvector2d][endpoint1][-97.273494 37.607272]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][19R]>
+				<[tmvector2d][threshold2][-97.264547 37.639450]>
+				<[tmvector2d][endpoint2][-97.264547 37.639450]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.96]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][01R]>
+				<[tmvector2d][threshold1][-97.270711 37.606783]>
+				<[tmvector2d][endpoint1][-97.270711 37.606783]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][19L]>
+				<[tmvector2d][threshold2][-97.261758 37.638969]>
+				<[tmvector2d][endpoint2][-97.261758 37.638969]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][91.44]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-97.267624 37.640465]>
+				<[float64][heading][100.00]>
+				<[string8][name][ANG Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-97.259293 37.628841]>
+				<[float64][heading][90.00]>
+				<[string8][name][Base Ops]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-97.275269 37.622501]>
+				<[float64][heading][0.00]>
+				<[string8][name][Boeing]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-97.262283 37.620403]>
+				<[float64][heading][0.00]>
+				<[string8][name][Hot Cargo]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-97.258743 37.635689]>
+				<[float64][heading][100.00]>
+				<[string8][name][Mass Parking]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-97.261505 37.625038]>
+				<[float64][heading][0.00]>
+				<[string8][name][Trans Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KIAB_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

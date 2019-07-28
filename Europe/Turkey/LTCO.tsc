@@ -1,39 +1,41 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][AGRI]>
-        <[string8][lname][AGRI, Turkey]>
-        <[string8][icao][LTCO]>
-        <[string8][country][tr]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][43.027151 39.654571]>
-        <[float64][height][1664.8]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][43.024083 39.663244]>
-                <[tmvector2d][endpoint1][43.024083 39.663244]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][none]>
-                <[string8][reil1][omni]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][43.030219 39.645897]>
-                <[tmvector2d][endpoint2][43.030219 39.645897]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][AGRI]>
+		<[string8][lname][AGRI, Turkey]>
+		<[string8][icao][LTCO]>
+		<[string8][country][tr]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][43.027151 39.654571]>
+		<[float64][height][1664.8]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][43.024083 39.663244]>
+				<[tmvector2d][endpoint1][43.024083 39.663244]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][none]>
+				<[string8][reil1][omni]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][43.030219 39.645897]>
+				<[tmvector2d][endpoint2][43.030219 39.645897]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LTCO_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

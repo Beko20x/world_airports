@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][KHARTOUM]>
-        <[string8][lname][KHARTOUM, Sudan]>
-        <[string8][icao][HSSS]>
-        <[string8][country][sd]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][32.553160 15.589499]>
-        <[float64][height][385.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][32.551426 15.588005]>
-        <[float64][tower_height][394.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][18]>
-                <[tmvector2d][threshold1][32.553033 15.602956]>
-                <[tmvector2d][endpoint1][32.553033 15.602956]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][36]>
-                <[tmvector2d][threshold2][32.553286 15.576042]>
-                <[tmvector2d][endpoint2][32.553286 15.576042]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][32.547375 15.602118]>
-                <[float64][heading][0.00]>
-                <[string8][name][Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][KHARTOUM]>
+		<[string8][lname][KHARTOUM, Sudan]>
+		<[string8][icao][HSSS]>
+		<[string8][country][sd]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][32.553160 15.589499]>
+		<[float64][height][385.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][32.551426 15.588005]>
+		<[float64][tower_height][394.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][32.553033 15.602956]>
+				<[tmvector2d][endpoint1][32.553033 15.602956]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][32.553286 15.576042]>
+				<[tmvector2d][endpoint2][32.553286 15.576042]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][32.547375 15.602118]>
+				<[float64][heading][0.00]>
+				<[string8][name][Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][HSSS_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

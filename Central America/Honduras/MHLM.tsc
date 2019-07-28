@@ -1,41 +1,43 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][La Mesa Intl]>
-        <[string8][lname][La Mesa Intl, Honduras]>
-        <[string8][icao][MHLM]>
-        <[string8][country][hn]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-87.924153 15.451957]>
-        <[float64][height][27.7]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-87.929443 15.450295]>
-        <[float64][tower_height][27.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-87.930806 15.444336]>
-                <[tmvector2d][endpoint1][-87.932603 15.442278]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-87.915703 15.461636]>
-                <[tmvector2d][endpoint2][-87.915703 15.461636]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][La Mesa Intl]>
+		<[string8][lname][La Mesa Intl, Honduras]>
+		<[string8][icao][MHLM]>
+		<[string8][country][hn]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-87.924153 15.451957]>
+		<[float64][height][27.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-87.929443 15.450295]>
+		<[float64][tower_height][27.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-87.930806 15.444336]>
+				<[tmvector2d][endpoint1][-87.932603 15.442278]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-87.915703 15.461636]>
+				<[tmvector2d][endpoint2][-87.915703 15.461636]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][MHLM_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

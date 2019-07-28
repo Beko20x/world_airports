@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][GORDON MUNI]>
-        <[string8][lname][GORDON MUNI, USA]>
-        <[string8][icao][KGRN]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-102.173897 42.806697]>
-        <[float64][height][1085.7]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-102.178945 42.801880]>
-        <[float64][tower_height][1087.5]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-102.181192 42.801979]>
-                <[tmvector2d][endpoint1][-102.181192 42.801979]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-102.166602 42.811416]>
-                <[tmvector2d][endpoint2][-102.166602 42.811416]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-102.181993 42.806049]>
-                <[tmvector2d][endpoint1][-102.181993 42.806049]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-102.174727 42.802611]>
-                <[tmvector2d][endpoint2][-102.174727 42.802611]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][14.94]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-102.178297 42.801684]>
-                <[float64][heading][271.40]>
-                <[string8][name][New Ramp Start 1]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][GORDON MUNI]>
+		<[string8][lname][GORDON MUNI, USA]>
+		<[string8][icao][KGRN]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-102.173897 42.806697]>
+		<[float64][height][1085.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-102.178945 42.801880]>
+		<[float64][tower_height][1087.5]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-102.181192 42.801979]>
+				<[tmvector2d][endpoint1][-102.181192 42.801979]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-102.166602 42.811416]>
+				<[tmvector2d][endpoint2][-102.166602 42.811416]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-102.181993 42.806049]>
+				<[tmvector2d][endpoint1][-102.181993 42.806049]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-102.174727 42.802611]>
+				<[tmvector2d][endpoint2][-102.174727 42.802611]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][14.94]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-102.178297 42.801684]>
+				<[float64][heading][271.40]>
+				<[string8][name][New Ramp Start 1]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KGRN_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,82 +1,84 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Pristina Intl]>
-        <[string8][lname][Pristina Intl, Kosovo]>
-        <[string8][icao][BKPR]>
-        <[string8][country][xk]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][21.035685 42.574531]>
-        <[float64][height][545.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][21.030307 42.582916]>
-        <[float64][tower_height][570.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][21.034546 42.585700]>
-                <[tmvector2d][endpoint1][21.034546 42.585700]>
-                <[string8][appltsys1][calvert]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][21.036823 42.563361]>
-                <[tmvector2d][endpoint2][21.036823 42.563361]>
-                <[string8][appltsys2][calvert]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][21.031659 42.583066]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][21.027330 42.582201]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][134.96]>
-                <[float64][height][0]>
-                <[string8][name][H2]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][21.030548 42.583986]>
-                <[float64][heading][30.35]>
-                <[string8][name][Apron Stand 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][21.030548 42.584481]>
-                <[float64][heading][30.35]>
-                <[string8][name][Apron Stand 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][21.030500 42.585007]>
-                <[float64][heading][30.35]>
-                <[string8][name][Apron Stand 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][21.030479 42.585509]>
-                <[float64][heading][30.35]>
-                <[string8][name][Apron Stand 4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][21.030458 42.586029]>
-                <[float64][heading][30.35]>
-                <[string8][name][Apron Stand 5]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Pristina Intl]>
+		<[string8][lname][Pristina Intl, Kosovo]>
+		<[string8][icao][BKPR]>
+		<[string8][country][xk]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][21.035685 42.574531]>
+		<[float64][height][545.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][21.030307 42.582916]>
+		<[float64][tower_height][570.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][21.034546 42.585700]>
+				<[tmvector2d][endpoint1][21.034546 42.585700]>
+				<[string8][appltsys1][calvert]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][21.036823 42.563361]>
+				<[tmvector2d][endpoint2][21.036823 42.563361]>
+				<[string8][appltsys2][calvert]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][21.031659 42.583066]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][21.027330 42.582201]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][134.96]>
+				<[float64][height][0]>
+				<[string8][name][H2]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][21.030548 42.583986]>
+				<[float64][heading][30.35]>
+				<[string8][name][Apron Stand 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][21.030548 42.584481]>
+				<[float64][heading][30.35]>
+				<[string8][name][Apron Stand 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][21.030500 42.585007]>
+				<[float64][heading][30.35]>
+				<[string8][name][Apron Stand 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][21.030479 42.585509]>
+				<[float64][heading][30.35]>
+				<[string8][name][Apron Stand 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][21.030458 42.586029]>
+				<[float64][heading][30.35]>
+				<[string8][name][Apron Stand 5]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][BKPR_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

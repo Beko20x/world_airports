@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Yorkton Muni]>
-        <[string8][lname][Yorkton Muni, Canada]>
-        <[string8][icao][CYQV]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-102.462226 51.265282]>
-        <[float64][height][498.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-102.464361 51.259071]>
-        <[float64][tower_height][508.1]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][03]>
-                <[tmvector2d][threshold1][-102.469610 51.260662]>
-                <[tmvector2d][endpoint1][-102.469610 51.260662]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][21]>
-                <[tmvector2d][threshold2][-102.454842 51.269902]>
-                <[tmvector2d][endpoint2][-102.454842 51.269902]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][12]>
-                <[tmvector2d][threshold1][-102.462367 51.266154]>
-                <[tmvector2d][endpoint1][-102.462367 51.266154]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][30]>
-                <[tmvector2d][threshold2][-102.460494 51.264982]>
-                <[tmvector2d][endpoint2][-102.460494 51.264982]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-102.460521 51.264999]>
-                <[tmvector2d][endpoint1][-102.460521 51.264999]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-102.453064 51.260333]>
-                <[tmvector2d][endpoint2][-102.453064 51.260333]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][35.97]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-102.465676 51.259213]>
-                <[float64][heading][0.00]>
-                <[string8][name][Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Yorkton Muni]>
+		<[string8][lname][Yorkton Muni, Canada]>
+		<[string8][icao][CYQV]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-102.462226 51.265282]>
+		<[float64][height][498.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-102.464361 51.259071]>
+		<[float64][tower_height][508.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][03]>
+				<[tmvector2d][threshold1][-102.469610 51.260662]>
+				<[tmvector2d][endpoint1][-102.469610 51.260662]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][21]>
+				<[tmvector2d][threshold2][-102.454842 51.269902]>
+				<[tmvector2d][endpoint2][-102.454842 51.269902]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][12]>
+				<[tmvector2d][threshold1][-102.462367 51.266154]>
+				<[tmvector2d][endpoint1][-102.462367 51.266154]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][30]>
+				<[tmvector2d][threshold2][-102.460494 51.264982]>
+				<[tmvector2d][endpoint2][-102.460494 51.264982]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-102.460521 51.264999]>
+				<[tmvector2d][endpoint1][-102.460521 51.264999]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-102.453064 51.260333]>
+				<[tmvector2d][endpoint2][-102.453064 51.260333]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][35.97]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-102.465676 51.259213]>
+				<[float64][heading][0.00]>
+				<[string8][name][Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][CYQV_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

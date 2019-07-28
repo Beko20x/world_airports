@@ -1,62 +1,64 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][GNOSS FLD]>
-        <[string8][lname][GNOSS FLD, USA]>
-        <[string8][icao][KDVO]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-122.556124 38.143602]>
-        <[float64][height][0.6]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][-122.559125 38.147464]>
-                <[tmvector2d][endpoint1][-122.559125 38.147464]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][-122.553122 38.139739]>
-                <[tmvector2d][endpoint2][-122.553122 38.139739]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-122.551138 38.139985]>
-                <[string8][type_name][building]>
-                <[float64][radius][9.0]>
-                <[float64][heading][57.79]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-122.555600 38.140013]>
-                <[float64][heading][238.86]>
-                <[string8][name][Corporate Jet Start]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-122.550143 38.141056]>
-                <[float64][heading][134.73]>
-                <[string8][name][East Hangars Start]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-122.555523 38.141003]>
-                <[float64][heading][238.77]>
-                <[string8][name][Ramp Start]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][GNOSS FLD]>
+		<[string8][lname][GNOSS FLD, USA]>
+		<[string8][icao][KDVO]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-122.556124 38.143602]>
+		<[float64][height][0.6]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-122.559125 38.147464]>
+				<[tmvector2d][endpoint1][-122.559125 38.147464]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-122.553122 38.139739]>
+				<[tmvector2d][endpoint2][-122.553122 38.139739]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-122.551138 38.139985]>
+				<[string8][type_name][building]>
+				<[float64][radius][9.0]>
+				<[float64][heading][57.79]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-122.555600 38.140013]>
+				<[float64][heading][238.86]>
+				<[string8][name][Corporate Jet Start]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-122.550143 38.141056]>
+				<[float64][heading][134.73]>
+				<[string8][name][East Hangars Start]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-122.555523 38.141003]>
+				<[float64][heading][238.77]>
+				<[string8][name][Ramp Start]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KDVO_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

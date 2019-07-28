@@ -1,69 +1,71 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Hancock Co Bar Harbor]>
-        <[string8][lname][Hancock Co Bar Harbor, USA]>
-        <[string8][icao][KBHB]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-68.363136 44.450354]>
-        <[float64][height][25.3]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-68.367286 44.443866]>
-                <[tmvector2d][endpoint1][-68.367286 44.443866]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-68.358987 44.456841]>
-                <[tmvector2d][endpoint2][-68.358987 44.456841]>
-                <[string8][appltsys2][malsf]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][-68.360491 44.450597]>
-                <[tmvector2d][endpoint1][-68.362197 44.452673]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][-68.355958 44.445081]>
-                <[tmvector2d][endpoint2][-68.355678 44.444740]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-68.363119 44.444679]>
-                <[float64][heading][295.87]>
-                <[string8][name][GA ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-68.363578 44.446051]>
-                <[float64][heading][117.15]>
-                <[string8][name][GA ramp 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-68.360449 44.446564]>
-                <[float64][heading][358.67]>
-                <[string8][name][GA ramp 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Hancock Co Bar Harbor]>
+		<[string8][lname][Hancock Co Bar Harbor, USA]>
+		<[string8][icao][KBHB]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-68.363136 44.450354]>
+		<[float64][height][25.3]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-68.367286 44.443866]>
+				<[tmvector2d][endpoint1][-68.367286 44.443866]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-68.358987 44.456841]>
+				<[tmvector2d][endpoint2][-68.358987 44.456841]>
+				<[string8][appltsys2][malsf]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-68.360491 44.450597]>
+				<[tmvector2d][endpoint1][-68.362197 44.452673]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-68.355958 44.445081]>
+				<[tmvector2d][endpoint2][-68.355678 44.444740]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-68.363119 44.444679]>
+				<[float64][heading][295.87]>
+				<[string8][name][GA ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-68.363578 44.446051]>
+				<[float64][heading][117.15]>
+				<[string8][name][GA ramp 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-68.360449 44.446564]>
+				<[float64][heading][358.67]>
+				<[string8][name][GA ramp 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KBHB_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Seething]>
-        <[string8][lname][Seething, United Kingdom]>
-        <[string8][icao][EGSJ]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][1.417172 52.510961]>
-        <[float64][height][39.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][1.417675 52.509605]>
-        <[float64][tower_height][48.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][1.412109 52.509118]>
-                <[tmvector2d][endpoint1][1.412109 52.509118]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][1.422235 52.512805]>
-                <[tmvector2d][endpoint2][1.422235 52.512805]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][17.98]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][1.416146 52.509991]>
-                <[float64][heading][250.91]>
-                <[string8][name][EGSJ Seething Ramp #1]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Seething]>
+		<[string8][lname][Seething, United Kingdom]>
+		<[string8][icao][EGSJ]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][1.417172 52.510961]>
+		<[float64][height][39.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][1.417675 52.509605]>
+		<[float64][tower_height][48.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][1.412109 52.509118]>
+				<[tmvector2d][endpoint1][1.412109 52.509118]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][1.422235 52.512805]>
+				<[tmvector2d][endpoint2][1.422235 52.512805]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][17.98]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][1.416146 52.509991]>
+				<[float64][heading][250.91]>
+				<[string8][name][EGSJ Seething Ramp #1]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EGSJ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

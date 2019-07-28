@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Prince Rupert]>
-        <[string8][lname][Prince Rupert, Canada]>
-        <[string8][icao][CYPR]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-130.444717 54.286114]>
-        <[float64][height][35.4]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-130.445013 54.290916]>
-        <[float64][tower_height][135.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][-130.451652 54.293337]>
-                <[tmvector2d][endpoint1][-130.451652 54.293337]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][-130.437782 54.278891]>
-                <[tmvector2d][endpoint2][-130.437782 54.278891]>
-                <[string8][appltsys2][odals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-130.447185 54.292933]>
-                <[float64][heading][63.00]>
-                <[string8][name][Gate 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-130.445583 54.292300]>
-                <[float64][heading][242.00]>
-                <[string8][name][North GA Ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-130.445741 54.291835]>
-                <[float64][heading][332.00]>
-                <[string8][name][South East GA Ramp 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-130.436977 54.279256]>
-                <[float64][heading][268.02]>
-                <[string8][name][Turnout 31]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Prince Rupert]>
+		<[string8][lname][Prince Rupert, Canada]>
+		<[string8][icao][CYPR]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-130.444717 54.286114]>
+		<[float64][height][35.4]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-130.445013 54.290916]>
+		<[float64][tower_height][135.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-130.451652 54.293337]>
+				<[tmvector2d][endpoint1][-130.451652 54.293337]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-130.437782 54.278891]>
+				<[tmvector2d][endpoint2][-130.437782 54.278891]>
+				<[string8][appltsys2][odals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-130.447185 54.292933]>
+				<[float64][heading][63.00]>
+				<[string8][name][Gate 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-130.445583 54.292300]>
+				<[float64][heading][242.00]>
+				<[string8][name][North GA Ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-130.445741 54.291835]>
+				<[float64][heading][332.00]>
+				<[string8][name][South East GA Ramp 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-130.436977 54.279256]>
+				<[float64][heading][268.02]>
+				<[string8][name][Turnout 31]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][CYPR_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Balikpapan/Sepinggan]>
-        <[string8][lname][Balikpapan/Sepinggan, Indonesia]>
-        <[string8][icao][WALL]>
-        <[string8][country][id]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][116.894478 -1.268272]>
-        <[float64][height][3.7]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][116.895164 -1.263732]>
-        <[float64][tower_height][14.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][07]>
-                <[tmvector2d][threshold1][116.884150 -1.272661]>
-                <[tmvector2d][endpoint1][116.884150 -1.272661]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][25]>
-                <[tmvector2d][threshold2][116.904806 -1.263883]>
-                <[tmvector2d][endpoint2][116.904806 -1.263883]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][116.900307 -1.262065]>
-                <[float64][heading][157.00]>
-                <[string8][name][Platform]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Balikpapan/Sepinggan]>
+		<[string8][lname][Balikpapan/Sepinggan, Indonesia]>
+		<[string8][icao][WALL]>
+		<[string8][country][id]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][116.894478 -1.268272]>
+		<[float64][height][3.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][116.895164 -1.263732]>
+		<[float64][tower_height][14.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][116.884150 -1.272661]>
+				<[tmvector2d][endpoint1][116.884150 -1.272661]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][116.904806 -1.263883]>
+				<[tmvector2d][endpoint2][116.904806 -1.263883]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][116.900307 -1.262065]>
+				<[float64][heading][157.00]>
+				<[string8][name][Platform]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][WALL_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

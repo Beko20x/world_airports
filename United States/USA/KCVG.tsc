@@ -1,121 +1,123 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Cincinnati Northern Kentucky Intl]>
-        <[string8][lname][Cincinnati Northern Kentucky Intl, USA]>
-        <[string8][icao][KCVG]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-84.683781 39.059901]>
-        <[float64][height][273.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-84.658398 39.040878]>
-        <[float64][tower_height][334.1]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][18R]>
-                <[tmvector2d][threshold1][-84.683739 39.070883]>
-                <[tmvector2d][endpoint1][-84.683739 39.070883]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][36L]>
-                <[tmvector2d][threshold2][-84.683822 39.048919]>
-                <[tmvector2d][endpoint2][-84.683822 39.048919]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][18C]>
-                <[tmvector2d][threshold1][-84.668617 39.064742]>
-                <[tmvector2d][endpoint1][-84.668617 39.064742]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][36C]>
-                <[tmvector2d][threshold2][-84.668742 39.034544]>
-                <[tmvector2d][endpoint2][-84.668742 39.034544]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][18L]>
-                <[tmvector2d][threshold1][-84.646667 39.055856]>
-                <[tmvector2d][endpoint1][-84.646667 39.055856]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][36R]>
-                <[tmvector2d][threshold2][-84.646794 39.028400]>
-                <[tmvector2d][endpoint2][-84.646794 39.028400]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][3]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][-84.695100 39.046364]>
-                <[tmvector2d][endpoint1][-84.695100 39.046364]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][-84.652850 39.046261]>
-                <[tmvector2d][endpoint2][-84.652850 39.046261]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-84.656890 39.043241]>
-                <[float64][heading][270.00]>
-                <[string8][name][Delta Jet Center]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-84.667051 39.064598]>
-                <[float64][heading][270.00]>
-                <[string8][name][Hold Short Rwy 18C]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-84.648393 39.055722]>
-                <[float64][heading][90.00]>
-                <[string8][name][Hold Short Rwy 18L]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-84.653027 39.047372]>
-                <[float64][heading][180.00]>
-                <[string8][name][Hold Short Rwy 27]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-84.667380 39.034691]>
-                <[float64][heading][270.00]>
-                <[string8][name][Hold Short Rwy 36C]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-84.648483 39.028535]>
-                <[float64][heading][90.00]>
-                <[string8][name][Hold Short Rwy 36R]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-84.694894 39.047361]>
-                <[float64][heading][180.00]>
-                <[string8][name][Hold Short Rwy 9]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Cincinnati Northern Kentucky Intl]>
+		<[string8][lname][Cincinnati Northern Kentucky Intl, USA]>
+		<[string8][icao][KCVG]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-84.683781 39.059901]>
+		<[float64][height][273.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-84.658398 39.040878]>
+		<[float64][tower_height][334.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][18R]>
+				<[tmvector2d][threshold1][-84.683739 39.070883]>
+				<[tmvector2d][endpoint1][-84.683739 39.070883]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][36L]>
+				<[tmvector2d][threshold2][-84.683822 39.048919]>
+				<[tmvector2d][endpoint2][-84.683822 39.048919]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][18C]>
+				<[tmvector2d][threshold1][-84.668617 39.064742]>
+				<[tmvector2d][endpoint1][-84.668617 39.064742]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][36C]>
+				<[tmvector2d][threshold2][-84.668742 39.034544]>
+				<[tmvector2d][endpoint2][-84.668742 39.034544]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][18L]>
+				<[tmvector2d][threshold1][-84.646667 39.055856]>
+				<[tmvector2d][endpoint1][-84.646667 39.055856]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][36R]>
+				<[tmvector2d][threshold2][-84.646794 39.028400]>
+				<[tmvector2d][endpoint2][-84.646794 39.028400]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][3]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-84.695100 39.046364]>
+				<[tmvector2d][endpoint1][-84.695100 39.046364]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-84.652850 39.046261]>
+				<[tmvector2d][endpoint2][-84.652850 39.046261]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-84.656890 39.043241]>
+				<[float64][heading][270.00]>
+				<[string8][name][Delta Jet Center]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-84.667051 39.064598]>
+				<[float64][heading][270.00]>
+				<[string8][name][Hold Short Rwy 18C]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-84.648393 39.055722]>
+				<[float64][heading][90.00]>
+				<[string8][name][Hold Short Rwy 18L]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-84.653027 39.047372]>
+				<[float64][heading][180.00]>
+				<[string8][name][Hold Short Rwy 27]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-84.667380 39.034691]>
+				<[float64][heading][270.00]>
+				<[string8][name][Hold Short Rwy 36C]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-84.648483 39.028535]>
+				<[float64][heading][90.00]>
+				<[string8][name][Hold Short Rwy 36R]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-84.694894 39.047361]>
+				<[float64][heading][180.00]>
+				<[string8][name][Hold Short Rwy 9]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KCVG_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

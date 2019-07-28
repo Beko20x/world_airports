@@ -1,39 +1,41 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][CAPE CANAVERAL AFS SKID STRIP]>
-        <[string8][lname][CAPE CANAVERAL AFS SKID STRIP, USA]>
-        <[string8][icao][KXMR]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-80.566615 28.467586]>
-        <[float64][height][3.0]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][-80.578911 28.476011]>
-                <[tmvector2d][endpoint1][-80.578911 28.476011]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][-80.554319 28.459161]>
-                <[tmvector2d][endpoint2][-80.554319 28.459161]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][CAPE CANAVERAL AFS SKID STRIP]>
+		<[string8][lname][CAPE CANAVERAL AFS SKID STRIP, USA]>
+		<[string8][icao][KXMR]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-80.566615 28.467586]>
+		<[float64][height][3.0]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-80.578911 28.476011]>
+				<[tmvector2d][endpoint1][-80.578911 28.476011]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-80.554319 28.459161]>
+				<[tmvector2d][endpoint2][-80.554319 28.459161]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KXMR_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

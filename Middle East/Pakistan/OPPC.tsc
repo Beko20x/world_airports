@@ -1,51 +1,53 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Parachinar]>
-        <[string8][lname][Parachinar, Pakistan]>
-        <[string8][icao][OPPC]>
-        <[string8][country][pk]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][70.071389 33.902778]>
-        <[float64][height][1767.5]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][70.071905 33.905638]>
-        <[float64][tower_height][1772.4]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][70.069367 33.908000]>
-                <[tmvector2d][endpoint1][70.069367 33.908000]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][70.073410 33.897556]>
-                <[tmvector2d][endpoint2][70.073410 33.897556]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][23.16]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][70.071405 33.905675]>
-                <[float64][heading][162.80]>
-                <[string8][name][Ramp N]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][70.071446 33.905561]>
-                <[float64][heading][343.49]>
-                <[string8][name][Ramp S]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Parachinar]>
+		<[string8][lname][Parachinar, Pakistan]>
+		<[string8][icao][OPPC]>
+		<[string8][country][pk]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][70.071389 33.902778]>
+		<[float64][height][1767.5]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][70.071905 33.905638]>
+		<[float64][tower_height][1772.4]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][70.069367 33.908000]>
+				<[tmvector2d][endpoint1][70.069367 33.908000]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][70.073410 33.897556]>
+				<[tmvector2d][endpoint2][70.073410 33.897556]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][23.16]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][70.071405 33.905675]>
+				<[float64][heading][162.80]>
+				<[string8][name][Ramp N]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][70.071446 33.905561]>
+				<[float64][heading][343.49]>
+				<[string8][name][Ramp S]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][OPPC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

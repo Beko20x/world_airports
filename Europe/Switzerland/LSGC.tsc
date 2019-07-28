@@ -1,56 +1,58 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Les Eplatures]>
-        <[string8][lname][Les Eplatures, Switzerland]>
-        <[string8][icao][LSGC]>
-        <[string8][country][ch]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][6.793497 47.084154]>
-        <[float64][height][1026.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][6.796580 47.085077]>
-        <[float64][tower_height][1041.5]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][6.788006 47.081434]>
-                <[tmvector2d][endpoint1][6.787440 47.081153]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][6.798747 47.086754]>
-                <[tmvector2d][endpoint2][6.799554 47.087154]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][28.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][6.795279 47.084669]>
-                <[float64][heading][51.69]>
-                <[string8][name][PRKG BLUE]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][6.794370 47.084027]>
-                <[float64][heading][53.87]>
-                <[string8][name][PRKG GREEN]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][6.797091 47.085451]>
-                <[float64][heading][55.89]>
-                <[string8][name][PRKG RED]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Les Eplatures]>
+		<[string8][lname][Les Eplatures, Switzerland]>
+		<[string8][icao][LSGC]>
+		<[string8][country][ch]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][6.793497 47.084154]>
+		<[float64][height][1026.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][6.796580 47.085077]>
+		<[float64][tower_height][1041.5]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][6.788006 47.081434]>
+				<[tmvector2d][endpoint1][6.787440 47.081153]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][6.798747 47.086754]>
+				<[tmvector2d][endpoint2][6.799554 47.087154]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][28.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][6.795279 47.084669]>
+				<[float64][heading][51.69]>
+				<[string8][name][PRKG BLUE]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][6.794370 47.084027]>
+				<[float64][heading][53.87]>
+				<[string8][name][PRKG GREEN]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][6.797091 47.085451]>
+				<[float64][heading][55.89]>
+				<[string8][name][PRKG RED]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LSGC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

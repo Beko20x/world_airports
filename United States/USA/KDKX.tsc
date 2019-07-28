@@ -1,138 +1,140 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Knoxville Downtown Island]>
-        <[string8][lname][Knoxville Downtown Island, USA]>
-        <[string8][icao][KDKX]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-83.873665 35.963825]>
-        <[float64][height][253.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-83.874085 35.962196]>
-        <[float64][tower_height][284.4]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][-83.879376 35.962592]>
-                <[tmvector2d][endpoint1][-83.879376 35.962592]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-83.867954 35.965058]>
-                <[tmvector2d][endpoint2][-83.867954 35.965058]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-83.872970 35.962725]>
-                <[string8][type_name][building]>
-                <[float64][radius][4.0]>
-                <[float64][heading][345.00]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][-83.875722 35.962042]>
-                <[string8][type_name][building]>
-                <[float64][radius][3.1]>
-                <[float64][heading][164.00]>
-                <[float64][height][0]>
-                <[string8][name][H2]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][-83.875603 35.962070]>
-                <[string8][type_name][building]>
-                <[float64][radius][3.1]>
-                <[float64][heading][164.00]>
-                <[float64][height][0]>
-                <[string8][name][H3]>
-            >
-            <[tmsimulator_helipad][element][3]
-                <[tmvector2d][position][-83.875491 35.962095]>
-                <[string8][type_name][building]>
-                <[float64][radius][3.1]>
-                <[float64][heading][164.00]>
-                <[float64][height][0]>
-                <[string8][name][H4]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-83.875430 35.962113]>
-                <[float64][heading][164.00]>
-                <[string8][name][Flight School 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-83.875292 35.962146]>
-                <[float64][heading][164.00]>
-                <[string8][name][Flight School 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-83.875144 35.962178]>
-                <[float64][heading][164.00]>
-                <[string8][name][Flight School 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-83.875004 35.962210]>
-                <[float64][heading][164.00]>
-                <[string8][name][Flight School 4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-83.874898 35.962002]>
-                <[float64][heading][344.00]>
-                <[string8][name][Flight School 5]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-83.875191 35.961941]>
-                <[float64][heading][344.00]>
-                <[string8][name][Flight School 6]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-83.872271 35.962455]>
-                <[float64][heading][346.00]>
-                <[string8][name][GA Parking 1]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-83.872108 35.962475]>
-                <[float64][heading][346.00]>
-                <[string8][name][GA Parking 2]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][-83.873892 35.962513]>
-                <[float64][heading][72.00]>
-                <[string8][name][Knox Air 1]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][-83.873826 35.962312]>
-                <[float64][heading][72.00]>
-                <[string8][name][Knox Air 2]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][-83.873519 35.962606]>
-                <[float64][heading][345.00]>
-                <[string8][name][Knox Air 3]>
-            >
-            <[tmsimulator_parking_position][element][11]
-                <[tmvector2d][position][-83.873307 35.962653]>
-                <[float64][heading][345.00]>
-                <[string8][name][Knox Air 4]>
-            >
-            <[tmsimulator_parking_position][element][12]
-                <[tmvector2d][position][-83.873130 35.962690]>
-                <[float64][heading][345.00]>
-                <[string8][name][Knox Air 5]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Knoxville Downtown Island]>
+		<[string8][lname][Knoxville Downtown Island, USA]>
+		<[string8][icao][KDKX]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-83.873665 35.963825]>
+		<[float64][height][253.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-83.874085 35.962196]>
+		<[float64][tower_height][284.4]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-83.879376 35.962592]>
+				<[tmvector2d][endpoint1][-83.879376 35.962592]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-83.867954 35.965058]>
+				<[tmvector2d][endpoint2][-83.867954 35.965058]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-83.872970 35.962725]>
+				<[string8][type_name][building]>
+				<[float64][radius][4.0]>
+				<[float64][heading][345.00]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][-83.875722 35.962042]>
+				<[string8][type_name][building]>
+				<[float64][radius][3.1]>
+				<[float64][heading][164.00]>
+				<[float64][height][0]>
+				<[string8][name][H2]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][-83.875603 35.962070]>
+				<[string8][type_name][building]>
+				<[float64][radius][3.1]>
+				<[float64][heading][164.00]>
+				<[float64][height][0]>
+				<[string8][name][H3]>
+			>
+			<[tmsimulator_helipad][element][3]
+				<[tmvector2d][position][-83.875491 35.962095]>
+				<[string8][type_name][building]>
+				<[float64][radius][3.1]>
+				<[float64][heading][164.00]>
+				<[float64][height][0]>
+				<[string8][name][H4]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-83.875430 35.962113]>
+				<[float64][heading][164.00]>
+				<[string8][name][Flight School 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-83.875292 35.962146]>
+				<[float64][heading][164.00]>
+				<[string8][name][Flight School 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-83.875144 35.962178]>
+				<[float64][heading][164.00]>
+				<[string8][name][Flight School 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-83.875004 35.962210]>
+				<[float64][heading][164.00]>
+				<[string8][name][Flight School 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-83.874898 35.962002]>
+				<[float64][heading][344.00]>
+				<[string8][name][Flight School 5]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-83.875191 35.961941]>
+				<[float64][heading][344.00]>
+				<[string8][name][Flight School 6]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-83.872271 35.962455]>
+				<[float64][heading][346.00]>
+				<[string8][name][GA Parking 1]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-83.872108 35.962475]>
+				<[float64][heading][346.00]>
+				<[string8][name][GA Parking 2]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-83.873892 35.962513]>
+				<[float64][heading][72.00]>
+				<[string8][name][Knox Air 1]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-83.873826 35.962312]>
+				<[float64][heading][72.00]>
+				<[string8][name][Knox Air 2]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-83.873519 35.962606]>
+				<[float64][heading][345.00]>
+				<[string8][name][Knox Air 3]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][-83.873307 35.962653]>
+				<[float64][heading][345.00]>
+				<[string8][name][Knox Air 4]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-83.873130 35.962690]>
+				<[float64][heading][345.00]>
+				<[string8][name][Knox Air 5]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KDKX_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

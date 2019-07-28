@@ -1,69 +1,71 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][GRAND RAPIDS ITASCA CO GORDON NEWSTROM]>
-        <[string8][lname][GRAND RAPIDS ITASCA CO GORDON NEWSTROM, USA]>
-        <[string8][icao][KGPZ]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-93.510317 47.207039]>
-        <[float64][height][413.0]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-93.512048 47.211639]>
-                <[tmvector2d][endpoint1][-93.513192 47.214681]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-93.507442 47.199397]>
-                <[tmvector2d][endpoint2][-93.507442 47.199397]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-93.511903 47.211964]>
-                <[tmvector2d][endpoint1][-93.511903 47.211964]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-93.503356 47.217647]>
-                <[tmvector2d][endpoint2][-93.503356 47.217647]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][-93.512268 47.216217]>
-                <[tmvector2d][endpoint1][-93.512268 47.216217]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][-93.506617 47.215228]>
-                <[tmvector2d][endpoint2][-93.506617 47.215228]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][GRAND RAPIDS ITASCA CO GORDON NEWSTROM]>
+		<[string8][lname][GRAND RAPIDS ITASCA CO GORDON NEWSTROM, USA]>
+		<[string8][icao][KGPZ]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-93.510317 47.207039]>
+		<[float64][height][413.0]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-93.512048 47.211639]>
+				<[tmvector2d][endpoint1][-93.513192 47.214681]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-93.507442 47.199397]>
+				<[tmvector2d][endpoint2][-93.507442 47.199397]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-93.511903 47.211964]>
+				<[tmvector2d][endpoint1][-93.511903 47.211964]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-93.503356 47.217647]>
+				<[tmvector2d][endpoint2][-93.503356 47.217647]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][-93.512268 47.216217]>
+				<[tmvector2d][endpoint1][-93.512268 47.216217]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][-93.506617 47.215228]>
+				<[tmvector2d][endpoint2][-93.506617 47.215228]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KGPZ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

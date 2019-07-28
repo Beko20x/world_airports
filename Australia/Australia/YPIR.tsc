@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Port Pirie]>
-        <[string8][lname][Port Pirie, Australia]>
-        <[string8][icao][YPIR]>
-        <[string8][country][au]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][137.996892 -33.238141]>
-        <[float64][height][11.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][137.998819 -33.236296]>
-        <[float64][tower_height][13.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][137.991294 -33.238132]>
-                <[tmvector2d][endpoint1][137.991294 -33.238132]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][138.002490 -33.238149]>
-                <[tmvector2d][endpoint2][138.002490 -33.238149]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][20.12]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][137.991517 -33.235051]>
-                <[tmvector2d][endpoint1][137.991517 -33.235051]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][137.991429 -33.244882]>
-                <[tmvector2d][endpoint2][137.991429 -33.244882]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][35.97]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][03]>
-                <[tmvector2d][threshold1][137.998069 -33.241025]>
-                <[tmvector2d][endpoint1][137.998069 -33.241025]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][21]>
-                <[tmvector2d][threshold2][138.002889 -33.236548]>
-                <[tmvector2d][endpoint2][138.002889 -33.236548]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][137.998955 -33.236367]>
-                <[float64][heading][220.46]>
-                <[string8][name][New Ramp Start 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Port Pirie]>
+		<[string8][lname][Port Pirie, Australia]>
+		<[string8][icao][YPIR]>
+		<[string8][country][au]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][137.996892 -33.238141]>
+		<[float64][height][11.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][137.998819 -33.236296]>
+		<[float64][tower_height][13.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][137.991294 -33.238132]>
+				<[tmvector2d][endpoint1][137.991294 -33.238132]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][138.002490 -33.238149]>
+				<[tmvector2d][endpoint2][138.002490 -33.238149]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][20.12]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][137.991517 -33.235051]>
+				<[tmvector2d][endpoint1][137.991517 -33.235051]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][137.991429 -33.244882]>
+				<[tmvector2d][endpoint2][137.991429 -33.244882]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][35.97]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][03]>
+				<[tmvector2d][threshold1][137.998069 -33.241025]>
+				<[tmvector2d][endpoint1][137.998069 -33.241025]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][21]>
+				<[tmvector2d][threshold2][138.002889 -33.236548]>
+				<[tmvector2d][endpoint2][138.002889 -33.236548]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][137.998955 -33.236367]>
+				<[float64][heading][220.46]>
+				<[string8][name][New Ramp Start 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][YPIR_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

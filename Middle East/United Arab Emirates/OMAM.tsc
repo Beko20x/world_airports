@@ -1,54 +1,56 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][AL DHAFRA]>
-        <[string8][lname][AL DHAFRA, United Arab Emirates]>
-        <[string8][icao][OMAM]>
-        <[string8][country][ae]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][54.547722 24.248250]>
-        <[float64][height][23.5]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13L]>
-                <[tmvector2d][threshold1][54.533333 24.258167]>
-                <[tmvector2d][endpoint1][54.533333 24.258167]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31R]>
-                <[tmvector2d][threshold2][54.562111 24.238333]>
-                <[tmvector2d][endpoint2][54.562111 24.238333]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][13R]>
-                <[tmvector2d][threshold1][54.536722 24.240842]>
-                <[tmvector2d][endpoint1][54.536722 24.240842]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31L]>
-                <[tmvector2d][threshold2][54.565494 24.220989]>
-                <[tmvector2d][endpoint2][54.565494 24.220989]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][AL DHAFRA]>
+		<[string8][lname][AL DHAFRA, United Arab Emirates]>
+		<[string8][icao][OMAM]>
+		<[string8][country][ae]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][54.547722 24.248250]>
+		<[float64][height][23.5]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13L]>
+				<[tmvector2d][threshold1][54.533333 24.258167]>
+				<[tmvector2d][endpoint1][54.533333 24.258167]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31R]>
+				<[tmvector2d][threshold2][54.562111 24.238333]>
+				<[tmvector2d][endpoint2][54.562111 24.238333]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][13R]>
+				<[tmvector2d][threshold1][54.536722 24.240842]>
+				<[tmvector2d][endpoint1][54.536722 24.240842]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31L]>
+				<[tmvector2d][threshold2][54.565494 24.220989]>
+				<[tmvector2d][endpoint2][54.565494 24.220989]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][OMAM_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

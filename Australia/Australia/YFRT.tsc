@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Forrest]>
-        <[string8][lname][Forrest, Australia]>
-        <[string8][icao][YFRT]>
-        <[string8][country][au]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][128.112885 -30.839517]>
-        <[float64][height][155.4]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][128.114248 -30.846704]>
-        <[float64][tower_height][157.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][18]>
-                <[tmvector2d][threshold1][128.112829 -30.832667]>
-                <[tmvector2d][endpoint1][128.112829 -30.832667]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][36]>
-                <[tmvector2d][threshold2][128.112942 -30.846367]>
-                <[tmvector2d][endpoint2][128.112942 -30.846367]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][9]>
-                <[tmvector2d][threshold1][128.109620 -30.836435]>
-                <[tmvector2d][endpoint1][128.109620 -30.836435]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][128.123877 -30.837249]>
-                <[tmvector2d][endpoint2][128.123877 -30.837249]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][49.99]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][128.114025 -30.846929]>
-                <[float64][heading][2.34]>
-                <[string8][name][New Ramp Start 4]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Forrest]>
+		<[string8][lname][Forrest, Australia]>
+		<[string8][icao][YFRT]>
+		<[string8][country][au]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][128.112885 -30.839517]>
+		<[float64][height][155.4]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][128.114248 -30.846704]>
+		<[float64][tower_height][157.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][128.112829 -30.832667]>
+				<[tmvector2d][endpoint1][128.112829 -30.832667]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][128.112942 -30.846367]>
+				<[tmvector2d][endpoint2][128.112942 -30.846367]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][9]>
+				<[tmvector2d][threshold1][128.109620 -30.836435]>
+				<[tmvector2d][endpoint1][128.109620 -30.836435]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][128.123877 -30.837249]>
+				<[tmvector2d][endpoint2][128.123877 -30.837249]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][49.99]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][128.114025 -30.846929]>
+				<[float64][heading][2.34]>
+				<[string8][name][New Ramp Start 4]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][YFRT_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

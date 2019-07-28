@@ -1,39 +1,41 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][JUJUY]>
-        <[string8][lname][JUJUY, Argentina]>
-        <[string8][icao][SASJ]>
-        <[string8][country][ar]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-65.097833 -24.392736]>
-        <[float64][height][920.2]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][15]>
-                <[tmvector2d][threshold1][-65.105083 -24.381167]>
-                <[tmvector2d][endpoint1][-65.105083 -24.381167]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][33]>
-                <[tmvector2d][threshold2][-65.090583 -24.404306]>
-                <[tmvector2d][endpoint2][-65.090583 -24.404306]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][39.93]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][JUJUY]>
+		<[string8][lname][JUJUY, Argentina]>
+		<[string8][icao][SASJ]>
+		<[string8][country][ar]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-65.097833 -24.392736]>
+		<[float64][height][920.2]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][-65.105083 -24.381167]>
+				<[tmvector2d][endpoint1][-65.105083 -24.381167]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][-65.090583 -24.404306]>
+				<[tmvector2d][endpoint2][-65.090583 -24.404306]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][39.93]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][SASJ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

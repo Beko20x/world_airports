@@ -1,66 +1,68 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Playacar]>
-        <[string8][lname][Playacar, Mexico]>
-        <[string8][icao][MMPY]>
-        <[string8][country][mx]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-87.082128 20.622696]>
-        <[float64][height][11.0]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-87.079070 20.622164]>
-        <[float64][tower_height][23.2]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-87.084538 20.623517]>
-                <[tmvector2d][endpoint1][-87.085564 20.623866]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-87.078961 20.621617]>
-                <[tmvector2d][endpoint2][-87.078692 20.621526]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][24.08]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-87.085407 20.624060]>
-                <[float64][heading][200.00]>
-                <[string8][name][Cabecera 11]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-87.078465 20.621213]>
-                <[float64][heading][30.42]>
-                <[string8][name][Cabecera 29]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-87.078561 20.620830]>
-                <[float64][heading][301.95]>
-                <[string8][name][Park 15]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-87.078782 20.621990]>
-                <[float64][heading][200.69]>
-                <[string8][name][Park 3]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-87.078028 20.621585]>
-                <[float64][heading][212.55]>
-                <[string8][name][Park Terminal]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Playacar]>
+		<[string8][lname][Playacar, Mexico]>
+		<[string8][icao][MMPY]>
+		<[string8][country][mx]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-87.082128 20.622696]>
+		<[float64][height][11.0]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-87.079070 20.622164]>
+		<[float64][tower_height][23.2]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-87.084538 20.623517]>
+				<[tmvector2d][endpoint1][-87.085564 20.623866]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-87.078961 20.621617]>
+				<[tmvector2d][endpoint2][-87.078692 20.621526]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][24.08]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-87.085407 20.624060]>
+				<[float64][heading][200.00]>
+				<[string8][name][Cabecera 11]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-87.078465 20.621213]>
+				<[float64][heading][30.42]>
+				<[string8][name][Cabecera 29]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-87.078561 20.620830]>
+				<[float64][heading][301.95]>
+				<[string8][name][Park 15]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-87.078782 20.621990]>
+				<[float64][heading][200.69]>
+				<[string8][name][Park 3]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-87.078028 20.621585]>
+				<[float64][heading][212.55]>
+				<[string8][name][Park Terminal]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][MMPY_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

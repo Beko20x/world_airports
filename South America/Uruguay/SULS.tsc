@@ -1,54 +1,56 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][CAPITAN CORBETA C A CURBELO INTL]>
-        <[string8][lname][CAPITAN CORBETA C A CURBELO INTL, Uruguay]>
-        <[string8][icao][SULS]>
-        <[string8][country][uy]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-55.101213 -34.856944]>
-        <[float64][height][29.0]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][-55.112339 -34.859844]>
-                <[tmvector2d][endpoint1][-55.112339 -34.859844]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-55.090086 -34.854044]>
-                <[tmvector2d][endpoint2][-55.090086 -34.854044]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][01]>
-                <[tmvector2d][threshold1][-55.093842 -34.864581]>
-                <[tmvector2d][endpoint1][-55.093842 -34.864581]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][19]>
-                <[tmvector2d][threshold2][-55.094483 -34.850169]>
-                <[tmvector2d][endpoint2][-55.094483 -34.850169]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][38.10]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][CAPITAN CORBETA C A CURBELO INTL]>
+		<[string8][lname][CAPITAN CORBETA C A CURBELO INTL, Uruguay]>
+		<[string8][icao][SULS]>
+		<[string8][country][uy]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-55.101213 -34.856944]>
+		<[float64][height][29.0]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-55.112339 -34.859844]>
+				<[tmvector2d][endpoint1][-55.112339 -34.859844]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-55.090086 -34.854044]>
+				<[tmvector2d][endpoint2][-55.090086 -34.854044]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][01]>
+				<[tmvector2d][threshold1][-55.093842 -34.864581]>
+				<[tmvector2d][endpoint1][-55.093842 -34.864581]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][19]>
+				<[tmvector2d][threshold2][-55.094483 -34.850169]>
+				<[tmvector2d][endpoint2][-55.094483 -34.850169]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][38.10]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][SULS_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

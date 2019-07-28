@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Aurukun]>
-        <[string8][lname][Aurukun, Australia]>
-        <[string8][icao][YAUR]>
-        <[string8][country][au]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][141.719745 -13.353753]>
-        <[float64][height][6.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][141.722023 -13.356489]>
-        <[float64][tower_height][7.9]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][141.717794 -13.348364]>
-                <[tmvector2d][endpoint1][141.717794 -13.348364]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][141.721696 -13.359143]>
-                <[tmvector2d][endpoint2][141.721696 -13.359143]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][34.14]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][141.721951 -13.355553]>
-                <[float64][heading][153.44]>
-                <[string8][name][New Ramp Start 22]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Aurukun]>
+		<[string8][lname][Aurukun, Australia]>
+		<[string8][icao][YAUR]>
+		<[string8][country][au]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][141.719745 -13.353753]>
+		<[float64][height][6.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][141.722023 -13.356489]>
+		<[float64][tower_height][7.9]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][141.717794 -13.348364]>
+				<[tmvector2d][endpoint1][141.717794 -13.348364]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][141.721696 -13.359143]>
+				<[tmvector2d][endpoint2][141.721696 -13.359143]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][34.14]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][141.721951 -13.355553]>
+				<[float64][heading][153.44]>
+				<[string8][name][New Ramp Start 22]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][YAUR_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

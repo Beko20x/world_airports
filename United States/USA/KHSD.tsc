@@ -1,56 +1,58 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][SUNDANCE AIRPARK]>
-        <[string8][lname][SUNDANCE AIRPARK, USA]>
-        <[string8][icao][KHSD]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-97.706153 35.601832]>
-        <[float64][height][363.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-97.707425 35.601519]>
-        <[float64][tower_height][367.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][-97.706450 35.608697]>
-                <[tmvector2d][endpoint1][-97.706450 35.608697]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][-97.705856 35.594967]>
-                <[tmvector2d][endpoint2][-97.705856 35.594967]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-97.707218 35.601415]>
-                <[float64][heading][92.11]>
-                <[string8][name][Sundance ramp start 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-97.707903 35.605161]>
-                <[float64][heading][90.00]>
-                <[string8][name][Sundance ramp start 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-97.708461 35.595353]>
-                <[float64][heading][117.68]>
-                <[string8][name][Sundance ramp start 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][SUNDANCE AIRPARK]>
+		<[string8][lname][SUNDANCE AIRPARK, USA]>
+		<[string8][icao][KHSD]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-97.706153 35.601832]>
+		<[float64][height][363.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-97.707425 35.601519]>
+		<[float64][tower_height][367.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-97.706450 35.608697]>
+				<[tmvector2d][endpoint1][-97.706450 35.608697]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-97.705856 35.594967]>
+				<[tmvector2d][endpoint2][-97.705856 35.594967]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-97.707218 35.601415]>
+				<[float64][heading][92.11]>
+				<[string8][name][Sundance ramp start 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-97.707903 35.605161]>
+				<[float64][heading][90.00]>
+				<[string8][name][Sundance ramp start 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-97.708461 35.595353]>
+				<[float64][heading][117.68]>
+				<[string8][name][Sundance ramp start 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KHSD_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

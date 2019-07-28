@@ -1,84 +1,86 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][DEBERT]>
-        <[string8][lname][DEBERT, Canada]>
-        <[string8][icao][CCQ3]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-63.461270 45.415550]>
-        <[float64][height][43.3]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][-63.470586 45.413553]>
-                <[tmvector2d][endpoint1][-63.470586 45.413553]>
-                <[string8][appltsys1][malsf]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][-63.451953 45.417546]>
-                <[tmvector2d][endpoint2][-63.451953 45.417546]>
-                <[string8][appltsys2][malsf]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][49.07]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][05]>
-                <[tmvector2d][threshold1][-63.466010 45.417484]>
-                <[tmvector2d][endpoint1][-63.466010 45.417484]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][23]>
-                <[tmvector2d][threshold2][-63.460454 45.424546]>
-                <[tmvector2d][endpoint2][-63.460454 45.424546]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][46.94]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-63.465684 45.423614]>
-                <[tmvector2d][endpoint1][-63.467159 45.424650]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-63.453456 45.415026]>
-                <[tmvector2d][endpoint2][-63.453456 45.415026]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][47.85]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-63.466899 45.420016]>
-                <[float64][heading][300.26]>
-                <[string8][name][Ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-63.467522 45.419227]>
-                <[float64][heading][301.50]>
-                <[string8][name][Ramp 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-63.468233 45.418360]>
-                <[float64][heading][302.34]>
-                <[string8][name][Ramp 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][DEBERT]>
+		<[string8][lname][DEBERT, Canada]>
+		<[string8][icao][CCQ3]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-63.461270 45.415550]>
+		<[float64][height][43.3]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-63.470586 45.413553]>
+				<[tmvector2d][endpoint1][-63.470586 45.413553]>
+				<[string8][appltsys1][malsf]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-63.451953 45.417546]>
+				<[tmvector2d][endpoint2][-63.451953 45.417546]>
+				<[string8][appltsys2][malsf]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][49.07]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][05]>
+				<[tmvector2d][threshold1][-63.466010 45.417484]>
+				<[tmvector2d][endpoint1][-63.466010 45.417484]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][23]>
+				<[tmvector2d][threshold2][-63.460454 45.424546]>
+				<[tmvector2d][endpoint2][-63.460454 45.424546]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][46.94]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-63.465684 45.423614]>
+				<[tmvector2d][endpoint1][-63.467159 45.424650]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-63.453456 45.415026]>
+				<[tmvector2d][endpoint2][-63.453456 45.415026]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][47.85]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-63.466899 45.420016]>
+				<[float64][heading][300.26]>
+				<[string8][name][Ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-63.467522 45.419227]>
+				<[float64][heading][301.50]>
+				<[string8][name][Ramp 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-63.468233 45.418360]>
+				<[float64][heading][302.34]>
+				<[string8][name][Ramp 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][CCQ3_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

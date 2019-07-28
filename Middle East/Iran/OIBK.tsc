@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Kish Island]>
-        <[string8][lname][Kish Island, Iran]>
-        <[string8][icao][OIBK]>
-        <[string8][country][ir]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][53.980303 26.528706]>
-        <[float64][height][30.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][53.969452 26.530636]>
-        <[float64][tower_height][30.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][09L]>
-                <[tmvector2d][threshold1][53.962014 26.530106]>
-                <[tmvector2d][endpoint1][53.962014 26.530106]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27R]>
-                <[tmvector2d][threshold2][53.998592 26.527306]>
-                <[tmvector2d][endpoint2][53.998592 26.527306]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][65.53]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][09R]>
-                <[tmvector2d][threshold1][53.961922 26.527556]>
-                <[tmvector2d][endpoint1][53.961922 26.527556]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27L]>
-                <[tmvector2d][threshold2][53.998500 26.524753]>
-                <[tmvector2d][endpoint2][53.998500 26.524753]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][53.961924 26.527558]>
-                <[tmvector2d][endpoint1][53.961924 26.527558]>
-                <[string8][appltsys1][malsf]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][53.998502 26.524752]>
-                <[tmvector2d][endpoint2][53.998502 26.524752]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][53.968161 26.528746]>
-                <[float64][heading][0.00]>
-                <[string8][name][Custom Startup Location]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Kish Island]>
+		<[string8][lname][Kish Island, Iran]>
+		<[string8][icao][OIBK]>
+		<[string8][country][ir]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][53.980303 26.528706]>
+		<[float64][height][30.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][53.969452 26.530636]>
+		<[float64][tower_height][30.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][09L]>
+				<[tmvector2d][threshold1][53.962014 26.530106]>
+				<[tmvector2d][endpoint1][53.962014 26.530106]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27R]>
+				<[tmvector2d][threshold2][53.998592 26.527306]>
+				<[tmvector2d][endpoint2][53.998592 26.527306]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][65.53]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][09R]>
+				<[tmvector2d][threshold1][53.961922 26.527556]>
+				<[tmvector2d][endpoint1][53.961922 26.527556]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27L]>
+				<[tmvector2d][threshold2][53.998500 26.524753]>
+				<[tmvector2d][endpoint2][53.998500 26.524753]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][53.961924 26.527558]>
+				<[tmvector2d][endpoint1][53.961924 26.527558]>
+				<[string8][appltsys1][malsf]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][53.998502 26.524752]>
+				<[tmvector2d][endpoint2][53.998502 26.524752]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][53.968161 26.528746]>
+				<[float64][heading][0.00]>
+				<[string8][name][Custom Startup Location]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][OIBK_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

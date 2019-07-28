@@ -1,51 +1,53 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Fetlar]>
-        <[string8][lname][Fetlar, United Kingdom]>
-        <[string8][icao][EG39]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-0.872769 60.603555]>
-        <[float64][height][82.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-0.870737 60.603470]>
-        <[float64][tower_height][85.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][01]>
-                <[tmvector2d][threshold1][-0.873346 60.601316]>
-                <[tmvector2d][endpoint1][-0.873346 60.601316]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][19]>
-                <[tmvector2d][threshold2][-0.872250 60.605569]>
-                <[tmvector2d][endpoint2][-0.872192 60.605795]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][17.98]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-0.871020 60.603550]>
-                <[float64][heading][207.45]>
-                <[string8][name][Grass Parking 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-0.871136 60.603726]>
-                <[float64][heading][243.43]>
-                <[string8][name][Grass Parking 2]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Fetlar]>
+		<[string8][lname][Fetlar, United Kingdom]>
+		<[string8][icao][EG39]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-0.872769 60.603555]>
+		<[float64][height][82.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-0.870737 60.603470]>
+		<[float64][tower_height][85.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01]>
+				<[tmvector2d][threshold1][-0.873346 60.601316]>
+				<[tmvector2d][endpoint1][-0.873346 60.601316]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][19]>
+				<[tmvector2d][threshold2][-0.872250 60.605569]>
+				<[tmvector2d][endpoint2][-0.872192 60.605795]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][17.98]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-0.871020 60.603550]>
+				<[float64][heading][207.45]>
+				<[string8][name][Grass Parking 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-0.871136 60.603726]>
+				<[float64][heading][243.43]>
+				<[string8][name][Grass Parking 2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EG39_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

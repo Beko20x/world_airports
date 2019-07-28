@@ -1,72 +1,74 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Tiksi]>
-        <[string8][lname][Tiksi, Russia]>
-        <[string8][icao][UEST]>
-        <[string8][country][ru]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][128.903026 71.697667]>
-        <[float64][height][7.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][128.892298 71.702023]>
-        <[float64][tower_height][32.9]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][03]>
-                <[tmvector2d][threshold1][128.898560 71.687293]>
-                <[tmvector2d][endpoint1][128.897289 71.684341]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][21]>
-                <[tmvector2d][threshold2][128.907461 71.707969]>
-                <[tmvector2d][endpoint2][128.908763 71.710993]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][59.13]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][128.899635 71.708794]>
-                <[string8][type_name][building]>
-                <[float64][radius][8]>
-                <[float64][heading][278.88]>
-                <[float64][height][0]>
-                <[string8][name][Heli Appron 1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][128.892762 71.692331]>
-                <[string8][type_name][building]>
-                <[float64][radius][8]>
-                <[float64][heading][278.27]>
-                <[float64][height][0]>
-                <[string8][name][Heli Appron 2]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][128.892878 71.703490]>
-                <[float64][heading][8.13]>
-                <[string8][name][Civilian Appron]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][128.895730 71.698613]>
-                <[float64][heading][278.31]>
-                <[string8][name][GA Ramp]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][128.896818 71.702225]>
-                <[float64][heading][280.17]>
-                <[string8][name][Military Appron]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Tiksi]>
+		<[string8][lname][Tiksi, Russia]>
+		<[string8][icao][UEST]>
+		<[string8][country][ru]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][128.903026 71.697667]>
+		<[float64][height][7.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][128.892298 71.702023]>
+		<[float64][tower_height][32.9]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][03]>
+				<[tmvector2d][threshold1][128.898560 71.687293]>
+				<[tmvector2d][endpoint1][128.897289 71.684341]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][21]>
+				<[tmvector2d][threshold2][128.907461 71.707969]>
+				<[tmvector2d][endpoint2][128.908763 71.710993]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][59.13]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][128.899635 71.708794]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][278.88]>
+				<[float64][height][0]>
+				<[string8][name][Heli Appron 1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][128.892762 71.692331]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][278.27]>
+				<[float64][height][0]>
+				<[string8][name][Heli Appron 2]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][128.892878 71.703490]>
+				<[float64][heading][8.13]>
+				<[string8][name][Civilian Appron]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][128.895730 71.698613]>
+				<[float64][heading][278.31]>
+				<[string8][name][GA Ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][128.896818 71.702225]>
+				<[float64][heading][280.17]>
+				<[string8][name][Military Appron]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][UEST_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

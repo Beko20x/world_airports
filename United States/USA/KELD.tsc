@@ -1,69 +1,65 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][SOUTH ARKANSAS RGNL AT GOODWIN FLD]>
-        <[string8][lname][SOUTH ARKANSAS RGNL AT GOODWIN FLD, USA]>
-        <[string8][icao][KELD]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-92.811011 33.220250]>
-        <[float64][height][84.4]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-92.818764 33.213942]>
-                <[tmvector2d][endpoint1][-92.818764 33.213942]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-92.803258 33.226558]>
-                <[tmvector2d][endpoint2][-92.803258 33.226558]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][-92.818503 33.227550]>
-                <[tmvector2d][endpoint1][-92.818503 33.227550]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][-92.806903 33.217481]>
-                <[tmvector2d][endpoint2][-92.806903 33.217481]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][-92.817969 33.225289]>
-                <[tmvector2d][endpoint1][-92.817969 33.225289]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][-92.818167 33.215031]>
-                <[tmvector2d][endpoint2][-92.818167 33.215031]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][SOUTH ARKANSAS RGNL AT GOODWIN FLD]>
+		<[string8][lname][SOUTH ARKANSAS RGNL AT GOODWIN FLD, USA]>
+		<[string8][icao][KELD]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-92.811011 33.220250]>
+		<[float64][height][84.4]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-92.818764 33.213942]>
+				<[tmvector2d][endpoint1][-92.818764 33.213942]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-92.803258 33.226558]>
+				<[tmvector2d][endpoint2][-92.803258 33.226558]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-92.818503 33.227550]>
+				<[tmvector2d][endpoint1][-92.818503 33.227550]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-92.806903 33.217481]>
+				<[tmvector2d][endpoint2][-92.806903 33.217481]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-92.817969 33.225289]>
+				<[tmvector2d][endpoint1][-92.817969 33.225289]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-92.818167 33.215031]>
+				<[tmvector2d][endpoint2][-92.818167 33.215031]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
 >

@@ -1,54 +1,56 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][SOUTHEAST TEXAS RGNL]>
-        <[string8][lname][SOUTHEAST TEXAS RGNL, USA]>
-        <[string8][icao][KBPT]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-94.018651 29.950532]>
-        <[float64][height][4.6]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][12]>
-                <[tmvector2d][threshold1][-94.027779 29.955292]>
-                <[tmvector2d][endpoint1][-94.027779 29.955292]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][30]>
-                <[tmvector2d][threshold2][-94.009522 29.945772]>
-                <[tmvector2d][endpoint2][-94.009522 29.945772]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-94.025370 29.957995]>
-                <[tmvector2d][endpoint1][-94.025370 29.957995]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-94.021474 29.944467]>
-                <[tmvector2d][endpoint2][-94.021474 29.944467]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][SOUTHEAST TEXAS RGNL]>
+		<[string8][lname][SOUTHEAST TEXAS RGNL, USA]>
+		<[string8][icao][KBPT]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-94.018651 29.950532]>
+		<[float64][height][4.6]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][12]>
+				<[tmvector2d][threshold1][-94.027779 29.955292]>
+				<[tmvector2d][endpoint1][-94.027779 29.955292]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][30]>
+				<[tmvector2d][threshold2][-94.009522 29.945772]>
+				<[tmvector2d][endpoint2][-94.009522 29.945772]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-94.025370 29.957995]>
+				<[tmvector2d][endpoint1][-94.025370 29.957995]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-94.021474 29.944467]>
+				<[tmvector2d][endpoint2][-94.021474 29.944467]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KBPT_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

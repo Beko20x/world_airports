@@ -1,69 +1,71 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][NEW SMYRNA BEACH MUNI]>
-        <[string8][lname][NEW SMYRNA BEACH MUNI, USA]>
-        <[string8][icao][KEVB]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-80.951114 29.058147]>
-        <[float64][height][3.0]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][-80.957081 29.055313]>
-                <[tmvector2d][endpoint1][-80.957997 29.054878]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-80.945051 29.061027]>
-                <[tmvector2d][endpoint2][-80.944231 29.061417]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-80.953739 29.055906]>
-                <[tmvector2d][endpoint1][-80.953739 29.055906]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-80.940786 29.052508]>
-                <[tmvector2d][endpoint2][-80.940786 29.052508]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][02]>
-                <[tmvector2d][threshold1][-80.947776 29.054719]>
-                <[tmvector2d][endpoint1][-80.949728 29.048967]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][20]>
-                <[tmvector2d][threshold2][-80.946150 29.059508]>
-                <[tmvector2d][endpoint2][-80.946150 29.059508]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][NEW SMYRNA BEACH MUNI]>
+		<[string8][lname][NEW SMYRNA BEACH MUNI, USA]>
+		<[string8][icao][KEVB]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-80.951114 29.058147]>
+		<[float64][height][3.0]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][-80.957081 29.055313]>
+				<[tmvector2d][endpoint1][-80.957997 29.054878]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-80.945051 29.061027]>
+				<[tmvector2d][endpoint2][-80.944231 29.061417]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-80.953739 29.055906]>
+				<[tmvector2d][endpoint1][-80.953739 29.055906]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-80.940786 29.052508]>
+				<[tmvector2d][endpoint2][-80.940786 29.052508]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][02]>
+				<[tmvector2d][threshold1][-80.947776 29.054719]>
+				<[tmvector2d][endpoint1][-80.949728 29.048967]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][20]>
+				<[tmvector2d][threshold2][-80.946150 29.059508]>
+				<[tmvector2d][endpoint2][-80.946150 29.059508]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KEVB_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

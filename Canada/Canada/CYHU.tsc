@@ -1,126 +1,128 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][St Hubert]>
-        <[string8][lname][St Hubert, Canada]>
-        <[string8][icao][CYHU]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-73.417358 45.517078]>
-        <[float64][height][27.4]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-73.415001 45.515072]>
-        <[float64][tower_height][39.6]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06L]>
-                <[tmvector2d][threshold1][-73.425643 45.511657]>
-                <[tmvector2d][endpoint1][-73.428607 45.509718]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][24R]>
-                <[tmvector2d][threshold2][-73.406109 45.524438]>
-                <[tmvector2d][endpoint2][-73.406109 45.524438]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][06R]>
-                <[tmvector2d][threshold1][-73.415970 45.511470]>
-                <[tmvector2d][endpoint1][-73.415970 45.511470]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][24L]>
-                <[tmvector2d][threshold2][-73.404862 45.518688]>
-                <[tmvector2d][endpoint2][-73.404862 45.518688]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][-73.426696 45.510319]>
-                <[tmvector2d][endpoint1][-73.426696 45.510319]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][-73.415864 45.511151]>
-                <[tmvector2d][endpoint2][-73.415864 45.511151]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-73.419533 45.508690]>
-                <[float64][heading][270.00]>
-                <[string8][name][Aero Teknic]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-73.405182 45.515602]>
-                <[float64][heading][224.00]>
-                <[string8][name][Aeropro]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-73.405869 45.514847]>
-                <[float64][heading][230.00]>
-                <[string8][name][Air Quasar]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-73.428490 45.510754]>
-                <[float64][heading][140.00]>
-                <[string8][name][Hold Short Rwy10 @ C]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-73.404381 45.518192]>
-                <[float64][heading][310.00]>
-                <[string8][name][Hold Short Rwy24L]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-73.408592 45.523941]>
-                <[float64][heading][90.00]>
-                <[string8][name][Hold Short Rwy24R]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-73.429199 45.510342]>
-                <[float64][heading][140.00]>
-                <[string8][name][Hold Short Rwy6L @ C]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-73.427559 45.509064]>
-                <[float64][heading][320.00]>
-                <[string8][name][Hold Short Rwy6L/10 @ K]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][-73.416924 45.509979]>
-                <[float64][heading][32.00]>
-                <[string8][name][Hold Short Rwy6R/28 @ K]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][-73.413361 45.511993]>
-                <[float64][heading][224.00]>
-                <[string8][name][Hold Short Rwy6R/28 @ T]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][-73.403374 45.517262]>
-                <[float64][heading][230.00]>
-                <[string8][name][Max Aviation]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][St Hubert]>
+		<[string8][lname][St Hubert, Canada]>
+		<[string8][icao][CYHU]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-73.417358 45.517078]>
+		<[float64][height][27.4]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-73.415001 45.515072]>
+		<[float64][tower_height][39.6]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06L]>
+				<[tmvector2d][threshold1][-73.425643 45.511657]>
+				<[tmvector2d][endpoint1][-73.428607 45.509718]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][24R]>
+				<[tmvector2d][threshold2][-73.406109 45.524438]>
+				<[tmvector2d][endpoint2][-73.406109 45.524438]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][06R]>
+				<[tmvector2d][threshold1][-73.415970 45.511470]>
+				<[tmvector2d][endpoint1][-73.415970 45.511470]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][24L]>
+				<[tmvector2d][threshold2][-73.404862 45.518688]>
+				<[tmvector2d][endpoint2][-73.404862 45.518688]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][-73.426696 45.510319]>
+				<[tmvector2d][endpoint1][-73.426696 45.510319]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][-73.415864 45.511151]>
+				<[tmvector2d][endpoint2][-73.415864 45.511151]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-73.419533 45.508690]>
+				<[float64][heading][270.00]>
+				<[string8][name][Aero Teknic]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-73.405182 45.515602]>
+				<[float64][heading][224.00]>
+				<[string8][name][Aeropro]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-73.405869 45.514847]>
+				<[float64][heading][230.00]>
+				<[string8][name][Air Quasar]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-73.428490 45.510754]>
+				<[float64][heading][140.00]>
+				<[string8][name][Hold Short Rwy10 @ C]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-73.404381 45.518192]>
+				<[float64][heading][310.00]>
+				<[string8][name][Hold Short Rwy24L]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-73.408592 45.523941]>
+				<[float64][heading][90.00]>
+				<[string8][name][Hold Short Rwy24R]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-73.429199 45.510342]>
+				<[float64][heading][140.00]>
+				<[string8][name][Hold Short Rwy6L @ C]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-73.427559 45.509064]>
+				<[float64][heading][320.00]>
+				<[string8][name][Hold Short Rwy6L/10 @ K]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-73.416924 45.509979]>
+				<[float64][heading][32.00]>
+				<[string8][name][Hold Short Rwy6R/28 @ K]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-73.413361 45.511993]>
+				<[float64][heading][224.00]>
+				<[string8][name][Hold Short Rwy6R/28 @ T]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-73.403374 45.517262]>
+				<[float64][heading][230.00]>
+				<[string8][name][Max Aviation]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][CYHU_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

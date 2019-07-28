@@ -1,69 +1,65 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][EASTERN OREGON RGNL AT PENDLETON]>
-        <[string8][lname][EASTERN OREGON RGNL AT PENDLETON, USA]>
-        <[string8][icao][KPDT]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-118.841043 45.695361]>
-        <[float64][height][456.3]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][07]>
-                <[tmvector2d][threshold1][-118.853369 45.695339]>
-                <[tmvector2d][endpoint1][-118.853369 45.695339]>
-                <[string8][appltsys1][odals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][25]>
-                <[tmvector2d][threshold2][-118.828717 45.695383]>
-                <[tmvector2d][endpoint2][-118.828717 45.695383]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-118.853819 45.698817]>
-                <[tmvector2d][endpoint1][-118.853819 45.698817]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-118.837844 45.690032]>
-                <[tmvector2d][endpoint2][-118.836639 45.689369]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-118.837156 45.701844]>
-                <[tmvector2d][endpoint1][-118.837156 45.701844]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-118.837092 45.689944]>
-                <[tmvector2d][endpoint2][-118.837092 45.689944]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][18.29]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][EASTERN OREGON RGNL AT PENDLETON]>
+		<[string8][lname][EASTERN OREGON RGNL AT PENDLETON, USA]>
+		<[string8][icao][KPDT]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-118.841043 45.695361]>
+		<[float64][height][456.3]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][-118.853369 45.695339]>
+				<[tmvector2d][endpoint1][-118.853369 45.695339]>
+				<[string8][appltsys1][odals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][-118.828717 45.695383]>
+				<[tmvector2d][endpoint2][-118.828717 45.695383]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-118.853819 45.698817]>
+				<[tmvector2d][endpoint1][-118.853819 45.698817]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-118.837844 45.690032]>
+				<[tmvector2d][endpoint2][-118.836639 45.689369]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-118.837156 45.701844]>
+				<[tmvector2d][endpoint1][-118.837156 45.701844]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-118.837092 45.689944]>
+				<[tmvector2d][endpoint2][-118.837092 45.689944]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][18.29]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
 >

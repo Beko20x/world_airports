@@ -1,91 +1,93 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][San Jose Norman Y Mineta Intl]>
-        <[string8][lname][San Jose Norman Y Mineta Intl, USA]>
-        <[string8][icao][KSJC]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-121.929527 37.362360]>
-        <[float64][height][18.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-121.931934 37.359538]>
-        <[float64][tower_height][66.4]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][12R]>
-                <[tmvector2d][threshold1][-121.938772 37.370796]>
-                <[tmvector2d][endpoint1][-121.941987 37.373728]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][30L]>
-                <[tmvector2d][threshold2][-121.923345 37.356720]>
-                <[tmvector2d][endpoint2][-121.917067 37.350992]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][12L]>
-                <[tmvector2d][threshold1][-121.936951 37.372050]>
-                <[tmvector2d][endpoint1][-121.940175 37.374992]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][30R]>
-                <[tmvector2d][threshold2][-121.921518 37.357970]>
-                <[tmvector2d][endpoint2][-121.915257 37.352258]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-121.936597 37.365892]>
-                <[tmvector2d][endpoint1][-121.936597 37.365892]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-121.926179 37.356386]>
-                <[tmvector2d][endpoint2][-121.926179 37.356386]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-121.931760 37.370570]>
-                <[float64][heading][49.00]>
-                <[string8][name][Gate A16]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-121.930400 37.369549]>
-                <[float64][heading][48.00]>
-                <[string8][name][Gate A6]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-121.927048 37.366282]>
-                <[float64][heading][48.00]>
-                <[string8][name][Gate B]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-121.922265 37.362339]>
-                <[float64][heading][51.00]>
-                <[string8][name][Gate C6]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][San Jose Norman Y Mineta Intl]>
+		<[string8][lname][San Jose Norman Y Mineta Intl, USA]>
+		<[string8][icao][KSJC]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-121.929527 37.362360]>
+		<[float64][height][18.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-121.931934 37.359538]>
+		<[float64][tower_height][66.4]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][12R]>
+				<[tmvector2d][threshold1][-121.938772 37.370796]>
+				<[tmvector2d][endpoint1][-121.941987 37.373728]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][30L]>
+				<[tmvector2d][threshold2][-121.923345 37.356720]>
+				<[tmvector2d][endpoint2][-121.917067 37.350992]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][12L]>
+				<[tmvector2d][threshold1][-121.936951 37.372050]>
+				<[tmvector2d][endpoint1][-121.940175 37.374992]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][30R]>
+				<[tmvector2d][threshold2][-121.921518 37.357970]>
+				<[tmvector2d][endpoint2][-121.915257 37.352258]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-121.936597 37.365892]>
+				<[tmvector2d][endpoint1][-121.936597 37.365892]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-121.926179 37.356386]>
+				<[tmvector2d][endpoint2][-121.926179 37.356386]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-121.931760 37.370570]>
+				<[float64][heading][49.00]>
+				<[string8][name][Gate A16]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-121.930400 37.369549]>
+				<[float64][heading][48.00]>
+				<[string8][name][Gate A6]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-121.927048 37.366282]>
+				<[float64][heading][48.00]>
+				<[string8][name][Gate B]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-121.922265 37.362339]>
+				<[float64][heading][51.00]>
+				<[string8][name][Gate C6]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KSJC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

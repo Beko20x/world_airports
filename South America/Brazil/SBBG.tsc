@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Comandante Gustavo Kraemer]>
-        <[string8][lname][Comandante Gustavo Kraemer, Brazil]>
-        <[string8][icao][SBBG]>
-        <[string8][country][br]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-54.112245 -31.390528]>
-        <[float64][height][182.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-54.113464 -31.388670]>
-        <[float64][tower_height][182.9]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][-54.117936 -31.395206]>
-                <[tmvector2d][endpoint1][-54.117936 -31.395206]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-54.106553 -31.385850]>
-                <[tmvector2d][endpoint2][-54.106553 -31.385850]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][14]>
-                <[tmvector2d][threshold1][-54.118342 -31.386925]>
-                <[tmvector2d][endpoint1][-54.118342 -31.386925]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][32]>
-                <[tmvector2d][threshold2][-54.108386 -31.393247]>
-                <[tmvector2d][endpoint2][-54.108386 -31.393247]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][54.25]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-54.112297 -31.388918]>
-                <[float64][heading][320.00]>
-                <[string8][name][Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Comandante Gustavo Kraemer]>
+		<[string8][lname][Comandante Gustavo Kraemer, Brazil]>
+		<[string8][icao][SBBG]>
+		<[string8][country][br]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-54.112245 -31.390528]>
+		<[float64][height][182.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-54.113464 -31.388670]>
+		<[float64][tower_height][182.9]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][-54.117936 -31.395206]>
+				<[tmvector2d][endpoint1][-54.117936 -31.395206]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-54.106553 -31.385850]>
+				<[tmvector2d][endpoint2][-54.106553 -31.385850]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][14]>
+				<[tmvector2d][threshold1][-54.118342 -31.386925]>
+				<[tmvector2d][endpoint1][-54.118342 -31.386925]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][32]>
+				<[tmvector2d][threshold2][-54.108386 -31.393247]>
+				<[tmvector2d][endpoint2][-54.108386 -31.393247]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][54.25]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-54.112297 -31.388918]>
+				<[float64][heading][320.00]>
+				<[string8][name][Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][SBBG_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

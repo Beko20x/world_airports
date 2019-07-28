@@ -1,71 +1,73 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][PERUGIA]>
-        <[string8][lname][PERUGIA, Italy]>
-        <[string8][icao][LIRZ]>
-        <[string8][country][it]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][12.513325 43.096192]>
-        <[float64][height][211.2]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][12.503020 43.094291]>
-        <[float64][tower_height][229.5]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][01]>
-                <[tmvector2d][threshold1][12.510651 43.088512]>
-                <[tmvector2d][endpoint1][12.510651 43.088512]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][19]>
-                <[tmvector2d][threshold2][12.515920 43.103647]>
-                <[tmvector2d][endpoint2][12.515998 43.103872]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.94]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][12.504483 43.093659]>
-                <[float64][heading][56.23]>
-                <[string8][name][1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][12.502824 43.098624]>
-                <[float64][heading][270.38]>
-                <[string8][name][2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][12.502831 43.097960]>
-                <[float64][heading][181.16]>
-                <[string8][name][3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][12.503023 43.096964]>
-                <[float64][heading][249.32]>
-                <[string8][name][4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][12.504124 43.094623]>
-                <[float64][heading][247.75]>
-                <[string8][name][Terminal1]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][12.503906 43.094959]>
-                <[float64][heading][244.08]>
-                <[string8][name][Terminal2]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][PERUGIA]>
+		<[string8][lname][PERUGIA, Italy]>
+		<[string8][icao][LIRZ]>
+		<[string8][country][it]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][12.513325 43.096192]>
+		<[float64][height][211.2]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][12.503020 43.094291]>
+		<[float64][tower_height][229.5]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01]>
+				<[tmvector2d][threshold1][12.510651 43.088512]>
+				<[tmvector2d][endpoint1][12.510651 43.088512]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][19]>
+				<[tmvector2d][threshold2][12.515920 43.103647]>
+				<[tmvector2d][endpoint2][12.515998 43.103872]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.94]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][12.504483 43.093659]>
+				<[float64][heading][56.23]>
+				<[string8][name][1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][12.502824 43.098624]>
+				<[float64][heading][270.38]>
+				<[string8][name][2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][12.502831 43.097960]>
+				<[float64][heading][181.16]>
+				<[string8][name][3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][12.503023 43.096964]>
+				<[float64][heading][249.32]>
+				<[string8][name][4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][12.504124 43.094623]>
+				<[float64][heading][247.75]>
+				<[string8][name][Terminal1]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][12.503906 43.094959]>
+				<[float64][heading][244.08]>
+				<[string8][name][Terminal2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LIRZ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

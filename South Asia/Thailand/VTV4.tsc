@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Nong Kham]>
-        <[string8][lname][Nong Kham, Thailand]>
-        <[string8][icao][VTV4]>
-        <[string8][country][th]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][101.047020 13.140713]>
-        <[float64][height][73.2]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][101.048108 13.142079]>
-        <[float64][tower_height][75.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][6]>
-                <[tmvector2d][threshold1][101.049126 13.142000]>
-                <[tmvector2d][endpoint1][101.049126 13.142000]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][101.044913 13.139426]>
-                <[tmvector2d][endpoint2][101.044913 13.139426]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][101.047911 13.143477]>
-                <[float64][heading][191.75]>
-                <[string8][name][Nong Kham Start]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Nong Kham]>
+		<[string8][lname][Nong Kham, Thailand]>
+		<[string8][icao][VTV4]>
+		<[string8][country][th]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][101.047020 13.140713]>
+		<[float64][height][73.2]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][101.048108 13.142079]>
+		<[float64][tower_height][75.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][6]>
+				<[tmvector2d][threshold1][101.049126 13.142000]>
+				<[tmvector2d][endpoint1][101.049126 13.142000]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][101.044913 13.139426]>
+				<[tmvector2d][endpoint2][101.044913 13.139426]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][101.047911 13.143477]>
+				<[float64][heading][191.75]>
+				<[string8][name][Nong Kham Start]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][VTV4_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

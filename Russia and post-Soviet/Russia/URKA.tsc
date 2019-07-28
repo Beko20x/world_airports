@@ -1,124 +1,126 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Vityazevo]>
-        <[string8][lname][Vityazevo, Russia]>
-        <[string8][icao][URKA]>
-        <[string8][country][ru]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][37.347339 45.002127]>
-        <[float64][height][52.7]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][37.339530 45.002048]>
-        <[float64][tower_height][77.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][37.336662 44.994254]>
-                <[tmvector2d][endpoint1][37.336662 44.994254]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][37.358016 45.009999]>
-                <[tmvector2d][endpoint2][37.358016 45.009999]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][42.06]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][04R]>
-                <[tmvector2d][threshold1][37.337139 44.993742]>
-                <[tmvector2d][endpoint1][37.337139 44.993742]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22L]>
-                <[tmvector2d][threshold2][37.358620 45.009586]>
-                <[tmvector2d][endpoint2][37.358620 45.009586]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][95.10]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][37.339335 44.999581]>
-                <[string8][type_name][building]>
-                <[float64][radius][8]>
-                <[float64][heading][133.73]>
-                <[float64][height][0]>
-                <[string8][name][Helicopter]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][37.337057 45.000360]>
-                <[float64][heading][273.65]>
-                <[string8][name][Fighter]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][37.341224 45.000712]>
-                <[float64][heading][135.00]>
-                <[string8][name][General Aviation]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][37.340924 45.001424]>
-                <[float64][heading][313.73]>
-                <[string8][name][Ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][37.344995 45.004261]>
-                <[float64][heading][311.63]>
-                <[string8][name][Ramp 10]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][37.341432 45.001753]>
-                <[float64][heading][311.01]>
-                <[string8][name][Ramp 2]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][37.341867 45.002010]>
-                <[float64][heading][306.87]>
-                <[string8][name][Ramp 3]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][37.342324 45.002349]>
-                <[float64][heading][313.23]>
-                <[string8][name][Ramp 4]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][37.342751 45.002612]>
-                <[float64][heading][310.20]>
-                <[string8][name][Ramp 5]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][37.343234 45.002930]>
-                <[float64][heading][315.00]>
-                <[string8][name][Ramp 6]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][37.343952 45.003508]>
-                <[float64][heading][308.29]>
-                <[string8][name][Ramp 7]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][37.344320 45.003779]>
-                <[float64][heading][311.63]>
-                <[string8][name][Ramp 8]>
-            >
-            <[tmsimulator_parking_position][element][11]
-                <[tmvector2d][position][37.344645 45.003995]>
-                <[float64][heading][309.91]>
-                <[string8][name][Ramp 9]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Vityazevo]>
+		<[string8][lname][Vityazevo, Russia]>
+		<[string8][icao][URKA]>
+		<[string8][country][ru]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][37.347339 45.002127]>
+		<[float64][height][52.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][37.339530 45.002048]>
+		<[float64][tower_height][77.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][37.336662 44.994254]>
+				<[tmvector2d][endpoint1][37.336662 44.994254]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][37.358016 45.009999]>
+				<[tmvector2d][endpoint2][37.358016 45.009999]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][42.06]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][04R]>
+				<[tmvector2d][threshold1][37.337139 44.993742]>
+				<[tmvector2d][endpoint1][37.337139 44.993742]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22L]>
+				<[tmvector2d][threshold2][37.358620 45.009586]>
+				<[tmvector2d][endpoint2][37.358620 45.009586]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][95.10]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][37.339335 44.999581]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][133.73]>
+				<[float64][height][0]>
+				<[string8][name][Helicopter]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][37.337057 45.000360]>
+				<[float64][heading][273.65]>
+				<[string8][name][Fighter]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][37.341224 45.000712]>
+				<[float64][heading][135.00]>
+				<[string8][name][General Aviation]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][37.340924 45.001424]>
+				<[float64][heading][313.73]>
+				<[string8][name][Ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][37.344995 45.004261]>
+				<[float64][heading][311.63]>
+				<[string8][name][Ramp 10]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][37.341432 45.001753]>
+				<[float64][heading][311.01]>
+				<[string8][name][Ramp 2]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][37.341867 45.002010]>
+				<[float64][heading][306.87]>
+				<[string8][name][Ramp 3]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][37.342324 45.002349]>
+				<[float64][heading][313.23]>
+				<[string8][name][Ramp 4]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][37.342751 45.002612]>
+				<[float64][heading][310.20]>
+				<[string8][name][Ramp 5]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][37.343234 45.002930]>
+				<[float64][heading][315.00]>
+				<[string8][name][Ramp 6]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][37.343952 45.003508]>
+				<[float64][heading][308.29]>
+				<[string8][name][Ramp 7]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][37.344320 45.003779]>
+				<[float64][heading][311.63]>
+				<[string8][name][Ramp 8]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][37.344645 45.003995]>
+				<[float64][heading][309.91]>
+				<[string8][name][Ramp 9]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][URKA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

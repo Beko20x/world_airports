@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Grand Bahama Intl]>
-        <[string8][lname][Grand Bahama Intl, Bahamas]>
-        <[string8][icao][MYGF]>
-        <[string8][country][bs]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-78.695552 26.558685]>
-        <[float64][height][2.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-78.692528 26.556099]>
-        <[float64][tower_height][20.4]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][-78.710297 26.551344]>
-                <[tmvector2d][endpoint1][-78.710297 26.551344]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-78.680808 26.566025]>
-                <[tmvector2d][endpoint2][-78.680808 26.566025]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-78.704987 26.548563]>
-                <[float64][heading][169.00]>
-                <[string8][name][Air Carrier Terminal]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-78.702375 26.547927]>
-                <[float64][heading][282.99]>
-                <[string8][name][Freeport Flight Center]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-78.710111 26.550332]>
-                <[float64][heading][5.00]>
-                <[string8][name][Hold Short Rwy 06]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-78.687732 26.561355]>
-                <[float64][heading][0.00]>
-                <[string8][name][Hold Short Rwy 24]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Grand Bahama Intl]>
+		<[string8][lname][Grand Bahama Intl, Bahamas]>
+		<[string8][icao][MYGF]>
+		<[string8][country][bs]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-78.695552 26.558685]>
+		<[float64][height][2.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-78.692528 26.556099]>
+		<[float64][tower_height][20.4]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][-78.710297 26.551344]>
+				<[tmvector2d][endpoint1][-78.710297 26.551344]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-78.680808 26.566025]>
+				<[tmvector2d][endpoint2][-78.680808 26.566025]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-78.704987 26.548563]>
+				<[float64][heading][169.00]>
+				<[string8][name][Air Carrier Terminal]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-78.702375 26.547927]>
+				<[float64][heading][282.99]>
+				<[string8][name][Freeport Flight Center]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-78.710111 26.550332]>
+				<[float64][heading][5.00]>
+				<[string8][name][Hold Short Rwy 06]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-78.687732 26.561355]>
+				<[float64][heading][0.00]>
+				<[string8][name][Hold Short Rwy 24]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][MYGF_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

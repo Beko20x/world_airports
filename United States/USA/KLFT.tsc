@@ -1,81 +1,83 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][LAFAYETTE RGNL]>
-        <[string8][lname][LAFAYETTE RGNL, USA]>
-        <[string8][icao][KLFT]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-91.985644 30.204318]>
-        <[float64][height][12.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-91.995203 30.203335]>
-        <[float64][tower_height][42.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04R]>
-                <[tmvector2d][threshold1][-91.993605 30.195701]>
-                <[tmvector2d][endpoint1][-91.993605 30.195701]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22L]>
-                <[tmvector2d][threshold2][-91.977683 30.212935]>
-                <[tmvector2d][endpoint2][-91.977683 30.212935]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-91.998000 30.207386]>
-                <[tmvector2d][endpoint1][-91.998000 30.207386]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-91.981898 30.202403]>
-                <[tmvector2d][endpoint2][-91.981898 30.202403]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][04L]>
-                <[tmvector2d][threshold1][-91.992386 30.201414]>
-                <[tmvector2d][endpoint1][-91.992386 30.201414]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22R]>
-                <[tmvector2d][threshold2][-91.984261 30.210200]>
-                <[tmvector2d][endpoint2][-91.984261 30.210200]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-91.978750 30.213518]>
-                <[float64][heading][129.00]>
-                <[string8][name][Hold Short Rwy 22L]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-91.994256 30.196631]>
-                <[float64][heading][178.91]>
-                <[string8][name][Hold Short Rwy 4R]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][LAFAYETTE RGNL]>
+		<[string8][lname][LAFAYETTE RGNL, USA]>
+		<[string8][icao][KLFT]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-91.985644 30.204318]>
+		<[float64][height][12.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-91.995203 30.203335]>
+		<[float64][tower_height][42.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04R]>
+				<[tmvector2d][threshold1][-91.993605 30.195701]>
+				<[tmvector2d][endpoint1][-91.993605 30.195701]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22L]>
+				<[tmvector2d][threshold2][-91.977683 30.212935]>
+				<[tmvector2d][endpoint2][-91.977683 30.212935]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-91.998000 30.207386]>
+				<[tmvector2d][endpoint1][-91.998000 30.207386]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-91.981898 30.202403]>
+				<[tmvector2d][endpoint2][-91.981898 30.202403]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][04L]>
+				<[tmvector2d][threshold1][-91.992386 30.201414]>
+				<[tmvector2d][endpoint1][-91.992386 30.201414]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22R]>
+				<[tmvector2d][threshold2][-91.984261 30.210200]>
+				<[tmvector2d][endpoint2][-91.984261 30.210200]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-91.978750 30.213518]>
+				<[float64][heading][129.00]>
+				<[string8][name][Hold Short Rwy 22L]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-91.994256 30.196631]>
+				<[float64][heading][178.91]>
+				<[string8][name][Hold Short Rwy 4R]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KLFT_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

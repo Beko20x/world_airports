@@ -1,81 +1,83 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Essex County]>
-        <[string8][lname][Essex County, USA]>
-        <[string8][icao][KCDW]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-74.282232 40.873222]>
-        <[float64][height][52.4]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-74.277383 40.875508]>
-        <[float64][tower_height][77.4]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-74.285335 40.869072]>
-                <[tmvector2d][endpoint1][-74.286317 40.867759]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][right]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-74.278561 40.878130]>
-                <[tmvector2d][endpoint2][-74.278146 40.878685]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][right]>
-                <[string8][reil2][omni]>
-                <[float64][width][24.99]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][-74.286417 40.877164]>
-                <[tmvector2d][endpoint1][-74.286867 40.877124]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][right]>
-                <[string8][reil1][none]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][-74.275795 40.878123]>
-                <[tmvector2d][endpoint2][-74.273547 40.878326]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][right]>
-                <[string8][reil2][none]>
-                <[float64][width][24.99]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-74.275759 40.875971]>
-                <[float64][heading][317.29]>
-                <[string8][name][Ramp Start A1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-74.280580 40.871859]>
-                <[float64][heading][210.71]>
-                <[string8][name][Ramp Start A2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-74.287606 40.878341]>
-                <[float64][heading][112.80]>
-                <[string8][name][Ramp Start B1]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-74.274560 40.876642]>
-                <[float64][heading][309.78]>
-                <[string8][name][Ramp Start C1]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-74.283661 40.876627]>
-                <[float64][heading][215.66]>
-                <[string8][name][Ramp Start D1]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Essex County]>
+		<[string8][lname][Essex County, USA]>
+		<[string8][icao][KCDW]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-74.282232 40.873222]>
+		<[float64][height][52.4]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-74.277383 40.875508]>
+		<[float64][tower_height][77.4]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-74.285335 40.869072]>
+				<[tmvector2d][endpoint1][-74.286317 40.867759]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][right]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-74.278561 40.878130]>
+				<[tmvector2d][endpoint2][-74.278146 40.878685]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][right]>
+				<[string8][reil2][omni]>
+				<[float64][width][24.99]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][-74.286417 40.877164]>
+				<[tmvector2d][endpoint1][-74.286867 40.877124]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][right]>
+				<[string8][reil1][none]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][-74.275795 40.878123]>
+				<[tmvector2d][endpoint2][-74.273547 40.878326]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][right]>
+				<[string8][reil2][none]>
+				<[float64][width][24.99]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-74.275759 40.875971]>
+				<[float64][heading][317.29]>
+				<[string8][name][Ramp Start A1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-74.280580 40.871859]>
+				<[float64][heading][210.71]>
+				<[string8][name][Ramp Start A2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-74.287606 40.878341]>
+				<[float64][heading][112.80]>
+				<[string8][name][Ramp Start B1]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-74.274560 40.876642]>
+				<[float64][heading][309.78]>
+				<[string8][name][Ramp Start C1]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-74.283661 40.876627]>
+				<[float64][heading][215.66]>
+				<[string8][name][Ramp Start D1]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KCDW_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

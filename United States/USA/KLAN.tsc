@@ -1,89 +1,91 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][CAPITAL CITY]>
-        <[string8][lname][CAPITAL CITY, USA]>
-        <[string8][icao][KLAN]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-84.578242 42.781849]>
-        <[float64][height][262.4]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][10L]>
-                <[tmvector2d][threshold1][-84.584957 42.781913]>
-                <[tmvector2d][endpoint1][-84.584957 42.781913]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][uni]>
-                <[string8][name2][28R]>
-                <[tmvector2d][threshold2][-84.571527 42.781784]>
-                <[tmvector2d][endpoint2][-84.571527 42.781784]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][uni]>
-                <[float64][width][22.86]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][10R]>
-                <[tmvector2d][threshold1][-84.601141 42.778180]>
-                <[tmvector2d][endpoint1][-84.601410 42.778183]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][uni]>
-                <[string8][name2][28L]>
-                <[tmvector2d][threshold2][-84.573813 42.777965]>
-                <[tmvector2d][endpoint2][-84.573273 42.777961]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][uni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][6]>
-                <[tmvector2d][threshold1][-84.601037 42.773138]>
-                <[tmvector2d][endpoint1][-84.601037 42.773138]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][uni]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-84.586135 42.781397]>
-                <[tmvector2d][endpoint2][-84.586135 42.781397]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][uni]>
-                <[float64][width][36.88]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-84.592790 42.774587]>
-                <[float64][heading][56.31]>
-                <[string8][name][FBO (AVFlight) Start]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-84.582284 42.775132]>
-                <[float64][heading][269.83]>
-                <[string8][name][Freight Ramp Start]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-84.585128 42.773918]>
-                <[float64][heading][132.48]>
-                <[string8][name][SE RAMP]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-84.590159 42.775577]>
-                <[float64][heading][181.47]>
-                <[string8][name][Terminal Ramp Start]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][CAPITAL CITY]>
+		<[string8][lname][CAPITAL CITY, USA]>
+		<[string8][icao][KLAN]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-84.578242 42.781849]>
+		<[float64][height][262.4]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][10L]>
+				<[tmvector2d][threshold1][-84.584957 42.781913]>
+				<[tmvector2d][endpoint1][-84.584957 42.781913]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][uni]>
+				<[string8][name2][28R]>
+				<[tmvector2d][threshold2][-84.571527 42.781784]>
+				<[tmvector2d][endpoint2][-84.571527 42.781784]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][uni]>
+				<[float64][width][22.86]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][10R]>
+				<[tmvector2d][threshold1][-84.601141 42.778180]>
+				<[tmvector2d][endpoint1][-84.601410 42.778183]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][uni]>
+				<[string8][name2][28L]>
+				<[tmvector2d][threshold2][-84.573813 42.777965]>
+				<[tmvector2d][endpoint2][-84.573273 42.777961]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][uni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][6]>
+				<[tmvector2d][threshold1][-84.601037 42.773138]>
+				<[tmvector2d][endpoint1][-84.601037 42.773138]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][uni]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-84.586135 42.781397]>
+				<[tmvector2d][endpoint2][-84.586135 42.781397]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][uni]>
+				<[float64][width][36.88]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-84.592790 42.774587]>
+				<[float64][heading][56.31]>
+				<[string8][name][FBO (AVFlight) Start]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-84.582284 42.775132]>
+				<[float64][heading][269.83]>
+				<[string8][name][Freight Ramp Start]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-84.585128 42.773918]>
+				<[float64][heading][132.48]>
+				<[string8][name][SE RAMP]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-84.590159 42.775577]>
+				<[float64][heading][181.47]>
+				<[string8][name][Terminal Ramp Start]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KLAN_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

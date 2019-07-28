@@ -1,86 +1,88 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][North Weald]>
-        <[string8][lname][North Weald, United Kingdom]>
-        <[string8][icao][EGSX]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][0.154444 51.721976]>
-        <[float64][height][97.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][0.151121 51.721029]>
-        <[float64][tower_height][107.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][02]>
-                <[tmvector2d][threshold1][0.151996 51.716591]>
-                <[tmvector2d][endpoint1][0.150760 51.713874]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][20]>
-                <[tmvector2d][threshold2][0.157546 51.728800]>
-                <[tmvector2d][endpoint2][0.158127 51.730078]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][0.143989 51.722366]>
-                <[tmvector2d][endpoint1][0.143989 51.722366]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][0.152272 51.719212]>
-                <[tmvector2d][endpoint2][0.152272 51.719212]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][35.05]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][0.150335 51.720703]>
-                <[float64][heading][355.24]>
-                <[string8][name][Grass Parking 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][0.150731 51.720724]>
-                <[float64][heading][355.72]>
-                <[string8][name][Grass Parking 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][0.151154 51.720759]>
-                <[float64][heading][353.66]>
-                <[string8][name][Grass Parking 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][0.151530 51.721067]>
-                <[float64][heading][180.23]>
-                <[string8][name][North Apron 1]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][0.151805 51.721084]>
-                <[float64][heading][180.23]>
-                <[string8][name][North Apron 2]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][0.143770 51.720997]>
-                <[float64][heading][282.18]>
-                <[string8][name][West Apron]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][North Weald]>
+		<[string8][lname][North Weald, United Kingdom]>
+		<[string8][icao][EGSX]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][0.154444 51.721976]>
+		<[float64][height][97.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][0.151121 51.721029]>
+		<[float64][tower_height][107.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][02]>
+				<[tmvector2d][threshold1][0.151996 51.716591]>
+				<[tmvector2d][endpoint1][0.150760 51.713874]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][20]>
+				<[tmvector2d][threshold2][0.157546 51.728800]>
+				<[tmvector2d][endpoint2][0.158127 51.730078]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][0.143989 51.722366]>
+				<[tmvector2d][endpoint1][0.143989 51.722366]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][0.152272 51.719212]>
+				<[tmvector2d][endpoint2][0.152272 51.719212]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][35.05]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][0.150335 51.720703]>
+				<[float64][heading][355.24]>
+				<[string8][name][Grass Parking 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][0.150731 51.720724]>
+				<[float64][heading][355.72]>
+				<[string8][name][Grass Parking 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][0.151154 51.720759]>
+				<[float64][heading][353.66]>
+				<[string8][name][Grass Parking 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][0.151530 51.721067]>
+				<[float64][heading][180.23]>
+				<[string8][name][North Apron 1]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][0.151805 51.721084]>
+				<[float64][heading][180.23]>
+				<[string8][name][North Apron 2]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][0.143770 51.720997]>
+				<[float64][heading][282.18]>
+				<[string8][name][West Apron]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EGSX_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

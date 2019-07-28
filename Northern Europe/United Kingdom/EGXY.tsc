@@ -1,106 +1,108 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][RAF Syerston]>
-        <[string8][lname][RAF Syerston, United Kingdom]>
-        <[string8][icao][EGXY]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-0.912517 53.023040]>
-        <[float64][height][69.5]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-0.913533 53.020134]>
-        <[float64][tower_height][76.2]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][07]>
-                <[tmvector2d][threshold1][-0.924481 53.019280]>
-                <[tmvector2d][endpoint1][-0.924481 53.019280]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][25]>
-                <[tmvector2d][threshold2][-0.900553 53.026801]>
-                <[tmvector2d][endpoint2][-0.900553 53.026801]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-0.909990 53.027705]>
-                <[tmvector2d][endpoint1][-0.911281 53.029095]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-0.901447 53.018503]>
-                <[tmvector2d][endpoint2][-0.901447 53.018503]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][12]>
-                <[tmvector2d][threshold1][-0.920030 53.022971]>
-                <[tmvector2d][endpoint1][-0.920030 53.022971]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][30]>
-                <[tmvector2d][threshold2][-0.902396 53.019399]>
-                <[tmvector2d][endpoint2][-0.902396 53.019399]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-0.914379 53.019871]>
-                <[float64][heading][306.40]>
-                <[string8][name][Apron 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-0.914562 53.019718]>
-                <[float64][heading][300.47]>
-                <[string8][name][Apron 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-0.912508 53.020342]>
-                <[float64][heading][79.38]>
-                <[string8][name][Apron 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-0.912178 53.020276]>
-                <[float64][heading][81.37]>
-                <[string8][name][Apron 4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-0.916652 53.019766]>
-                <[float64][heading][130.75]>
-                <[string8][name][HardStand 1]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-0.917427 53.018544]>
-                <[float64][heading][130.47]>
-                <[string8][name][HardStand 2]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-0.918896 53.017968]>
-                <[float64][heading][129.81]>
-                <[string8][name][HardStand 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][RAF Syerston]>
+		<[string8][lname][RAF Syerston, United Kingdom]>
+		<[string8][icao][EGXY]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-0.912517 53.023040]>
+		<[float64][height][69.5]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-0.913533 53.020134]>
+		<[float64][tower_height][76.2]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][-0.924481 53.019280]>
+				<[tmvector2d][endpoint1][-0.924481 53.019280]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][-0.900553 53.026801]>
+				<[tmvector2d][endpoint2][-0.900553 53.026801]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-0.909990 53.027705]>
+				<[tmvector2d][endpoint1][-0.911281 53.029095]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-0.901447 53.018503]>
+				<[tmvector2d][endpoint2][-0.901447 53.018503]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][12]>
+				<[tmvector2d][threshold1][-0.920030 53.022971]>
+				<[tmvector2d][endpoint1][-0.920030 53.022971]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][30]>
+				<[tmvector2d][threshold2][-0.902396 53.019399]>
+				<[tmvector2d][endpoint2][-0.902396 53.019399]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-0.914379 53.019871]>
+				<[float64][heading][306.40]>
+				<[string8][name][Apron 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-0.914562 53.019718]>
+				<[float64][heading][300.47]>
+				<[string8][name][Apron 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-0.912508 53.020342]>
+				<[float64][heading][79.38]>
+				<[string8][name][Apron 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-0.912178 53.020276]>
+				<[float64][heading][81.37]>
+				<[string8][name][Apron 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-0.916652 53.019766]>
+				<[float64][heading][130.75]>
+				<[string8][name][HardStand 1]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-0.917427 53.018544]>
+				<[float64][heading][130.47]>
+				<[string8][name][HardStand 2]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-0.918896 53.017968]>
+				<[float64][heading][129.81]>
+				<[string8][name][HardStand 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EGXY_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

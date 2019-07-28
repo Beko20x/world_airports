@@ -1,84 +1,80 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][SALINA MUNI]>
-        <[string8][lname][SALINA MUNI, USA]>
-        <[string8][icao][KSLN]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-97.645919 38.793521]>
-        <[float64][height][392.6]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][-97.645960 38.810406]>
-                <[tmvector2d][endpoint1][-97.645960 38.810406]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][-97.645878 38.776636]>
-                <[tmvector2d][endpoint2][-97.645878 38.776636]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][12]>
-                <[tmvector2d][threshold1][-97.666975 38.793578]>
-                <[tmvector2d][endpoint1][-97.666975 38.793578]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][30]>
-                <[tmvector2d][threshold2][-97.650108 38.781531]>
-                <[tmvector2d][endpoint2][-97.650108 38.781531]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][18]>
-                <[tmvector2d][threshold1][-97.661469 38.793814]>
-                <[tmvector2d][endpoint1][-97.661469 38.793814]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][36]>
-                <[tmvector2d][threshold2][-97.661436 38.782008]>
-                <[tmvector2d][endpoint2][-97.661436 38.782008]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-            <[tmsimulator_runway][element][3]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-97.656147 38.786194]>
-                <[tmvector2d][endpoint1][-97.656147 38.786194]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-97.646506 38.792781]>
-                <[tmvector2d][endpoint2][-97.646506 38.792781]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][SALINA MUNI]>
+		<[string8][lname][SALINA MUNI, USA]>
+		<[string8][icao][KSLN]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-97.645919 38.793521]>
+		<[float64][height][392.6]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-97.645960 38.810406]>
+				<[tmvector2d][endpoint1][-97.645960 38.810406]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-97.645878 38.776636]>
+				<[tmvector2d][endpoint2][-97.645878 38.776636]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][12]>
+				<[tmvector2d][threshold1][-97.666975 38.793578]>
+				<[tmvector2d][endpoint1][-97.666975 38.793578]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][30]>
+				<[tmvector2d][threshold2][-97.650108 38.781531]>
+				<[tmvector2d][endpoint2][-97.650108 38.781531]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][-97.661469 38.793814]>
+				<[tmvector2d][endpoint1][-97.661469 38.793814]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][-97.661436 38.782008]>
+				<[tmvector2d][endpoint2][-97.661436 38.782008]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+			<[tmsimulator_runway][element][3]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-97.656147 38.786194]>
+				<[tmvector2d][endpoint1][-97.656147 38.786194]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-97.646506 38.792781]>
+				<[tmvector2d][endpoint2][-97.646506 38.792781]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
 >

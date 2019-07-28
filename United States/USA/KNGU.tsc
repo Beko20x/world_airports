@@ -1,78 +1,80 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Norfolk Naval Air Station]>
-        <[string8][lname][Norfolk Naval Air Station, USA]>
-        <[string8][icao][KNGU]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-76.290464 36.937458]>
-        <[float64][height][4.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-76.291870 36.939964]>
-        <[float64][tower_height][50.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][-76.302071 36.937445]>
-                <[tmvector2d][endpoint1][-76.302583 36.937445]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][-76.278813 36.937470]>
-                <[tmvector2d][endpoint2][-76.278345 36.937471]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][60.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-76.290296 36.940085]>
-                <[string8][type_name][building]>
-                <[float64][radius][16.0]>
-                <[float64][heading][360.00]>
-                <[float64][height][0]>
-                <[string8][name][H4]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][-76.288738 36.939847]>
-                <[string8][type_name][building]>
-                <[float64][radius][15.5]>
-                <[float64][heading][46.28]>
-                <[float64][height][0]>
-                <[string8][name][H5]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][-76.290304 36.935880]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H6]>
-            >
-            <[tmsimulator_helipad][element][3]
-                <[tmvector2d][position][-76.290289 36.934264]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H7]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-76.294426 36.940910]>
-                <[float64][heading][90.00]>
-                <[string8][name][Norfolk NAS ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Norfolk Naval Air Station]>
+		<[string8][lname][Norfolk Naval Air Station, USA]>
+		<[string8][icao][KNGU]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-76.290464 36.937458]>
+		<[float64][height][4.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-76.291870 36.939964]>
+		<[float64][tower_height][50.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][-76.302071 36.937445]>
+				<[tmvector2d][endpoint1][-76.302583 36.937445]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][-76.278813 36.937470]>
+				<[tmvector2d][endpoint2][-76.278345 36.937471]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][60.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-76.290296 36.940085]>
+				<[string8][type_name][building]>
+				<[float64][radius][16.0]>
+				<[float64][heading][360.00]>
+				<[float64][height][0]>
+				<[string8][name][H4]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][-76.288738 36.939847]>
+				<[string8][type_name][building]>
+				<[float64][radius][15.5]>
+				<[float64][heading][46.28]>
+				<[float64][height][0]>
+				<[string8][name][H5]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][-76.290304 36.935880]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H6]>
+			>
+			<[tmsimulator_helipad][element][3]
+				<[tmvector2d][position][-76.290289 36.934264]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H7]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-76.294426 36.940910]>
+				<[float64][heading][90.00]>
+				<[string8][name][Norfolk NAS ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KNGU_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

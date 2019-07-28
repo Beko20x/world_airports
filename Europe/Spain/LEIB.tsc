@@ -1,86 +1,88 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Ibiza]>
-        <[string8][lname][Ibiza, Spain]>
-        <[string8][icao][LEIB]>
-        <[string8][country][es]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][1.373045 38.872871]>
-        <[float64][height][6.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][1.370597 38.877206]>
-        <[float64][tower_height][31.1]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][1.358840 38.866955]>
-                <[tmvector2d][endpoint1][1.358840 38.866955]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][right]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][1.387249 38.878786]>
-                <[tmvector2d][endpoint2][1.387249 38.878786]>
-                <[string8][appltsys2][calvert]>
-                <[string8][papi2][right]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][1.373870 38.876259]>
-                <[float64][heading][21.72]>
-                <[string8][name][Ramp Start 12]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][1.366984 38.874946]>
-                <[float64][heading][15.83]>
-                <[string8][name][Ramp Start 23]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][1.367878 38.875243]>
-                <[float64][heading][19.41]>
-                <[string8][name][Ramp Start 24]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][1.368698 38.875579]>
-                <[float64][heading][18.20]>
-                <[string8][name][Ramp Start 25]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][1.370213 38.876114]>
-                <[float64][heading][333.96]>
-                <[string8][name][Ramp Start 27]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][1.370745 38.876333]>
-                <[float64][heading][333.96]>
-                <[string8][name][Ramp Start 28]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][1.371267 38.876547]>
-                <[float64][heading][333.96]>
-                <[string8][name][Ramp Start 29]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][1.374418 38.876483]>
-                <[float64][heading][13.16]>
-                <[string8][name][Ramp Start 30]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][1.371789 38.876768]>
-                <[float64][heading][333.96]>
-                <[string8][name][Ramp Start 30]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Ibiza]>
+		<[string8][lname][Ibiza, Spain]>
+		<[string8][icao][LEIB]>
+		<[string8][country][es]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][1.373045 38.872871]>
+		<[float64][height][6.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][1.370597 38.877206]>
+		<[float64][tower_height][31.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][1.358840 38.866955]>
+				<[tmvector2d][endpoint1][1.358840 38.866955]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][right]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][1.387249 38.878786]>
+				<[tmvector2d][endpoint2][1.387249 38.878786]>
+				<[string8][appltsys2][calvert]>
+				<[string8][papi2][right]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][1.373870 38.876259]>
+				<[float64][heading][21.72]>
+				<[string8][name][Ramp Start 12]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][1.366984 38.874946]>
+				<[float64][heading][15.83]>
+				<[string8][name][Ramp Start 23]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][1.367878 38.875243]>
+				<[float64][heading][19.41]>
+				<[string8][name][Ramp Start 24]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][1.368698 38.875579]>
+				<[float64][heading][18.20]>
+				<[string8][name][Ramp Start 25]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][1.370213 38.876114]>
+				<[float64][heading][333.96]>
+				<[string8][name][Ramp Start 27]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][1.370745 38.876333]>
+				<[float64][heading][333.96]>
+				<[string8][name][Ramp Start 28]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][1.371267 38.876547]>
+				<[float64][heading][333.96]>
+				<[string8][name][Ramp Start 29]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][1.374418 38.876483]>
+				<[float64][heading][13.16]>
+				<[string8][name][Ramp Start 30]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][1.371789 38.876768]>
+				<[float64][heading][333.96]>
+				<[string8][name][Ramp Start 30]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LEIB_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

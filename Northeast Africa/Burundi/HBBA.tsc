@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][BUJUMBURA INTL]>
-        <[string8][lname][BUJUMBURA INTL, Burundi]>
-        <[string8][icao][HBBA]>
-        <[string8][country][bi]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][29.318521 -3.324018]>
-        <[float64][height][787.0]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][29.322655 -3.325969]>
-        <[float64][tower_height][796.1]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][29.316006 -3.307989]>
-                <[tmvector2d][endpoint1][29.316006 -3.307989]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][29.321036 -3.340047]>
-                <[tmvector2d][endpoint2][29.321036 -3.340047]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][29.319801 -3.322031]>
-                <[float64][heading][90.00]>
-                <[string8][name][Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][BUJUMBURA INTL]>
+		<[string8][lname][BUJUMBURA INTL, Burundi]>
+		<[string8][icao][HBBA]>
+		<[string8][country][bi]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][29.318521 -3.324018]>
+		<[float64][height][787.0]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][29.322655 -3.325969]>
+		<[float64][tower_height][796.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][29.316006 -3.307989]>
+				<[tmvector2d][endpoint1][29.316006 -3.307989]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][29.321036 -3.340047]>
+				<[tmvector2d][endpoint2][29.321036 -3.340047]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][29.319801 -3.322031]>
+				<[float64][heading][90.00]>
+				<[string8][name][Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][HBBA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

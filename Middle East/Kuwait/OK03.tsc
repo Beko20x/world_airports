@@ -1,62 +1,64 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][DOWNTOWN AIRPARK]>
-        <[string8][lname][DOWNTOWN AIRPARK, Kuwait]>
-        <[string8][icao][OK03]>
-        <[string8][country][kw]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-97.532995 35.449553]>
-        <[float64][height][359.7]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-97.533938 35.453920]>
-                <[tmvector2d][endpoint1][-97.533938 35.453920]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-97.532053 35.445187]>
-                <[tmvector2d][endpoint2][-97.532053 35.445187]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][25.91]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-97.530549 35.449806]>
-                <[string8][type_name][building]>
-                <[float64][radius][3.1]>
-                <[float64][heading][359.98]>
-                <[float64][height][0]>
-                <[string8][name][H7]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-97.530550 35.449807]>
-                <[float64][heading][268.69]>
-                <[string8][name][Downtown start 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-97.530755 35.448893]>
-                <[float64][heading][245.34]>
-                <[string8][name][Downtown start 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-97.531051 35.446502]>
-                <[float64][heading][0.00]>
-                <[string8][name][Downtown start 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][DOWNTOWN AIRPARK]>
+		<[string8][lname][DOWNTOWN AIRPARK, Kuwait]>
+		<[string8][icao][OK03]>
+		<[string8][country][kw]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-97.532995 35.449553]>
+		<[float64][height][359.7]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-97.533938 35.453920]>
+				<[tmvector2d][endpoint1][-97.533938 35.453920]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-97.532053 35.445187]>
+				<[tmvector2d][endpoint2][-97.532053 35.445187]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][25.91]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-97.530549 35.449806]>
+				<[string8][type_name][building]>
+				<[float64][radius][3.1]>
+				<[float64][heading][359.98]>
+				<[float64][height][0]>
+				<[string8][name][H7]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-97.530550 35.449807]>
+				<[float64][heading][268.69]>
+				<[string8][name][Downtown start 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-97.530755 35.448893]>
+				<[float64][heading][245.34]>
+				<[string8][name][Downtown start 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-97.531051 35.446502]>
+				<[float64][heading][0.00]>
+				<[string8][name][Downtown start 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][OK03_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

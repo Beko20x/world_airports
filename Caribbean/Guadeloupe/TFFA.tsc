@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Grande Anse La Desirade]>
-        <[string8][lname][Grande Anse La Desirade, Guadeloupe]>
-        <[string8][icao][TFFA]>
-        <[string8][country][gp]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-61.079273 16.300268]>
-        <[float64][height][2.7]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-61.081143 16.300025]>
-        <[float64][tower_height][2.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][-61.081959 16.299330]>
-                <[tmvector2d][endpoint1][-61.081959 16.299330]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-61.076587 16.301206]>
-                <[tmvector2d][endpoint2][-61.076587 16.301206]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-61.081312 16.300268]>
-                <[float64][heading][0.00]>
-                <[string8][name][Custom Startup Location]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Grande Anse La Desirade]>
+		<[string8][lname][Grande Anse La Desirade, Guadeloupe]>
+		<[string8][icao][TFFA]>
+		<[string8][country][gp]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-61.079273 16.300268]>
+		<[float64][height][2.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-61.081143 16.300025]>
+		<[float64][tower_height][2.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-61.081959 16.299330]>
+				<[tmvector2d][endpoint1][-61.081959 16.299330]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-61.076587 16.301206]>
+				<[tmvector2d][endpoint2][-61.076587 16.301206]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-61.081312 16.300268]>
+				<[float64][heading][0.00]>
+				<[string8][name][Custom Startup Location]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][TFFA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

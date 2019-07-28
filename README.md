@@ -1,7 +1,9 @@
 # world_airports
- More than 12,000 generic airports around the world for Aerofly FS2 (scenery)
+ More than 12,000 generic airports worldwide for Aerofly FS2 (scenery)
  
 	12152 airports (with hard surface runways) created
+	7694 beacon lights created
+	3338 control towers created	
   
  To instal just unzip all or selected airport files/countries into '\Documents\Aerofly FS 2\scenery\places\' folder.
  

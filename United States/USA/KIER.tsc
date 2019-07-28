@@ -1,86 +1,88 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Natchitoches Rgnl]>
-        <[string8][lname][Natchitoches Rgnl, USA]>
-        <[string8][icao][KIER]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-93.097574 31.732982]>
-        <[float64][height][36.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-93.095406 31.735537]>
-        <[float64][tower_height][36.9]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][-93.099458 31.739667]>
-                <[tmvector2d][endpoint1][-93.099458 31.739667]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][-93.095689 31.726297]>
-                <[tmvector2d][endpoint2][-93.095689 31.726297]>
-                <[string8][appltsys2][odals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][07]>
-                <[tmvector2d][threshold1][-93.107367 31.737831]>
-                <[tmvector2d][endpoint1][-93.107367 31.737831]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][25]>
-                <[tmvector2d][threshold2][-93.094864 31.740403]>
-                <[tmvector2d][endpoint2][-93.094864 31.740403]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][30.48]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-93.096230 31.735428]>
-                <[float64][heading][75.00]>
-                <[string8][name][Gen Avia Ramp]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-93.098419 31.738848]>
-                <[float64][heading][253.00]>
-                <[string8][name][Hold Short Rwy17]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-93.094765 31.739807]>
-                <[float64][heading][346.00]>
-                <[string8][name][Hold Short Rwy25]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-93.095024 31.726500]>
-                <[float64][heading][254.00]>
-                <[string8][name][Hold Short Rwy35]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-93.095360 31.741356]>
-                <[float64][heading][84.00]>
-                <[string8][name][NSU Ramp]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-93.096352 31.738184]>
-                <[float64][heading][254.00]>
-                <[string8][name][T-Hanger]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Natchitoches Rgnl]>
+		<[string8][lname][Natchitoches Rgnl, USA]>
+		<[string8][icao][KIER]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-93.097574 31.732982]>
+		<[float64][height][36.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-93.095406 31.735537]>
+		<[float64][tower_height][36.9]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-93.099458 31.739667]>
+				<[tmvector2d][endpoint1][-93.099458 31.739667]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-93.095689 31.726297]>
+				<[tmvector2d][endpoint2][-93.095689 31.726297]>
+				<[string8][appltsys2][odals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][-93.107367 31.737831]>
+				<[tmvector2d][endpoint1][-93.107367 31.737831]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][-93.094864 31.740403]>
+				<[tmvector2d][endpoint2][-93.094864 31.740403]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-93.096230 31.735428]>
+				<[float64][heading][75.00]>
+				<[string8][name][Gen Avia Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-93.098419 31.738848]>
+				<[float64][heading][253.00]>
+				<[string8][name][Hold Short Rwy17]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-93.094765 31.739807]>
+				<[float64][heading][346.00]>
+				<[string8][name][Hold Short Rwy25]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-93.095024 31.726500]>
+				<[float64][heading][254.00]>
+				<[string8][name][Hold Short Rwy35]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-93.095360 31.741356]>
+				<[float64][heading][84.00]>
+				<[string8][name][NSU Ramp]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-93.096352 31.738184]>
+				<[float64][heading][254.00]>
+				<[string8][name][T-Hanger]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KIER_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

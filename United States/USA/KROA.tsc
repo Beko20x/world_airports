@@ -1,100 +1,102 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Roanoke Rgnl Woodrum Field]>
-        <[string8][lname][Roanoke Rgnl Woodrum Field, USA]>
-        <[string8][icao][KROA]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-79.976118 37.327561]>
-        <[float64][height][358.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-79.979035 37.324241]>
-        <[float64][tower_height][385.6]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][-79.983518 37.322562]>
-                <[tmvector2d][endpoint1][-79.984000 37.322236]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-79.968541 37.332680]>
-                <[tmvector2d][endpoint2][-79.968236 37.332886]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][15]>
-                <[tmvector2d][threshold1][-79.980636 37.328329]>
-                <[tmvector2d][endpoint1][-79.981128 37.328956]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][33]>
-                <[tmvector2d][threshold2][-79.970999 37.316050]>
-                <[tmvector2d][endpoint2][-79.970517 37.315436]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-79.973562 37.326567]>
-                <[string8][type_name][building]>
-                <[float64][radius][6.6]>
-                <[float64][heading][341.27]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][-79.973175 37.326665]>
-                <[string8][type_name][building]>
-                <[float64][radius][6.6]>
-                <[float64][heading][341.27]>
-                <[float64][height][0]>
-                <[string8][name][H2]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][-79.972796 37.326777]>
-                <[string8][type_name][building]>
-                <[float64][radius][6.6]>
-                <[float64][heading][341.27]>
-                <[float64][height][0]>
-                <[string8][name][H3]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-79.970799 37.329042]>
-                <[float64][heading][0.00]>
-                <[string8][name][Cargo Ramp]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-79.973177 37.324146]>
-                <[float64][heading][174.42]>
-                <[string8][name][Executive]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-79.972384 37.324677]>
-                <[float64][heading][0.00]>
-                <[string8][name][General Aviation]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-79.970778 37.322439]>
-                <[float64][heading][238.34]>
-                <[string8][name][Main Apron]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Roanoke Rgnl Woodrum Field]>
+		<[string8][lname][Roanoke Rgnl Woodrum Field, USA]>
+		<[string8][icao][KROA]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-79.976118 37.327561]>
+		<[float64][height][358.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-79.979035 37.324241]>
+		<[float64][tower_height][385.6]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][-79.983518 37.322562]>
+				<[tmvector2d][endpoint1][-79.984000 37.322236]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-79.968541 37.332680]>
+				<[tmvector2d][endpoint2][-79.968236 37.332886]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][-79.980636 37.328329]>
+				<[tmvector2d][endpoint1][-79.981128 37.328956]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][-79.970999 37.316050]>
+				<[tmvector2d][endpoint2][-79.970517 37.315436]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-79.973562 37.326567]>
+				<[string8][type_name][building]>
+				<[float64][radius][6.6]>
+				<[float64][heading][341.27]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][-79.973175 37.326665]>
+				<[string8][type_name][building]>
+				<[float64][radius][6.6]>
+				<[float64][heading][341.27]>
+				<[float64][height][0]>
+				<[string8][name][H2]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][-79.972796 37.326777]>
+				<[string8][type_name][building]>
+				<[float64][radius][6.6]>
+				<[float64][heading][341.27]>
+				<[float64][height][0]>
+				<[string8][name][H3]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-79.970799 37.329042]>
+				<[float64][heading][0.00]>
+				<[string8][name][Cargo Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-79.973177 37.324146]>
+				<[float64][heading][174.42]>
+				<[string8][name][Executive]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-79.972384 37.324677]>
+				<[float64][heading][0.00]>
+				<[string8][name][General Aviation]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-79.970778 37.322439]>
+				<[float64][heading][238.34]>
+				<[string8][name][Main Apron]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KROA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

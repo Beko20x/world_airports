@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Seymour Johnson AFB]>
-        <[string8][lname][Seymour Johnson AFB, USA]>
-        <[string8][icao][KGSB]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-77.960589 35.339381]>
-        <[float64][height][33.5]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-77.959801 35.344040]>
-        <[float64][tower_height][64.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][-77.979453 35.334686]>
-                <[tmvector2d][endpoint1][-77.979453 35.334686]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-77.941725 35.344075]>
-                <[tmvector2d][endpoint2][-77.941725 35.344075]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][91.44]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-77.950294 35.347095]>
-                <[float64][heading][0.00]>
-                <[string8][name][East Ramp]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-77.949120 35.343971]>
-                <[float64][heading][250.00]>
-                <[string8][name][Hot Cargo]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-77.978714 35.340427]>
-                <[float64][heading][238.00]>
-                <[string8][name][Shelter]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-77.966423 35.343052]>
-                <[float64][heading][30.00]>
-                <[string8][name][West Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Seymour Johnson AFB]>
+		<[string8][lname][Seymour Johnson AFB, USA]>
+		<[string8][icao][KGSB]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-77.960589 35.339381]>
+		<[float64][height][33.5]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-77.959801 35.344040]>
+		<[float64][tower_height][64.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-77.979453 35.334686]>
+				<[tmvector2d][endpoint1][-77.979453 35.334686]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-77.941725 35.344075]>
+				<[tmvector2d][endpoint2][-77.941725 35.344075]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][91.44]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-77.950294 35.347095]>
+				<[float64][heading][0.00]>
+				<[string8][name][East Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-77.949120 35.343971]>
+				<[float64][heading][250.00]>
+				<[string8][name][Hot Cargo]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-77.978714 35.340427]>
+				<[float64][heading][238.00]>
+				<[string8][name][Shelter]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-77.966423 35.343052]>
+				<[float64][heading][30.00]>
+				<[string8][name][West Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KGSB_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

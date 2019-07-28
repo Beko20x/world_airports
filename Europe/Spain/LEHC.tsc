@@ -1,86 +1,88 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Huesca/Pirineos]>
-        <[string8][lname][Huesca/Pirineos, Spain]>
-        <[string8][icao][LEHC]>
-        <[string8][country][es]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-0.323471 42.080930]>
-        <[float64][height][538.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-0.317279 42.079239]>
-        <[float64][tower_height][563.9]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][12L]>
-                <[tmvector2d][threshold1][-0.326583 42.082430]>
-                <[tmvector2d][endpoint1][-0.326583 42.082430]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][right]>
-                <[string8][reil1][none]>
-                <[string8][name2][30R]>
-                <[tmvector2d][threshold2][-0.320358 42.079431]>
-                <[tmvector2d][endpoint2][-0.320358 42.079431]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][right]>
-                <[string8][reil2][none]>
-                <[float64][width][11.89]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][12R]>
-                <[tmvector2d][threshold1][-0.327302 42.080925]>
-                <[tmvector2d][endpoint1][-0.327302 42.080925]>
-                <[string8][appltsys1][malsf]>
-                <[string8][papi1][right]>
-                <[string8][reil1][none]>
-                <[string8][name2][30L]>
-                <[tmvector2d][threshold2][-0.305978 42.070678]>
-                <[tmvector2d][endpoint2][-0.305978 42.070678]>
-                <[string8][appltsys2][malsf]>
-                <[string8][papi2][right]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-0.322070 42.081515]>
-                <[float64][heading][31.61]>
-                <[string8][name][1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-0.321385 42.081925]>
-                <[float64][heading][334.98]>
-                <[string8][name][2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-0.321011 42.082340]>
-                <[float64][heading][334.90]>
-                <[string8][name][3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-0.320371 42.082173]>
-                <[float64][heading][188.43]>
-                <[string8][name][4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-0.325942 42.083340]>
-                <[float64][heading][212.00]>
-                <[string8][name][Aeroclub]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-0.326461 42.083575]>
-                <[float64][heading][212.00]>
-                <[string8][name][Aeroclub]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Huesca/Pirineos]>
+		<[string8][lname][Huesca/Pirineos, Spain]>
+		<[string8][icao][LEHC]>
+		<[string8][country][es]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-0.323471 42.080930]>
+		<[float64][height][538.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-0.317279 42.079239]>
+		<[float64][tower_height][563.9]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][12L]>
+				<[tmvector2d][threshold1][-0.326583 42.082430]>
+				<[tmvector2d][endpoint1][-0.326583 42.082430]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][right]>
+				<[string8][reil1][none]>
+				<[string8][name2][30R]>
+				<[tmvector2d][threshold2][-0.320358 42.079431]>
+				<[tmvector2d][endpoint2][-0.320358 42.079431]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][right]>
+				<[string8][reil2][none]>
+				<[float64][width][11.89]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][12R]>
+				<[tmvector2d][threshold1][-0.327302 42.080925]>
+				<[tmvector2d][endpoint1][-0.327302 42.080925]>
+				<[string8][appltsys1][malsf]>
+				<[string8][papi1][right]>
+				<[string8][reil1][none]>
+				<[string8][name2][30L]>
+				<[tmvector2d][threshold2][-0.305978 42.070678]>
+				<[tmvector2d][endpoint2][-0.305978 42.070678]>
+				<[string8][appltsys2][malsf]>
+				<[string8][papi2][right]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-0.322070 42.081515]>
+				<[float64][heading][31.61]>
+				<[string8][name][1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-0.321385 42.081925]>
+				<[float64][heading][334.98]>
+				<[string8][name][2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-0.321011 42.082340]>
+				<[float64][heading][334.90]>
+				<[string8][name][3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-0.320371 42.082173]>
+				<[float64][heading][188.43]>
+				<[string8][name][4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-0.325942 42.083340]>
+				<[float64][heading][212.00]>
+				<[string8][name][Aeroclub]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-0.326461 42.083575]>
+				<[float64][heading][212.00]>
+				<[string8][name][Aeroclub]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LEHC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,54 +1,56 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][BAIYUN INTL]>
-        <[string8][lname][BAIYUN INTL, China]>
-        <[string8][icao][ZGGG]>
-        <[string8][country][cn]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][113.309827 23.392238]>
-        <[float64][height][15.2]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][02R]>
-                <[tmvector2d][threshold1][113.305325 23.375539]>
-                <[tmvector2d][endpoint1][113.305325 23.375539]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][20L]>
-                <[tmvector2d][threshold2][113.313294 23.405100]>
-                <[tmvector2d][endpoint2][113.314328 23.408936]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.05]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][02L]>
-                <[tmvector2d][threshold1][113.283497 23.376822]>
-                <[tmvector2d][endpoint1][113.283497 23.376822]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][20R]>
-                <[tmvector2d][threshold2][113.292003 23.408458]>
-                <[tmvector2d][endpoint2][113.292003 23.408458]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][BAIYUN INTL]>
+		<[string8][lname][BAIYUN INTL, China]>
+		<[string8][icao][ZGGG]>
+		<[string8][country][cn]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][113.309827 23.392238]>
+		<[float64][height][15.2]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][02R]>
+				<[tmvector2d][threshold1][113.305325 23.375539]>
+				<[tmvector2d][endpoint1][113.305325 23.375539]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][20L]>
+				<[tmvector2d][threshold2][113.313294 23.405100]>
+				<[tmvector2d][endpoint2][113.314328 23.408936]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.05]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][02L]>
+				<[tmvector2d][threshold1][113.283497 23.376822]>
+				<[tmvector2d][endpoint1][113.283497 23.376822]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][20R]>
+				<[tmvector2d][threshold2][113.292003 23.408458]>
+				<[tmvector2d][endpoint2][113.292003 23.408458]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][ZGGG_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

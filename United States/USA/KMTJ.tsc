@@ -1,94 +1,96 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Montrose Rgnl]>
-        <[string8][lname][Montrose Rgnl, USA]>
-        <[string8][icao][KMTJ]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-107.892687 38.516106]>
-        <[float64][height][1755.3]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][-107.892742 38.529831]>
-                <[tmvector2d][endpoint1][-107.892742 38.529831]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][-107.892631 38.502381]>
-                <[tmvector2d][endpoint2][-107.892631 38.502381]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][-107.904844 38.509206]>
-                <[tmvector2d][endpoint1][-107.904844 38.509206]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][-107.887794 38.493567]>
-                <[tmvector2d][endpoint2][-107.887794 38.493567]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-107.899291 38.501128]>
-                <[float64][heading][229.50]>
-                <[string8][name][Air Carrier Terminal]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-107.898447 38.502249]>
-                <[float64][heading][49.50]>
-                <[string8][name][Back Taxi to Rwy 13]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-107.897827 38.499916]>
-                <[float64][heading][319.50]>
-                <[string8][name][Black Canyon Jet Center]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-107.892495 38.495184]>
-                <[float64][heading][229.50]>
-                <[string8][name][GA Ramp]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-107.894009 38.529563]>
-                <[float64][heading][35.17]>
-                <[string8][name][Hold Short Rwy 17]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-107.888556 38.493131]>
-                <[float64][heading][49.50]>
-                <[string8][name][Hold Short Rwy 31]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-107.893961 38.502528]>
-                <[float64][heading][67.01]>
-                <[string8][name][Hold Short Rwy 35]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-107.895995 38.510405]>
-                <[float64][heading][269.80]>
-                <[string8][name][JetAway Avation]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Montrose Rgnl]>
+		<[string8][lname][Montrose Rgnl, USA]>
+		<[string8][icao][KMTJ]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-107.892687 38.516106]>
+		<[float64][height][1755.3]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-107.892742 38.529831]>
+				<[tmvector2d][endpoint1][-107.892742 38.529831]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-107.892631 38.502381]>
+				<[tmvector2d][endpoint2][-107.892631 38.502381]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-107.904844 38.509206]>
+				<[tmvector2d][endpoint1][-107.904844 38.509206]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-107.887794 38.493567]>
+				<[tmvector2d][endpoint2][-107.887794 38.493567]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-107.899291 38.501128]>
+				<[float64][heading][229.50]>
+				<[string8][name][Air Carrier Terminal]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-107.898447 38.502249]>
+				<[float64][heading][49.50]>
+				<[string8][name][Back Taxi to Rwy 13]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-107.897827 38.499916]>
+				<[float64][heading][319.50]>
+				<[string8][name][Black Canyon Jet Center]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-107.892495 38.495184]>
+				<[float64][heading][229.50]>
+				<[string8][name][GA Ramp]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-107.894009 38.529563]>
+				<[float64][heading][35.17]>
+				<[string8][name][Hold Short Rwy 17]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-107.888556 38.493131]>
+				<[float64][heading][49.50]>
+				<[string8][name][Hold Short Rwy 31]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-107.893961 38.502528]>
+				<[float64][heading][67.01]>
+				<[string8][name][Hold Short Rwy 35]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-107.895995 38.510405]>
+				<[float64][heading][269.80]>
+				<[string8][name][JetAway Avation]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KMTJ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

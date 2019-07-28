@@ -1,83 +1,85 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Isle of Skye Broadford]>
-        <[string8][lname][Isle of Skye Broadford, United Kingdom]>
-        <[string8][icao][XBRO]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-5.827811 57.253162]>
-        <[float64][height][7.0]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-5.824489 57.253399]>
-        <[float64][tower_height][8.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][-5.833358 57.251482]>
-                <[tmvector2d][endpoint1][-5.833573 57.251417]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-5.822230 57.254852]>
-                <[tmvector2d][endpoint2][-5.822048 57.254907]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][25.91]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-5.834673 57.254061]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H46]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][-5.827903 57.255204]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H47]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][-5.829391 57.249947]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H48]>
-            >
-            <[tmsimulator_helipad][element][3]
-                <[tmvector2d][position][-5.821953 57.251557]>
-                <[string8][type_name][building]>
-                <[float64][radius][25.0]>
-                <[float64][heading][0.00]>
-                <[float64][height][0]>
-                <[string8][name][H49]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-5.824812 57.253312]>
-                <[float64][heading][325.01]>
-                <[string8][name][Apron 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-5.823359 57.253777]>
-                <[float64][heading][238.57]>
-                <[string8][name][Apron 2]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Isle of Skye Broadford]>
+		<[string8][lname][Isle of Skye Broadford, United Kingdom]>
+		<[string8][icao][XBRO]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-5.827811 57.253162]>
+		<[float64][height][7.0]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-5.824489 57.253399]>
+		<[float64][tower_height][8.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-5.833358 57.251482]>
+				<[tmvector2d][endpoint1][-5.833573 57.251417]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-5.822230 57.254852]>
+				<[tmvector2d][endpoint2][-5.822048 57.254907]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][25.91]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-5.834673 57.254061]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H46]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][-5.827903 57.255204]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H47]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][-5.829391 57.249947]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H48]>
+			>
+			<[tmsimulator_helipad][element][3]
+				<[tmvector2d][position][-5.821953 57.251557]>
+				<[string8][type_name][building]>
+				<[float64][radius][25.0]>
+				<[float64][heading][0.00]>
+				<[float64][height][0]>
+				<[string8][name][H49]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-5.824812 57.253312]>
+				<[float64][heading][325.01]>
+				<[string8][name][Apron 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-5.823359 57.253777]>
+				<[float64][heading][238.57]>
+				<[string8][name][Apron 2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][XBRO_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

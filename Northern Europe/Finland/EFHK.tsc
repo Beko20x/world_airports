@@ -1,81 +1,83 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Helsinki Vantaa]>
-        <[string8][lname][Helsinki Vantaa, Finland]>
-        <[string8][icao][EFHK]>
-        <[string8][country][fi]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][24.957730 60.320991]>
-        <[float64][height][54.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][24.967724 60.320419]>
-        <[float64][tower_height][69.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04R]>
-                <[tmvector2d][threshold1][24.937036 60.311594]>
-                <[tmvector2d][endpoint1][24.936372 60.311292]>
-                <[string8][appltsys1][calvert-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22L]>
-                <[tmvector2d][threshold2][24.979089 60.330689]>
-                <[tmvector2d][endpoint2][24.979089 60.330689]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][60.05]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][04L]>
-                <[tmvector2d][threshold1][24.905896 60.313869]>
-                <[tmvector2d][endpoint1][24.903869 60.312947]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22R]>
-                <[tmvector2d][threshold2][24.941581 60.330091]>
-                <[tmvector2d][endpoint2][24.943892 60.331142]>
-                <[string8][appltsys2][calvert-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][60.05]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][15]>
-                <[tmvector2d][threshold1][24.964497 60.330275]>
-                <[tmvector2d][endpoint1][24.964497 60.330275]>
-                <[string8][appltsys1][calvert-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][33]>
-                <[tmvector2d][threshold2][24.988286 60.307067]>
-                <[tmvector2d][endpoint2][24.988286 60.307067]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][60.05]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][24.977594 60.313099]>
-                <[float64][heading][241.00]>
-                <[string8][name][Cargo Apron 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][24.959852 60.318859]>
-                <[float64][heading][140.00]>
-                <[string8][name][Intl Terminal]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Helsinki Vantaa]>
+		<[string8][lname][Helsinki Vantaa, Finland]>
+		<[string8][icao][EFHK]>
+		<[string8][country][fi]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][24.957730 60.320991]>
+		<[float64][height][54.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][24.967724 60.320419]>
+		<[float64][tower_height][69.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04R]>
+				<[tmvector2d][threshold1][24.937036 60.311594]>
+				<[tmvector2d][endpoint1][24.936372 60.311292]>
+				<[string8][appltsys1][calvert-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22L]>
+				<[tmvector2d][threshold2][24.979089 60.330689]>
+				<[tmvector2d][endpoint2][24.979089 60.330689]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][60.05]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][04L]>
+				<[tmvector2d][threshold1][24.905896 60.313869]>
+				<[tmvector2d][endpoint1][24.903869 60.312947]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22R]>
+				<[tmvector2d][threshold2][24.941581 60.330091]>
+				<[tmvector2d][endpoint2][24.943892 60.331142]>
+				<[string8][appltsys2][calvert-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][60.05]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][24.964497 60.330275]>
+				<[tmvector2d][endpoint1][24.964497 60.330275]>
+				<[string8][appltsys1][calvert-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][24.988286 60.307067]>
+				<[tmvector2d][endpoint2][24.988286 60.307067]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][60.05]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][24.977594 60.313099]>
+				<[float64][heading][241.00]>
+				<[string8][name][Cargo Apron 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][24.959852 60.318859]>
+				<[float64][heading][140.00]>
+				<[string8][name][Intl Terminal]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EFHK_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

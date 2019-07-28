@@ -1,39 +1,41 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][AKITA]>
-        <[string8][lname][AKITA, Japan]>
-        <[string8][icao][RJSK]>
-        <[string8][country][jp]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][140.218666 39.615645]>
-        <[float64][height][95.4]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][140.204206 39.616939]>
-                <[tmvector2d][endpoint1][140.204206 39.616939]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][140.233125 39.614350]>
-                <[tmvector2d][endpoint2][140.233125 39.614350]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][AKITA]>
+		<[string8][lname][AKITA, Japan]>
+		<[string8][icao][RJSK]>
+		<[string8][country][jp]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][140.218666 39.615645]>
+		<[float64][height][95.4]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][140.204206 39.616939]>
+				<[tmvector2d][endpoint1][140.204206 39.616939]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][140.233125 39.614350]>
+				<[tmvector2d][endpoint2][140.233125 39.614350]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][RJSK_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

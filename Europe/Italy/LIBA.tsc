@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][AMENDOLA]>
-        <[string8][lname][AMENDOLA, Italy]>
-        <[string8][icao][LIBA]>
-        <[string8][country][it]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][15.713874 41.539559]>
-        <[float64][height][55.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][15.712837 41.538433]>
-        <[float64][tower_height][71.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][15.699283 41.544378]>
-                <[tmvector2d][endpoint1][15.699283 41.544378]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][15.728464 41.534739]>
-                <[tmvector2d][endpoint2][15.728464 41.534739]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][43.89]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][15.704084 41.545971]>
-                <[float64][heading][140.00]>
-                <[string8][name][Ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][AMENDOLA]>
+		<[string8][lname][AMENDOLA, Italy]>
+		<[string8][icao][LIBA]>
+		<[string8][country][it]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][15.713874 41.539559]>
+		<[float64][height][55.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][15.712837 41.538433]>
+		<[float64][tower_height][71.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][15.699283 41.544378]>
+				<[tmvector2d][endpoint1][15.699283 41.544378]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][15.728464 41.534739]>
+				<[tmvector2d][endpoint2][15.728464 41.534739]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][43.89]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][15.704084 41.545971]>
+				<[float64][heading][140.00]>
+				<[string8][name][Ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LIBA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

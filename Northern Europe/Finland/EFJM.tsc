@@ -1,54 +1,56 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Jamijarvi]>
-        <[string8][lname][Jamijarvi, Finland]>
-        <[string8][icao][EFJM]>
-        <[string8][country][fi]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][22.719400 61.778300]>
-        <[float64][height][153.9]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][22.711505 61.778300]>
-                <[tmvector2d][endpoint1][22.711505 61.778300]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][22.727295 61.778300]>
-                <[tmvector2d][endpoint2][22.727295 61.778300]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][17.98]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][15]>
-                <[tmvector2d][threshold1][22.715453 61.781533]>
-                <[tmvector2d][endpoint1][22.715453 61.781533]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][33]>
-                <[tmvector2d][threshold2][22.723347 61.775067]>
-                <[tmvector2d][endpoint2][22.723347 61.775067]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][14.94]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Jamijarvi]>
+		<[string8][lname][Jamijarvi, Finland]>
+		<[string8][icao][EFJM]>
+		<[string8][country][fi]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][22.719400 61.778300]>
+		<[float64][height][153.9]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][22.711505 61.778300]>
+				<[tmvector2d][endpoint1][22.711505 61.778300]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][22.727295 61.778300]>
+				<[tmvector2d][endpoint2][22.727295 61.778300]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][17.98]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][22.715453 61.781533]>
+				<[tmvector2d][endpoint1][22.715453 61.781533]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][22.723347 61.775067]>
+				<[tmvector2d][endpoint2][22.723347 61.775067]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][14.94]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EFJM_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

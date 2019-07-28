@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Kalkgurung]>
-        <[string8][lname][Kalkgurung, Australia]>
-        <[string8][icao][YKKG]>
-        <[string8][country][au]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][130.810641 -17.436414]>
-        <[float64][height][196.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][130.808906 -17.432111]>
-        <[float64][tower_height][198.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][130.807088 -17.433016]>
-                <[tmvector2d][endpoint1][130.807088 -17.433016]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][130.814194 -17.439813]>
-                <[tmvector2d][endpoint2][130.814194 -17.439813]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][47.85]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][03]>
-                <[tmvector2d][threshold1][130.806585 -17.432971]>
-                <[tmvector2d][endpoint1][130.806585 -17.432971]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][21]>
-                <[tmvector2d][threshold2][130.813086 -17.423564]>
-                <[tmvector2d][endpoint2][130.813086 -17.423564]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][17.98]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][130.808782 -17.432229]>
-                <[float64][heading][232.12]>
-                <[string8][name][New Ramp Start 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Kalkgurung]>
+		<[string8][lname][Kalkgurung, Australia]>
+		<[string8][icao][YKKG]>
+		<[string8][country][au]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][130.810641 -17.436414]>
+		<[float64][height][196.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][130.808906 -17.432111]>
+		<[float64][tower_height][198.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][130.807088 -17.433016]>
+				<[tmvector2d][endpoint1][130.807088 -17.433016]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][130.814194 -17.439813]>
+				<[tmvector2d][endpoint2][130.814194 -17.439813]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][47.85]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][03]>
+				<[tmvector2d][threshold1][130.806585 -17.432971]>
+				<[tmvector2d][endpoint1][130.806585 -17.432971]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][21]>
+				<[tmvector2d][threshold2][130.813086 -17.423564]>
+				<[tmvector2d][endpoint2][130.813086 -17.423564]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][17.98]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][130.808782 -17.432229]>
+				<[float64][heading][232.12]>
+				<[string8][name][New Ramp Start 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][YKKG_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

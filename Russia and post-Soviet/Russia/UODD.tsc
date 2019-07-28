@@ -1,91 +1,93 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Dikson]>
-        <[string8][lname][Dikson, Russia]>
-        <[string8][icao][UODD]>
-        <[string8][country][ru]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][80.379098 73.517808]>
-        <[float64][height][12.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][80.382722 73.516384]>
-        <[float64][tower_height][37.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][80.355500 73.516902]>
-                <[tmvector2d][endpoint1][80.355500 73.516902]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][80.402696 73.518713]>
-                <[tmvector2d][endpoint2][80.402696 73.518713]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][80.391186 73.515963]>
-                <[float64][heading][166.62]>
-                <[string8][name][Stand 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][80.383325 73.515439]>
-                <[float64][heading][167.91]>
-                <[string8][name][Stand 10]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][80.390188 73.515902]>
-                <[float64][heading][166.76]>
-                <[string8][name][Stand 2]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][80.389172 73.515839]>
-                <[float64][heading][168.11]>
-                <[string8][name][Stand 3]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][80.388153 73.515770]>
-                <[float64][heading][167.20]>
-                <[string8][name][Stand 4]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][80.387167 73.515692]>
-                <[float64][heading][166.61]>
-                <[string8][name][Stand 5]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][80.386398 73.515648]>
-                <[float64][heading][163.30]>
-                <[string8][name][Stand 6]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][80.385621 73.515597]>
-                <[float64][heading][170.10]>
-                <[string8][name][Stand 7]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][80.384861 73.515541]>
-                <[float64][heading][165.38]>
-                <[string8][name][Stand 8]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][80.384082 73.515491]>
-                <[float64][heading][165.96]>
-                <[string8][name][Stand 9]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Dikson]>
+		<[string8][lname][Dikson, Russia]>
+		<[string8][icao][UODD]>
+		<[string8][country][ru]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][80.379098 73.517808]>
+		<[float64][height][12.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][80.382722 73.516384]>
+		<[float64][tower_height][37.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][80.355500 73.516902]>
+				<[tmvector2d][endpoint1][80.355500 73.516902]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][80.402696 73.518713]>
+				<[tmvector2d][endpoint2][80.402696 73.518713]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][80.391186 73.515963]>
+				<[float64][heading][166.62]>
+				<[string8][name][Stand 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][80.383325 73.515439]>
+				<[float64][heading][167.91]>
+				<[string8][name][Stand 10]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][80.390188 73.515902]>
+				<[float64][heading][166.76]>
+				<[string8][name][Stand 2]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][80.389172 73.515839]>
+				<[float64][heading][168.11]>
+				<[string8][name][Stand 3]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][80.388153 73.515770]>
+				<[float64][heading][167.20]>
+				<[string8][name][Stand 4]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][80.387167 73.515692]>
+				<[float64][heading][166.61]>
+				<[string8][name][Stand 5]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][80.386398 73.515648]>
+				<[float64][heading][163.30]>
+				<[string8][name][Stand 6]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][80.385621 73.515597]>
+				<[float64][heading][170.10]>
+				<[string8][name][Stand 7]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][80.384861 73.515541]>
+				<[float64][heading][165.38]>
+				<[string8][name][Stand 8]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][80.384082 73.515491]>
+				<[float64][heading][165.96]>
+				<[string8][name][Stand 9]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][UODD_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

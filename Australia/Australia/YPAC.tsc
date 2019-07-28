@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][PACIFIC HAVEN]>
-        <[string8][lname][PACIFIC HAVEN, Australia]>
-        <[string8][icao][YPAC]>
-        <[string8][country][au]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][152.543121 -25.240293]>
-        <[float64][height][4.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][152.544906 -25.236272]>
-        <[float64][tower_height][6.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][2]>
-                <[tmvector2d][threshold1][152.540814 -25.244285]>
-                <[tmvector2d][endpoint1][152.540814 -25.244285]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][20]>
-                <[tmvector2d][threshold2][152.545428 -25.236302]>
-                <[tmvector2d][endpoint2][152.545428 -25.236302]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][18.90]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][152.543956 -25.237038]>
-                <[float64][heading][124.17]>
-                <[string8][name][New Ramp Start 2]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][PACIFIC HAVEN]>
+		<[string8][lname][PACIFIC HAVEN, Australia]>
+		<[string8][icao][YPAC]>
+		<[string8][country][au]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][152.543121 -25.240293]>
+		<[float64][height][4.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][152.544906 -25.236272]>
+		<[float64][tower_height][6.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][2]>
+				<[tmvector2d][threshold1][152.540814 -25.244285]>
+				<[tmvector2d][endpoint1][152.540814 -25.244285]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][20]>
+				<[tmvector2d][threshold2][152.545428 -25.236302]>
+				<[tmvector2d][endpoint2][152.545428 -25.236302]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][18.90]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][152.543956 -25.237038]>
+				<[float64][heading][124.17]>
+				<[string8][name][New Ramp Start 2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][YPAC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,123 +1,125 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Boeing Field King Co Intl]>
-        <[string8][lname][Boeing Field King Co Intl, USA]>
-        <[string8][icao][KBFI]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-122.303731 47.533580]>
-        <[float64][height][6.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-122.304349 47.529155]>
-        <[float64][tower_height][36.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13L]>
-                <[tmvector2d][threshold1][-122.306905 47.537335]>
-                <[tmvector2d][endpoint1][-122.307461 47.537993]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][31R]>
-                <[tmvector2d][threshold2][-122.300843 47.530166]>
-                <[tmvector2d][endpoint2][-122.300000 47.529168]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][13R]>
-                <[tmvector2d][threshold1][-122.311356 47.540518]>
-                <[tmvector2d][endpoint1][-122.311356 47.540518]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31L]>
-                <[tmvector2d][threshold2][-122.293279 47.519135]>
-                <[tmvector2d][endpoint2][-122.291242 47.516726]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][60.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-122.307223 47.539158]>
-                <[string8][type_name][building]>
-                <[float64][radius][5.0]>
-                <[float64][heading][2.00]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][-122.295743 47.524498]>
-                <[string8][type_name][building]>
-                <[float64][radius][5.0]>
-                <[float64][heading][2.00]>
-                <[float64][height][0]>
-                <[string8][name][H2]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][-122.294117 47.522311]>
-                <[string8][type_name][building]>
-                <[float64][radius][5.0]>
-                <[float64][heading][25.00]>
-                <[float64][height][0]>
-                <[string8][name][H3]>
-            >
-            <[tmsimulator_helipad][element][3]
-                <[tmvector2d][position][-122.300829 47.532209]>
-                <[string8][type_name][building]>
-                <[float64][radius][5.0]>
-                <[float64][heading][2.00]>
-                <[float64][height][0]>
-                <[string8][name][H4]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-122.299196 47.529243]>
-                <[float64][heading][304.16]>
-                <[string8][name][A8 Run Up]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-122.299102 47.527619]>
-                <[float64][heading][176.36]>
-                <[string8][name][A9 Run Up]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-122.311375 47.537073]>
-                <[float64][heading][240.00]>
-                <[string8][name][Boeing acceptance ramp]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-122.306602 47.539067]>
-                <[float64][heading][150.31]>
-                <[string8][name][Galvin Ramp]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-122.312396 47.539811]>
-                <[float64][heading][60.00]>
-                <[string8][name][Hold Short 13R at B1]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-122.292820 47.516727]>
-                <[float64][heading][124.11]>
-                <[string8][name][Hold short 31L at B10]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-122.307095 47.538390]>
-                <[float64][heading][180.00]>
-                <[string8][name][RWY 13L Run Up]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Boeing Field King Co Intl]>
+		<[string8][lname][Boeing Field King Co Intl, USA]>
+		<[string8][icao][KBFI]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-122.303731 47.533580]>
+		<[float64][height][6.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-122.304349 47.529155]>
+		<[float64][tower_height][36.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13L]>
+				<[tmvector2d][threshold1][-122.306905 47.537335]>
+				<[tmvector2d][endpoint1][-122.307461 47.537993]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][31R]>
+				<[tmvector2d][threshold2][-122.300843 47.530166]>
+				<[tmvector2d][endpoint2][-122.300000 47.529168]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][13R]>
+				<[tmvector2d][threshold1][-122.311356 47.540518]>
+				<[tmvector2d][endpoint1][-122.311356 47.540518]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31L]>
+				<[tmvector2d][threshold2][-122.293279 47.519135]>
+				<[tmvector2d][endpoint2][-122.291242 47.516726]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][60.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-122.307223 47.539158]>
+				<[string8][type_name][building]>
+				<[float64][radius][5.0]>
+				<[float64][heading][2.00]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][-122.295743 47.524498]>
+				<[string8][type_name][building]>
+				<[float64][radius][5.0]>
+				<[float64][heading][2.00]>
+				<[float64][height][0]>
+				<[string8][name][H2]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][-122.294117 47.522311]>
+				<[string8][type_name][building]>
+				<[float64][radius][5.0]>
+				<[float64][heading][25.00]>
+				<[float64][height][0]>
+				<[string8][name][H3]>
+			>
+			<[tmsimulator_helipad][element][3]
+				<[tmvector2d][position][-122.300829 47.532209]>
+				<[string8][type_name][building]>
+				<[float64][radius][5.0]>
+				<[float64][heading][2.00]>
+				<[float64][height][0]>
+				<[string8][name][H4]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-122.299196 47.529243]>
+				<[float64][heading][304.16]>
+				<[string8][name][A8 Run Up]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-122.299102 47.527619]>
+				<[float64][heading][176.36]>
+				<[string8][name][A9 Run Up]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-122.311375 47.537073]>
+				<[float64][heading][240.00]>
+				<[string8][name][Boeing acceptance ramp]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-122.306602 47.539067]>
+				<[float64][heading][150.31]>
+				<[string8][name][Galvin Ramp]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-122.312396 47.539811]>
+				<[float64][heading][60.00]>
+				<[string8][name][Hold Short 13R at B1]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-122.292820 47.516727]>
+				<[float64][heading][124.11]>
+				<[string8][name][Hold short 31L at B10]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-122.307095 47.538390]>
+				<[float64][heading][180.00]>
+				<[string8][name][RWY 13L Run Up]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KBFI_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

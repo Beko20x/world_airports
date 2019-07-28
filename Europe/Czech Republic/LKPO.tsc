@@ -1,61 +1,63 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Prerov]>
-        <[string8][lname][Prerov, Czech Republic]>
-        <[string8][icao][LKPO]>
-        <[string8][country][cz]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][17.404829 49.425921]>
-        <[float64][height][206.0]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][17.406617 49.423149]>
-        <[float64][tower_height][231.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][17.389076 49.421368]>
-                <[tmvector2d][endpoint1][17.389076 49.421368]>
-                <[string8][appltsys1][rail]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][17.420582 49.430473]>
-                <[tmvector2d][endpoint2][17.420582 49.430473]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][60.05]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][17.412426 49.422799]>
-                <[float64][heading][324.87]>
-                <[string8][name][Stand EAST]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][17.406226 49.437295]>
-                <[float64][heading][66.11]>
-                <[string8][name][Stand GA 1]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][17.406304 49.437189]>
-                <[float64][heading][62.83]>
-                <[string8][name][Stand GA 2]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][17.393550 49.421137]>
-                <[float64][heading][9.63]>
-                <[string8][name][Stand WEST]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Prerov]>
+		<[string8][lname][Prerov, Czech Republic]>
+		<[string8][icao][LKPO]>
+		<[string8][country][cz]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][17.404829 49.425921]>
+		<[float64][height][206.0]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][17.406617 49.423149]>
+		<[float64][tower_height][231.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][17.389076 49.421368]>
+				<[tmvector2d][endpoint1][17.389076 49.421368]>
+				<[string8][appltsys1][rail]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][17.420582 49.430473]>
+				<[tmvector2d][endpoint2][17.420582 49.430473]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][60.05]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][17.412426 49.422799]>
+				<[float64][heading][324.87]>
+				<[string8][name][Stand EAST]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][17.406226 49.437295]>
+				<[float64][heading][66.11]>
+				<[string8][name][Stand GA 1]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][17.406304 49.437189]>
+				<[float64][heading][62.83]>
+				<[string8][name][Stand GA 2]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][17.393550 49.421137]>
+				<[float64][heading][9.63]>
+				<[string8][name][Stand WEST]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LKPO_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

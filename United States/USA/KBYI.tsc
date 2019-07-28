@@ -1,54 +1,56 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][BURLEY MUNI]>
-        <[string8][lname][BURLEY MUNI, USA]>
-        <[string8][icao][KBYI]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-113.769438 42.542111]>
-        <[float64][height][1264.9]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][02]>
-                <[tmvector2d][threshold1][-113.772467 42.539181]>
-                <[tmvector2d][endpoint1][-113.774050 42.537650]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][20]>
-                <[tmvector2d][threshold2][-113.765591 42.545831]>
-                <[tmvector2d][endpoint2][-113.764825 42.546572]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][24.38]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][-113.778864 42.542345]>
-                <[tmvector2d][endpoint1][-113.781053 42.542025]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-113.766250 42.544186]>
-                <[tmvector2d][endpoint2][-113.766250 42.544186]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][BURLEY MUNI]>
+		<[string8][lname][BURLEY MUNI, USA]>
+		<[string8][icao][KBYI]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-113.769438 42.542111]>
+		<[float64][height][1264.9]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][02]>
+				<[tmvector2d][threshold1][-113.772467 42.539181]>
+				<[tmvector2d][endpoint1][-113.774050 42.537650]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][20]>
+				<[tmvector2d][threshold2][-113.765591 42.545831]>
+				<[tmvector2d][endpoint2][-113.764825 42.546572]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][24.38]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][-113.778864 42.542345]>
+				<[tmvector2d][endpoint1][-113.781053 42.542025]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-113.766250 42.544186]>
+				<[tmvector2d][endpoint2][-113.766250 42.544186]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KBYI_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

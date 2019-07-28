@@ -1,146 +1,148 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Boise Air Terminal (Gowen Field)]>
-        <[string8][lname][Boise Air Terminal (Gowen Field), USA]>
-        <[string8][icao][KBOI]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-116.219837 43.564383]>
-        <[float64][height][875.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-116.219273 43.555841]>
-        <[float64][tower_height][920.8]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][10L]>
-                <[tmvector2d][threshold1][-116.236911 43.570211]>
-                <[tmvector2d][endpoint1][-116.236911 43.570211]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][28R]>
-                <[tmvector2d][threshold2][-116.202764 43.558556]>
-                <[tmvector2d][endpoint2][-116.202764 43.558556]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][10R]>
-                <[tmvector2d][threshold1][-116.242617 43.570033]>
-                <[tmvector2d][endpoint1][-116.242617 43.570033]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][28L]>
-                <[tmvector2d][threshold2][-116.209275 43.558656]>
-                <[tmvector2d][endpoint2][-116.209275 43.558656]>
-                <[string8][appltsys2][malsr]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][-116.208181 43.541772]>
-                <[tmvector2d][endpoint1][-116.208181 43.541772]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][-116.189968 43.538221]>
-                <[tmvector2d][endpoint2][-116.189968 43.538221]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-116.229031 43.570222]>
-                <[float64][heading][272.65]>
-                <[string8][name][Executive]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-116.216048 43.566875]>
-                <[float64][heading][204.06]>
-                <[string8][name][FedEx Cargo Ramp]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-116.219632 43.567812]>
-                <[float64][heading][219.43]>
-                <[string8][name][Gate 16]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-116.219137 43.567646]>
-                <[float64][heading][205.02]>
-                <[string8][name][Gate 18]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-116.219288 43.566746]>
-                <[float64][heading][24.39]>
-                <[string8][name][Gate 19]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-116.218490 43.566825]>
-                <[float64][heading][318.93]>
-                <[string8][name][Gate 21B]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-116.218350 43.567130]>
-                <[float64][heading][292.68]>
-                <[string8][name][Gate 22A]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-116.223912 43.568129]>
-                <[float64][heading][102.20]>
-                <[string8][name][Gate 7]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][-116.223205 43.568141]>
-                <[float64][heading][310.42]>
-                <[string8][name][Gate 9]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][-116.231282 43.564349]>
-                <[float64][heading][24.45]>
-                <[string8][name][National Guard A10 Ramp]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][-116.221612 43.560839]>
-                <[float64][heading][23.46]>
-                <[string8][name][National Guard C130 Ramp]>
-            >
-            <[tmsimulator_parking_position][element][11]
-                <[tmvector2d][position][-116.223360 43.558131]>
-                <[float64][heading][0.00]>
-                <[string8][name][National Guard Helo Ramp]>
-            >
-            <[tmsimulator_parking_position][element][12]
-                <[tmvector2d][position][-116.211034 43.565313]>
-                <[float64][heading][272.05]>
-                <[string8][name][NIFC Ramp]>
-            >
-            <[tmsimulator_parking_position][element][13]
-                <[tmvector2d][position][-116.243658 43.567200]>
-                <[float64][heading][270.00]>
-                <[string8][name][UPS Cargo Ramp]>
-            >
-            <[tmsimulator_parking_position][element][14]
-                <[tmvector2d][position][-116.235870 43.564110]>
-                <[float64][heading][180.00]>
-                <[string8][name][Western Aircraft]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Boise Air Terminal (Gowen Field)]>
+		<[string8][lname][Boise Air Terminal (Gowen Field), USA]>
+		<[string8][icao][KBOI]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-116.219837 43.564383]>
+		<[float64][height][875.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-116.219273 43.555841]>
+		<[float64][tower_height][920.8]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][10L]>
+				<[tmvector2d][threshold1][-116.236911 43.570211]>
+				<[tmvector2d][endpoint1][-116.236911 43.570211]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][28R]>
+				<[tmvector2d][threshold2][-116.202764 43.558556]>
+				<[tmvector2d][endpoint2][-116.202764 43.558556]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][10R]>
+				<[tmvector2d][threshold1][-116.242617 43.570033]>
+				<[tmvector2d][endpoint1][-116.242617 43.570033]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][28L]>
+				<[tmvector2d][threshold2][-116.209275 43.558656]>
+				<[tmvector2d][endpoint2][-116.209275 43.558656]>
+				<[string8][appltsys2][malsr]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-116.208181 43.541772]>
+				<[tmvector2d][endpoint1][-116.208181 43.541772]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-116.189968 43.538221]>
+				<[tmvector2d][endpoint2][-116.189968 43.538221]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-116.229031 43.570222]>
+				<[float64][heading][272.65]>
+				<[string8][name][Executive]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-116.216048 43.566875]>
+				<[float64][heading][204.06]>
+				<[string8][name][FedEx Cargo Ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-116.219632 43.567812]>
+				<[float64][heading][219.43]>
+				<[string8][name][Gate 16]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-116.219137 43.567646]>
+				<[float64][heading][205.02]>
+				<[string8][name][Gate 18]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-116.219288 43.566746]>
+				<[float64][heading][24.39]>
+				<[string8][name][Gate 19]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-116.218490 43.566825]>
+				<[float64][heading][318.93]>
+				<[string8][name][Gate 21B]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-116.218350 43.567130]>
+				<[float64][heading][292.68]>
+				<[string8][name][Gate 22A]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-116.223912 43.568129]>
+				<[float64][heading][102.20]>
+				<[string8][name][Gate 7]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-116.223205 43.568141]>
+				<[float64][heading][310.42]>
+				<[string8][name][Gate 9]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-116.231282 43.564349]>
+				<[float64][heading][24.45]>
+				<[string8][name][National Guard A10 Ramp]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-116.221612 43.560839]>
+				<[float64][heading][23.46]>
+				<[string8][name][National Guard C130 Ramp]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][-116.223360 43.558131]>
+				<[float64][heading][0.00]>
+				<[string8][name][National Guard Helo Ramp]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-116.211034 43.565313]>
+				<[float64][heading][272.05]>
+				<[string8][name][NIFC Ramp]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][-116.243658 43.567200]>
+				<[float64][heading][270.00]>
+				<[string8][name][UPS Cargo Ramp]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][-116.235870 43.564110]>
+				<[float64][heading][180.00]>
+				<[string8][name][Western Aircraft]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KBOI_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

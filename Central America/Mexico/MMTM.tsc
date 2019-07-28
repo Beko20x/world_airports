@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][GENERAL FRANCISCO JAVIER MINA INTL]>
-        <[string8][lname][GENERAL FRANCISCO JAVIER MINA INTL, Mexico]>
-        <[string8][icao][MMTM]>
-        <[string8][country][mx]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-97.866999 22.292577]>
-        <[float64][height][24.4]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-97.869896 22.289534]>
-        <[float64][tower_height][39.6]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][-97.874111 22.301981]>
-                <[tmvector2d][endpoint1][-97.874111 22.301981]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][-97.859886 22.283172]>
-                <[tmvector2d][endpoint2][-97.859886 22.283172]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][18]>
-                <[tmvector2d][threshold1][-97.862275 22.300636]>
-                <[tmvector2d][endpoint1][-97.862275 22.300636]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][36]>
-                <[tmvector2d][threshold2][-97.864400 22.289728]>
-                <[tmvector2d][endpoint2][-97.864400 22.289728]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][-97.873161 22.302489]>
-                <[tmvector2d][endpoint1][-97.873161 22.302489]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][-97.861744 22.300683]>
-                <[tmvector2d][endpoint2][-97.861744 22.300683]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-97.869453 22.290632]>
-                <[float64][heading][235.00]>
-                <[string8][name][Plataforma 1]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][GENERAL FRANCISCO JAVIER MINA INTL]>
+		<[string8][lname][GENERAL FRANCISCO JAVIER MINA INTL, Mexico]>
+		<[string8][icao][MMTM]>
+		<[string8][country][mx]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-97.866999 22.292577]>
+		<[float64][height][24.4]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-97.869896 22.289534]>
+		<[float64][tower_height][39.6]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-97.874111 22.301981]>
+				<[tmvector2d][endpoint1][-97.874111 22.301981]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-97.859886 22.283172]>
+				<[tmvector2d][endpoint2][-97.859886 22.283172]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][-97.862275 22.300636]>
+				<[tmvector2d][endpoint1][-97.862275 22.300636]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][-97.864400 22.289728]>
+				<[tmvector2d][endpoint2][-97.864400 22.289728]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-97.873161 22.302489]>
+				<[tmvector2d][endpoint1][-97.873161 22.302489]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-97.861744 22.300683]>
+				<[tmvector2d][endpoint2][-97.861744 22.300683]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-97.869453 22.290632]>
+				<[float64][heading][235.00]>
+				<[string8][name][Plataforma 1]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][MMTM_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

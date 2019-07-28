@@ -1,118 +1,120 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Le Castellet]>
-        <[string8][lname][Le Castellet, France]>
-        <[string8][icao][LFMQ]>
-        <[string8][country][fr]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][5.785223 43.252378]>
-        <[float64][height][424.0]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][5.784573 43.250850]>
-        <[float64][tower_height][446.2]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][13]>
-                <[tmvector2d][threshold1][5.776966 43.256910]>
-                <[tmvector2d][endpoint1][5.776610 43.257105]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][right]>
-                <[string8][reil1][none]>
-                <[string8][name2][31]>
-                <[tmvector2d][threshold2][5.792929 43.248149]>
-                <[tmvector2d][endpoint2][5.793836 43.247651]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][right]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][5.787665 43.249982]>
-                <[string8][type_name][building]>
-                <[float64][radius][9.0]>
-                <[float64][heading][309.00]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][5.787191 43.249867]>
-                <[string8][type_name][building]>
-                <[float64][radius][7.0]>
-                <[float64][heading][309.00]>
-                <[float64][height][0]>
-                <[string8][name][H2]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][5.787013 43.249965]>
-                <[string8][type_name][building]>
-                <[float64][radius][7.0]>
-                <[float64][heading][309.00]>
-                <[float64][height][0]>
-                <[string8][name][H3]>
-            >
-            <[tmsimulator_helipad][element][3]
-                <[tmvector2d][position][5.787884 43.249865]>
-                <[string8][type_name][building]>
-                <[float64][radius][7.0]>
-                <[float64][heading][309.00]>
-                <[float64][height][0]>
-                <[string8][name][H4]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][5.781685 43.252884]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][5.781454 43.252658]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][5.782366 43.252332]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][5.782928 43.251848]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][5.786332 43.250517]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 5]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][5.786469 43.250651]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 6]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][5.786733 43.250295]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 7]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][5.786866 43.250423]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 8]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][5.787262 43.250201]>
-                <[float64][heading][307.19]>
-                <[string8][name][GA Ramp 9]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Le Castellet]>
+		<[string8][lname][Le Castellet, France]>
+		<[string8][icao][LFMQ]>
+		<[string8][country][fr]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][5.785223 43.252378]>
+		<[float64][height][424.0]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][5.784573 43.250850]>
+		<[float64][tower_height][446.2]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][5.776966 43.256910]>
+				<[tmvector2d][endpoint1][5.776610 43.257105]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][right]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][5.792929 43.248149]>
+				<[tmvector2d][endpoint2][5.793836 43.247651]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][right]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][5.787665 43.249982]>
+				<[string8][type_name][building]>
+				<[float64][radius][9.0]>
+				<[float64][heading][309.00]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][5.787191 43.249867]>
+				<[string8][type_name][building]>
+				<[float64][radius][7.0]>
+				<[float64][heading][309.00]>
+				<[float64][height][0]>
+				<[string8][name][H2]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][5.787013 43.249965]>
+				<[string8][type_name][building]>
+				<[float64][radius][7.0]>
+				<[float64][heading][309.00]>
+				<[float64][height][0]>
+				<[string8][name][H3]>
+			>
+			<[tmsimulator_helipad][element][3]
+				<[tmvector2d][position][5.787884 43.249865]>
+				<[string8][type_name][building]>
+				<[float64][radius][7.0]>
+				<[float64][heading][309.00]>
+				<[float64][height][0]>
+				<[string8][name][H4]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][5.781685 43.252884]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][5.781454 43.252658]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][5.782366 43.252332]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][5.782928 43.251848]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][5.786332 43.250517]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 5]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][5.786469 43.250651]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 6]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][5.786733 43.250295]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 7]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][5.786866 43.250423]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 8]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][5.787262 43.250201]>
+				<[float64][heading][307.19]>
+				<[string8][name][GA Ramp 9]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LFMQ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

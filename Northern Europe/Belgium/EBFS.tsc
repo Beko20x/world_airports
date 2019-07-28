@@ -1,111 +1,113 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Florennes]>
-        <[string8][lname][Florennes, Belgium]>
-        <[string8][icao][EBFS]>
-        <[string8][country][be]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][4.649082 50.243646]>
-        <[float64][height][274.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][4.653559 50.233576]>
-        <[float64][tower_height][274.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08L]>
-                <[tmvector2d][threshold1][4.627876 50.241131]>
-                <[tmvector2d][endpoint1][4.625456 50.240844]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][right]>
-                <[string8][reil1][omni]>
-                <[string8][name2][26R]>
-                <[tmvector2d][threshold2][4.669045 50.246015]>
-                <[tmvector2d][endpoint2][4.672707 50.246449]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][right]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][08R]>
-                <[tmvector2d][threshold1][4.633288 50.236388]>
-                <[tmvector2d][endpoint1][4.632055 50.236241]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][right]>
-                <[string8][reil1][omni]>
-                <[string8][name2][26L]>
-                <[tmvector2d][threshold2][4.661594 50.239759]>
-                <[tmvector2d][endpoint2][4.662961 50.239922]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][right]>
-                <[string8][reil2][omni]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][4.628753 50.241920]>
-                <[float64][heading][165.38]>
-                <[string8][name][Start 08L Left]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][4.629132 50.240645]>
-                <[float64][heading][353.86]>
-                <[string8][name][Start 08L Right]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][4.635732 50.236205]>
-                <[float64][heading][7.60]>
-                <[string8][name][Start 08R]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][4.660868 50.239270]>
-                <[float64][heading][352.40]>
-                <[string8][name][Start 26L]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][4.662327 50.244488]>
-                <[float64][heading][12.35]>
-                <[string8][name][Start 26R]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][4.639423 50.235199]>
-                <[float64][heading][337.73]>
-                <[string8][name][Start hangar 14]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][4.636956 50.234413]>
-                <[float64][heading][281.87]>
-                <[string8][name][Start hangar 16]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][4.633487 50.231659]>
-                <[float64][heading][237.33]>
-                <[string8][name][Start hangar 21]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][4.660974 50.237469]>
-                <[float64][heading][114.61]>
-                <[string8][name][Start hangar 3]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][4.659361 50.235331]>
-                <[float64][heading][327.51]>
-                <[string8][name][Start Parking S7]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][4.659526 50.235396]>
-                <[float64][heading][328.19]>
-                <[string8][name][Start Parking S8]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Florennes]>
+		<[string8][lname][Florennes, Belgium]>
+		<[string8][icao][EBFS]>
+		<[string8][country][be]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][4.649082 50.243646]>
+		<[float64][height][274.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][4.653559 50.233576]>
+		<[float64][tower_height][274.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08L]>
+				<[tmvector2d][threshold1][4.627876 50.241131]>
+				<[tmvector2d][endpoint1][4.625456 50.240844]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][right]>
+				<[string8][reil1][omni]>
+				<[string8][name2][26R]>
+				<[tmvector2d][threshold2][4.669045 50.246015]>
+				<[tmvector2d][endpoint2][4.672707 50.246449]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][right]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][08R]>
+				<[tmvector2d][threshold1][4.633288 50.236388]>
+				<[tmvector2d][endpoint1][4.632055 50.236241]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][right]>
+				<[string8][reil1][omni]>
+				<[string8][name2][26L]>
+				<[tmvector2d][threshold2][4.661594 50.239759]>
+				<[tmvector2d][endpoint2][4.662961 50.239922]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][right]>
+				<[string8][reil2][omni]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][4.628753 50.241920]>
+				<[float64][heading][165.38]>
+				<[string8][name][Start 08L Left]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][4.629132 50.240645]>
+				<[float64][heading][353.86]>
+				<[string8][name][Start 08L Right]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][4.635732 50.236205]>
+				<[float64][heading][7.60]>
+				<[string8][name][Start 08R]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][4.660868 50.239270]>
+				<[float64][heading][352.40]>
+				<[string8][name][Start 26L]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][4.662327 50.244488]>
+				<[float64][heading][12.35]>
+				<[string8][name][Start 26R]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][4.639423 50.235199]>
+				<[float64][heading][337.73]>
+				<[string8][name][Start hangar 14]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][4.636956 50.234413]>
+				<[float64][heading][281.87]>
+				<[string8][name][Start hangar 16]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][4.633487 50.231659]>
+				<[float64][heading][237.33]>
+				<[string8][name][Start hangar 21]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][4.660974 50.237469]>
+				<[float64][heading][114.61]>
+				<[string8][name][Start hangar 3]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][4.659361 50.235331]>
+				<[float64][heading][327.51]>
+				<[string8][name][Start Parking S7]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][4.659526 50.235396]>
+				<[float64][heading][328.19]>
+				<[string8][name][Start Parking S8]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EBFS_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

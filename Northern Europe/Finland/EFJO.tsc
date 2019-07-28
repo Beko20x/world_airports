@@ -1,56 +1,58 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Joensuu]>
-        <[string8][lname][Joensuu, Finland]>
-        <[string8][icao][EFJO]>
-        <[string8][country][fi]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][29.620529 62.660695]>
-        <[float64][height][121.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][29.614849 62.657347]>
-        <[float64][tower_height][141.1]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][29.597664 62.664589]>
-                <[tmvector2d][endpoint1][29.597664 62.664589]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][29.643394 62.656800]>
-                <[tmvector2d][endpoint2][29.643394 62.656800]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][52.12]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][17]>
-                <[tmvector2d][threshold1][29.607561 62.662175]>
-                <[tmvector2d][endpoint1][29.607561 62.662175]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][35]>
-                <[tmvector2d][threshold2][29.607292 62.651411]>
-                <[tmvector2d][endpoint2][29.607292 62.651411]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Joensuu]>
+		<[string8][lname][Joensuu, Finland]>
+		<[string8][icao][EFJO]>
+		<[string8][country][fi]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][29.620529 62.660695]>
+		<[float64][height][121.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][29.614849 62.657347]>
+		<[float64][tower_height][141.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][29.597664 62.664589]>
+				<[tmvector2d][endpoint1][29.597664 62.664589]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][29.643394 62.656800]>
+				<[tmvector2d][endpoint2][29.643394 62.656800]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][52.12]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][29.607561 62.662175]>
+				<[tmvector2d][endpoint1][29.607561 62.662175]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][29.607292 62.651411]>
+				<[tmvector2d][endpoint2][29.607292 62.651411]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EFJO_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

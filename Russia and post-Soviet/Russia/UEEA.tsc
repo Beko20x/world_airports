@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Aldan]>
-        <[string8][lname][Aldan, Russia]>
-        <[string8][icao][UEEA]>
-        <[string8][country][ru]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][125.409642 58.604297]>
-        <[float64][height][682.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][125.399675 58.602708]>
-        <[float64][tower_height][697.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][06]>
-                <[tmvector2d][threshold1][125.401885 58.599598]>
-                <[tmvector2d][endpoint1][125.401885 58.599598]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][125.417399 58.608995]>
-                <[tmvector2d][endpoint2][125.417399 58.608995]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][35.05]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][125.412152 58.607985]>
-                <[float64][heading][95.60]>
-                <[string8][name][Stand 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][125.398313 58.601167]>
-                <[float64][heading][33.64]>
-                <[string8][name][Stand 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][125.398672 58.601028]>
-                <[float64][heading][33.05]>
-                <[string8][name][Stand 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][125.399064 58.600867]>
-                <[float64][heading][28.03]>
-                <[string8][name][Stand 4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][125.400036 58.602312]>
-                <[float64][heading][42.51]>
-                <[string8][name][Stand 5]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][125.400804 58.602735]>
-                <[float64][heading][44.20]>
-                <[string8][name][Stand 6]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][125.401600 58.603146]>
-                <[float64][heading][45.21]>
-                <[string8][name][Stand 7]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Aldan]>
+		<[string8][lname][Aldan, Russia]>
+		<[string8][icao][UEEA]>
+		<[string8][country][ru]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][125.409642 58.604297]>
+		<[float64][height][682.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][125.399675 58.602708]>
+		<[float64][tower_height][697.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][125.401885 58.599598]>
+				<[tmvector2d][endpoint1][125.401885 58.599598]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][125.417399 58.608995]>
+				<[tmvector2d][endpoint2][125.417399 58.608995]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][35.05]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][125.412152 58.607985]>
+				<[float64][heading][95.60]>
+				<[string8][name][Stand 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][125.398313 58.601167]>
+				<[float64][heading][33.64]>
+				<[string8][name][Stand 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][125.398672 58.601028]>
+				<[float64][heading][33.05]>
+				<[string8][name][Stand 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][125.399064 58.600867]>
+				<[float64][heading][28.03]>
+				<[string8][name][Stand 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][125.400036 58.602312]>
+				<[float64][heading][42.51]>
+				<[string8][name][Stand 5]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][125.400804 58.602735]>
+				<[float64][heading][44.20]>
+				<[string8][name][Stand 6]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][125.401600 58.603146]>
+				<[float64][heading][45.21]>
+				<[string8][name][Stand 7]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][UEEA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

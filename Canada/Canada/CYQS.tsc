@@ -1,69 +1,65 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][ST THOMAS MUNI]>
-        <[string8][lname][ST THOMAS MUNI, Canada]>
-        <[string8][icao][CYQS]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-81.109883 42.772807]>
-        <[float64][height][237.1]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][09]>
-                <[tmvector2d][threshold1][-81.119233 42.772017]>
-                <[tmvector2d][endpoint1][-81.119233 42.772017]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][27]>
-                <[tmvector2d][threshold2][-81.100533 42.773597]>
-                <[tmvector2d][endpoint2][-81.100533 42.773597]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][30.48]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][03]>
-                <[tmvector2d][threshold1][-81.105000 42.766111]>
-                <[tmvector2d][endpoint1][-81.105000 42.766111]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][21]>
-                <[tmvector2d][threshold2][-81.101389 42.772778]>
-                <[tmvector2d][endpoint2][-81.101389 42.772778]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][15]>
-                <[tmvector2d][threshold1][-81.112500 42.771944]>
-                <[tmvector2d][endpoint1][-81.112500 42.771944]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][33]>
-                <[tmvector2d][threshold2][-81.106389 42.766389]>
-                <[tmvector2d][endpoint2][-81.106389 42.766389]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][22.86]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][ST THOMAS MUNI]>
+		<[string8][lname][ST THOMAS MUNI, Canada]>
+		<[string8][icao][CYQS]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-81.109883 42.772807]>
+		<[float64][height][237.1]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-81.119233 42.772017]>
+				<[tmvector2d][endpoint1][-81.119233 42.772017]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-81.100533 42.773597]>
+				<[tmvector2d][endpoint2][-81.100533 42.773597]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][30.48]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][03]>
+				<[tmvector2d][threshold1][-81.105000 42.766111]>
+				<[tmvector2d][endpoint1][-81.105000 42.766111]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][21]>
+				<[tmvector2d][threshold2][-81.101389 42.772778]>
+				<[tmvector2d][endpoint2][-81.101389 42.772778]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][-81.112500 42.771944]>
+				<[tmvector2d][endpoint1][-81.112500 42.771944]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][-81.106389 42.766389]>
+				<[tmvector2d][endpoint2][-81.106389 42.766389]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
 >

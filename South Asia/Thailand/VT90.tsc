@@ -1,46 +1,48 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Korat Aaf]>
-        <[string8][lname][Korat Aaf, Thailand]>
-        <[string8][icao][VT90]>
-        <[string8][country][th]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][102.073776 14.954194]>
-        <[float64][height][195.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][102.070007 14.953484]>
-        <[float64][tower_height][196.9]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][25]>
-                <[tmvector2d][threshold1][102.078880 14.956390]>
-                <[tmvector2d][endpoint1][102.078880 14.956390]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][none]>
-                <[string8][name2][07]>
-                <[tmvector2d][threshold2][102.068672 14.951998]>
-                <[tmvector2d][endpoint2][102.068672 14.951998]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][none]>
-                <[float64][width][19.81]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][102.069031 14.953122]>
-                <[float64][heading][66.00]>
-                <[string8][name][Platform]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Korat Aaf]>
+		<[string8][lname][Korat Aaf, Thailand]>
+		<[string8][icao][VT90]>
+		<[string8][country][th]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][102.073776 14.954194]>
+		<[float64][height][195.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][102.070007 14.953484]>
+		<[float64][tower_height][196.9]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][25]>
+				<[tmvector2d][threshold1][102.078880 14.956390]>
+				<[tmvector2d][endpoint1][102.078880 14.956390]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][07]>
+				<[tmvector2d][threshold2][102.068672 14.951998]>
+				<[tmvector2d][endpoint2][102.068672 14.951998]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][19.81]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][102.069031 14.953122]>
+				<[float64][heading][66.00]>
+				<[string8][name][Platform]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][VT90_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

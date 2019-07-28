@@ -1,56 +1,58 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Pembrey]>
-        <[string8][lname][Pembrey, United Kingdom]>
-        <[string8][icao][EGFP]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-4.312281 51.713936]>
-        <[float64][height][4.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-4.310809 51.713297]>
-        <[float64][tower_height][9.4]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][8]>
-                <[tmvector2d][threshold1][-4.315343 51.710914]>
-                <[tmvector2d][endpoint1][-4.315343 51.710914]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-4.309219 51.716958]>
-                <[tmvector2d][endpoint2][-4.309219 51.716958]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-4.310852 51.710903]>
-                <[float64][heading][265.30]>
-                <[string8][name][Apron]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-4.310405 51.713727]>
-                <[float64][heading][75.27]>
-                <[string8][name][Apron 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-4.309378 51.713916]>
-                <[float64][heading][254.62]>
-                <[string8][name][Apron 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Pembrey]>
+		<[string8][lname][Pembrey, United Kingdom]>
+		<[string8][icao][EGFP]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-4.312281 51.713936]>
+		<[float64][height][4.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-4.310809 51.713297]>
+		<[float64][tower_height][9.4]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][8]>
+				<[tmvector2d][threshold1][-4.315343 51.710914]>
+				<[tmvector2d][endpoint1][-4.315343 51.710914]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-4.309219 51.716958]>
+				<[tmvector2d][endpoint2][-4.309219 51.716958]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-4.310852 51.710903]>
+				<[float64][heading][265.30]>
+				<[string8][name][Apron]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-4.310405 51.713727]>
+				<[float64][heading][75.27]>
+				<[string8][name][Apron 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-4.309378 51.713916]>
+				<[float64][heading][254.62]>
+				<[string8][name][Apron 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EGFP_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

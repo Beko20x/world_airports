@@ -1,86 +1,88 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][NETAJI SUBHASH CHANDRA BOSE INTL]>
-        <[string8][lname][NETAJI SUBHASH CHANDRA BOSE INTL, India]>
-        <[string8][icao][VECC]>
-        <[string8][country][in]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][88.448205 22.658247]>
-        <[float64][height][4.9]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][88.440178 22.647237]>
-        <[float64][tower_height][50.6]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][01R]>
-                <[tmvector2d][threshold1][88.446314 22.642186]>
-                <[tmvector2d][endpoint1][88.446314 22.642186]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][19L]>
-                <[tmvector2d][threshold2][88.446860 22.646827]>
-                <[tmvector2d][endpoint2][88.450095 22.674307]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][01L]>
-                <[tmvector2d][threshold1][88.444018 22.640281]>
-                <[tmvector2d][endpoint1][88.444018 22.640281]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][19R]>
-                <[tmvector2d][threshold2][88.444957 22.648290]>
-                <[tmvector2d][endpoint2][88.446997 22.665697]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][88.438005 22.638180]>
-                <[float64][heading][336.89]>
-                <[string8][name][Ga Parking 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][88.438244 22.638275]>
-                <[float64][heading][336.89]>
-                <[string8][name][Ga Parking 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][88.437626 22.639419]>
-                <[float64][heading][336.89]>
-                <[string8][name][Ga Parking 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][88.441054 22.647228]>
-                <[float64][heading][266.70]>
-                <[string8][name][Gate 1]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][88.441126 22.647868]>
-                <[float64][heading][266.70]>
-                <[string8][name][Gate 2]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][88.441185 22.648550]>
-                <[float64][heading][266.70]>
-                <[string8][name][Gate 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][NETAJI SUBHASH CHANDRA BOSE INTL]>
+		<[string8][lname][NETAJI SUBHASH CHANDRA BOSE INTL, India]>
+		<[string8][icao][VECC]>
+		<[string8][country][in]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][88.448205 22.658247]>
+		<[float64][height][4.9]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][88.440178 22.647237]>
+		<[float64][tower_height][50.6]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01R]>
+				<[tmvector2d][threshold1][88.446314 22.642186]>
+				<[tmvector2d][endpoint1][88.446314 22.642186]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][19L]>
+				<[tmvector2d][threshold2][88.446860 22.646827]>
+				<[tmvector2d][endpoint2][88.450095 22.674307]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][01L]>
+				<[tmvector2d][threshold1][88.444018 22.640281]>
+				<[tmvector2d][endpoint1][88.444018 22.640281]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][19R]>
+				<[tmvector2d][threshold2][88.444957 22.648290]>
+				<[tmvector2d][endpoint2][88.446997 22.665697]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][88.438005 22.638180]>
+				<[float64][heading][336.89]>
+				<[string8][name][Ga Parking 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][88.438244 22.638275]>
+				<[float64][heading][336.89]>
+				<[string8][name][Ga Parking 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][88.437626 22.639419]>
+				<[float64][heading][336.89]>
+				<[string8][name][Ga Parking 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][88.441054 22.647228]>
+				<[float64][heading][266.70]>
+				<[string8][name][Gate 1]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][88.441126 22.647868]>
+				<[float64][heading][266.70]>
+				<[string8][name][Gate 2]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][88.441185 22.648550]>
+				<[float64][heading][266.70]>
+				<[string8][name][Gate 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][VECC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

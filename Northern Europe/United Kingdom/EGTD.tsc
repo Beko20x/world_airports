@@ -1,114 +1,116 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Dunsfold]>
-        <[string8][lname][Dunsfold, United Kingdom]>
-        <[string8][icao][EGTD]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-0.535961 51.117245]>
-        <[float64][height][51.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-0.535366 51.114971]>
-        <[float64][tower_height][61.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][07]>
-                <[tmvector2d][threshold1][-0.546933 51.114258]>
-                <[tmvector2d][endpoint1][-0.548303 51.113885]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][25]>
-                <[tmvector2d][threshold2][-0.524000 51.120500]>
-                <[tmvector2d][endpoint2][-0.523619 51.120604]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][6]>
-                <[tmvector2d][threshold1][-0.534574 51.118414]>
-                <[tmvector2d][endpoint1][-0.534871 51.118333]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][24]>
-                <[tmvector2d][threshold2][-0.526231 51.120673]>
-                <[tmvector2d][endpoint2][-0.526033 51.120727]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][20.12]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][-0.535630 51.120737]>
-                <[string8][type_name][building]>
-                <[float64][radius][12.0]>
-                <[float64][heading][341.12]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-0.535054 51.118835]>
-                <[float64][heading][334.46]>
-                <[string8][name][Hardstanding 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-0.534890 51.118874]>
-                <[float64][heading][334.46]>
-                <[string8][name][Hardstanding 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-0.534738 51.118908]>
-                <[float64][heading][334.46]>
-                <[string8][name][Hardstanding 3]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-0.534585 51.118942]>
-                <[float64][heading][334.46]>
-                <[string8][name][Hardstanding 4]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-0.528261 51.120719]>
-                <[float64][heading][154.97]>
-                <[string8][name][North East Ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-0.528043 51.120770]>
-                <[float64][heading][156.19]>
-                <[string8][name][North East Ramp 2]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-0.530573 51.113008]>
-                <[float64][heading][206.17]>
-                <[string8][name][SurreyAirAmbulance]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-0.536359 51.118687]>
-                <[float64][heading][251.17]>
-                <[string8][name][Top Gear Lap Start]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][-0.535167 51.119469]>
-                <[float64][heading][0.00]>
-                <[string8][name][Top Gear Studio Parking 1]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][-0.535011 51.119504]>
-                <[float64][heading][0.00]>
-                <[string8][name][Top Gear Studio Parking 2]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Dunsfold]>
+		<[string8][lname][Dunsfold, United Kingdom]>
+		<[string8][icao][EGTD]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-0.535961 51.117245]>
+		<[float64][height][51.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-0.535366 51.114971]>
+		<[float64][tower_height][61.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][-0.546933 51.114258]>
+				<[tmvector2d][endpoint1][-0.548303 51.113885]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][-0.524000 51.120500]>
+				<[tmvector2d][endpoint2][-0.523619 51.120604]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][6]>
+				<[tmvector2d][threshold1][-0.534574 51.118414]>
+				<[tmvector2d][endpoint1][-0.534871 51.118333]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-0.526231 51.120673]>
+				<[tmvector2d][endpoint2][-0.526033 51.120727]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][20.12]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-0.535630 51.120737]>
+				<[string8][type_name][building]>
+				<[float64][radius][12.0]>
+				<[float64][heading][341.12]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-0.535054 51.118835]>
+				<[float64][heading][334.46]>
+				<[string8][name][Hardstanding 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-0.534890 51.118874]>
+				<[float64][heading][334.46]>
+				<[string8][name][Hardstanding 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-0.534738 51.118908]>
+				<[float64][heading][334.46]>
+				<[string8][name][Hardstanding 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-0.534585 51.118942]>
+				<[float64][heading][334.46]>
+				<[string8][name][Hardstanding 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-0.528261 51.120719]>
+				<[float64][heading][154.97]>
+				<[string8][name][North East Ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-0.528043 51.120770]>
+				<[float64][heading][156.19]>
+				<[string8][name][North East Ramp 2]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-0.530573 51.113008]>
+				<[float64][heading][206.17]>
+				<[string8][name][SurreyAirAmbulance]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-0.536359 51.118687]>
+				<[float64][heading][251.17]>
+				<[string8][name][Top Gear Lap Start]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-0.535167 51.119469]>
+				<[float64][heading][0.00]>
+				<[string8][name][Top Gear Studio Parking 1]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-0.535011 51.119504]>
+				<[float64][heading][0.00]>
+				<[string8][name][Top Gear Studio Parking 2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EGTD_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

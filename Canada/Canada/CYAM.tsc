@@ -1,71 +1,73 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Sault Ste Marie]>
-        <[string8][lname][Sault Ste Marie, Canada]>
-        <[string8][icao][CYAM]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-84.506857 46.485110]>
-        <[float64][height][192.0]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-84.500436 46.484911]>
-        <[float64][tower_height][217.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-84.513332 46.478191]>
-                <[tmvector2d][endpoint1][-84.513332 46.478191]>
-                <[string8][appltsys1][odals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-84.500381 46.492029]>
-                <[tmvector2d][endpoint2][-84.500381 46.492029]>
-                <[string8][appltsys2][odals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.96]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][12]>
-                <[tmvector2d][threshold1][-84.521081 46.486054]>
-                <[tmvector2d][endpoint1][-84.521081 46.486054]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][30]>
-                <[tmvector2d][threshold2][-84.498335 46.480998]>
-                <[tmvector2d][endpoint2][-84.498335 46.480998]>
-                <[string8][appltsys2][odals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][60.96]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-84.493258 46.488481]>
-                <[float64][heading][289.38]>
-                <[string8][name][Forestry Ramp]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-84.495241 46.489181]>
-                <[float64][heading][358.73]>
-                <[string8][name][Sault College ramp]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-84.501299 46.485218]>
-                <[float64][heading][117.70]>
-                <[string8][name][Terminal]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Sault Ste Marie]>
+		<[string8][lname][Sault Ste Marie, Canada]>
+		<[string8][icao][CYAM]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-84.506857 46.485110]>
+		<[float64][height][192.0]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-84.500436 46.484911]>
+		<[float64][tower_height][217.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-84.513332 46.478191]>
+				<[tmvector2d][endpoint1][-84.513332 46.478191]>
+				<[string8][appltsys1][odals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-84.500381 46.492029]>
+				<[tmvector2d][endpoint2][-84.500381 46.492029]>
+				<[string8][appltsys2][odals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.96]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][12]>
+				<[tmvector2d][threshold1][-84.521081 46.486054]>
+				<[tmvector2d][endpoint1][-84.521081 46.486054]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][30]>
+				<[tmvector2d][threshold2][-84.498335 46.480998]>
+				<[tmvector2d][endpoint2][-84.498335 46.480998]>
+				<[string8][appltsys2][odals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.96]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-84.493258 46.488481]>
+				<[float64][heading][289.38]>
+				<[string8][name][Forestry Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-84.495241 46.489181]>
+				<[float64][heading][358.73]>
+				<[string8][name][Sault College ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-84.501299 46.485218]>
+				<[float64][heading][117.70]>
+				<[string8][name][Terminal]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][CYAM_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

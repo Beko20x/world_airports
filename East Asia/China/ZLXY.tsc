@@ -1,89 +1,91 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Xianyang]>
-        <[string8][lname][Xianyang, China]>
-        <[string8][icao][ZLXY]>
-        <[string8][country][cn]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][108.752203 34.446980]>
-        <[float64][height][478.8]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][05]>
-                <[tmvector2d][threshold1][108.739901 34.438068]>
-                <[tmvector2d][endpoint1][108.739901 34.438068]>
-                <[string8][appltsys1][alsf-1]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][23]>
-                <[tmvector2d][threshold2][108.764505 34.455892]>
-                <[tmvector2d][endpoint2][108.764505 34.455892]>
-                <[string8][appltsys2][alsf-1]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][108.759580 34.445422]>
-                <[float64][heading][174.99]>
-                <[string8][name][Gate 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][108.755268 34.442550]>
-                <[float64][heading][141.76]>
-                <[string8][name][Gate 10]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][108.754804 34.442203]>
-                <[float64][heading][138.07]>
-                <[string8][name][Gate 11]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][108.753500 34.441145]>
-                <[float64][heading][124.20]>
-                <[string8][name][Gate 16]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][108.752236 34.440210]>
-                <[float64][heading][138.49]>
-                <[string8][name][Gate 18]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][108.751589 34.439790]>
-                <[float64][heading][139.28]>
-                <[string8][name][Gate 19]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][108.759088 34.445252]>
-                <[float64][heading][156.21]>
-                <[string8][name][Gate 2]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][108.758666 34.444991]>
-                <[float64][heading][142.28]>
-                <[string8][name][Gate 3]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][108.758323 34.444713]>
-                <[float64][heading][135.00]>
-                <[string8][name][Gate 4]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][108.757640 34.444075]>
-                <[float64][heading][132.67]>
-                <[string8][name][Gate 6]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Xianyang]>
+		<[string8][lname][Xianyang, China]>
+		<[string8][icao][ZLXY]>
+		<[string8][country][cn]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][108.752203 34.446980]>
+		<[float64][height][478.8]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][05]>
+				<[tmvector2d][threshold1][108.739901 34.438068]>
+				<[tmvector2d][endpoint1][108.739901 34.438068]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][23]>
+				<[tmvector2d][threshold2][108.764505 34.455892]>
+				<[tmvector2d][endpoint2][108.764505 34.455892]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][108.759580 34.445422]>
+				<[float64][heading][174.99]>
+				<[string8][name][Gate 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][108.755268 34.442550]>
+				<[float64][heading][141.76]>
+				<[string8][name][Gate 10]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][108.754804 34.442203]>
+				<[float64][heading][138.07]>
+				<[string8][name][Gate 11]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][108.753500 34.441145]>
+				<[float64][heading][124.20]>
+				<[string8][name][Gate 16]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][108.752236 34.440210]>
+				<[float64][heading][138.49]>
+				<[string8][name][Gate 18]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][108.751589 34.439790]>
+				<[float64][heading][139.28]>
+				<[string8][name][Gate 19]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][108.759088 34.445252]>
+				<[float64][heading][156.21]>
+				<[string8][name][Gate 2]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][108.758666 34.444991]>
+				<[float64][heading][142.28]>
+				<[string8][name][Gate 3]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][108.758323 34.444713]>
+				<[float64][heading][135.00]>
+				<[string8][name][Gate 4]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][108.757640 34.444075]>
+				<[float64][heading][132.67]>
+				<[string8][name][Gate 6]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][ZLXY_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

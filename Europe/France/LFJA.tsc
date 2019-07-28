@@ -1,56 +1,58 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Chaumont Semoutiers]>
-        <[string8][lname][Chaumont Semoutiers, France]>
-        <[string8][icao][LFJA]>
-        <[string8][country][fr]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][5.049218 48.085426]>
-        <[float64][height][305.1]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][5.046097 48.092446]>
-        <[float64][tower_height][314.2]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][01]>
-                <[tmvector2d][threshold1][5.048246 48.078797]>
-                <[tmvector2d][endpoint1][5.048233 48.078707]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][omni]>
-                <[string8][name2][19]>
-                <[tmvector2d][threshold2][5.050191 48.092054]>
-                <[tmvector2d][endpoint2][5.050204 48.092144]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][omni]>
-                <[float64][width][29.87]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][5.045419 48.092570]>
-                <[float64][heading][182.05]>
-                <[string8][name][Parking Civil 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][5.045108 48.092443]>
-                <[float64][heading][121.00]>
-                <[string8][name][Parking Civil 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][5.045118 48.092267]>
-                <[float64][heading][85.18]>
-                <[string8][name][Parking Civil 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Chaumont Semoutiers]>
+		<[string8][lname][Chaumont Semoutiers, France]>
+		<[string8][icao][LFJA]>
+		<[string8][country][fr]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][5.049218 48.085426]>
+		<[float64][height][305.1]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][5.046097 48.092446]>
+		<[float64][tower_height][314.2]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01]>
+				<[tmvector2d][threshold1][5.048246 48.078797]>
+				<[tmvector2d][endpoint1][5.048233 48.078707]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][omni]>
+				<[string8][name2][19]>
+				<[tmvector2d][threshold2][5.050191 48.092054]>
+				<[tmvector2d][endpoint2][5.050204 48.092144]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][omni]>
+				<[float64][width][29.87]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][5.045419 48.092570]>
+				<[float64][heading][182.05]>
+				<[string8][name][Parking Civil 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][5.045108 48.092443]>
+				<[float64][heading][121.00]>
+				<[string8][name][Parking Civil 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][5.045118 48.092267]>
+				<[float64][heading][85.18]>
+				<[string8][name][Parking Civil 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][LFJA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,146 +1,148 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Cambridge]>
-        <[string8][lname][Cambridge, United Kingdom]>
-        <[string8][icao][EGSC]>
-        <[string8][country][gb]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][0.175015 52.205016]>
-        <[float64][height][14.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][0.172787 52.208074]>
-        <[float64][tower_height][23.5]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][05]>
-                <[tmvector2d][threshold1][0.165742 52.200214]>
-                <[tmvector2d][endpoint1][0.164057 52.199341]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][23]>
-                <[tmvector2d][threshold2][0.184831 52.210100]>
-                <[tmvector2d][endpoint2][0.185973 52.210691]>
-                <[string8][appltsys2][calvert]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][05R]>
-                <[tmvector2d][threshold1][0.175594 52.203089]>
-                <[tmvector2d][endpoint1][0.175594 52.203089]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][23L]>
-                <[tmvector2d][threshold2][0.185667 52.208297]>
-                <[tmvector2d][endpoint2][0.185667 52.208297]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][35.05]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][10]>
-                <[tmvector2d][threshold1][0.168661 52.203258]>
-                <[tmvector2d][endpoint1][0.168661 52.203258]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][28]>
-                <[tmvector2d][threshold2][0.178747 52.202178]>
-                <[tmvector2d][endpoint2][0.178747 52.202178]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][35.05]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][0.174492 52.209547]>
-                <[float64][heading][95.19]>
-                <[string8][name][Customs Apron 1]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][0.174897 52.209614]>
-                <[float64][heading][204.44]>
-                <[string8][name][Customs Apron 2]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][0.178213 52.209647]>
-                <[float64][heading][176.19]>
-                <[string8][name][GA Grass Parking 1]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][0.177565 52.209622]>
-                <[float64][heading][181.30]>
-                <[string8][name][GA Grass Parking 2]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][0.177388 52.209619]>
-                <[float64][heading][177.51]>
-                <[string8][name][GA Grass Parking 3]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][0.178001 52.209374]>
-                <[float64][heading][173.54]>
-                <[string8][name][GA Grass Parking 4]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][0.177725 52.209074]>
-                <[float64][heading][175.04]>
-                <[string8][name][GA Grass Parking 5]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][0.175976 52.209626]>
-                <[float64][heading][69.44]>
-                <[string8][name][GA HardStanding 1]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][0.176011 52.209514]>
-                <[float64][heading][71.56]>
-                <[string8][name][GA HardStanding 2]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][0.176080 52.209392]>
-                <[float64][heading][70.02]>
-                <[string8][name][GA HardStanding 3]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][0.165863 52.205770]>
-                <[float64][heading][62.59]>
-                <[string8][name][Marshall Aero 1]>
-            >
-            <[tmsimulator_parking_position][element][11]
-                <[tmvector2d][position][0.168878 52.206154]>
-                <[float64][heading][239.74]>
-                <[string8][name][Marshall Aero 2]>
-            >
-            <[tmsimulator_parking_position][element][12]
-                <[tmvector2d][position][0.171751 52.209056]>
-                <[float64][heading][17.35]>
-                <[string8][name][Terminal 1]>
-            >
-            <[tmsimulator_parking_position][element][13]
-                <[tmvector2d][position][0.172132 52.208986]>
-                <[float64][heading][17.35]>
-                <[string8][name][Terminal 2]>
-            >
-            <[tmsimulator_parking_position][element][14]
-                <[tmvector2d][position][0.172345 52.208689]>
-                <[float64][heading][350.87]>
-                <[string8][name][Terminal 3]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Cambridge]>
+		<[string8][lname][Cambridge, United Kingdom]>
+		<[string8][icao][EGSC]>
+		<[string8][country][gb]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][0.175015 52.205016]>
+		<[float64][height][14.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][0.172787 52.208074]>
+		<[float64][tower_height][23.5]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][05]>
+				<[tmvector2d][threshold1][0.165742 52.200214]>
+				<[tmvector2d][endpoint1][0.164057 52.199341]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][23]>
+				<[tmvector2d][threshold2][0.184831 52.210100]>
+				<[tmvector2d][endpoint2][0.185973 52.210691]>
+				<[string8][appltsys2][calvert]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][05R]>
+				<[tmvector2d][threshold1][0.175594 52.203089]>
+				<[tmvector2d][endpoint1][0.175594 52.203089]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][23L]>
+				<[tmvector2d][threshold2][0.185667 52.208297]>
+				<[tmvector2d][endpoint2][0.185667 52.208297]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][35.05]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][0.168661 52.203258]>
+				<[tmvector2d][endpoint1][0.168661 52.203258]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][0.178747 52.202178]>
+				<[tmvector2d][endpoint2][0.178747 52.202178]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][35.05]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][0.174492 52.209547]>
+				<[float64][heading][95.19]>
+				<[string8][name][Customs Apron 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][0.174897 52.209614]>
+				<[float64][heading][204.44]>
+				<[string8][name][Customs Apron 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][0.178213 52.209647]>
+				<[float64][heading][176.19]>
+				<[string8][name][GA Grass Parking 1]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][0.177565 52.209622]>
+				<[float64][heading][181.30]>
+				<[string8][name][GA Grass Parking 2]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][0.177388 52.209619]>
+				<[float64][heading][177.51]>
+				<[string8][name][GA Grass Parking 3]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][0.178001 52.209374]>
+				<[float64][heading][173.54]>
+				<[string8][name][GA Grass Parking 4]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][0.177725 52.209074]>
+				<[float64][heading][175.04]>
+				<[string8][name][GA Grass Parking 5]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][0.175976 52.209626]>
+				<[float64][heading][69.44]>
+				<[string8][name][GA HardStanding 1]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][0.176011 52.209514]>
+				<[float64][heading][71.56]>
+				<[string8][name][GA HardStanding 2]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][0.176080 52.209392]>
+				<[float64][heading][70.02]>
+				<[string8][name][GA HardStanding 3]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][0.165863 52.205770]>
+				<[float64][heading][62.59]>
+				<[string8][name][Marshall Aero 1]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][0.168878 52.206154]>
+				<[float64][heading][239.74]>
+				<[string8][name][Marshall Aero 2]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][0.171751 52.209056]>
+				<[float64][heading][17.35]>
+				<[string8][name][Terminal 1]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][0.172132 52.208986]>
+				<[float64][heading][17.35]>
+				<[string8][name][Terminal 2]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][0.172345 52.208689]>
+				<[float64][heading][350.87]>
+				<[string8][name][Terminal 3]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EGSC_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

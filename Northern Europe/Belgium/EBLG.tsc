@@ -1,146 +1,148 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Liege]>
-        <[string8][lname][Liege, Belgium]>
-        <[string8][icao][EBLG]>
-        <[string8][country][be]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][5.444441 50.637539]>
-        <[float64][height][196.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][5.454423 50.637858]>
-        <[float64][tower_height][303.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][05R]>
-                <[tmvector2d][threshold1][5.428304 50.627305]>
-                <[tmvector2d][endpoint1][5.427954 50.627083]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][23L]>
-                <[tmvector2d][threshold2][5.460578 50.647773]>
-                <[tmvector2d][endpoint2][5.460928 50.647995]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][05L]>
-                <[tmvector2d][threshold1][5.430480 50.631498]>
-                <[tmvector2d][endpoint1][5.430130 50.631276]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][23R]>
-                <[tmvector2d][threshold2][5.453197 50.645906]>
-                <[tmvector2d][endpoint2][5.453547 50.646128]>
-                <[string8][appltsys2][alsf-2]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-            <[tmsimulator_helipad][element][0]
-                <[tmvector2d][position][5.451978 50.639317]>
-                <[string8][type_name][building]>
-                <[float64][radius][14.9]>
-                <[float64][heading][134.98]>
-                <[float64][height][0]>
-                <[string8][name][H1]>
-            >
-            <[tmsimulator_helipad][element][1]
-                <[tmvector2d][position][5.444158 50.642004]>
-                <[string8][type_name][building]>
-                <[float64][radius][14.9]>
-                <[float64][heading][135.00]>
-                <[float64][height][0]>
-                <[string8][name][H2]>
-            >
-            <[tmsimulator_helipad][element][2]
-                <[tmvector2d][position][5.459806 50.640196]>
-                <[string8][type_name][building]>
-                <[float64][radius][8]>
-                <[float64][heading][315.00]>
-                <[float64][height][0]>
-                <[string8][name][CAX FBO Heli Rooftop]>
-            >
-            <[tmsimulator_helipad][element][3]
-                <[tmvector2d][position][5.451978 50.639317]>
-                <[string8][type_name][building]>
-                <[float64][radius][8]>
-                <[float64][heading][135.00]>
-                <[float64][height][0]>
-                <[string8][name][Helipad Main Apron]>
-            >
-            <[tmsimulator_helipad][element][4]
-                <[tmvector2d][position][5.444158 50.642004]>
-                <[string8][type_name][building]>
-                <[float64][radius][8]>
-                <[float64][heading][135.00]>
-                <[float64][height][0]>
-                <[string8][name][Helipad North Apron]>
-            >
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][5.444842 50.632828]>
-                <[float64][heading][315.00]>
-                <[string8][name][Cargo Area]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][5.459108 50.640459]>
-                <[float64][heading][315.00]>
-                <[string8][name][CAX FBO]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][5.462510 50.642954]>
-                <[float64][heading][315.00]>
-                <[string8][name][East Hangars]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][5.459882 50.641336]>
-                <[float64][heading][315.00]>
-                <[string8][name][General Aviation]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][5.430357 50.630209]>
-                <[float64][heading][335.26]>
-                <[string8][name][Hold Short Rwy 05L on C1]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][5.430360 50.630205]>
-                <[float64][heading][151.14]>
-                <[string8][name][Hold Short Rwy 05R on C1]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][5.461956 50.646982]>
-                <[float64][heading][315.09]>
-                <[string8][name][Hold Short Rwy 23L on S5]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][5.454149 50.645129]>
-                <[float64][heading][353.87]>
-                <[string8][name][Hold Short Rwy 23R on C4]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][5.453907 50.638557]>
-                <[float64][heading][315.00]>
-                <[string8][name][Main Terminal]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][5.442659 50.642063]>
-                <[float64][heading][135.00]>
-                <[string8][name][North Apron]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Liege]>
+		<[string8][lname][Liege, Belgium]>
+		<[string8][icao][EBLG]>
+		<[string8][country][be]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][5.444441 50.637539]>
+		<[float64][height][196.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][5.454423 50.637858]>
+		<[float64][tower_height][303.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][05R]>
+				<[tmvector2d][threshold1][5.428304 50.627305]>
+				<[tmvector2d][endpoint1][5.427954 50.627083]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][23L]>
+				<[tmvector2d][threshold2][5.460578 50.647773]>
+				<[tmvector2d][endpoint2][5.460928 50.647995]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][05L]>
+				<[tmvector2d][threshold1][5.430480 50.631498]>
+				<[tmvector2d][endpoint1][5.430130 50.631276]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][23R]>
+				<[tmvector2d][threshold2][5.453197 50.645906]>
+				<[tmvector2d][endpoint2][5.453547 50.646128]>
+				<[string8][appltsys2][alsf-2]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][5.451978 50.639317]>
+				<[string8][type_name][building]>
+				<[float64][radius][14.9]>
+				<[float64][heading][134.98]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][5.444158 50.642004]>
+				<[string8][type_name][building]>
+				<[float64][radius][14.9]>
+				<[float64][heading][135.00]>
+				<[float64][height][0]>
+				<[string8][name][H2]>
+			>
+			<[tmsimulator_helipad][element][2]
+				<[tmvector2d][position][5.459806 50.640196]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][315.00]>
+				<[float64][height][0]>
+				<[string8][name][CAX FBO Heli Rooftop]>
+			>
+			<[tmsimulator_helipad][element][3]
+				<[tmvector2d][position][5.451978 50.639317]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][135.00]>
+				<[float64][height][0]>
+				<[string8][name][Helipad Main Apron]>
+			>
+			<[tmsimulator_helipad][element][4]
+				<[tmvector2d][position][5.444158 50.642004]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][135.00]>
+				<[float64][height][0]>
+				<[string8][name][Helipad North Apron]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][5.444842 50.632828]>
+				<[float64][heading][315.00]>
+				<[string8][name][Cargo Area]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][5.459108 50.640459]>
+				<[float64][heading][315.00]>
+				<[string8][name][CAX FBO]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][5.462510 50.642954]>
+				<[float64][heading][315.00]>
+				<[string8][name][East Hangars]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][5.459882 50.641336]>
+				<[float64][heading][315.00]>
+				<[string8][name][General Aviation]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][5.430357 50.630209]>
+				<[float64][heading][335.26]>
+				<[string8][name][Hold Short Rwy 05L on C1]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][5.430360 50.630205]>
+				<[float64][heading][151.14]>
+				<[string8][name][Hold Short Rwy 05R on C1]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][5.461956 50.646982]>
+				<[float64][heading][315.09]>
+				<[string8][name][Hold Short Rwy 23L on S5]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][5.454149 50.645129]>
+				<[float64][heading][353.87]>
+				<[string8][name][Hold Short Rwy 23R on C4]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][5.453907 50.638557]>
+				<[float64][heading][315.00]>
+				<[string8][name][Main Terminal]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][5.442659 50.642063]>
+				<[float64][heading][135.00]>
+				<[string8][name][North Apron]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EBLG_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

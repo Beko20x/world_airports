@@ -1,101 +1,103 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][San Luis Co Rgnl]>
-        <[string8][lname][San Luis Co Rgnl, USA]>
-        <[string8][icao][KSBP]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-120.646002 35.236888]>
-        <[float64][height][64.6]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-120.639149 35.238167]>
-        <[float64][tower_height][82.6]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][07]>
-                <[tmvector2d][threshold1][-120.650234 35.236875]>
-                <[tmvector2d][endpoint1][-120.650234 35.236875]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][25]>
-                <[tmvector2d][threshold2][-120.641771 35.236900]>
-                <[tmvector2d][endpoint2][-120.641771 35.236900]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][29.87]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-120.647212 35.240977]>
-                <[tmvector2d][endpoint1][-120.649321 35.242178]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-120.633827 35.233359]>
-                <[tmvector2d][endpoint2][-120.632514 35.232611]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-120.638289 35.239333]>
-                <[float64][heading][179.16]>
-                <[string8][name][ACI/Jet Center]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-120.643755 35.240961]>
-                <[float64][heading][213.69]>
-                <[string8][name][Air San Luis ramp]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-120.642966 35.240463]>
-                <[float64][heading][123.69]>
-                <[string8][name][American Eagle Ramp]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-120.633656 35.235500]>
-                <[float64][heading][213.69]>
-                <[string8][name][East hangars]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-120.642096 35.240021]>
-                <[float64][heading][128.21]>
-                <[string8][name][Terminal]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-120.636499 35.237625]>
-                <[float64][heading][181.12]>
-                <[string8][name][Transient overnight parking]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-120.639407 35.238923]>
-                <[float64][heading][180.52]>
-                <[string8][name][Transient Parking]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-120.646675 35.237896]>
-                <[float64][heading][178.28]>
-                <[string8][name][West ramp 1]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][-120.646004 35.237867]>
-                <[float64][heading][177.98]>
-                <[string8][name][West ramp 2]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][San Luis Co Rgnl]>
+		<[string8][lname][San Luis Co Rgnl, USA]>
+		<[string8][icao][KSBP]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-120.646002 35.236888]>
+		<[float64][height][64.6]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-120.639149 35.238167]>
+		<[float64][tower_height][82.6]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][-120.650234 35.236875]>
+				<[tmvector2d][endpoint1][-120.650234 35.236875]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][-120.641771 35.236900]>
+				<[tmvector2d][endpoint2][-120.641771 35.236900]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][29.87]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-120.647212 35.240977]>
+				<[tmvector2d][endpoint1][-120.649321 35.242178]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-120.633827 35.233359]>
+				<[tmvector2d][endpoint2][-120.632514 35.232611]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-120.638289 35.239333]>
+				<[float64][heading][179.16]>
+				<[string8][name][ACI/Jet Center]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-120.643755 35.240961]>
+				<[float64][heading][213.69]>
+				<[string8][name][Air San Luis ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-120.642966 35.240463]>
+				<[float64][heading][123.69]>
+				<[string8][name][American Eagle Ramp]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-120.633656 35.235500]>
+				<[float64][heading][213.69]>
+				<[string8][name][East hangars]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-120.642096 35.240021]>
+				<[float64][heading][128.21]>
+				<[string8][name][Terminal]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-120.636499 35.237625]>
+				<[float64][heading][181.12]>
+				<[string8][name][Transient overnight parking]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-120.639407 35.238923]>
+				<[float64][heading][180.52]>
+				<[string8][name][Transient Parking]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-120.646675 35.237896]>
+				<[float64][heading][178.28]>
+				<[string8][name][West ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-120.646004 35.237867]>
+				<[float64][heading][177.98]>
+				<[string8][name][West ramp 2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KSBP_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Kamloops]>
-        <[string8][lname][Kamloops, Canada]>
-        <[string8][icao][CYKA]>
-        <[string8][country][ca]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-120.444483 50.702425]>
-        <[float64][height][345.3]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-120.441895 50.699175]>
-        <[float64][tower_height][370.3]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][08]>
-                <[tmvector2d][threshold1][-120.457113 50.704315]>
-                <[tmvector2d][endpoint1][-120.457113 50.704315]>
-                <[string8][appltsys1][odals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][26]>
-                <[tmvector2d][threshold2][-120.431853 50.700535]>
-                <[tmvector2d][endpoint2][-120.431853 50.700535]>
-                <[string8][appltsys2][odals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][04]>
-                <[tmvector2d][threshold1][-120.444412 50.700105]>
-                <[tmvector2d][endpoint1][-120.446263 50.699456]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][22]>
-                <[tmvector2d][threshold2][-120.435608 50.703193]>
-                <[tmvector2d][endpoint2][-120.435608 50.703193]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][14.94]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-120.438582 50.699304]>
-                <[float64][heading][286.46]>
-                <[string8][name][GA E]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-120.439051 50.705332]>
-                <[float64][heading][239.05]>
-                <[string8][name][GA Main Ramp]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-120.450571 50.705894]>
-                <[float64][heading][118.01]>
-                <[string8][name][Lane 2]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-120.441087 50.704230]>
-                <[float64][heading][325.19]>
-                <[string8][name][Main ramp]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Kamloops]>
+		<[string8][lname][Kamloops, Canada]>
+		<[string8][icao][CYKA]>
+		<[string8][country][ca]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-120.444483 50.702425]>
+		<[float64][height][345.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-120.441895 50.699175]>
+		<[float64][tower_height][370.3]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-120.457113 50.704315]>
+				<[tmvector2d][endpoint1][-120.457113 50.704315]>
+				<[string8][appltsys1][odals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-120.431853 50.700535]>
+				<[tmvector2d][endpoint2][-120.431853 50.700535]>
+				<[string8][appltsys2][odals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][04]>
+				<[tmvector2d][threshold1][-120.444412 50.700105]>
+				<[tmvector2d][endpoint1][-120.446263 50.699456]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][22]>
+				<[tmvector2d][threshold2][-120.435608 50.703193]>
+				<[tmvector2d][endpoint2][-120.435608 50.703193]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][14.94]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-120.438582 50.699304]>
+				<[float64][heading][286.46]>
+				<[string8][name][GA E]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-120.439051 50.705332]>
+				<[float64][heading][239.05]>
+				<[string8][name][GA Main Ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-120.450571 50.705894]>
+				<[float64][heading][118.01]>
+				<[string8][name][Lane 2]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-120.441087 50.704230]>
+				<[float64][heading][325.19]>
+				<[string8][name][Main ramp]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][CYKA_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

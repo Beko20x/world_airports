@@ -1,76 +1,78 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][WESTCHESTER CO]>
-        <[string8][lname][WESTCHESTER CO, USA]>
-        <[string8][icao][KHPN]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-73.707881 41.065741]>
-        <[float64][height][133.8]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-73.710045 41.063263]>
-        <[float64][tower_height][273.7]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-73.715761 41.067053]>
-                <[tmvector2d][endpoint1][-73.715761 41.067053]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][left]>
-                <[string8][reil1][omni]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-73.703549 41.065019]>
-                <[tmvector2d][endpoint2][-73.700000 41.064428]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][46.02]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][16]>
-                <[tmvector2d][threshold1][-73.713308 41.075550]>
-                <[tmvector2d][endpoint1][-73.713308 41.075550]>
-                <[string8][appltsys1][malsr]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][34]>
-                <[tmvector2d][threshold2][-73.701400 41.060003]>
-                <[tmvector2d][endpoint2][-73.701400 41.060003]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][left]>
-                <[string8][reil2][omni]>
-                <[float64][width][46.02]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-73.704852 41.068055]>
-                <[float64][heading][103.88]>
-                <[string8][name][Gate B]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-73.711631 41.075450]>
-                <[float64][heading][277.54]>
-                <[string8][name][Hold 16]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-73.711058 41.068951]>
-                <[float64][heading][306.25]>
-                <[string8][name][Midfield run up]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-73.700153 41.060212]>
-                <[float64][heading][288.01]>
-                <[string8][name][Runup 34]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][WESTCHESTER CO]>
+		<[string8][lname][WESTCHESTER CO, USA]>
+		<[string8][icao][KHPN]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-73.707881 41.065741]>
+		<[float64][height][133.8]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-73.710045 41.063263]>
+		<[float64][tower_height][273.7]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-73.715761 41.067053]>
+				<[tmvector2d][endpoint1][-73.715761 41.067053]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-73.703549 41.065019]>
+				<[tmvector2d][endpoint2][-73.700000 41.064428]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-73.713308 41.075550]>
+				<[tmvector2d][endpoint1][-73.713308 41.075550]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-73.701400 41.060003]>
+				<[tmvector2d][endpoint2][-73.701400 41.060003]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][46.02]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-73.704852 41.068055]>
+				<[float64][heading][103.88]>
+				<[string8][name][Gate B]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-73.711631 41.075450]>
+				<[float64][heading][277.54]>
+				<[string8][name][Hold 16]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-73.711058 41.068951]>
+				<[float64][heading][306.25]>
+				<[string8][name][Midfield run up]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-73.700153 41.060212]>
+				<[float64][heading][288.01]>
+				<[string8][name][Runup 34]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KHPN_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

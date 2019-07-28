@@ -1,256 +1,258 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][Newark Liberty Intl]>
-        <[string8][lname][Newark Liberty Intl, USA]>
-        <[string8][icao][KEWR]>
-        <[string8][country][us]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][-74.170813 40.688970]>
-        <[float64][height][5.5]>
-        <[float64][size][5000]>
-        <[vector2_float64][tower_position][-74.181053 40.692135]>
-        <[float64][tower_height][100.0]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][04L]>
-                <[tmvector2d][threshold1][-74.173044 40.685459]>
-                <[tmvector2d][endpoint1][-74.179450 40.675381]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][none]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22R]>
-                <[tmvector2d][threshold2][-74.165762 40.696915]>
-                <[tmvector2d][endpoint2][-74.162175 40.702558]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][none]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][1]
-                <[string8][name1][04R]>
-                <[tmvector2d][threshold1][-74.171244 40.682302]>
-                <[tmvector2d][endpoint1][-74.174244 40.677583]>
-                <[string8][appltsys1][alsf-2]>
-                <[string8][papi1][none]>
-                <[string8][reil1][omni]>
-                <[string8][name2][22L]>
-                <[tmvector2d][threshold2][-74.163058 40.695177]>
-                <[tmvector2d][endpoint2][-74.158536 40.702289]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][none]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.72]>
-            >
-            <[tmsimulator_runway][element][2]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][-74.180708 40.702806]>
-                <[tmvector2d][endpoint1][-74.180708 40.702806]>
-                <[string8][appltsys1][none]>
-                <[string8][papi1][none]>
-                <[string8][reil1][omni]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][-74.157095 40.701236]>
-                <[tmvector2d][endpoint2][-74.156275 40.701181]>
-                <[string8][appltsys2][none]>
-                <[string8][papi2][none]>
-                <[string8][reil2][omni]>
-                <[float64][width][45.72]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-            <[tmsimulator_parking_position][element][0]
-                <[tmvector2d][position][-74.173523 40.704617]>
-                <[float64][heading][90.00]>
-                <[string8][name][Air Cargo Ramp]>
-            >
-            <[tmsimulator_parking_position][element][1]
-                <[tmvector2d][position][-74.169456 40.699242]>
-                <[float64][heading][0.00]>
-                <[string8][name][Ball Park]>
-            >
-            <[tmsimulator_parking_position][element][2]
-                <[tmvector2d][position][-74.180847 40.679287]>
-                <[float64][heading][120.00]>
-                <[string8][name][FedEx Ramp]>
-            >
-            <[tmsimulator_parking_position][element][3]
-                <[tmvector2d][position][-74.178223 40.675140]>
-                <[float64][heading][300.00]>
-                <[string8][name][Hold Short Rwy 4R @P]>
-            >
-            <[tmsimulator_parking_position][element][4]
-                <[tmvector2d][position][-74.180702 40.701893]>
-                <[float64][heading][10.00]>
-                <[string8][name][Hold Short Rwy11 @ W]>
-            >
-            <[tmsimulator_parking_position][element][5]
-                <[tmvector2d][position][-74.179604 40.703678]>
-                <[float64][heading][260.00]>
-                <[string8][name][Hold Short Rwy11 @ Z]>
-            >
-            <[tmsimulator_parking_position][element][6]
-                <[tmvector2d][position][-74.159744 40.702530]>
-                <[float64][heading][90.00]>
-                <[string8][name][Hold Short Rwy22L]>
-            >
-            <[tmsimulator_parking_position][element][7]
-                <[tmvector2d][position][-74.163712 40.702778]>
-                <[float64][heading][100.00]>
-                <[string8][name][Hold Short Rwy22R]>
-            >
-            <[tmsimulator_parking_position][element][8]
-                <[tmvector2d][position][-74.157463 40.700409]>
-                <[float64][heading][30.00]>
-                <[string8][name][Hold Short Rwy29 @ CC]>
-            >
-            <[tmsimulator_parking_position][element][9]
-                <[tmvector2d][position][-74.156448 40.702137]>
-                <[float64][heading][180.00]>
-                <[string8][name][Hold Short Rwy29 @ Z]>
-            >
-            <[tmsimulator_parking_position][element][10]
-                <[tmvector2d][position][-74.175072 40.678440]>
-                <[float64][heading][160.00]>
-                <[string8][name][Hold Short Rwy4L]>
-            >
-            <[tmsimulator_parking_position][element][11]
-                <[tmvector2d][position][-74.180107 40.675816]>
-                <[float64][heading][120.00]>
-                <[string8][name][Hold Short Rwy4R @PD]>
-            >
-            <[tmsimulator_parking_position][element][12]
-                <[tmvector2d][position][-74.178711 40.704445]>
-                <[float64][heading][200.00]>
-                <[string8][name][Parking Area 15]>
-            >
-            <[tmsimulator_parking_position][element][13]
-                <[tmvector2d][position][-74.166229 40.704605]>
-                <[float64][heading][90.00]>
-                <[string8][name][Parking Area 340]>
-            >
-            <[tmsimulator_parking_position][element][14]
-                <[tmvector2d][position][-74.181808 40.684368]>
-                <[float64][heading][0.00]>
-                <[string8][name][Parking Area Amelia]>
-            >
-            <[tmsimulator_parking_position][element][15]
-                <[tmvector2d][position][-74.178162 40.684673]>
-                <[float64][heading][330.00]>
-                <[string8][name][Parking Area Lindy]>
-            >
-            <[tmsimulator_parking_position][element][16]
-                <[tmvector2d][position][-74.187920 40.685425]>
-                <[float64][heading][60.00]>
-                <[string8][name][Parking Area Wilbur]>
-            >
-            <[tmsimulator_parking_position][element][17]
-                <[tmvector2d][position][-74.180038 40.701378]>
-                <[float64][heading][320.00]>
-                <[string8][name][Run Up Block Rwy11]>
-            >
-            <[tmsimulator_parking_position][element][18]
-                <[tmvector2d][position][-74.165962 40.699863]>
-                <[float64][heading][70.00]>
-                <[string8][name][Run Up Block Rwy22R]>
-            >
-            <[tmsimulator_parking_position][element][19]
-                <[tmvector2d][position][-74.157669 40.699642]>
-                <[float64][heading][0.00]>
-                <[string8][name][Run Up Block Rwy29]>
-            >
-            <[tmsimulator_parking_position][element][20]
-                <[tmvector2d][position][-74.180328 40.676613]>
-                <[float64][heading][260.00]>
-                <[string8][name][Run Up Block Rwy4L]>
-            >
-            <[tmsimulator_parking_position][element][21]
-                <[tmvector2d][position][-74.169792 40.706421]>
-                <[float64][heading][10.00]>
-                <[string8][name][Signature Flight Support]>
-            >
-            <[tmsimulator_parking_position][element][22]
-                <[tmvector2d][position][-74.183739 40.686787]>
-                <[float64][heading][125.00]>
-                <[string8][name][Terminal A#1]>
-            >
-            <[tmsimulator_parking_position][element][23]
-                <[tmvector2d][position][-74.183922 40.685837]>
-                <[float64][heading][65.00]>
-                <[string8][name][Terminal A#2]>
-            >
-            <[tmsimulator_parking_position][element][24]
-                <[tmvector2d][position][-74.182869 40.685600]>
-                <[float64][heading][0.00]>
-                <[string8][name][Terminal A#3]>
-            >
-            <[tmsimulator_parking_position][element][25]
-                <[tmvector2d][position][-74.182220 40.685791]>
-                <[float64][heading][310.00]>
-                <[string8][name][Terminal A#4]>
-            >
-            <[tmsimulator_parking_position][element][26]
-                <[tmvector2d][position][-74.182114 40.686363]>
-                <[float64][heading][250.00]>
-                <[string8][name][Terminal A#5]>
-            >
-            <[tmsimulator_parking_position][element][27]
-                <[tmvector2d][position][-74.174889 40.691372]>
-                <[float64][heading][27.00]>
-                <[string8][name][Terminal B#1]>
-            >
-            <[tmsimulator_parking_position][element][28]
-                <[tmvector2d][position][-74.174179 40.691288]>
-                <[float64][heading][355.00]>
-                <[string8][name][Terminal B#2]>
-            >
-            <[tmsimulator_parking_position][element][29]
-                <[tmvector2d][position][-74.173553 40.691505]>
-                <[float64][heading][310.00]>
-                <[string8][name][Terminal B#3]>
-            >
-            <[tmsimulator_parking_position][element][30]
-                <[tmvector2d][position][-74.173294 40.692093]>
-                <[float64][heading][265.00]>
-                <[string8][name][Terminal B#4]>
-            >
-            <[tmsimulator_parking_position][element][31]
-                <[tmvector2d][position][-74.173622 40.692635]>
-                <[float64][heading][225.00]>
-                <[string8][name][Terminal B#5]>
-            >
-            <[tmsimulator_parking_position][element][32]
-                <[tmvector2d][position][-74.174400 40.692799]>
-                <[float64][heading][178.00]>
-                <[string8][name][Terminal B#6]>
-            >
-            <[tmsimulator_parking_position][element][33]
-                <[tmvector2d][position][-74.175011 40.692589]>
-                <[float64][heading][140.00]>
-                <[string8][name][Terminal B#7]>
-            >
-            <[tmsimulator_parking_position][element][34]
-                <[tmvector2d][position][-74.175835 40.697559]>
-                <[float64][heading][0.00]>
-                <[string8][name][Terminal C]>
-            >
-            <[tmsimulator_parking_position][element][35]
-                <[tmvector2d][position][-74.186951 40.682453]>
-                <[float64][heading][300.00]>
-                <[string8][name][UPS Ramp]>
-            >
-            <[tmsimulator_parking_position][element][36]
-                <[tmvector2d][position][-74.167236 40.704651]>
-                <[float64][heading][90.00]>
-                <[string8][name][West Park Area]>
-            >
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Newark Liberty Intl]>
+		<[string8][lname][Newark Liberty Intl, USA]>
+		<[string8][icao][KEWR]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-74.170813 40.688970]>
+		<[float64][height][5.5]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-74.181053 40.692135]>
+		<[float64][tower_height][100.0]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][04L]>
+				<[tmvector2d][threshold1][-74.173044 40.685459]>
+				<[tmvector2d][endpoint1][-74.179450 40.675381]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][none]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22R]>
+				<[tmvector2d][threshold2][-74.165762 40.696915]>
+				<[tmvector2d][endpoint2][-74.162175 40.702558]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][none]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][04R]>
+				<[tmvector2d][threshold1][-74.171244 40.682302]>
+				<[tmvector2d][endpoint1][-74.174244 40.677583]>
+				<[string8][appltsys1][alsf-2]>
+				<[string8][papi1][none]>
+				<[string8][reil1][omni]>
+				<[string8][name2][22L]>
+				<[tmvector2d][threshold2][-74.163058 40.695177]>
+				<[tmvector2d][endpoint2][-74.158536 40.702289]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][none]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.72]>
+			>
+			<[tmsimulator_runway][element][2]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][-74.180708 40.702806]>
+				<[tmvector2d][endpoint1][-74.180708 40.702806]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][omni]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][-74.157095 40.701236]>
+				<[tmvector2d][endpoint2][-74.156275 40.701181]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][omni]>
+				<[float64][width][45.72]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-74.173523 40.704617]>
+				<[float64][heading][90.00]>
+				<[string8][name][Air Cargo Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-74.169456 40.699242]>
+				<[float64][heading][0.00]>
+				<[string8][name][Ball Park]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-74.180847 40.679287]>
+				<[float64][heading][120.00]>
+				<[string8][name][FedEx Ramp]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-74.178223 40.675140]>
+				<[float64][heading][300.00]>
+				<[string8][name][Hold Short Rwy 4R @P]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-74.180702 40.701893]>
+				<[float64][heading][10.00]>
+				<[string8][name][Hold Short Rwy11 @ W]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-74.179604 40.703678]>
+				<[float64][heading][260.00]>
+				<[string8][name][Hold Short Rwy11 @ Z]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-74.159744 40.702530]>
+				<[float64][heading][90.00]>
+				<[string8][name][Hold Short Rwy22L]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-74.163712 40.702778]>
+				<[float64][heading][100.00]>
+				<[string8][name][Hold Short Rwy22R]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-74.157463 40.700409]>
+				<[float64][heading][30.00]>
+				<[string8][name][Hold Short Rwy29 @ CC]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-74.156448 40.702137]>
+				<[float64][heading][180.00]>
+				<[string8][name][Hold Short Rwy29 @ Z]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-74.175072 40.678440]>
+				<[float64][heading][160.00]>
+				<[string8][name][Hold Short Rwy4L]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][-74.180107 40.675816]>
+				<[float64][heading][120.00]>
+				<[string8][name][Hold Short Rwy4R @PD]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-74.178711 40.704445]>
+				<[float64][heading][200.00]>
+				<[string8][name][Parking Area 15]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][-74.166229 40.704605]>
+				<[float64][heading][90.00]>
+				<[string8][name][Parking Area 340]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][-74.181808 40.684368]>
+				<[float64][heading][0.00]>
+				<[string8][name][Parking Area Amelia]>
+			>
+			<[tmsimulator_parking_position][element][15]
+				<[tmvector2d][position][-74.178162 40.684673]>
+				<[float64][heading][330.00]>
+				<[string8][name][Parking Area Lindy]>
+			>
+			<[tmsimulator_parking_position][element][16]
+				<[tmvector2d][position][-74.187920 40.685425]>
+				<[float64][heading][60.00]>
+				<[string8][name][Parking Area Wilbur]>
+			>
+			<[tmsimulator_parking_position][element][17]
+				<[tmvector2d][position][-74.180038 40.701378]>
+				<[float64][heading][320.00]>
+				<[string8][name][Run Up Block Rwy11]>
+			>
+			<[tmsimulator_parking_position][element][18]
+				<[tmvector2d][position][-74.165962 40.699863]>
+				<[float64][heading][70.00]>
+				<[string8][name][Run Up Block Rwy22R]>
+			>
+			<[tmsimulator_parking_position][element][19]
+				<[tmvector2d][position][-74.157669 40.699642]>
+				<[float64][heading][0.00]>
+				<[string8][name][Run Up Block Rwy29]>
+			>
+			<[tmsimulator_parking_position][element][20]
+				<[tmvector2d][position][-74.180328 40.676613]>
+				<[float64][heading][260.00]>
+				<[string8][name][Run Up Block Rwy4L]>
+			>
+			<[tmsimulator_parking_position][element][21]
+				<[tmvector2d][position][-74.169792 40.706421]>
+				<[float64][heading][10.00]>
+				<[string8][name][Signature Flight Support]>
+			>
+			<[tmsimulator_parking_position][element][22]
+				<[tmvector2d][position][-74.183739 40.686787]>
+				<[float64][heading][125.00]>
+				<[string8][name][Terminal A#1]>
+			>
+			<[tmsimulator_parking_position][element][23]
+				<[tmvector2d][position][-74.183922 40.685837]>
+				<[float64][heading][65.00]>
+				<[string8][name][Terminal A#2]>
+			>
+			<[tmsimulator_parking_position][element][24]
+				<[tmvector2d][position][-74.182869 40.685600]>
+				<[float64][heading][0.00]>
+				<[string8][name][Terminal A#3]>
+			>
+			<[tmsimulator_parking_position][element][25]
+				<[tmvector2d][position][-74.182220 40.685791]>
+				<[float64][heading][310.00]>
+				<[string8][name][Terminal A#4]>
+			>
+			<[tmsimulator_parking_position][element][26]
+				<[tmvector2d][position][-74.182114 40.686363]>
+				<[float64][heading][250.00]>
+				<[string8][name][Terminal A#5]>
+			>
+			<[tmsimulator_parking_position][element][27]
+				<[tmvector2d][position][-74.174889 40.691372]>
+				<[float64][heading][27.00]>
+				<[string8][name][Terminal B#1]>
+			>
+			<[tmsimulator_parking_position][element][28]
+				<[tmvector2d][position][-74.174179 40.691288]>
+				<[float64][heading][355.00]>
+				<[string8][name][Terminal B#2]>
+			>
+			<[tmsimulator_parking_position][element][29]
+				<[tmvector2d][position][-74.173553 40.691505]>
+				<[float64][heading][310.00]>
+				<[string8][name][Terminal B#3]>
+			>
+			<[tmsimulator_parking_position][element][30]
+				<[tmvector2d][position][-74.173294 40.692093]>
+				<[float64][heading][265.00]>
+				<[string8][name][Terminal B#4]>
+			>
+			<[tmsimulator_parking_position][element][31]
+				<[tmvector2d][position][-74.173622 40.692635]>
+				<[float64][heading][225.00]>
+				<[string8][name][Terminal B#5]>
+			>
+			<[tmsimulator_parking_position][element][32]
+				<[tmvector2d][position][-74.174400 40.692799]>
+				<[float64][heading][178.00]>
+				<[string8][name][Terminal B#6]>
+			>
+			<[tmsimulator_parking_position][element][33]
+				<[tmvector2d][position][-74.175011 40.692589]>
+				<[float64][heading][140.00]>
+				<[string8][name][Terminal B#7]>
+			>
+			<[tmsimulator_parking_position][element][34]
+				<[tmvector2d][position][-74.175835 40.697559]>
+				<[float64][heading][0.00]>
+				<[string8][name][Terminal C]>
+			>
+			<[tmsimulator_parking_position][element][35]
+				<[tmvector2d][position][-74.186951 40.682453]>
+				<[float64][heading][300.00]>
+				<[string8][name][UPS Ramp]>
+			>
+			<[tmsimulator_parking_position][element][36]
+				<[tmvector2d][position][-74.167236 40.704651]>
+				<[float64][heading][90.00]>
+				<[string8][name][West Park Area]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][KEWR_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >

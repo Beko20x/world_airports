@@ -1,39 +1,41 @@
 <[file][][]
-    <[tmsimulator_scenery_place][][]
-        <[string8][type][airport]>
-        <[string8][sname][KHORAM ABAD]>
-        <[string8][lname][KHORAM ABAD, Iran]>
-        <[string8][icao][OICK]>
-        <[string8][country][ir]>
-        <[string8][coordinate_system][lonlat]>
-        <[vector2_float64][position][48.282889 33.435376]>
-        <[float64][height][1152.8]>
-        <[float64][size][5000]>
-        <[bool][autoheight][true]>
-        <[list_tmsimulator_scenery_object][objects][]
-        >
-        <[list_tmsimulator_runway][runways][]
-            <[tmsimulator_runway][element][0]
-                <[string8][name1][11]>
-                <[tmvector2d][threshold1][48.267044 33.441008]>
-                <[tmvector2d][endpoint1][48.267044 33.441008]>
-                <[string8][appltsys1][sals]>
-                <[string8][papi1][left]>
-                <[string8][reil1][none]>
-                <[string8][name2][29]>
-                <[tmvector2d][threshold2][48.296866 33.430408]>
-                <[tmvector2d][endpoint2][48.298733 33.429744]>
-                <[string8][appltsys2][sals]>
-                <[string8][papi2][left]>
-                <[string8][reil2][none]>
-                <[float64][width][45.11]>
-            >
-        >
-        <[list_tmsimulator_helipad][helipads][]
-        >
-        <[list_tmsimulator_parking_position][parking_positions][]
-        >
-        <[list_tmsimulator_scenery_cultivation][cultivation_files][]
-        >
-    >
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][KHORAM ABAD]>
+		<[string8][lname][KHORAM ABAD, Iran]>
+		<[string8][icao][OICK]>
+		<[string8][country][ir]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][48.282889 33.435376]>
+		<[float64][height][1152.8]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][11]>
+				<[tmvector2d][threshold1][48.267044 33.441008]>
+				<[tmvector2d][endpoint1][48.267044 33.441008]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][29]>
+				<[tmvector2d][threshold2][48.296866 33.430408]>
+				<[tmvector2d][endpoint2][48.298733 33.429744]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][OICK_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
 >
