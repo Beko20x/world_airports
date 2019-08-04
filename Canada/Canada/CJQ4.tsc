@@ -4,12 +4,38 @@
 		<[string8][sname][Maple Creek]>
 		<[string8][lname][Maple Creek, Canada]>
 		<[string8][icao][CJQ4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-109.476019 49.896790]>
 		<[float64][height][767.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap962m26m_rwy]>
+				<[tmvector3d][position][-109.476019 49.896790 0]>
+				<[float64][orientation][-72.999932]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap962m26m_decal]>
+				<[tmvector3d][position][-109.476019 49.896790 0]>
+				<[float64][orientation][-72.999932]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-109.470670 49.897844 0]>
+				<[float64][orientation][-72.999932]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-109.481369 49.895736 0]>
+				<[float64][orientation][-252.999932]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>

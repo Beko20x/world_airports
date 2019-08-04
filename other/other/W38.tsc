@@ -1,0 +1,61 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][WILLIAMSBURG WHITLEY CO]>
+		<[string8][lname][WILLIAMSBURG WHITLEY CO, other]>
+		<[string8][icao][W38]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-84.199517 36.794999]>
+		<[float64][height][359.1]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1683m33m_rwy]>
+				<[tmvector3d][position][-84.199517 36.794999 0]>
+				<[float64][orientation][-17.775434]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1683m33m_decal]>
+				<[tmvector3d][position][-84.199517 36.794999 0]>
+				<[float64][orientation][-17.775434]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\20_decal]>
+				<[tmvector3d][position][-84.196839 36.801687 0]>
+				<[float64][orientation][-17.775434]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\02_decal]>
+				<[tmvector3d][position][-84.202194 36.788310 0]>
+				<[float64][orientation][-197.775434]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][02]>
+				<[tmvector2d][threshold1][-84.202394 36.787811]>
+				<[tmvector2d][endpoint1][-84.202394 36.787811]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][20]>
+				<[tmvector2d][threshold2][-84.196639 36.802186]>
+				<[tmvector2d][endpoint2][-84.196639 36.802186]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][30.48]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
+>

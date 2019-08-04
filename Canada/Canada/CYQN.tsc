@@ -4,12 +4,56 @@
 		<[string8][sname][NAKINA]>
 		<[string8][lname][NAKINA, Canada]>
 		<[string8][icao][CYQN]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-86.696252 50.182638]>
 		<[float64][height][322.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1056m33m_rwy]>
+				<[tmvector3d][position][-86.696252 50.182638 0]>
+				<[float64][orientation][-84.927248]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1056m33m_decal]>
+				<[tmvector3d][position][-86.696252 50.182638 0]>
+				<[float64][orientation][-84.927248]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-86.689696 50.183010 0]>
+				<[float64][orientation][-84.927248]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-86.702807 50.182265 0]>
+				<[float64][orientation][-264.927248]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\gravel\rap972m54m_rwy]>
+				<[tmvector3d][position][-86.693889 50.178333 0]>
+				<[float64][orientation][-153.273078]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-86.691201 50.174915 0]>
+				<[float64][orientation][-153.273078]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-86.696576 50.181751 0]>
+				<[float64][orientation][-333.273078]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>

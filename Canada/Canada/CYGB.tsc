@@ -4,7 +4,7 @@
 		<[string8][sname][Texada/Gillies Bay]>
 		<[string8][lname][Texada/Gillies Bay, Canada]>
 		<[string8][icao][CYGB]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-124.519317 49.695357]>
 		<[float64][height][93.0]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-124.519730 49.698823]>
 		<[float64][tower_height][143.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap832m26m_rwy]>
+				<[tmvector3d][position][-124.519317 49.695357 0]>
+				<[float64][orientation][-157.408081]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap832m26m_decal]>
+				<[tmvector3d][position][-124.519317 49.695357 0]>
+				<[float64][orientation][-157.408081]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\32_decal]>
+				<[tmvector3d][position][-124.517514 49.692554 0]>
+				<[float64][orientation][-157.408081]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\14_decal]>
+				<[tmvector3d][position][-124.521120 49.698160 0]>
+				<[float64][orientation][-337.408081]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][14]>

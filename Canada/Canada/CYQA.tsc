@@ -4,16 +4,42 @@
 		<[string8][sname][MUSKOKA]>
 		<[string8][lname][MUSKOKA, Canada]>
 		<[string8][icao][CYQA]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.306743 44.976427]>
 		<[float64][height][281.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_rwy]>
+				<[tmvector3d][position][-79.306743 44.976427 0]>
+				<[float64][orientation][-169.701437]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1598m47m_decal]>
+				<[tmvector3d][position][-79.306466 44.975347 0]>
+				<[float64][orientation][-169.701247]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-79.304805 44.968880 0]>
+				<[float64][orientation][-169.701437]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-79.308127 44.981814 0]>
+				<[float64][orientation][-349.701247]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][18]>
-				<[tmvector2d][threshold1][-79.307043 44.977594]>
+				<[tmvector2d][threshold1][-79.308268 44.982363]>
 				<[tmvector2d][endpoint1][-79.308823 44.984524]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>

@@ -4,16 +4,42 @@
 		<[string8][sname][ST GEORGES]>
 		<[string8][lname][ST GEORGES, Canada]>
 		<[string8][icao][CYSG]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-70.714631 46.096368]>
 		<[float64][height][272.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1584m33m_rwy]>
+				<[tmvector3d][position][-70.714631 46.096368 0]>
+				<[float64][orientation][-45.998049]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1452m33m_decal]>
+				<[tmvector3d][position][-70.714058 46.096752 0]>
+				<[float64][orientation][-45.997850]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-70.707993 46.100813 0]>
+				<[float64][orientation][-45.998049]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-70.720122 46.092691 0]>
+				<[float64][orientation][-225.997850]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06]>
-				<[tmvector2d][threshold1][-70.720804 46.092233]>
+				<[tmvector2d][threshold1][-70.720737 46.092278]>
 				<[tmvector2d][endpoint1][-70.721883 46.091511]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>

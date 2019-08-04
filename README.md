@@ -5,6 +5,9 @@
 	7694 beacon lights created
 	3338 control towers created	
   
+ Now runways are addded to airports - 3d models of runways come from FSCLOUDPORT
+ Runways have different surface textures: asphalt, concrete, dirt and gravel, according to the defined in source file.
+  
  To instal just unzip all or selected airport files/countries into '\Documents\Aerofly FS 2\scenery\places\' folder.
  
 

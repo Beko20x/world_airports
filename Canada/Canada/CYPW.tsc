@@ -4,7 +4,7 @@
 		<[string8][sname][Powell River]>
 		<[string8][lname][Powell River, Canada]>
 		<[string8][icao][CYPW]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-124.498891 49.832363]>
 		<[float64][height][129.5]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-124.497411 49.834032]>
 		<[float64][tower_height][154.5]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1128m47m_rwy]>
+				<[tmvector3d][position][-124.498891 49.832363 0]>
+				<[float64][orientation][-118.776207]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1128m47m_decal]>
+				<[tmvector3d][position][-124.498891 49.832363 0]>
+				<[float64][orientation][-118.776207]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-124.493150 49.830329 0]>
+				<[float64][orientation][-118.776207]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-124.504632 49.834397 0]>
+				<[float64][orientation][-298.776207]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>

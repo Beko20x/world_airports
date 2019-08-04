@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-72.422258 -37.402026]>
 		<[float64][tower_height][139.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1716m33m_rwy]>
+				<[tmvector3d][position][-72.425445 -37.401730 0]>
+				<[float64][orientation][-185.000511]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1716m33m_decal]>
+				<[tmvector3d][position][-72.425445 -37.401730 0]>
+				<[float64][orientation][-185.000511]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-72.426221 -37.408780 0]>
+				<[float64][orientation][-185.000511]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-72.424668 -37.394679 0]>
+				<[float64][orientation][-5.000511]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][18]>
@@ -32,6 +58,21 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-72.421367 -37.404342]>
+				<[float64][heading][329.24]>
+				<[string8][name][Aeroclub Start 3]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-72.422864 -37.401555]>
+				<[float64][heading][151.10]>
+				<[string8][name][Terminal Start 1]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-72.423067 -37.402306]>
+				<[float64][heading][1.84]>
+				<[string8][name][Terminal Start 2]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

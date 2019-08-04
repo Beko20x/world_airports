@@ -4,12 +4,38 @@
 		<[string8][sname][BUCTOUCHE]>
 		<[string8][lname][BUCTOUCHE, Canada]>
 		<[string8][icao][CDT5]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-64.693809 46.509364]>
 		<[float64][height][17.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_rwy]>
+				<[tmvector3d][position][-64.693809 46.509364 0]>
+				<[float64][orientation][-73.085205]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_decal]>
+				<[tmvector3d][position][-64.693809 46.509364 0]>
+				<[float64][orientation][-73.085205]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-64.685014 46.511205 0]>
+				<[float64][orientation][-73.085205]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-64.702603 46.507523 0]>
+				<[float64][orientation][-253.085205]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>

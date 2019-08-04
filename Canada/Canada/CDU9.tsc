@@ -4,12 +4,38 @@
 		<[string8][sname][Dunnville]>
 		<[string8][lname][Dunnville, Canada]>
 		<[string8][icao][CDU9]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.596044 42.869598]>
 		<[float64][height][182.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1083m19m_rwy]>
+				<[tmvector3d][position][-79.596044 42.869598 0]>
+				<[float64][orientation][-269.920028]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1083m19m_decal]>
+				<[tmvector3d][position][-79.596044 42.869598 0]>
+				<[float64][orientation][-269.920028]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-79.601811 42.869592 0]>
+				<[float64][orientation][-269.920028]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-79.590277 42.869604 0]>
+				<[float64][orientation][-89.920028]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>

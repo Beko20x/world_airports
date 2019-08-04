@@ -4,7 +4,7 @@
 		<[string8][sname][MONARCH JUNCTION]>
 		<[string8][lname][MONARCH JUNCTION, Canada]>
 		<[string8][icao][CMJN]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-125.685754 51.814469]>
 		<[float64][height][525.8]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-125.689196 51.813680]>
 		<[float64][tower_height][575.8]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_rwy]>
+				<[tmvector3d][position][-125.685754 51.814469 0]>
+				<[float64][orientation][-153.042192]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_decal]>
+				<[tmvector3d][position][-125.685754 51.814469 0]>
+				<[float64][orientation][-153.042192]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-125.683138 51.811289 0]>
+				<[float64][orientation][-153.042192]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-125.688370 51.817649 0]>
+				<[float64][orientation][-333.042192]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][13]>

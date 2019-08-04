@@ -4,12 +4,38 @@
 		<[string8][sname][Luseland]>
 		<[string8][lname][Luseland, Canada]>
 		<[string8][icao][CJR2]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-109.374168 52.069721]>
 		<[float64][height][701.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap962m26m_rwy]>
+				<[tmvector3d][position][-109.374168 52.069721 0]>
+				<[float64][orientation][-121.780015]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap962m26m_decal]>
+				<[tmvector3d][position][-109.374168 52.069721 0]>
+				<[float64][orientation][-121.780015]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-109.369178 52.067821 0]>
+				<[float64][orientation][-121.780015]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-109.379158 52.071621 0]>
+				<[float64][orientation][-301.780015]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

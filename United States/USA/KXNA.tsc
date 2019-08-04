@@ -12,6 +12,56 @@
 		<[vector2_float64][tower_position][-94.302331 36.279404]>
 		<[float64][tower_height][417.3]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2726m47m_rwy]>
+				<[tmvector3d][position][-94.306813 36.281865 0]>
+				<[float64][orientation][-159.814988]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2726m47m_decal]>
+				<[tmvector3d][position][-94.306813 36.281865 0]>
+				<[float64][orientation][-159.814988]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-94.301934 36.271168 0]>
+				<[float64][orientation][-159.814988]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-94.311691 36.292563 0]>
+				<[float64][orientation][-339.814988]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2726m47m_rwy]>
+				<[tmvector3d][position][-94.308720 36.281293 0]>
+				<[float64][orientation][-159.812082]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2726m47m_decal]>
+				<[tmvector3d][position][-94.308720 36.281293 0]>
+				<[float64][orientation][-159.812082]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-94.303841 36.270594 0]>
+				<[float64][orientation][-159.812082]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-94.313600 36.291992 0]>
+				<[float64][orientation][-339.812082]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>
@@ -56,6 +106,21 @@
 				<[tmvector2d][position][-94.300226 36.271064]>
 				<[float64][heading][249.80]>
 				<[string8][name][Hold Short Rwy 34 or 35]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-94.297279 36.276588]>
+				<[float64][heading][188.15]>
+				<[string8][name][Air Carrier Terminal]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-94.299240 36.279968]>
+				<[float64][heading][69.80]>
+				<[string8][name][Cargo Ramp]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-94.302862 36.281193]>
+				<[float64][heading][196.49]>
+				<[string8][name][Regional Jet Center FBO]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

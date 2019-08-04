@@ -4,12 +4,38 @@
 		<[string8][sname][SHOAL LAKE]>
 		<[string8][lname][SHOAL LAKE, Canada]>
 		<[string8][icao][CKL5]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-100.608335 50.457222]>
 		<[float64][height][559.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1014m26m_rwy]>
+				<[tmvector3d][position][-100.608335 50.457222 0]>
+				<[float64][orientation][-108.124049]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1014m26m_decal]>
+				<[tmvector3d][position][-100.608335 50.457222 0]>
+				<[float64][orientation][-108.124049]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-100.602562 50.456019 0]>
+				<[float64][orientation][-108.124049]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-100.614107 50.458425 0]>
+				<[float64][orientation][-288.124049]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

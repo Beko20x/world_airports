@@ -4,12 +4,38 @@
 		<[string8][sname][POKEMOUCHE]>
 		<[string8][lname][POKEMOUCHE, Canada]>
 		<[string8][icao][CDA4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-64.882421 47.716393]>
 		<[float64][height][20.7]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_rwy]>
+				<[tmvector3d][position][-64.882421 47.716393 0]>
+				<[float64][orientation][-105.131056]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_decal]>
+				<[tmvector3d][position][-64.882421 47.716393 0]>
+				<[float64][orientation][-105.131056]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-64.877307 47.715463 0]>
+				<[float64][orientation][-105.131056]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-64.887535 47.717323 0]>
+				<[float64][orientation][-285.131056]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][13]>

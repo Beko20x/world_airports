@@ -10,6 +10,32 @@
 		<[float64][height][32.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap792m33m_rwy]>
+				<[tmvector3d][position][-71.577612 41.168139 0]>
+				<[float64][orientation][-83.745615]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap792m33m_decal]>
+				<[tmvector3d][position][-71.577612 41.168139 0]>
+				<[float64][orientation][-83.745615]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-71.573917 41.168443 0]>
+				<[float64][orientation][-83.745615]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-71.581307 41.167834 0]>
+				<[float64][orientation][-263.745615]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>
@@ -34,6 +60,16 @@
 				<[tmvector2d][position][-71.580410 41.168868]>
 				<[float64][heading][80.32]>
 				<[string8][name][New Ramp Start 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-71.578766 41.169162]>
+				<[float64][heading][263.48]>
+				<[string8][name][East Start]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-71.580568 41.169078]>
+				<[float64][heading][128.37]>
+				<[string8][name][West Start]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

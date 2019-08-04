@@ -4,16 +4,42 @@
 		<[string8][sname][Moncton McEwen]>
 		<[string8][lname][Moncton McEwen, Canada]>
 		<[string8][icao][CCG4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-64.768611 46.153889]>
 		<[float64][height][65.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap936m26m_rwy]>
+				<[tmvector3d][position][-64.768611 46.153889 0]>
+				<[float64][orientation][-57.908252]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap806m26m_decal]>
+				<[tmvector3d][position][-64.767949 46.154176 0]>
+				<[float64][orientation][-57.908117]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-64.764283 46.155769 0]>
+				<[float64][orientation][-57.908252]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-64.771616 46.152583 0]>
+				<[float64][orientation][-237.908117]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>
-				<[tmvector2d][threshold1][-64.772566 46.152171]>
+				<[tmvector2d][threshold1][-64.772307 46.152283]>
 				<[tmvector2d][endpoint1][-64.773631 46.151708]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>

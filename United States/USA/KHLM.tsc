@@ -10,16 +10,42 @@
 		<[float64][height][183.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap931m19m_rwy]>
+				<[tmvector3d][position][-86.161778 42.796313 0]>
+				<[float64][orientation][-49.877086]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap361m19m_decal]>
+				<[tmvector3d][position][-86.162374 42.795944 0]>
+				<[float64][orientation][-49.877254]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-86.161367 42.796567 0]>
+				<[float64][orientation][-49.877086]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-86.163380 42.795322 0]>
+				<[float64][orientation][-229.877254]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>
-				<[tmvector2d][threshold1][-86.164070 42.794895]>
+				<[tmvector2d][threshold1][-86.163985 42.794948]>
 				<[tmvector2d][endpoint1][-86.166056 42.793667]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][23]>
-				<[tmvector2d][threshold2][-86.160628 42.797024]>
+				<[tmvector2d][threshold2][-86.160762 42.796941]>
 				<[tmvector2d][endpoint2][-86.157500 42.798958]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>
@@ -28,13 +54,13 @@
 			>
 			<[tmsimulator_runway][element][1]
 				<[string8][name1][12]>
-				<[tmvector2d][threshold1][-86.163360 42.795636]>
+				<[tmvector2d][threshold1][-86.162642 42.795415]>
 				<[tmvector2d][endpoint1][-86.166153 42.796494]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][30]>
-				<[tmvector2d][threshold2][-86.160683 42.794813]>
+				<[tmvector2d][threshold2][-86.161261 42.794990]>
 				<[tmvector2d][endpoint2][-86.158436 42.794122]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

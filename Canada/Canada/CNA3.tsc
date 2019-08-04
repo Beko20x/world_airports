@@ -4,22 +4,48 @@
 		<[string8][sname][SPRINGWATER BARRIE AIRPARK]>
 		<[string8][lname][SPRINGWATER BARRIE AIRPARK, Canada]>
 		<[string8][icao][CNA3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.727082 44.409861]>
 		<[float64][height][293.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap660m33m_rwy]>
+				<[tmvector3d][position][-79.727082 44.409861 0]>
+				<[float64][orientation][-58.356584]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap561m33m_decal]>
+				<[tmvector3d][position][-79.727245 44.409789 0]>
+				<[float64][orientation][-58.356615]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][-79.724890 44.410826 0]>
+				<[float64][orientation][-58.356584]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][-79.729601 44.408752 0]>
+				<[float64][orientation][-238.356615]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][07]>
-				<[tmvector2d][threshold1][-79.730280 44.408453]>
+				<[tmvector2d][threshold1][-79.730226 44.408477]>
 				<[tmvector2d][endpoint1][-79.730553 44.408333]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][25]>
-				<[tmvector2d][threshold2][-79.724158 44.411148]>
+				<[tmvector2d][threshold2][-79.724264 44.411101]>
 				<[tmvector2d][endpoint2][-79.723611 44.411389]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

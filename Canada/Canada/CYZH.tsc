@@ -4,12 +4,38 @@
 		<[string8][sname][SLAVE LAKE]>
 		<[string8][lname][SLAVE LAKE, Canada]>
 		<[string8][icao][CYZH]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-114.778310 55.293303]>
 		<[float64][height][582.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1716m33m_rwy]>
+				<[tmvector3d][position][-114.778310 55.293303 0]>
+				<[float64][orientation][-114.749810]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1518m33m_decal]>
+				<[tmvector3d][position][-114.779528 55.293623 0]>
+				<[float64][orientation][-114.749986]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-114.769461 55.290980 0]>
+				<[float64][orientation][-114.749810]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-114.789594 55.296265 0]>
+				<[float64][orientation][-294.749986]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][none]>
 				<[string8][name2][28]>
-				<[tmvector2d][threshold2][-114.767732 55.290526]>
+				<[tmvector2d][threshold2][-114.768649 55.290767]>
 				<[tmvector2d][endpoint2][-114.766214 55.290128]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

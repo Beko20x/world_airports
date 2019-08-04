@@ -1,0 +1,66 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][LAKEWAY AIRPARK]>
+		<[string8][lname][LAKEWAY AIRPARK, other]>
+		<[string8][icao][3R9]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-97.994469 30.357493]>
+		<[float64][height][277.1]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m26m_rwy]>
+				<[tmvector3d][position][-97.994469 30.357493 0]>
+				<[float64][orientation][-168.835091]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap780m26m_decal]>
+				<[tmvector3d][position][-97.994420 30.357281 0]>
+				<[float64][orientation][-168.835068]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-97.993759 30.354389 0]>
+				<[float64][orientation][-168.835091]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-97.995081 30.360172 0]>
+				<[float64][orientation][-348.835068]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-97.995201 30.360694]>
+				<[tmvector2d][endpoint1][-97.995681 30.362794]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-97.993639 30.353867]>
+				<[tmvector2d][endpoint2][-97.993256 30.352192]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][21.03]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-97.994241 30.358049]>
+				<[float64][heading][253.72]>
+				<[string8][name][Ramp]>
+			>
+		>
+	>
+>

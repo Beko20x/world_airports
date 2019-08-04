@@ -4,12 +4,38 @@
 		<[string8][sname][Kamsack]>
 		<[string8][lname][Kamsack, Canada]>
 		<[string8][icao][CJN2]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-101.879098 51.559319]>
 		<[float64][height][460.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap780m26m_rwy]>
+				<[tmvector3d][position][-101.879098 51.559319 0]>
+				<[float64][orientation][-175.000756]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap780m26m_decal]>
+				<[tmvector3d][position][-101.879098 51.559319 0]>
+				<[float64][orientation][-175.000756]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-101.878699 51.556484 0]>
+				<[float64][orientation][-175.000756]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-101.879497 51.562155 0]>
+				<[float64][orientation][-355.000756]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>

@@ -4,12 +4,38 @@
 		<[string8][sname][SOURIS GLENWOOD INDUSTRIAL AIR PARK]>
 		<[string8][lname][SOURIS GLENWOOD INDUSTRIAL AIR PARK, Canada]>
 		<[string8][icao][CJX5]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-100.200141 49.633193]>
 		<[float64][height][451.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_rwy]>
+				<[tmvector3d][position][-100.200141 49.633193 0]>
+				<[float64][orientation][-149.233049]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_decal]>
+				<[tmvector3d][position][-100.200141 49.633193 0]>
+				<[float64][orientation][-149.233049]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\32_decal]>
+				<[tmvector3d][position][-100.197439 49.630254 0]>
+				<[float64][orientation][-149.233049]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\14_decal]>
+				<[tmvector3d][position][-100.202842 49.636132 0]>
+				<[float64][orientation][-329.233049]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][14]>

@@ -1,0 +1,72 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Ellington]>
+		<[string8][lname][Ellington, other]>
+		<[string8][icao][7B9]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-72.457039 41.925315]>
+		<[float64][height][76.8]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap589m19m_rwy]>
+				<[tmvector3d][position][-72.457039 41.925315 0]>
+				<[float64][orientation][-355.243756]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap589m19m_decal]>
+				<[tmvector3d][position][-72.457039 41.925315 0]>
+				<[float64][orientation][-355.243756]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\19_decal]>
+				<[tmvector3d][position][-72.457266 41.927346 0]>
+				<[float64][orientation][-355.243756]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\01_decal]>
+				<[tmvector3d][position][-72.456811 41.923285 0]>
+				<[float64][orientation][-175.243756]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01]>
+				<[tmvector2d][threshold1][-72.456749 41.922730]>
+				<[tmvector2d][endpoint1][-72.456749 41.922730]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][19]>
+				<[tmvector2d][threshold2][-72.457328 41.927901]>
+				<[tmvector2d][endpoint2][-72.457328 41.927901]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-72.456072 41.923728]>
+				<[float64][heading][177.66]>
+				<[string8][name][Apron Start]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][7B9_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

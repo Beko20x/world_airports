@@ -12,10 +12,60 @@
 		<[vector2_float64][tower_position][-95.418403 30.354919]>
 		<[float64][tower_height][92.7]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap1833m47m_rwy]>
+				<[tmvector3d][position][-95.412364 30.352504 0]>
+				<[float64][orientation][-145.617069]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap1692m47m_decal]>
+				<[tmvector3d][position][-95.411834 30.351836 0]>
+				<[float64][orientation][-145.616886]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\32_decal]>
+				<[tmvector3d][position][-95.407425 30.346275 0]>
+				<[float64][orientation][-145.617069]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\14_decal]>
+				<[tmvector3d][position][-95.416243 30.357396 0]>
+				<[float64][orientation][-325.616886]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap1551m33m_rwy]>
+				<[tmvector3d][position][-95.417157 30.352144 0]>
+				<[float64][orientation][-17.050582]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap1551m33m_decal]>
+				<[tmvector3d][position][-95.417157 30.352144 0]>
+				<[float64][orientation][-17.050582]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\19_decal]>
+				<[tmvector3d][position][-95.415037 30.358109 0]>
+				<[float64][orientation][-17.050582]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\01_decal]>
+				<[tmvector3d][position][-95.419277 30.346179 0]>
+				<[float64][orientation][-197.050582]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][14]>
-				<[tmvector2d][threshold1][-95.416144 30.357271]>
+				<[tmvector2d][threshold1][-95.416693 30.357963]>
 				<[tmvector2d][endpoint1][-95.417753 30.359300]>
 				<[string8][appltsys1][sals]>
 				<[string8][papi1][left]>
@@ -108,6 +158,61 @@
 				<[string8][name][Texas ANG Ramp]>
 			>
 			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-95.420155 30.355183]>
+				<[float64][heading][106.00]>
+				<[string8][name][Wings Aviation]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][-95.421196 30.348194]>
+				<[float64][heading][274.47]>
+				<[string8][name][Galaxy FBO]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][-95.419005 30.353173]>
+				<[float64][heading][193.91]>
+				<[string8][name][Gen Avia. Parking]>
+			>
+			<[tmsimulator_parking_position][element][15]
+				<[tmvector2d][position][-95.419066 30.352731]>
+				<[float64][heading][201.87]>
+				<[string8][name][General Aviation Services]>
+			>
+			<[tmsimulator_parking_position][element][16]
+				<[tmvector2d][position][-95.420195 30.345862]>
+				<[float64][heading][107.00]>
+				<[string8][name][Hold Short Rwy 1]>
+			>
+			<[tmsimulator_parking_position][element][17]
+				<[tmvector2d][position][-95.418557 30.358716]>
+				<[float64][heading][53.00]>
+				<[string8][name][Hold Short Rwy 14]>
+			>
+			<[tmsimulator_parking_position][element][18]
+				<[tmvector2d][position][-95.415425 30.359210]>
+				<[float64][heading][145.00]>
+				<[string8][name][Hold Short Rwy 19]>
+			>
+			<[tmsimulator_parking_position][element][19]
+				<[tmvector2d][position][-95.407785 30.345321]>
+				<[float64][heading][50.00]>
+				<[string8][name][Hold Short Rwy 32]>
+			>
+			<[tmsimulator_parking_position][element][20]
+				<[tmvector2d][position][-95.421339 30.349741]>
+				<[float64][heading][228.00]>
+				<[string8][name][South T-Hanger]>
+			>
+			<[tmsimulator_parking_position][element][21]
+				<[tmvector2d][position][-95.423058 30.349276]>
+				<[float64][heading][270.00]>
+				<[string8][name][Texas ANG Hanger]>
+			>
+			<[tmsimulator_parking_position][element][22]
+				<[tmvector2d][position][-95.423622 30.346337]>
+				<[float64][heading][5.12]>
+				<[string8][name][Texas ANG Ramp]>
+			>
+			<[tmsimulator_parking_position][element][23]
 				<[tmvector2d][position][-95.420155 30.355183]>
 				<[float64][heading][106.00]>
 				<[string8][name][Wings Aviation]>

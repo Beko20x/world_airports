@@ -4,12 +4,38 @@
 		<[string8][sname][NEEPAWA]>
 		<[string8][lname][NEEPAWA, Canada]>
 		<[string8][icao][CJV5]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-99.510556 50.232778]>
 		<[float64][height][389.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1092m26m_rwy]>
+				<[tmvector3d][position][-99.510556 50.232778 0]>
+				<[float64][orientation][-50.688140]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1092m26m_decal]>
+				<[tmvector3d][position][-99.510556 50.232778 0]>
+				<[float64][orientation][-50.688140]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\22_decal]>
+				<[tmvector3d][position][-99.505437 50.235459 0]>
+				<[float64][orientation][-50.688140]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\04_decal]>
+				<[tmvector3d][position][-99.515674 50.230096 0]>
+				<[float64][orientation][-230.688140]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][04]>

@@ -4,12 +4,38 @@
 		<[string8][sname][SHERBROOKE]>
 		<[string8][lname][SHERBROOKE, Canada]>
 		<[string8][icao][CYSC]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-71.691370 45.438492]>
 		<[float64][height][241.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_rwy]>
+				<[tmvector3d][position][-71.691370 45.438492 0]>
+				<[float64][orientation][-118.888792]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_decal]>
+				<[tmvector3d][position][-71.691370 45.438492 0]>
+				<[float64][orientation][-118.888792]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-71.681806 45.434789 0]>
+				<[float64][orientation][-118.888792]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-71.700933 45.442195 0]>
+				<[float64][orientation][-298.888792]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][13]>

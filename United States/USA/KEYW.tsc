@@ -12,16 +12,42 @@
 		<[vector2_float64][tower_position][-81.755606 24.553915]>
 		<[float64][tower_height][0.6]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1485m33m_rwy]>
+				<[tmvector3d][position][-81.759546 24.556123 0]>
+				<[float64][orientation][-89.385009]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-81.759546 24.556123 0]>
+				<[float64][orientation][-89.385009]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-81.753419 24.556183 0]>
+				<[float64][orientation][-89.385009]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-81.765673 24.556064 0]>
+				<[float64][orientation][-269.385009]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>
-				<[tmvector2d][threshold1][-81.766353 24.556057]>
+				<[tmvector2d][threshold1][-81.766312 24.556057]>
 				<[tmvector2d][endpoint1][-81.766767 24.556053]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][27]>
-				<[tmvector2d][threshold2][-81.752739 24.556190]>
+				<[tmvector2d][threshold2][-81.752780 24.556190]>
 				<[tmvector2d][endpoint2][-81.752325 24.556194]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>
@@ -46,6 +72,11 @@
 				<[tmvector2d][position][-81.756837 24.554876]>
 				<[float64][heading][0.00]>
 				<[string8][name][Island City Flying Service]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-81.755261 24.553947]>
+				<[float64][heading][90.00]>
+				<[string8][name][TermRampStt]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

@@ -4,12 +4,56 @@
 		<[string8][sname][Brooks]>
 		<[string8][lname][Brooks, Canada]>
 		<[string8][icao][CYBP]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-111.922203 50.633480]>
 		<[float64][height][759.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap858m26m_rwy]>
+				<[tmvector3d][position][-111.922203 50.633480 0]>
+				<[float64][orientation][-139.000036]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap858m26m_decal]>
+				<[tmvector3d][position][-111.922203 50.633480 0]>
+				<[float64][orientation][-139.000036]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-111.918770 50.630975 0]>
+				<[float64][orientation][-139.000036]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-111.925636 50.635985 0]>
+				<[float64][orientation][-319.000036]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\gravel\rap741m19m_rwy]>
+				<[tmvector3d][position][-111.921204 50.632980 0]>
+				<[float64][orientation][-38.999951]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\20_decal]>
+				<[tmvector3d][position][-111.918478 50.635115 0]>
+				<[float64][orientation][-38.999951]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\02_decal]>
+				<[tmvector3d][position][-111.923930 50.630845 0]>
+				<[float64][orientation][-218.999951]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>

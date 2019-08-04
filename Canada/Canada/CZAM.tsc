@@ -4,12 +4,38 @@
 		<[string8][sname][SALMON ARM]>
 		<[string8][lname][SALMON ARM, Canada]>
 		<[string8][icao][CZAM]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-119.228611 50.682778]>
 		<[float64][height][533.7]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1300m26m_rwy]>
+				<[tmvector3d][position][-119.228611 50.682778 0]>
+				<[float64][orientation][-158.010112]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1300m26m_decal]>
+				<[tmvector3d][position][-119.228611 50.682778 0]>
+				<[float64][orientation][-158.010112]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\32_decal]>
+				<[tmvector3d][position][-119.225469 50.677848 0]>
+				<[float64][orientation][-158.010112]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\14_decal]>
+				<[tmvector3d][position][-119.231753 50.687707 0]>
+				<[float64][orientation][-338.010112]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][14]>

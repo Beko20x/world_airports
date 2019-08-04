@@ -4,12 +4,38 @@
 		<[string8][sname][RIMOUSKI]>
 		<[string8][lname][RIMOUSKI, Canada]>
 		<[string8][icao][CYXK]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-68.496807 48.478057]>
 		<[float64][height][25.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1410m47m_rwy]>
+				<[tmvector3d][position][-68.496807 48.478057 0]>
+				<[float64][orientation][-48.413106]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1410m47m_decal]>
+				<[tmvector3d][position][-68.496807 48.478057 0]>
+				<[float64][orientation][-48.413106]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][-68.490359 48.481850 0]>
+				<[float64][orientation][-48.413106]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][-68.503255 48.474264 0]>
+				<[float64][orientation][-228.413106]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][07]>

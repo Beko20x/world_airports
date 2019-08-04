@@ -4,12 +4,38 @@
 		<[string8][sname][DEASE LAKE]>
 		<[string8][lname][DEASE LAKE, Canada]>
 		<[string8][icao][CYDL]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-130.032216 58.422221]>
 		<[float64][height][792.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1848m33m_rwy]>
+				<[tmvector3d][position][-130.032216 58.422221 0]>
+				<[float64][orientation][-47.723060]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1716m33m_decal]>
+				<[tmvector3d][position][-130.032990 58.421852 0]>
+				<[float64][orientation][-47.723359]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\20_decal]>
+				<[tmvector3d][position][-130.022823 58.426693 0]>
+				<[float64][orientation][-47.723060]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\02_decal]>
+				<[tmvector3d][position][-130.043158 58.417011 0]>
+				<[float64][orientation][-227.723359]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][02]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][20]>
-				<[tmvector2d][threshold2][-130.021598 58.427276]>
+				<[tmvector2d][threshold2][-130.022099 58.427037]>
 				<[tmvector2d][endpoint2][-130.020550 58.427775]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

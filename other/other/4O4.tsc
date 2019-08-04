@@ -1,0 +1,67 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][MC CURTAIN CO RGNL]>
+		<[string8][lname][MC CURTAIN CO RGNL, other]>
+		<[string8][icao][4O4]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-94.859360 33.909364]>
+		<[float64][height][143.9]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_rwy]>
+				<[tmvector3d][position][-94.859360 33.909364 0]>
+				<[float64][orientation][-23.068841]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_decal]>
+				<[tmvector3d][position][-94.859360 33.909364 0]>
+				<[float64][orientation][-23.068841]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\20_decal]>
+				<[tmvector3d][position][-94.856368 33.915193 0]>
+				<[float64][orientation][-23.068841]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\02_decal]>
+				<[tmvector3d][position][-94.862352 33.903534 0]>
+				<[float64][orientation][-203.068841]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][02]>
+				<[tmvector2d][threshold1][-94.862603 33.903044]>
+				<[tmvector2d][endpoint1][-94.862603 33.903044]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][20]>
+				<[tmvector2d][threshold2][-94.856117 33.915683]>
+				<[tmvector2d][endpoint2][-94.856117 33.915683]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][4O4_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

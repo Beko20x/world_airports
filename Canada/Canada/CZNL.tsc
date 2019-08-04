@@ -4,7 +4,7 @@
 		<[string8][sname][NELSON]>
 		<[string8][lname][NELSON, Canada]>
 		<[string8][icao][CZNL]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-117.300417 49.494028]>
 		<[float64][height][534.9]>
@@ -12,6 +12,42 @@
 		<[vector2_float64][tower_position][-117.303339 49.491949]>
 		<[float64][tower_height][546.8]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap962m26m_rwy]>
+				<[tmvector3d][position][-117.300417 49.494028 0]>
+				<[float64][orientation][-60.584464]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap884m26m_decal]>
+				<[tmvector3d][position][-117.300785 49.493893 0]>
+				<[float64][orientation][-60.584531]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\22_decal]>
+				<[tmvector3d][position][-117.296134 49.495596 0]>
+				<[float64][orientation][-60.584464]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\04_decal]>
+				<[tmvector3d][position][-117.305435 49.492190 0]>
+				<[float64][orientation][-240.584531]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-117.305118 49.491850 0]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-117.304108 49.492050 0]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][04]>
@@ -21,7 +57,7 @@
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][22]>
-				<[tmvector2d][threshold2][-117.295262 49.495916]>
+				<[tmvector2d][threshold2][-117.295456 49.495844]>
 				<[tmvector2d][endpoint2][-117.294721 49.496114]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

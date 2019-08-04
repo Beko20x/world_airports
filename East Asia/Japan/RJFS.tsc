@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][130.301970 33.153433]>
 		<[float64][tower_height][26.5]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2021m47m_rwy]>
+				<[tmvector3d][position][130.302221 33.149718 0]>
+				<[float64][orientation][-99.291030]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2021m47m_decal]>
+				<[tmvector3d][position][130.302221 33.149718 0]>
+				<[float64][orientation][-99.291030]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][130.312074 33.148369 0]>
+				<[float64][orientation][-99.291030]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][130.292368 33.151067 0]>
+				<[float64][orientation][-279.291030]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>
@@ -32,6 +58,16 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][130.302635 33.152771]>
+				<[float64][heading][12.72]>
+				<[string8][name][Gate]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][130.306602 33.151368]>
+				<[float64][heading][279.46]>
+				<[string8][name][Ramp]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

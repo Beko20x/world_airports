@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-73.098067 -41.435856]>
 		<[float64][tower_height][114.3]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2679m47m_rwy]>
+				<[tmvector3d][position][-73.093954 -41.438884 0]>
+				<[float64][orientation][-172.000004]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2679m47m_decal]>
+				<[tmvector3d][position][-73.093954 -41.438884 0]>
+				<[float64][orientation][-172.000004]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-73.091857 -41.450072 0]>
+				<[float64][orientation][-172.000004]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-73.096052 -41.427697 0]>
+				<[float64][orientation][-352.000004]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][17]>
@@ -62,6 +88,81 @@
 				<[tmvector2d][position][-73.096548 -41.441369]>
 				<[float64][heading][0.00]>
 				<[string8][name][Custom Startup Location]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-73.097490 -41.436909]>
+				<[float64][heading][172.00]>
+				<[string8][name][GA 1]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-73.097200 -41.436882]>
+				<[float64][heading][172.00]>
+				<[string8][name][GA 2]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-73.096901 -41.436849]>
+				<[float64][heading][172.00]>
+				<[string8][name][GA 3]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-73.097462 -41.437019]>
+				<[float64][heading][352.00]>
+				<[string8][name][GA 4]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-73.097175 -41.436996]>
+				<[float64][heading][352.00]>
+				<[string8][name][GA 5]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-73.096871 -41.436964]>
+				<[float64][heading][352.00]>
+				<[string8][name][GA 6]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-73.098574 -41.432640]>
+				<[float64][heading][262.43]>
+				<[string8][name][Terminal 1]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-73.098531 -41.433003]>
+				<[float64][heading][262.99]>
+				<[string8][name][Terminal 2]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][-73.098462 -41.433400]>
+				<[float64][heading][260.19]>
+				<[string8][name][Terminal 3]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-73.098364 -41.433771]>
+				<[float64][heading][260.59]>
+				<[string8][name][Terminal 4]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][-73.098296 -41.434133]>
+				<[float64][heading][258.93]>
+				<[string8][name][Terminal 5]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][-73.098191 -41.434555]>
+				<[float64][heading][259.71]>
+				<[string8][name][Terminal 6]>
+			>
+			<[tmsimulator_parking_position][element][15]
+				<[tmvector2d][position][-73.097698 -41.435346]>
+				<[float64][heading][222.00]>
+				<[string8][name][Terminal 7]>
+			>
+			<[tmsimulator_parking_position][element][16]
+				<[tmvector2d][position][-73.097614 -41.435762]>
+				<[float64][heading][222.00]>
+				<[string8][name][Terminal 8]>
+			>
+			<[tmsimulator_parking_position][element][17]
+				<[tmvector2d][position][-73.097510 -41.436257]>
+				<[float64][heading][222.00]>
+				<[string8][name][Terminal 9]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

@@ -1,0 +1,89 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Straubing]>
+		<[string8][lname][Straubing, Germany]>
+		<[string8][icao][EDMS]>
+		<[string8][country][de]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][12.516677 48.900713]>
+		<[float64][height][321.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][12.513465 48.902228]>
+		<[float64][tower_height][339.5]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1457m47m_rwy]>
+				<[tmvector3d][position][12.516677 48.900713 0]>
+				<[float64][orientation][-97.423249]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1269m47m_decal]>
+				<[tmvector3d][position][12.517546 48.900638 0]>
+				<[float64][orientation][-97.423238]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][12.525293 48.899975 0]>
+				<[float64][orientation][-97.423249]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][12.509798 48.901302 0]>
+				<[float64][orientation][-277.423238]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][10]>
+				<[tmvector2d][threshold1][12.508988 48.901371]>
+				<[tmvector2d][endpoint1][12.506830 48.901556]>
+				<[string8][appltsys1][malsf]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][28]>
+				<[tmvector2d][threshold2][12.526103 48.899905]>
+				<[tmvector2d][endpoint2][12.526525 48.899869]>
+				<[string8][appltsys2][malsf]>
+				<[string8][papi2][left]>
+				<[string8][reil2][omni]>
+				<[float64][width][41.15]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][12.518420 48.901756]>
+				<[float64][heading][277.59]>
+				<[string8][name][Gras 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][12.518528 48.902271]>
+				<[float64][heading][276.01]>
+				<[string8][name][Gras 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][12.514806 48.902118]>
+				<[float64][heading][4.76]>
+				<[string8][name][Tankstelle]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][12.512609 48.902072]>
+				<[float64][heading][192.26]>
+				<[string8][name][Terminal]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EDMS_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

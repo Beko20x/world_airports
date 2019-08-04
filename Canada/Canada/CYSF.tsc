@@ -4,12 +4,38 @@
 		<[string8][sname][Stony Rapids]>
 		<[string8][lname][Stony Rapids, Canada]>
 		<[string8][icao][CYSF]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-105.841339 59.250340]>
 		<[float64][height][245.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_rwy]>
+				<[tmvector3d][position][-105.841339 59.250340 0]>
+				<[float64][orientation][-253.000036]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_decal]>
+				<[tmvector3d][position][-105.841339 59.250340 0]>
+				<[float64][orientation][-253.000036]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-105.853261 59.248476 0]>
+				<[float64][orientation][-253.000036]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-105.829417 59.252204 0]>
+				<[float64][orientation][-73.000036]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06]>

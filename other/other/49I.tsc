@@ -1,0 +1,61 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][LOUIS BENNETT FLD]>
+		<[string8][lname][LOUIS BENNETT FLD, other]>
+		<[string8][icao][49I]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-80.469723 39.091389]>
+		<[float64][height][309.1]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap988m19m_rwy]>
+				<[tmvector3d][position][-80.469723 39.091389 0]>
+				<[float64][orientation][-9.991793]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap988m19m_decal]>
+				<[tmvector3d][position][-80.469723 39.091389 0]>
+				<[float64][orientation][-9.991793]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\19_decal]>
+				<[tmvector3d][position][-80.468867 39.095156 0]>
+				<[float64][orientation][-9.991793]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\01_decal]>
+				<[tmvector3d][position][-80.470578 39.087621 0]>
+				<[float64][orientation][-189.991793]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][01]>
+				<[tmvector2d][threshold1][-80.470703 39.087069]>
+				<[tmvector2d][endpoint1][-80.470703 39.087069]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][19]>
+				<[tmvector2d][threshold2][-80.468742 39.095708]>
+				<[tmvector2d][endpoint2][-80.468742 39.095708]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
+>

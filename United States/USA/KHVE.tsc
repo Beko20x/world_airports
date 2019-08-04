@@ -10,16 +10,48 @@
 		<[float64][height][1354.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1749m33m_rwy]>
+				<[tmvector3d][position][-110.704260 38.415919 0]>
+				<[float64][orientation][-97.963820]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-110.704260 38.415919 0]>
+				<[float64][orientation][-97.963820]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-110.697255 38.415151 0]>
+				<[float64][orientation][-97.963820]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-110.711264 38.416687 0]>
+				<[float64][orientation][-277.963820]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\dirt\rap1520m40m_rwy]>
+				<[tmvector3d][position][-110.700584 38.422908 0]>
+				<[float64][orientation][-186.063819]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>
-				<[tmvector2d][threshold1][-110.712455 38.416817]>
+				<[tmvector2d][threshold1][-110.712019 38.416770]>
 				<[tmvector2d][endpoint1][-110.714098 38.416998]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][26]>
-				<[tmvector2d][threshold2][-110.696065 38.415021]>
+				<[tmvector2d][threshold2][-110.696501 38.415069]>
 				<[tmvector2d][endpoint2][-110.694422 38.414841]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>
@@ -54,6 +86,61 @@
 				<[tmvector2d][position][-110.698158 38.414161]>
 				<[float64][heading][191.19]>
 				<[string8][name][Tie Down 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-110.698050 38.413888]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 10]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-110.697894 38.413865]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 11]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-110.697735 38.413840]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 12]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-110.697580 38.413823]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 13]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-110.697420 38.413797]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 14]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-110.698002 38.414136]>
+				<[float64][heading][191.19]>
+				<[string8][name][Tie Down 3]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-110.697845 38.414111]>
+				<[float64][heading][191.19]>
+				<[string8][name][Tie Down 4]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-110.697686 38.414086]>
+				<[float64][heading][191.19]>
+				<[string8][name][Tie Down 5]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-110.697530 38.414062]>
+				<[float64][heading][191.19]>
+				<[string8][name][Tie Down 6]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][-110.698386 38.413938]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 8]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-110.698216 38.413913]>
+				<[float64][heading][10.89]>
+				<[string8][name][Tie Down 9]>
 			>
 		>
 	>

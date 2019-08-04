@@ -1,0 +1,82 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][EUREKA MUNI]>
+		<[string8][lname][EUREKA MUNI, other]>
+		<[string8][icao][13K]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-96.291430 37.850668]>
+		<[float64][height][367.6]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1083m19m_rwy]>
+				<[tmvector3d][position][-96.291430 37.850668 0]>
+				<[float64][orientation][-190.513893]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1083m19m_decal]>
+				<[tmvector3d][position][-96.291430 37.850668 0]>
+				<[float64][orientation][-190.513893]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-96.292412 37.846493 0]>
+				<[float64][orientation][-190.513893]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-96.290449 37.854843 0]>
+				<[float64][orientation][-10.513893]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][-96.290319 37.855397]>
+				<[tmvector2d][endpoint1][-96.290319 37.855397]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][-96.292542 37.845939]>
+				<[tmvector2d][endpoint2][-96.292542 37.845939]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][18.29]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-96.295836 37.853083]>
+				<[tmvector2d][endpoint1][-96.295836 37.853083]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-96.288614 37.853083]>
+				<[tmvector2d][endpoint2][-96.288614 37.853083]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][13K_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

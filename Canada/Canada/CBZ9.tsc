@@ -4,12 +4,38 @@
 		<[string8][sname][FRASER LAKE]>
 		<[string8][lname][FRASER LAKE, Canada]>
 		<[string8][icao][CBZ9]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-124.768334 54.013333]>
 		<[float64][height][819.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1196m26m_rwy]>
+				<[tmvector3d][position][-124.768334 54.013333 0]>
+				<[float64][orientation][-103.723657]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1196m26m_decal]>
+				<[tmvector3d][position][-124.768334 54.013333 0]>
+				<[float64][orientation][-103.723657]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-124.760440 54.012200 0]>
+				<[float64][orientation][-103.723657]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-124.776227 54.014466 0]>
+				<[float64][orientation][-283.723657]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

@@ -4,7 +4,7 @@
 		<[string8][sname][St Hubert]>
 		<[string8][lname][St Hubert, Canada]>
 		<[string8][icao][CYHU]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-73.417358 45.517078]>
 		<[float64][height][27.4]>
@@ -12,10 +12,84 @@
 		<[vector2_float64][tower_position][-73.415001 45.515072]>
 		<[float64][tower_height][39.6]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2444m47m_rwy]>
+				<[tmvector3d][position][-73.417358 45.517078 0]>
+				<[float64][orientation][-46.960006]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2068m47m_decal]>
+				<[tmvector3d][position][-73.415785 45.518107 0]>
+				<[float64][orientation][-46.959484]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24R_decal]>
+				<[tmvector3d][position][-73.406658 45.524079 0]>
+				<[float64][orientation][-46.960006]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06L_decal]>
+				<[tmvector3d][position][-73.424913 45.512135 0]>
+				<[float64][orientation][-226.959484]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1188m33m_rwy]>
+				<[tmvector3d][position][-73.410416 45.515079 0]>
+				<[float64][orientation][-47.159986]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1188m33m_decal]>
+				<[tmvector3d][position][-73.410416 45.515079 0]>
+				<[float64][orientation][-47.159986]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24L_decal]>
+				<[tmvector3d][position][-73.405425 45.518322 0]>
+				<[float64][orientation][-47.159986]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06R_decal]>
+				<[tmvector3d][position][-73.415407 45.511836 0]>
+				<[float64][orientation][-227.159986]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap880m40m_rwy]>
+				<[tmvector3d][position][-73.421280 45.510735 0]>
+				<[float64][orientation][-83.749979]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap880m40m_decal]>
+				<[tmvector3d][position][-73.421280 45.510735 0]>
+				<[float64][orientation][-83.749979]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-73.416775 45.511081 0]>
+				<[float64][orientation][-83.749979]>
+			>
+			<[tmsimulator_scenery_object][element][11]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-73.425785 45.510389 0]>
+				<[float64][orientation][-263.749979]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06L]>
-				<[tmvector2d][threshold1][-73.425643 45.511657]>
+				<[tmvector2d][threshold1][-73.425461 45.511776]>
 				<[tmvector2d][endpoint1][-73.428607 45.509718]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>

@@ -4,12 +4,38 @@
 		<[string8][sname][LA ROMAINE]>
 		<[string8][lname][LA ROMAINE, Canada]>
 		<[string8][icao][CTT5]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-60.673986 50.259603]>
 		<[float64][height][27.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1221m33m_rwy]>
+				<[tmvector3d][position][-60.673986 50.259603 0]>
+				<[float64][orientation][-93.164399]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1221m33m_decal]>
+				<[tmvector3d][position][-60.673986 50.259603 0]>
+				<[float64][orientation][-93.164399]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-60.666541 50.259340 0]>
+				<[float64][orientation][-93.164399]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-60.681431 50.259866 0]>
+				<[float64][orientation][-273.164399]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>

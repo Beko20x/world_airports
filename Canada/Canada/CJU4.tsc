@@ -4,12 +4,38 @@
 		<[string8][sname][Humboldt]>
 		<[string8][lname][Humboldt, Canada]>
 		<[string8][icao][CJU4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-105.130652 52.175196]>
 		<[float64][height][568.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap780m26m_rwy]>
+				<[tmvector3d][position][-105.130652 52.175196 0]>
+				<[float64][orientation][-113.018001]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap780m26m_decal]>
+				<[tmvector3d][position][-105.130652 52.175196 0]>
+				<[float64][orientation][-113.018001]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-105.126253 52.174050 0]>
+				<[float64][orientation][-113.018001]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-105.135050 52.176341 0]>
+				<[float64][orientation][-293.018001]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

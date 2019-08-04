@@ -4,12 +4,38 @@
 		<[string8][sname][TOBERMORY]>
 		<[string8][lname][TOBERMORY, Canada]>
 		<[string8][icao][CNR4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-81.633333 45.233474]>
 		<[float64][height][213.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap969m19m_rwy]>
+				<[tmvector3d][position][-81.633333 45.233474 0]>
+				<[float64][orientation][-106.904782]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap836m19m_decal]>
+				<[tmvector3d][position][-81.634171 45.233653 0]>
+				<[float64][orientation][-106.904832]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-81.629972 45.232754 0]>
+				<[float64][orientation][-106.904782]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-81.638371 45.234552 0]>
+				<[float64][orientation][-286.904832]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][30]>
-				<[tmvector2d][threshold2][-81.628733 45.232489]>
+				<[tmvector2d][threshold2][-81.629176 45.232584]>
 				<[tmvector2d][endpoint2][-81.627500 45.232225]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

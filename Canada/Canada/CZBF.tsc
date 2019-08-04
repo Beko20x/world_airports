@@ -4,12 +4,38 @@
 		<[string8][sname][BATHURST]>
 		<[string8][lname][BATHURST, Canada]>
 		<[string8][icao][CZBF]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-65.738969 47.629640]>
 		<[float64][height][58.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_rwy]>
+				<[tmvector3d][position][-65.738969 47.629640 0]>
+				<[float64][orientation][-81.939784]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-65.738969 47.629640 0]>
+				<[float64][orientation][-81.939784]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-65.730790 47.630421 0]>
+				<[float64][orientation][-81.939784]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-65.747147 47.628860 0]>
+				<[float64][orientation][-261.939784]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

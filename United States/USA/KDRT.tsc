@@ -12,10 +12,36 @@
 		<[vector2_float64][tower_position][-100.925858 29.373831]>
 		<[float64][tower_height][304.5]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1947m33m_rwy]>
+				<[tmvector3d][position][-100.927157 29.374207 0]>
+				<[float64][orientation][-140.371669]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1848m33m_decal]>
+				<[tmvector3d][position][-100.926857 29.373891 0]>
+				<[float64][orientation][-140.371582]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-100.921255 29.367997 0]>
+				<[float64][orientation][-140.371669]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-100.932459 29.379786 0]>
+				<[float64][orientation][-320.371582]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][13]>
-				<[tmvector2d][threshold1][-100.932679 29.380018]>
+				<[tmvector2d][threshold1][-100.932883 29.380233]>
 				<[tmvector2d][endpoint1][-100.933483 29.380864]>
 				<[string8][appltsys1][sals]>
 				<[string8][papi1][left]>
@@ -48,6 +74,26 @@
 			>
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-100.931625 29.380552]>
+				<[float64][heading][320.40]>
+				<[string8][name][Hold Short Rwy 13]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-100.919940 29.368257]>
+				<[float64][heading][230.40]>
+				<[string8][name][Hold Short Rwy 31]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-100.919985 29.369760]>
+				<[float64][heading][140.40]>
+				<[string8][name][Pico Aviation FBO]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-100.920532 29.370290]>
+				<[float64][heading][140.40]>
+				<[string8][name][Terminal]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

@@ -4,12 +4,38 @@
 		<[string8][sname][CHATHAM KENT]>
 		<[string8][lname][CHATHAM KENT, Canada]>
 		<[string8][icao][CNZ3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-82.081945 42.306389]>
 		<[float64][height][198.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_rwy]>
+				<[tmvector3d][position][-82.081945 42.306389 0]>
+				<[float64][orientation][-43.378147]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_decal]>
+				<[tmvector3d][position][-82.081945 42.306389 0]>
+				<[float64][orientation][-43.378147]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-82.076041 42.311009 0]>
+				<[float64][orientation][-43.378147]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-82.087848 42.301769 0]>
+				<[float64][orientation][-223.378147]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06]>

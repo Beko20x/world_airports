@@ -4,12 +4,38 @@
 		<[string8][sname][DOLBEAU ST FELICIEN]>
 		<[string8][lname][DOLBEAU ST FELICIEN, Canada]>
 		<[string8][icao][CYDO]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-72.374913 48.778537]>
 		<[float64][height][113.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1518m33m_rwy]>
+				<[tmvector3d][position][-72.374913 48.778537 0]>
+				<[float64][orientation][-93.845109]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1518m33m_decal]>
+				<[tmvector3d][position][-72.374913 48.778537 0]>
+				<[float64][orientation][-93.845109]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-72.365441 48.778117 0]>
+				<[float64][orientation][-93.845109]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-72.384384 48.778956 0]>
+				<[float64][orientation][-273.845109]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

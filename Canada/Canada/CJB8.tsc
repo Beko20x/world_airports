@@ -4,12 +4,38 @@
 		<[string8][sname][Kyle]>
 		<[string8][lname][Kyle, Canada]>
 		<[string8][icao][CJB8]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-108.069995 50.833438]>
 		<[float64][height][662.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap936m26m_rwy]>
+				<[tmvector3d][position][-108.069995 50.833438 0]>
+				<[float64][orientation][-91.010009]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap936m26m_decal]>
+				<[tmvector3d][position][-108.069995 50.833438 0]>
+				<[float64][orientation][-91.010009]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-108.064476 50.833377 0]>
+				<[float64][orientation][-91.010009]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-108.075514 50.833500 0]>
+				<[float64][orientation][-271.010009]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

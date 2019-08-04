@@ -10,6 +10,32 @@
 		<[float64][height][1053.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1617m33m_rwy]>
+				<[tmvector3d][position][-121.200221 44.094561 0]>
+				<[float64][orientation][-180.035113]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1617m33m_decal]>
+				<[tmvector3d][position][-121.200221 44.094561 0]>
+				<[float64][orientation][-180.035113]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-121.200227 44.088073 0]>
+				<[float64][orientation][-180.035113]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-121.200215 44.101048 0]>
+				<[float64][orientation][-0.035113]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>
@@ -30,6 +56,101 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-121.198321 44.094546]>
+				<[float64][heading][270.00]>
+				<[string8][name][East Hangar 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-121.195501 44.095277]>
+				<[float64][heading][89.57]>
+				<[string8][name][East Hangar 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-121.195963 44.094167]>
+				<[float64][heading][0.00]>
+				<[string8][name][Epic Aircraft North]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-121.197705 44.089477]>
+				<[float64][heading][271.33]>
+				<[string8][name][Epic Aircraft South]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-121.197345 44.089771]>
+				<[float64][heading][179.49]>
+				<[string8][name][Epic Aircraft South Hangar]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-121.201802 44.099515]>
+				<[float64][heading][270.00]>
+				<[string8][name][General 1]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-121.201799 44.098757]>
+				<[float64][heading][270.00]>
+				<[string8][name][General 2]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-121.201829 44.094368]>
+				<[float64][heading][180.00]>
+				<[string8][name][General Transient 1]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-121.202026 44.093845]>
+				<[float64][heading][359.65]>
+				<[string8][name][General Transient 2]>
+			>
+			<[tmsimulator_parking_position][element][9]
+				<[tmvector2d][position][-121.201970 44.093099]>
+				<[float64][heading][0.00]>
+				<[string8][name][General Transient 3]>
+			>
+			<[tmsimulator_parking_position][element][10]
+				<[tmvector2d][position][-121.201919 44.092096]>
+				<[float64][heading][180.00]>
+				<[string8][name][General Transient 4]>
+			>
+			<[tmsimulator_parking_position][element][11]
+				<[tmvector2d][position][-121.201960 44.091278]>
+				<[float64][heading][0.00]>
+				<[string8][name][Helicopter 1]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][-121.202188 44.090887]>
+				<[float64][heading][180.00]>
+				<[string8][name][Helicopter 2]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][-121.202419 44.101529]>
+				<[float64][heading][90.00]>
+				<[string8][name][West Hangar 1]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][-121.202581 44.100330]>
+				<[float64][heading][90.00]>
+				<[string8][name][West Hangar 2]>
+			>
+			<[tmsimulator_parking_position][element][15]
+				<[tmvector2d][position][-121.202762 44.098893]>
+				<[float64][heading][90.00]>
+				<[string8][name][West Hangar 3]>
+			>
+			<[tmsimulator_parking_position][element][16]
+				<[tmvector2d][position][-121.202798 44.090841]>
+				<[float64][heading][90.00]>
+				<[string8][name][West Hangar 4]>
+			>
+			<[tmsimulator_parking_position][element][17]
+				<[tmvector2d][position][-121.202353 44.090383]>
+				<[float64][heading][90.64]>
+				<[string8][name][West Hangar 5]>
+			>
+			<[tmsimulator_parking_position][element][18]
+				<[tmvector2d][position][-121.202002 44.090178]>
+				<[float64][heading][270.00]>
+				<[string8][name][West Hangar 6]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

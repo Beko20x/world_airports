@@ -4,12 +4,44 @@
 		<[string8][sname][MOOSONEE]>
 		<[string8][lname][MOOSONEE, Canada]>
 		<[string8][icao][CYMO]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-80.602942 51.292107]>
 		<[float64][height][9.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1221m33m_rwy]>
+				<[tmvector3d][position][-80.602942 51.292107 0]>
+				<[float64][orientation][-43.127914]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1221m33m_decal]>
+				<[tmvector3d][position][-80.602942 51.292107 0]>
+				<[float64][orientation][-43.127914]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-80.597499 51.295740 0]>
+				<[float64][orientation][-43.127914]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-80.608384 51.288474 0]>
+				<[float64][orientation][-223.127914]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\dirt\rap1089m33m_rwy]>
+				<[tmvector3d][position][-80.613611 51.292084 0]>
+				<[float64][orientation][-127.350100]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06]>

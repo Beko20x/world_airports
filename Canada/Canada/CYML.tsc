@@ -4,12 +4,38 @@
 		<[string8][sname][CHARLEVOIX]>
 		<[string8][lname][CHARLEVOIX, Canada]>
 		<[string8][icao][CYML]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-70.223889 47.597499]>
 		<[float64][height][297.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1363m47m_rwy]>
+				<[tmvector3d][position][-70.223889 47.597499 0]>
+				<[float64][orientation][-126.567272]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1363m47m_decal]>
+				<[tmvector3d][position][-70.223889 47.597499 0]>
+				<[float64][orientation][-126.567272]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-70.217345 47.594225 0]>
+				<[float64][orientation][-126.567272]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-70.230433 47.600772 0]>
+				<[float64][orientation][-306.567272]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][15]>

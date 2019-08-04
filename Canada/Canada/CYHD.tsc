@@ -4,12 +4,44 @@
 		<[string8][sname][DRYDEN RGNL]>
 		<[string8][lname][DRYDEN RGNL, Canada]>
 		<[string8][icao][CYHD]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-92.743749 49.831667]>
 		<[float64][height][412.7]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1880m47m_rwy]>
+				<[tmvector3d][position][-92.743749 49.831667 0]>
+				<[float64][orientation][-113.643489]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_decal]>
+				<[tmvector3d][position][-92.744138 49.831776 0]>
+				<[float64][orientation][-113.643537]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-92.733728 49.828837 0]>
+				<[float64][orientation][-113.643489]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-92.754548 49.834716 0]>
+				<[float64][orientation][-293.643537]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\dirt\rap624m26m_rwy]>
+				<[tmvector3d][position][-92.738472 49.828750 0]>
+				<[float64][orientation][-55.696831]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>
@@ -19,7 +51,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][29]>
-				<[tmvector2d][threshold2][-92.732492 49.828488]>
+				<[tmvector2d][threshold2][-92.732723 49.828553]>
 				<[tmvector2d][endpoint2][-92.731944 49.828333]>
 				<[string8][appltsys2][sals]>
 				<[string8][papi2][left]>

@@ -4,16 +4,42 @@
 		<[string8][sname][ST HYACINTHE]>
 		<[string8][lname][ST HYACINTHE, Canada]>
 		<[string8][icao][CSU3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-73.014168 45.605138]>
 		<[float64][height][35.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1170m26m_rwy]>
+				<[tmvector3d][position][-73.014168 45.605138 0]>
+				<[float64][orientation][-4.335029]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1040m26m_decal]>
+				<[tmvector3d][position][-73.014106 45.605712 0]>
+				<[float64][orientation][-4.334985]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\20_decal]>
+				<[tmvector3d][position][-73.013676 45.609679 0]>
+				<[float64][orientation][-4.335029]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\02_decal]>
+				<[tmvector3d][position][-73.014536 45.601744 0]>
+				<[float64][orientation][-184.334985]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][02]>
-				<[tmvector2d][threshold1][-73.014325 45.603692]>
+				<[tmvector2d][threshold1][-73.014601 45.601145]>
 				<[tmvector2d][endpoint1][-73.014725 45.599997]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>

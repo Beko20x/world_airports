@@ -4,22 +4,48 @@
 		<[string8][sname][EDSON]>
 		<[string8][lname][EDSON, Canada]>
 		<[string8][icao][CYET]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-116.465045 53.578932]>
 		<[float64][height][926.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1848m33m_rwy]>
+				<[tmvector3d][position][-116.465045 53.578932 0]>
+				<[float64][orientation][-90.629234]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1518m33m_decal]>
+				<[tmvector3d][position][-116.464814 53.578930 0]>
+				<[float64][orientation][-90.629234]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][-116.454631 53.578864 0]>
+				<[float64][orientation][-90.629234]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][-116.474996 53.578997 0]>
+				<[float64][orientation][-270.629234]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][07]>
-				<[tmvector2d][threshold1][-116.477202 53.579011]>
+				<[tmvector2d][threshold1][-116.476077 53.579004]>
 				<[tmvector2d][endpoint1][-116.478847 53.579022]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][none]>
 				<[string8][name2][25]>
-				<[tmvector2d][threshold2][-116.452613 53.578851]>
+				<[tmvector2d][threshold2][-116.453550 53.578857]>
 				<[tmvector2d][endpoint2][-116.451242 53.578842]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

@@ -4,12 +4,38 @@
 		<[string8][sname][LAKE SIMCOE RGNL]>
 		<[string8][lname][LAKE SIMCOE RGNL, Canada]>
 		<[string8][icao][CNB9]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.555832 44.485416]>
 		<[float64][height][295.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1518m33m_rwy]>
+				<[tmvector3d][position][-79.555832 44.485416 0]>
+				<[float64][orientation][-88.831129]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1518m33m_decal]>
+				<[tmvector3d][position][-79.555832 44.485416 0]>
+				<[float64][orientation][-88.831129]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-79.547211 44.485541 0]>
+				<[float64][orientation][-88.831129]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-79.564453 44.485290 0]>
+				<[float64][orientation][-268.831129]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

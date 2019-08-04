@@ -4,7 +4,7 @@
 		<[string8][sname][Iroquois]>
 		<[string8][lname][Iroquois, Canada]>
 		<[string8][icao][CNP7]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-75.306975 44.853614]>
 		<[float64][height][75.0]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-75.309387 44.851201]>
 		<[float64][tower_height][100.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap627m19m_rwy]>
+				<[tmvector3d][position][-75.306975 44.853614 0]>
+				<[float64][orientation][-46.000005]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap627m19m_decal]>
+				<[tmvector3d][position][-75.306975 44.853614 0]>
+				<[float64][orientation][-46.000005]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-75.304781 44.855116 0]>
+				<[float64][orientation][-46.000005]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-75.309170 44.852112 0]>
+				<[float64][orientation][-226.000005]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06]>

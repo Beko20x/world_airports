@@ -4,7 +4,7 @@
 		<[string8][sname][IGNACE MUNI]>
 		<[string8][lname][IGNACE MUNI, Canada]>
 		<[string8][icao][CZUC]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-91.720264 49.428339]>
 		<[float64][height][437.4]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-91.711366 49.430216]>
 		<[float64][tower_height][439.2]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1144m26m_rwy]>
+				<[tmvector3d][position][-91.720264 49.428339 0]>
+				<[float64][orientation][-51.073354]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1144m26m_decal]>
+				<[tmvector3d][position][-91.720264 49.428339 0]>
+				<[float64][orientation][-51.073354]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-91.714938 49.431137 0]>
+				<[float64][orientation][-51.073354]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-91.725590 49.425541 0]>
+				<[float64][orientation][-231.073354]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>

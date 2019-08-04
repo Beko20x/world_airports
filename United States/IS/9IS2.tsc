@@ -10,10 +10,42 @@
 		<[float64][height][231.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap990m33m_rwy]>
+				<[tmvector3d][position][-88.267559 40.482170 0]>
+				<[float64][orientation][-179.975020]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_decal]>
+				<[tmvector3d][position][-88.267558 40.481931 0]>
+				<[float64][orientation][-179.975020]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-88.267556 40.478343 0]>
+				<[float64][orientation][-179.975020]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-88.267560 40.485519 0]>
+				<[float64][orientation][-359.975020]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\dirt\rap759m33m_rwy]>
+				<[tmvector3d][position][-88.266857 40.491425 0]>
+				<[float64][orientation][-90.000000]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][18]>
-				<[tmvector2d][threshold1][-88.267552 40.470756]>
+				<[tmvector2d][threshold1][-88.267561 40.486054]>
 				<[tmvector2d][endpoint1][-88.267561 40.486531]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
@@ -28,7 +60,7 @@
 			>
 			<[tmsimulator_runway][element][1]
 				<[string8][name1][09]>
-				<[tmvector2d][threshold1][-88.269922 40.491425]>
+				<[tmvector2d][threshold1][-88.269531 40.491425]>
 				<[tmvector2d][endpoint1][-88.271164 40.491425]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>

@@ -4,12 +4,62 @@
 		<[string8][sname][WELLAND NIAGARA CENTRAL]>
 		<[string8][lname][WELLAND NIAGARA CENTRAL, Canada]>
 		<[string8][icao][CNQ3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.324028 42.979028]>
 		<[float64][height][178.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1089m33m_rwy]>
+				<[tmvector3d][position][-79.324028 42.979028 0]>
+				<[float64][orientation][-40.013135]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1089m33m_decal]>
+				<[tmvector3d][position][-79.324028 42.979028 0]>
+				<[float64][orientation][-40.013135]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-79.320168 42.982392 0]>
+				<[float64][orientation][-40.013135]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-79.327888 42.975664 0]>
+				<[float64][orientation][-220.013135]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap779m19m_rwy]>
+				<[tmvector3d][position][-79.320837 42.977083 0]>
+				<[float64][orientation][-139.732221]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap779m19m_decal]>
+				<[tmvector3d][position][-79.320837 42.977083 0]>
+				<[float64][orientation][-139.732221]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-79.318265 42.974862 0]>
+				<[float64][orientation][-139.732221]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-79.323408 42.979304 0]>
+				<[float64][orientation][-319.732221]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>

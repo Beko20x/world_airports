@@ -1,0 +1,82 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][HOXIE SHERIDAN CO]>
+		<[string8][lname][HOXIE SHERIDAN CO, other]>
+		<[string8][icao][1F5]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-100.435550 39.371528]>
+		<[float64][height][833.0]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1352m26m_rwy]>
+				<[tmvector3d][position][-100.435550 39.371528 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1352m26m_decal]>
+				<[tmvector3d][position][-100.435550 39.371528 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-100.435550 39.366167 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-100.435550 39.376889 0]>
+				<[float64][orientation][0.000000]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][17]>
+				<[tmvector2d][threshold1][-100.435550 39.377500]>
+				<[tmvector2d][endpoint1][-100.435550 39.377500]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][35]>
+				<[tmvector2d][threshold2][-100.435550 39.365556]>
+				<[tmvector2d][endpoint2][-100.435550 39.365556]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][-100.435281 39.369447]>
+				<[tmvector2d][endpoint1][-100.435281 39.369447]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-100.428889 39.369447]>
+				<[tmvector2d][endpoint2][-100.428889 39.369447]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][1F5_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

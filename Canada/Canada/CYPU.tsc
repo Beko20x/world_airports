@@ -4,12 +4,38 @@
 		<[string8][sname][PUNTZI MOUNTAIN]>
 		<[string8][lname][PUNTZI MOUNTAIN, Canada]>
 		<[string8][icao][CYPU]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-124.144767 52.112834]>
 		<[float64][height][909.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_rwy]>
+				<[tmvector3d][position][-124.144767 52.112834 0]>
+				<[float64][orientation][-66.825309]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_decal]>
+				<[tmvector3d][position][-124.144767 52.112834 0]>
+				<[float64][orientation][-66.825309]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-124.133280 52.115853 0]>
+				<[float64][orientation][-66.825309]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-124.156254 52.109814 0]>
+				<[float64][orientation][-246.825309]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>

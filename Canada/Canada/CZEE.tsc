@@ -4,7 +4,7 @@
 		<[string8][sname][Kelsey]>
 		<[string8][lname][Kelsey, Canada]>
 		<[string8][icao][CZEE]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-96.508699 56.037594]>
 		<[float64][height][189.0]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-96.509920 56.037523]>
 		<[float64][tower_height][193.9]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap858m33m_rwy]>
+				<[tmvector3d][position][-96.508699 56.037594 0]>
+				<[float64][orientation][-120.981616]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap858m33m_decal]>
+				<[tmvector3d][position][-96.508699 56.037594 0]>
+				<[float64][orientation][-120.981616]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-96.503765 56.035939 0]>
+				<[float64][orientation][-120.981616]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-96.513632 56.039249 0]>
+				<[float64][orientation][-300.981616]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>

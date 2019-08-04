@@ -4,12 +4,38 @@
 		<[string8][sname][GASPE]>
 		<[string8][lname][GASPE, Canada]>
 		<[string8][icao][CYGP]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-64.478611 48.775278]>
 		<[float64][height][32.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1410m47m_rwy]>
+				<[tmvector3d][position][-64.478611 48.775278 0]>
+				<[float64][orientation][-83.955627]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1410m47m_decal]>
+				<[tmvector3d][position][-64.478611 48.775278 0]>
+				<[float64][orientation][-83.955627]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-64.470380 48.775852 0]>
+				<[float64][orientation][-83.955627]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-64.486842 48.774703 0]>
+				<[float64][orientation][-263.955627]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

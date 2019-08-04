@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-71.921487 -39.290645]>
 		<[float64][tower_height][285.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1749m33m_rwy]>
+				<[tmvector3d][position][-71.915855 -39.292793 0]>
+				<[float64][orientation][-102.602011]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1749m33m_decal]>
+				<[tmvector3d][position][-71.915855 -39.292793 0]>
+				<[float64][orientation][-102.602011]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-71.906865 -39.294349 0]>
+				<[float64][orientation][-102.602011]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-71.924846 -39.291237 0]>
+				<[float64][orientation][-282.602011]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>
@@ -32,6 +58,31 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-71.922358 -39.290515]>
+				<[float64][heading][12.66]>
+				<[string8][name][Apron Hangars Start 2]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-71.921781 -39.290606]>
+				<[float64][heading][16.20]>
+				<[string8][name][Apron Hangars Start 3]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-71.922280 -39.290225]>
+				<[float64][heading][192.90]>
+				<[string8][name][Apron Hangars Start 4]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-71.921680 -39.290330]>
+				<[float64][heading][195.52]>
+				<[string8][name][Apron Hangars Start 5]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-71.920082 -39.290716]>
+				<[float64][heading][281.79]>
+				<[string8][name][Apron Start 1]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

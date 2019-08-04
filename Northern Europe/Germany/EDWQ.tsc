@@ -1,0 +1,79 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Ganderkesee Atlas Airfield]>
+		<[string8][lname][Ganderkesee Atlas Airfield, Germany]>
+		<[string8][icao][EDWQ]>
+		<[string8][country][de]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][8.506109 53.037495]>
+		<[float64][height][29.3]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][8.508589 53.036924]>
+		<[float64][tower_height][38.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap858m26m_rwy]>
+				<[tmvector3d][position][8.506109 53.037495 0]>
+				<[float64][orientation][-81.000031]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap858m26m_decal]>
+				<[tmvector3d][position][8.506109 53.037495 0]>
+				<[float64][orientation][-81.000031]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][8.511290 53.037988 0]>
+				<[float64][orientation][-81.000031]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][8.500928 53.037001 0]>
+				<[float64][orientation][-261.000031]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][8.499936 53.036907]>
+				<[tmvector2d][endpoint1][8.499936 53.036907]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][8.512282 53.038083]>
+				<[tmvector2d][endpoint2][8.512282 53.038083]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][21.95]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][8.509664 53.037185]>
+				<[float64][heading][346.37]>
+				<[string8][name][Hangar]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][8.505768 53.036863]>
+				<[float64][heading][352.48]>
+				<[string8][name][Ramp Start]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EDWQ_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

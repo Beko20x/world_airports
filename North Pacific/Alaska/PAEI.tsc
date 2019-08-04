@@ -1,0 +1,67 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][EIELSON AFB]>
+		<[string8][lname][EIELSON AFB, Alaska]>
+		<[string8][icao][PAEI]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-147.101511 64.665665]>
+		<[float64][height][167.0]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap4418m47m_rwy]>
+				<[tmvector3d][position][-147.101511 64.665665 0]>
+				<[float64][orientation][-157.792298]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap4418m47m_decal]>
+				<[tmvector3d][position][-147.101511 64.665665 0]>
+				<[float64][orientation][-157.792298]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-147.084476 64.647810 0]>
+				<[float64][orientation][-157.792298]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-147.118546 64.683520 0]>
+				<[float64][orientation][-337.792298]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-147.119025 64.684022]>
+				<[tmvector2d][endpoint1][-147.119025 64.684022]>
+				<[string8][appltsys1][alsf-1]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-147.083997 64.647308]>
+				<[tmvector2d][endpoint2][-147.083997 64.647308]>
+				<[string8][appltsys2][alsf-1]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][45.72]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][PAEI_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

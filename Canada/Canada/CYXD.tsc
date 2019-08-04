@@ -4,22 +4,72 @@
 		<[string8][sname][Edmonton City Centre (Blatchford Fld)]>
 		<[string8][lname][Edmonton City Centre (Blatchford Fld), Canada]>
 		<[string8][icao][CYXD]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-113.519167 53.571667]>
 		<[float64][height][670.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_rwy]>
+				<[tmvector3d][position][-113.519167 53.571667 0]>
+				<[float64][orientation][-138.307739]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1224m68m_decal]>
+				<[tmvector3d][position][-113.519761 53.572063 0]>
+				<[float64][orientation][-138.308005]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-113.514257 53.568394 0]>
+				<[float64][orientation][-138.307739]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-113.525264 53.575732 0]>
+				<[float64][orientation][-318.308005]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_rwy]>
+				<[tmvector3d][position][-113.511669 53.572500 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1496m68m_decal]>
+				<[tmvector3d][position][-113.511669 53.572555 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-113.511669 53.566524 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-113.511669 53.578586 0]>
+				<[float64][orientation][0.000000]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>
-				<[tmvector2d][threshold1][-113.526214 53.576365]>
+				<[tmvector2d][threshold1][-113.525877 53.576140]>
 				<[tmvector2d][endpoint1][-113.528333 53.577778]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][none]>
 				<[string8][name2][30]>
-				<[tmvector2d][threshold2][-113.513144 53.567652]>
+				<[tmvector2d][threshold2][-113.513644 53.567986]>
 				<[tmvector2d][endpoint2][-113.510000 53.565556]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>
@@ -28,13 +78,13 @@
 			>
 			<[tmsimulator_runway][element][1]
 				<[string8][name1][16]>
-				<[tmvector2d][threshold1][-113.511669 53.577120]>
+				<[tmvector2d][threshold1][-113.511669 53.579185]>
 				<[tmvector2d][endpoint1][-113.511669 53.580556]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][34]>
-				<[tmvector2d][threshold2][-113.511669 53.568154]>
+				<[tmvector2d][threshold2][-113.511669 53.565924]>
 				<[tmvector2d][endpoint2][-113.511669 53.564444]>
 				<[string8][appltsys2][sals]>
 				<[string8][papi2][left]>

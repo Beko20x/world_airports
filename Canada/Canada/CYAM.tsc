@@ -4,7 +4,7 @@
 		<[string8][sname][Sault Ste Marie]>
 		<[string8][lname][Sault Ste Marie, Canada]>
 		<[string8][icao][CYAM]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-84.506857 46.485110]>
 		<[float64][height][192.0]>
@@ -12,6 +12,56 @@
 		<[vector2_float64][tower_position][-84.500436 46.484911]>
 		<[float64][tower_height][217.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_rwy]>
+				<[tmvector3d][position][-84.506857 46.485110 0]>
+				<[float64][orientation][-32.799986]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_decal]>
+				<[tmvector3d][position][-84.506857 46.485110 0]>
+				<[float64][orientation][-32.799986]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\22_decal]>
+				<[tmvector3d][position][-84.500797 46.491584 0]>
+				<[float64][orientation][-32.799986]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\04_decal]>
+				<[tmvector3d][position][-84.512917 46.478635 0]>
+				<[float64][orientation][-212.799986]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_rwy]>
+				<[tmvector3d][position][-84.509708 46.483526 0]>
+				<[float64][orientation][-107.889065]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_decal]>
+				<[tmvector3d][position][-84.509708 46.483526 0]>
+				<[float64][orientation][-107.889065]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-84.499068 46.481161 0]>
+				<[float64][orientation][-107.889065]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-84.520348 46.485891 0]>
+				<[float64][orientation][-287.889065]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][04]>

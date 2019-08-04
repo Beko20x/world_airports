@@ -4,7 +4,7 @@
 		<[string8][sname][Toronto City Centre]>
 		<[string8][lname][Toronto City Centre, Canada]>
 		<[string8][icao][CYTZ]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.396175 43.629232]>
 		<[float64][height][76.5]>
@@ -12,6 +12,80 @@
 		<[vector2_float64][tower_position][-79.399099 43.630345]>
 		<[float64][tower_height][101.5]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m47m_rwy]>
+				<[tmvector3d][position][-79.396175 43.629232 0]>
+				<[float64][orientation][-71.249793]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m47m_decal]>
+				<[tmvector3d][position][-79.396175 43.629232 0]>
+				<[float64][orientation][-71.249793]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-79.389646 43.630836 0]>
+				<[float64][orientation][-71.249793]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-79.402705 43.627627 0]>
+				<[float64][orientation][-251.249793]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap893m47m_rwy]>
+				<[tmvector3d][position][-79.393381 43.628387 0]>
+				<[float64][orientation][-49.906140]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap893m47m_decal]>
+				<[tmvector3d][position][-79.393381 43.628387 0]>
+				<[float64][orientation][-49.906140]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-79.389809 43.630564 0]>
+				<[float64][orientation][-49.906140]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-79.396954 43.626209 0]>
+				<[float64][orientation][-229.906140]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap880m40m_rwy]>
+				<[tmvector3d][position][-79.397439 43.626672 0]>
+				<[float64][orientation][-140.131873]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap880m40m_decal]>
+				<[tmvector3d][position][-79.397439 43.626672 0]>
+				<[float64][orientation][-140.131873]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-79.394610 43.624220 0]>
+				<[float64][orientation][-140.131873]>
+			>
+			<[tmsimulator_scenery_object][element][11]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-79.400268 43.629123 0]>
+				<[float64][orientation][-320.131873]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

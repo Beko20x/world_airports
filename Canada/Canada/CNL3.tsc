@@ -4,12 +4,38 @@
 		<[string8][sname][Brockville Thousand Islands Rgnl]>
 		<[string8][lname][Brockville Thousand Islands Rgnl, Canada]>
 		<[string8][icao][CNL3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-75.750165 44.639464]>
 		<[float64][height][122.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_rwy]>
+				<[tmvector3d][position][-75.750165 44.639464 0]>
+				<[float64][orientation][-30.376325]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-75.750165 44.639464 0]>
+				<[float64][orientation][-30.376325]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\22_decal]>
+				<[tmvector3d][position][-75.746188 44.644291 0]>
+				<[float64][orientation][-30.376325]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\04_decal]>
+				<[tmvector3d][position][-75.754142 44.634636 0]>
+				<[float64][orientation][-210.376325]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][04]>

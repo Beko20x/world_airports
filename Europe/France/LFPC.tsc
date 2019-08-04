@@ -12,10 +12,36 @@
 		<[vector2_float64][tower_position][2.517860 49.249200]>
 		<[float64][tower_height][113.7]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2430m54m_rwy]>
+				<[tmvector3d][position][2.519128 49.253544 0]>
+				<[float64][orientation][-65.140276]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2214m54m_decal]>
+				<[tmvector3d][position][2.520353 49.253914 0]>
+				<[float64][orientation][-65.140112]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][2.533280 49.257824 0]>
+				<[float64][orientation][-65.140276]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][2.507426 49.250005 0]>
+				<[float64][orientation][-245.140112]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][07]>
-				<[tmvector2d][threshold1][2.505857 49.249530]>
+				<[tmvector2d][threshold1][2.506620 49.249761]>
 				<[tmvector2d][endpoint1][2.504170 49.249020]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
@@ -57,6 +83,26 @@
 			>
 			<[tmsimulator_parking_position][element][3]
 				<[tmvector2d][position][2.523874 49.252141]>
+				<[float64][heading][155.18]>
+				<[string8][name][GA Ramp 7]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][2.524969 49.252593]>
+				<[float64][heading][155.18]>
+				<[string8][name][GA Ramp 1]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][2.524346 49.252358]>
+				<[float64][heading][155.17]>
+				<[string8][name][GA Ramp 2]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][2.523744 49.252164]>
+				<[float64][heading][155.18]>
+				<[string8][name][GA Ramp 6]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][2.523121 49.252002]>
 				<[float64][heading][155.18]>
 				<[string8][name][GA Ramp 7]>
 			>

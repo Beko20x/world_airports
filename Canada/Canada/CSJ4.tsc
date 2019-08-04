@@ -4,12 +4,38 @@
 		<[string8][sname][LOUISEVILLE]>
 		<[string8][lname][LOUISEVILLE, Canada]>
 		<[string8][icao][CSJ4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-72.916667 46.250000]>
 		<[float64][height][12.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_rwy]>
+				<[tmvector3d][position][-72.916667 46.250000 0]>
+				<[float64][orientation][-73.870404]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_decal]>
+				<[tmvector3d][position][-72.916667 46.250000 0]>
+				<[float64][orientation][-73.870404]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-72.911940 46.250945 0]>
+				<[float64][orientation][-73.870404]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-72.921393 46.249055 0]>
+				<[float64][orientation][-253.870404]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][09]>

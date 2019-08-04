@@ -4,12 +4,38 @@
 		<[string8][sname][FAIRMONT HOT SPRINGS]>
 		<[string8][lname][FAIRMONT HOT SPRINGS, Canada]>
 		<[string8][icao][CYCZ]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-115.873610 50.331946]>
 		<[float64][height][811.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1848m33m_rwy]>
+				<[tmvector3d][position][-115.873610 50.331946 0]>
+				<[float64][orientation][-170.016471]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1584m33m_decal]>
+				<[tmvector3d][position][-115.873915 50.333053 0]>
+				<[float64][orientation][-170.016699]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-115.872155 50.326669 0]>
+				<[float64][orientation][-170.016471]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-115.875676 50.339436 0]>
+				<[float64][orientation][-350.016699]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][15]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][33]>
-				<[tmvector2d][threshold2][-115.872590 50.328246]>
+				<[tmvector2d][threshold2][-115.871999 50.326106]>
 				<[tmvector2d][endpoint2][-115.871389 50.323892]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

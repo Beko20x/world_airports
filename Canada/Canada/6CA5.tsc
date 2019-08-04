@@ -1,0 +1,106 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Valley Vista]>
+		<[string8][lname][Valley Vista, Canada]>
+		<[string8][icao][6CA5]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-116.579743 34.337224]>
+		<[float64][height][1027.2]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap931m19m_rwy]>
+				<[tmvector3d][position][-116.579743 34.337224 0]>
+				<[float64][orientation][-193.999985]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap931m19m_decal]>
+				<[tmvector3d][position][-116.579743 34.337224 0]>
+				<[float64][orientation][-193.999985]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-116.580780 34.333791 0]>
+				<[float64][orientation][-193.999985]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-116.578706 34.340658 0]>
+				<[float64][orientation][-13.999985]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap855m19m_rwy]>
+				<[tmvector3d][position][-116.579743 34.337224 0]>
+				<[float64][orientation][-103.999988]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap855m19m_decal]>
+				<[tmvector3d][position][-116.579743 34.337224 0]>
+				<[float64][orientation][-103.999988]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-116.575828 34.336418 0]>
+				<[float64][orientation][-103.999988]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-116.583659 34.338031 0]>
+				<[float64][orientation][-283.999988]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][-116.578538 34.341217]>
+				<[tmvector2d][endpoint1][-116.578538 34.341217]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][-116.580949 34.333232]>
+				<[tmvector2d][endpoint2][-116.580949 34.333232]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][18.29]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-116.584256 34.338153]>
+				<[tmvector2d][endpoint1][-116.584256 34.338153]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-116.575231 34.336295]>
+				<[tmvector2d][endpoint2][-116.575231 34.336295]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][12.19]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][6CA5_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

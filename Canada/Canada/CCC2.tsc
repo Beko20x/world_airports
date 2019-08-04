@@ -4,12 +4,38 @@
 		<[string8][sname][WINTERLAND]>
 		<[string8][lname][WINTERLAND, Canada]>
 		<[string8][icao][CCC2]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-55.329167 47.137222]>
 		<[float64][height][47.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_rwy]>
+				<[tmvector3d][position][-55.329167 47.137222 0]>
+				<[float64][orientation][-127.890793]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_decal]>
+				<[tmvector3d][position][-55.329167 47.137222 0]>
+				<[float64][orientation][-127.890793]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-55.325053 47.135044 0]>
+				<[float64][orientation][-127.890793]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-55.333280 47.139400 0]>
+				<[float64][orientation][-307.890793]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][15]>

@@ -4,12 +4,38 @@
 		<[string8][sname][SOREL]>
 		<[string8][lname][SOREL, Canada]>
 		<[string8][icao][CSY3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-73.042363 45.980139]>
 		<[float64][height][23.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1248m26m_rwy]>
+				<[tmvector3d][position][-73.042363 45.980139 0]>
+				<[float64][orientation][-13.040590]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1248m26m_decal]>
+				<[tmvector3d][position][-73.042363 45.980139 0]>
+				<[float64][orientation][-13.040590]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\21_decal]>
+				<[tmvector3d][position][-73.040739 45.985009 0]>
+				<[float64][orientation][-13.040590]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\03_decal]>
+				<[tmvector3d][position][-73.043986 45.975269 0]>
+				<[float64][orientation][-193.040590]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][03]>

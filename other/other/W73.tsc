@@ -1,0 +1,61 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Mid Atlantic Soaring Center]>
+		<[string8][lname][Mid Atlantic Soaring Center, other]>
+		<[string8][icao][W73]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-77.351376 39.757040]>
+		<[float64][height][174.7]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap836m19m_rwy]>
+				<[tmvector3d][position][-77.351376 39.757040 0]>
+				<[float64][orientation][-139.999964]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap836m19m_decal]>
+				<[tmvector3d][position][-77.351376 39.757040 0]>
+				<[float64][orientation][-139.999964]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-77.348748 39.754632 0]>
+				<[float64][orientation][-139.999964]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-77.354004 39.759448 0]>
+				<[float64][orientation][-319.999964]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][-77.354472 39.759877]>
+				<[tmvector2d][endpoint1][-77.354472 39.759877]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][-77.348280 39.754203]>
+				<[tmvector2d][endpoint2][-77.348280 39.754203]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
+>

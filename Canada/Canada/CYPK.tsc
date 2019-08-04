@@ -4,7 +4,7 @@
 		<[string8][sname][Pitt Meadows]>
 		<[string8][lname][Pitt Meadows, Canada]>
 		<[string8][icao][CYPK]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-122.712905 49.213887]>
 		<[float64][height][3.4]>
@@ -12,16 +12,90 @@
 		<[vector2_float64][tower_position][-122.705232 49.210958]>
 		<[float64][tower_height][28.3]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1419m33m_rwy]>
+				<[tmvector3d][position][-122.712905 49.213887 0]>
+				<[float64][orientation][-97.170024]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1287m33m_decal]>
+				<[tmvector3d][position][-122.712905 49.213887 0]>
+				<[float64][orientation][-97.170024]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26L_decal]>
+				<[tmvector3d][position][-122.705011 49.213238 0]>
+				<[float64][orientation][-97.170024]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08R_decal]>
+				<[tmvector3d][position][-122.720799 49.214536 0]>
+				<[float64][orientation][-277.170024]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap728m26m_rwy]>
+				<[tmvector3d][position][-122.711008 49.218861 0]>
+				<[float64][orientation][-97.189993]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap728m26m_decal]>
+				<[tmvector3d][position][-122.711008 49.218861 0]>
+				<[float64][orientation][-97.189993]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26R_decal]>
+				<[tmvector3d][position][-122.706804 49.218515 0]>
+				<[float64][orientation][-97.189993]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08L_decal]>
+				<[tmvector3d][position][-122.715212 49.219207 0]>
+				<[float64][orientation][-277.189993]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap754m26m_rwy]>
+				<[tmvector3d][position][-122.708667 49.216114 0]>
+				<[float64][orientation][-201.940020]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap754m26m_decal]>
+				<[tmvector3d][position][-122.708667 49.216114 0]>
+				<[float64][orientation][-201.940020]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-122.710313 49.213444 0]>
+				<[float64][orientation][-201.940020]>
+			>
+			<[tmsimulator_scenery_object][element][11]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-122.707021 49.218784 0]>
+				<[float64][orientation][-21.940020]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08R]>
-				<[tmvector2d][threshold1][-122.721915 49.214627]>
+				<[tmvector2d][threshold1][-122.721630 49.214604]>
 				<[tmvector2d][endpoint1][-122.722462 49.214672]>
 				<[string8][appltsys1][malsf]>
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][26L]>
-				<[tmvector2d][threshold2][-122.703895 49.213147]>
+				<[tmvector2d][threshold2][-122.704180 49.213170]>
 				<[tmvector2d][endpoint2][-122.703348 49.213102]>
 				<[string8][appltsys2][sals]>
 				<[string8][papi2][left]>

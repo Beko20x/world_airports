@@ -4,12 +4,38 @@
 		<[string8][sname][LA GRANDE RIVIERE]>
 		<[string8][lname][LA GRANDE RIVIERE, Canada]>
 		<[string8][icao][CYGL]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-77.704115 53.625370]>
 		<[float64][height][194.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1974m47m_rwy]>
+				<[tmvector3d][position][-77.704115 53.625370 0]>
+				<[float64][orientation][-113.042049]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1974m47m_decal]>
+				<[tmvector3d][position][-77.704115 53.625370 0]>
+				<[float64][orientation][-113.042049]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-77.691161 53.622102 0]>
+				<[float64][orientation][-113.042049]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-77.717069 53.628637 0]>
+				<[float64][orientation][-293.042049]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][13]>

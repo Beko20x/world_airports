@@ -4,12 +4,38 @@
 		<[string8][sname][GRAND MANAN]>
 		<[string8][lname][GRAND MANAN, Canada]>
 		<[string8][icao][CCN2]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-66.796391 44.713334]>
 		<[float64][height][72.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap936m26m_rwy]>
+				<[tmvector3d][position][-66.796391 44.713334 0]>
+				<[float64][orientation][-42.117962]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap936m26m_decal]>
+				<[tmvector3d][position][-66.796391 44.713334 0]>
+				<[float64][orientation][-42.117962]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-66.793063 44.715949 0]>
+				<[float64][orientation][-42.117962]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-66.799718 44.710718 0]>
+				<[float64][orientation][-222.117962]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][06]>

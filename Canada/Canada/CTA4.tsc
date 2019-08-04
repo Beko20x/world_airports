@@ -4,12 +4,38 @@
 		<[string8][sname][ST BRUNO DE GUIGUES]>
 		<[string8][lname][ST BRUNO DE GUIGUES, Canada]>
 		<[string8][icao][CTA4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.417985 47.449289]>
 		<[float64][height][249.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_rwy]>
+				<[tmvector3d][position][-79.417985 47.449289 0]>
+				<[float64][orientation][-90.051358]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-79.417985 47.449289 0]>
+				<[float64][orientation][-90.051358]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-79.409798 47.449284 0]>
+				<[float64][orientation][-90.051358]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-79.426171 47.449293 0]>
+				<[float64][orientation][-270.051358]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

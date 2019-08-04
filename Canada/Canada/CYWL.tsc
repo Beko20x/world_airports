@@ -4,12 +4,38 @@
 		<[string8][sname][WILLIAMS LAKE]>
 		<[string8][lname][WILLIAMS LAKE, Canada]>
 		<[string8][icao][CYWL]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-122.053475 52.182502]>
 		<[float64][height][940.3]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2115m47m_rwy]>
+				<[tmvector3d][position][-122.053475 52.182502 0]>
+				<[float64][orientation][-134.727087]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2115m47m_decal]>
+				<[tmvector3d][position][-122.053475 52.182502 0]>
+				<[float64][orientation][-134.727087]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-122.043128 52.176218 0]>
+				<[float64][orientation][-134.727087]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-122.063822 52.188785 0]>
+				<[float64][orientation][-314.727087]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-72.348161 -38.247584]>
 		<[float64][tower_height][374.6]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1064m19m_rwy]>
+				<[tmvector3d][position][-72.348612 -38.245555 0]>
+				<[float64][orientation][-17.999996]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1064m19m_decal]>
+				<[tmvector3d][position][-72.348612 -38.245555 0]>
+				<[float64][orientation][-17.999996]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\19_decal]>
+				<[tmvector3d][position][-72.346939 -38.241512 0]>
+				<[float64][orientation][-17.999996]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\01_decal]>
+				<[tmvector3d][position][-72.350285 -38.249599 0]>
+				<[float64][orientation][-197.999996]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][01]>
@@ -32,6 +58,26 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-72.348629 -38.248237]>
+				<[float64][heading][281.00]>
+				<[string8][name][Apron Start 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-72.348502 -38.247926]>
+				<[float64][heading][281.00]>
+				<[string8][name][Apron Start 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-72.348397 -38.247642]>
+				<[float64][heading][281.00]>
+				<[string8][name][Apron Start 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-72.348286 -38.247364]>
+				<[float64][heading][281.00]>
+				<[string8][name][Apron Start 4]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

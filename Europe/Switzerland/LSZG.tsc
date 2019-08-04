@@ -10,10 +10,36 @@
 		<[float64][height][430.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1014m26m_rwy]>
+				<[tmvector3d][position][7.417189 47.181628 0]>
+				<[float64][orientation][-65.559990]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap884m26m_decal]>
+				<[tmvector3d][position][7.418002 47.181879 0]>
+				<[float64][orientation][-65.559888]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25C_decal]>
+				<[tmvector3d][position][7.422391 47.183235 0]>
+				<[float64][orientation][-65.559990]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07C_decal]>
+				<[tmvector3d][position][7.413613 47.180524 0]>
+				<[float64][orientation][-245.559888]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][07C]>
-				<[tmvector2d][threshold1][7.412343 47.180131]>
+				<[tmvector2d][threshold1][7.412808 47.180275]>
 				<[tmvector2d][endpoint1][7.411182 47.179772]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
@@ -28,13 +54,13 @@
 			>
 			<[tmsimulator_runway][element][1]
 				<[string8][name1][07L]>
-				<[tmvector2d][threshold1][7.412037 47.180813]>
+				<[tmvector2d][threshold1][7.412263 47.180881]>
 				<[tmvector2d][endpoint1][7.411477 47.180644]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][none]>
 				<[string8][name2][25R]>
-				<[tmvector2d][threshold2][7.417286 47.182395]>
+				<[tmvector2d][threshold2][7.417196 47.182368]>
 				<[tmvector2d][endpoint2][7.417509 47.182463]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

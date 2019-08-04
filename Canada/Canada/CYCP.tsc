@@ -4,12 +4,38 @@
 		<[string8][sname][BLUE RIVER]>
 		<[string8][lname][BLUE RIVER, Canada]>
 		<[string8][icao][CYCP]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-119.284725 52.116667]>
 		<[float64][height][682.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_rwy]>
+				<[tmvector3d][position][-119.284725 52.116667 0]>
+				<[float64][orientation][-31.563188]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1534m26m_decal]>
+				<[tmvector3d][position][-119.284725 52.116667 0]>
+				<[float64][orientation][-31.563188]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\19_decal]>
+				<[tmvector3d][position][-119.279362 52.122027 0]>
+				<[float64][orientation][-31.563188]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\01_decal]>
+				<[tmvector3d][position][-119.290088 52.111306 0]>
+				<[float64][orientation][-211.563188]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][01]>

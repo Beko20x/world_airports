@@ -4,12 +4,44 @@
 		<[string8][sname][FORT SMITH]>
 		<[string8][lname][FORT SMITH, Canada]>
 		<[string8][icao][CYSM]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-111.960149 60.022084]>
 		<[float64][height][204.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_rwy]>
+				<[tmvector3d][position][-111.960149 60.022084 0]>
+				<[float64][orientation][-131.271659]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_decal]>
+				<[tmvector3d][position][-111.960149 60.022084 0]>
+				<[float64][orientation][-131.271659]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-111.948621 60.017028 0]>
+				<[float64][orientation][-131.271659]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-111.971676 60.027139 0]>
+				<[float64][orientation][-311.271659]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\dirt\rap561m33m_rwy]>
+				<[tmvector3d][position][-111.958191 60.023538 0]>
+				<[float64][orientation][-40.509811]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

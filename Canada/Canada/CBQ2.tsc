@@ -4,12 +4,38 @@
 		<[string8][sname][Fort Langley]>
 		<[string8][lname][Fort Langley, Canada]>
 		<[string8][icao][CBQ2]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-122.551847 49.167146]>
 		<[float64][height][1.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap676m26m_rwy]>
+				<[tmvector3d][position][-122.551847 49.167146 0]>
+				<[float64][orientation][-98.216568]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap676m26m_decal]>
+				<[tmvector3d][position][-122.551847 49.167146 0]>
+				<[float64][orientation][-98.216568]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-122.548187 49.166800 0]>
+				<[float64][orientation][-98.216568]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-122.555507 49.167492 0]>
+				<[float64][orientation][-278.216568]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

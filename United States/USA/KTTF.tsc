@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-83.436253 41.932758]>
 		<[float64][tower_height][212.8]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_rwy]>
+				<[tmvector3d][position][-83.434674 41.939903 0]>
+				<[float64][orientation][-22.417626]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_decal]>
+				<[tmvector3d][position][-83.434674 41.939903 0]>
+				<[float64][orientation][-22.417626]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\21_decal]>
+				<[tmvector3d][position][-83.431482 41.945657 0]>
+				<[float64][orientation][-22.417626]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\03_decal]>
+				<[tmvector3d][position][-83.437865 41.934148 0]>
+				<[float64][orientation][-202.417626]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][03]>
@@ -32,6 +58,36 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-83.436965 41.932598]>
+				<[float64][heading][25.00]>
+				<[string8][name][New Ramp Start 10]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-83.436772 41.932563]>
+				<[float64][heading][25.00]>
+				<[string8][name][New Ramp Start 11]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-83.436556 41.932888]>
+				<[float64][heading][210.00]>
+				<[string8][name][New Ramp Start 12]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-83.436405 41.933123]>
+				<[float64][heading][210.00]>
+				<[string8][name][New Ramp Start 13]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-83.436371 41.932823]>
+				<[float64][heading][210.00]>
+				<[string8][name][New Ramp Start 14]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-83.436334 41.932508]>
+				<[float64][heading][290.00]>
+				<[string8][name][New Ramp Start 15]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

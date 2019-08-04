@@ -4,7 +4,7 @@
 		<[string8][sname][North Battleford (Cameron McIntosh)]>
 		<[string8][lname][North Battleford (Cameron McIntosh), Canada]>
 		<[string8][icao][CYQW]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-108.242813 52.769169]>
 		<[float64][height][548.3]>
@@ -12,6 +12,56 @@
 		<[vector2_float64][tower_position][-108.250700 52.769227]>
 		<[float64][tower_height][573.3]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m47m_rwy]>
+				<[tmvector3d][position][-108.242813 52.769169 0]>
+				<[float64][orientation][-136.000029]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m47m_decal]>
+				<[tmvector3d][position][-108.242813 52.769169 0]>
+				<[float64][orientation][-136.000029]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-108.235450 52.764556 0]>
+				<[float64][orientation][-136.000029]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-108.250176 52.773782 0]>
+				<[float64][orientation][-316.000029]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap798m19m_rwy]>
+				<[tmvector3d][position][-108.247758 52.766896 0]>
+				<[float64][orientation][-76.000312]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap798m19m_decal]>
+				<[tmvector3d][position][-108.247758 52.766896 0]>
+				<[float64][orientation][-76.000312]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-108.242919 52.767626 0]>
+				<[float64][orientation][-76.000312]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-108.252597 52.766166 0]>
+				<[float64][orientation][-256.000312]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>

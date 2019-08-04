@@ -4,22 +4,48 @@
 		<[string8][sname][VALCOURT]>
 		<[string8][lname][VALCOURT, Canada]>
 		<[string8][icao][CSQ3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-72.310417 45.480971]>
 		<[float64][height][225.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1159m19m_rwy]>
+				<[tmvector3d][position][-72.310417 45.480971 0]>
+				<[float64][orientation][-33.250679]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1007m19m_decal]>
+				<[tmvector3d][position][-72.310143 45.481263 0]>
+				<[float64][orientation][-33.250543]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-72.307041 45.484580 0]>
+				<[float64][orientation][-33.250679]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-72.313245 45.477946 0]>
+				<[float64][orientation][-213.250543]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>
-				<[tmvector2d][threshold1][-72.313492 45.477682]>
+				<[tmvector2d][threshold1][-72.313662 45.477501]>
 				<[tmvector2d][endpoint1][-72.314444 45.476664]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][23]>
-				<[tmvector2d][threshold2][-72.306676 45.484971]>
+				<[tmvector2d][threshold2][-72.306625 45.485026]>
 				<[tmvector2d][endpoint2][-72.306389 45.485278]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

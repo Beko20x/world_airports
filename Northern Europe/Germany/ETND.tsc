@@ -1,0 +1,69 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Diepholz]>
+		<[string8][lname][Diepholz, Germany]>
+		<[string8][icao][ETND]>
+		<[string8][country][de]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][8.341035 52.585725]>
+		<[float64][height][38.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][8.331555 52.578797]>
+		<[float64][tower_height][69.2]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1316m47m_rwy]>
+				<[tmvector3d][position][8.341035 52.585725 0]>
+				<[float64][orientation][-84.547211]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1316m47m_decal]>
+				<[tmvector3d][position][8.341122 52.585730 0]>
+				<[float64][orientation][-84.547210]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][8.349443 52.586213 0]>
+				<[float64][orientation][-84.547211]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][8.332802 52.585247 0]>
+				<[float64][orientation][-264.547210]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][08]>
+				<[tmvector2d][threshold1][8.331702 52.585184]>
+				<[tmvector2d][endpoint1][8.331526 52.585173]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][8.350543 52.586276]>
+				<[tmvector2d][endpoint2][8.350543 52.586276]>
+				<[string8][appltsys2][calvert]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][45.11]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][ETND_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

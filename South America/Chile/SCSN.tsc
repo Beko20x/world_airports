@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-71.614108 -33.654915]>
 		<[float64][tower_height][100.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap817m19m_rwy]>
+				<[tmvector3d][position][-71.615702 -33.656652 0]>
+				<[float64][orientation][-56.000005]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap817m19m_decal]>
+				<[tmvector3d][position][-71.615702 -33.656652 0]>
+				<[float64][orientation][-56.000005]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-71.612691 -33.654962 0]>
+				<[float64][orientation][-56.000005]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-71.618713 -33.658343 0]>
+				<[float64][orientation][-236.000005]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][05]>
@@ -32,6 +58,21 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-71.615038 -33.655318]>
+				<[float64][heading][141.58]>
+				<[string8][name][Start 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-71.615322 -33.655480]>
+				<[float64][heading][147.72]>
+				<[string8][name][Start 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-71.615130 -33.655416]>
+				<[float64][heading][145.81]>
+				<[string8][name][Start 3]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

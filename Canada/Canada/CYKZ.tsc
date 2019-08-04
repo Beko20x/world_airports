@@ -4,12 +4,62 @@
 		<[string8][sname][BUTTONVILLE MUNI]>
 		<[string8][lname][BUTTONVILLE MUNI, Canada]>
 		<[string8][icao][CYKZ]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.368614 43.860000]>
 		<[float64][height][198.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1254m33m_rwy]>
+				<[tmvector3d][position][-79.368614 43.860000 0]>
+				<[float64][orientation][-142.542821]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1254m33m_decal]>
+				<[tmvector3d][position][-79.368614 43.860000 0]>
+				<[float64][orientation][-142.542821]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-79.364351 43.855988 0]>
+				<[float64][orientation][-142.542821]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-79.372877 43.864012 0]>
+				<[float64][orientation][-322.542821]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap832m26m_rwy]>
+				<[tmvector3d][position][-79.369029 43.860971 0]>
+				<[float64][orientation][-20.529482]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap832m26m_decal]>
+				<[tmvector3d][position][-79.369029 43.860971 0]>
+				<[float64][orientation][-20.529482]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\21_decal]>
+				<[tmvector3d][position][-79.367486 43.863942 0]>
+				<[float64][orientation][-20.529482]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\03_decal]>
+				<[tmvector3d][position][-79.370572 43.857999 0]>
+				<[float64][orientation][-200.529482]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][15]>

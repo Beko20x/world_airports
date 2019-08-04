@@ -4,16 +4,42 @@
 		<[string8][sname][CANADIAN ROCKIES INTL]>
 		<[string8][lname][CANADIAN ROCKIES INTL, Canada]>
 		<[string8][icao][CYXC]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-115.782055 49.612121]>
 		<[float64][height][940.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2444m47m_rwy]>
+				<[tmvector3d][position][-115.782055 49.612121 0]>
+				<[float64][orientation][-179.158305]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2209m47m_decal]>
+				<[tmvector3d][position][-115.782030 49.611052 0]>
+				<[float64][orientation][-179.158287]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-115.781818 49.601705 0]>
+				<[float64][orientation][-179.158305]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-115.782242 49.620399 0]>
+				<[float64][orientation][-359.158287]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>
-				<[tmvector2d][threshold1][-115.782192 49.618172]>
+				<[tmvector2d][threshold1][-115.782255 49.620943]>
 				<[tmvector2d][endpoint1][-115.782303 49.623081]>
 				<[string8][appltsys1][malsr]>
 				<[string8][papi1][left]>

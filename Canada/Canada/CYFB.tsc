@@ -4,7 +4,7 @@
 		<[string8][sname][Iqaluit]>
 		<[string8][lname][Iqaluit, Canada]>
 		<[string8][icao][CYFB]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-68.556058 63.756565]>
 		<[float64][height][33.5]>
@@ -12,6 +12,37 @@
 		<[vector2_float64][tower_position][-68.536798 63.751146]>
 		<[float64][tower_height][48.8]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2652m68m_rwy]>
+				<[tmvector3d][position][-68.556058 63.756565 0]>
+				<[float64][orientation][-135.599989]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2652m68m_decal]>
+				<[tmvector3d][position][-68.556058 63.756565 0]>
+				<[float64][orientation][-135.599989]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-68.538413 63.748597 0]>
+				<[float64][orientation][-135.599989]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-68.573704 63.764533 0]>
+				<[float64][orientation][-315.599989]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-68.542812 63.755772 0]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][17]>

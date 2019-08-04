@@ -4,12 +4,38 @@
 		<[string8][sname][PORT HAWKESBURY]>
 		<[string8][lname][PORT HAWKESBURY, Canada]>
 		<[string8][icao][CYPD]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-61.368368 45.656510]>
 		<[float64][height][114.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m47m_rwy]>
+				<[tmvector3d][position][-61.368368 45.656510 0]>
+				<[float64][orientation][-90.196989]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m47m_decal]>
+				<[tmvector3d][position][-61.368368 45.656510 0]>
+				<[float64][orientation][-90.196989]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-61.359509 45.656488 0]>
+				<[float64][orientation][-90.196989]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-61.377227 45.656531 0]>
+				<[float64][orientation][-270.196989]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

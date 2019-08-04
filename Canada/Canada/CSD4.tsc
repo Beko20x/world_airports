@@ -4,16 +4,42 @@
 		<[string8][sname][MONT LAURIER]>
 		<[string8][lname][MONT LAURIER, Canada]>
 		<[string8][icao][CSD4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-75.561865 46.569385]>
 		<[float64][height][248.4]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m26m_rwy]>
+				<[tmvector3d][position][-75.561865 46.569385 0]>
+				<[float64][orientation][-65.117826]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1170m26m_decal]>
+				<[tmvector3d][position][-75.561503 46.569500 0]>
+				<[float64][orientation][-65.117779]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-75.555398 46.571447 0]>
+				<[float64][orientation][-65.117826]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-75.567609 46.567553 0]>
+				<[float64][orientation][-245.117779]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>
-				<[tmvector2d][threshold1][-75.568536 46.567257]>
+				<[tmvector2d][threshold1][-75.568360 46.567314]>
 				<[tmvector2d][endpoint1][-75.569083 46.567083]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>

@@ -12,6 +12,80 @@
 		<[vector2_float64][tower_position][-97.362771 32.816244]>
 		<[float64][tower_height][242.9]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2303m47m_rwy]>
+				<[tmvector3d][position][-97.360765 32.819973 0]>
+				<[float64][orientation][-171.940880]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap2303m47m_decal]>
+				<[tmvector3d][position][-97.360765 32.819973 0]>
+				<[float64][orientation][-171.940880]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-97.359138 32.810314 0]>
+				<[float64][orientation][-171.940880]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-97.362393 32.829631 0]>
+				<[float64][orientation][-351.940880]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1248m26m_rwy]>
+				<[tmvector3d][position][-97.365600 32.819389 0]>
+				<[float64][orientation][-171.943056]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1248m26m_decal]>
+				<[tmvector3d][position][-97.365600 32.819389 0]>
+				<[float64][orientation][-171.943056]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-97.364784 32.814544 0]>
+				<[float64][orientation][-171.943056]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-97.366416 32.824234 0]>
+				<[float64][orientation][-351.943056]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1122m33m_rwy]>
+				<[tmvector3d][position][-97.359296 32.817942 0]>
+				<[float64][orientation][-99.889575]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1122m33m_decal]>
+				<[tmvector3d][position][-97.359296 32.817942 0]>
+				<[float64][orientation][-99.889575]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-97.354006 32.817167 0]>
+				<[float64][orientation][-99.889575]>
+			>
+			<[tmsimulator_scenery_object][element][11]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-97.364585 32.818717 0]>
+				<[float64][orientation][-279.889575]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>
@@ -87,6 +161,41 @@
 				<[tmvector2d][position][-97.357888 32.810195]>
 				<[float64][heading][210.00]>
 				<[string8][name][Hold Short Rwy 34]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-97.356067 32.822151]>
+				<[float64][heading][225.00]>
+				<[string8][name][American Aero FTW FBO]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-97.365822 32.824588]>
+				<[float64][heading][350.00]>
+				<[string8][name][Hold Short Rwy 17]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-97.353422 32.817566]>
+				<[float64][heading][110.00]>
+				<[string8][name][Hold Short Rwy 27]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-97.364086 32.814340]>
+				<[float64][heading][180.00]>
+				<[string8][name][Hold Short Rwy 35]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-97.364925 32.819293]>
+				<[float64][heading][172.00]>
+				<[string8][name][Hold Short Rwy 9]>
+			>
+			<[tmsimulator_parking_position][element][7]
+				<[tmvector2d][position][-97.355158 32.819922]>
+				<[float64][heading][320.00]>
+				<[string8][name][Sandpiper FBO]>
+			>
+			<[tmsimulator_parking_position][element][8]
+				<[tmvector2d][position][-97.356269 32.823773]>
+				<[float64][heading][320.00]>
+				<[string8][name][Texas Jet FBO]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

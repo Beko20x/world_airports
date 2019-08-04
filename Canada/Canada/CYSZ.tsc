@@ -4,12 +4,38 @@
 		<[string8][sname][Squirrel Cove]>
 		<[string8][lname][Squirrel Cove, Canada]>
 		<[string8][icao][CYSZ]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-66.529167 49.120000]>
 		<[float64][height][0.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1221m33m_rwy]>
+				<[tmvector3d][position][-66.529167 49.120000 0]>
+				<[float64][orientation][-120.442446]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1155m33m_decal]>
+				<[tmvector3d][position][-66.529699 49.120205 0]>
+				<[float64][orientation][-120.442549]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\32_decal]>
+				<[tmvector3d][position][-66.523824 49.117945 0]>
+				<[float64][orientation][-120.442446]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\14_decal]>
+				<[tmvector3d][position][-66.535574 49.122465 0]>
+				<[float64][orientation][-300.442549]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][14]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][none]>
 				<[string8][reil1][omni]>
 				<[string8][name2][32]>
-				<[tmvector2d][threshold2][-66.522743 49.117529]>
+				<[tmvector2d][threshold2][-66.523009 49.117632]>
 				<[tmvector2d][endpoint2][-66.521944 49.117222]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

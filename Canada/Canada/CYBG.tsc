@@ -4,12 +4,62 @@
 		<[string8][sname][BAGOTVILLE]>
 		<[string8][lname][BAGOTVILLE, Canada]>
 		<[string8][icao][CYBG]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-70.995414 48.332639]>
 		<[float64][height][159.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap3055m47m_rwy]>
+				<[tmvector3d][position][-70.995414 48.332639 0]>
+				<[float64][orientation][-90.586727]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\concrete\rap3055m47m_decal]>
+				<[tmvector3d][position][-70.995414 48.332639 0]>
+				<[float64][orientation][-90.586727]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-70.976000 48.332507 0]>
+				<[float64][orientation][-90.586727]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-71.014828 48.332771 0]>
+				<[float64][orientation][-270.586727]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_rwy]>
+				<[tmvector3d][position][-70.992917 48.329724 0]>
+				<[float64][orientation][-163.459815]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_decal]>
+				<[tmvector3d][position][-70.992917 48.329724 0]>
+				<[float64][orientation][-163.459815]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-70.989712 48.322548 0]>
+				<[float64][orientation][-163.459815]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-70.996122 48.336899 0]>
+				<[float64][orientation][-343.459815]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

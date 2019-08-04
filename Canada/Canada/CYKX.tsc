@@ -4,12 +4,38 @@
 		<[string8][sname][KIRKLAND LAKE]>
 		<[string8][lname][KIRKLAND LAKE, Canada]>
 		<[string8][icao][CYKX]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.981251 48.210263]>
 		<[float64][height][352.7]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_rwy]>
+				<[tmvector3d][position][-79.981251 48.210263 0]>
+				<[float64][orientation][-70.922052]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-79.981251 48.210263 0]>
+				<[float64][orientation][-70.922052]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-79.973340 48.212086 0]>
+				<[float64][orientation][-70.922052]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-79.989162 48.208439 0]>
+				<[float64][orientation][-250.922052]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

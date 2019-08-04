@@ -12,6 +12,56 @@
 		<[vector2_float64][tower_position][-119.721751 36.773439]>
 		<[float64][tower_height][135.9]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2444m47m_rwy]>
+				<[tmvector3d][position][-119.721525 36.776840 0]>
+				<[float64][orientation][-125.494746]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2444m47m_decal]>
+				<[tmvector3d][position][-119.721525 36.776840 0]>
+				<[float64][orientation][-125.494746]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29L_decal]>
+				<[tmvector3d][position][-119.710896 36.770768 0]>
+				<[float64][orientation][-125.494746]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11R_decal]>
+				<[tmvector3d][position][-119.732155 36.782912 0]>
+				<[float64][orientation][-305.494746]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2820m47m_rwy]>
+				<[tmvector3d][position][-119.716407 36.776188 0]>
+				<[float64][orientation][-125.482643]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2726m47m_decal]>
+				<[tmvector3d][position][-119.716842 36.776437 0]>
+				<[float64][orientation][-125.482731]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29R_decal]>
+				<[tmvector3d][position][-119.704939 36.769640 0]>
+				<[float64][orientation][-125.482643]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11L_decal]>
+				<[tmvector3d][position][-119.728745 36.783233 0]>
+				<[float64][orientation][-305.482731]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11R]>
@@ -36,7 +86,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][29R]>
-				<[tmvector2d][threshold2][-119.704357 36.769308]>
+				<[tmvector2d][threshold2][-119.704404 36.769335]>
 				<[tmvector2d][endpoint2][-119.703534 36.768838]>
 				<[string8][appltsys2][alsf-2]>
 				<[string8][papi2][left]>
@@ -207,6 +257,51 @@
 				<[tmvector2d][position][-119.714079 36.778352]>
 				<[float64][heading][34.64]>
 				<[string8][name][USAF Ramp]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][-119.713059 36.780876]>
+				<[float64][heading][215.45]>
+				<[string8][name][Air Freight Ramp]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][-119.707132 36.765895]>
+				<[float64][heading][314.80]>
+				<[string8][name][Air NG ramp]>
+			>
+			<[tmsimulator_parking_position][element][15]
+				<[tmvector2d][position][-119.719803 36.784240]>
+				<[float64][heading][270.27]>
+				<[string8][name][Army NG Helicopter Ramp]>
+			>
+			<[tmsimulator_parking_position][element][16]
+				<[tmvector2d][position][-119.721021 36.773446]>
+				<[float64][heading][306.76]>
+				<[string8][name][Base of the Tower]>
+			>
+			<[tmsimulator_parking_position][element][17]
+				<[tmvector2d][position][-119.702025 36.770645]>
+				<[float64][heading][333.01]>
+				<[string8][name][CDF Ramp]>
+			>
+			<[tmsimulator_parking_position][element][18]
+				<[tmvector2d][position][-119.726690 36.785486]>
+				<[float64][heading][216.04]>
+				<[string8][name][CHP Ramp]>
+			>
+			<[tmsimulator_parking_position][element][19]
+				<[tmvector2d][position][-119.731701 36.780299]>
+				<[float64][heading][268.00]>
+				<[string8][name][Mazzei Aviation School]>
+			>
+			<[tmsimulator_parking_position][element][20]
+				<[tmvector2d][position][-119.731087 36.778958]>
+				<[float64][heading][124.80]>
+				<[string8][name][Signature Air Services]>
+			>
+			<[tmsimulator_parking_position][element][21]
+				<[tmvector2d][position][-119.717528 36.770645]>
+				<[float64][heading][36.40]>
+				<[string8][name][Terminal 1 Gate 6]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

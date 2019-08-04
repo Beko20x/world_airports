@@ -4,12 +4,38 @@
 		<[string8][sname][ALTONA MUNI]>
 		<[string8][lname][ALTONA MUNI, Canada]>
 		<[string8][icao][CJL6]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-97.533889 49.094167]>
 		<[float64][height][245.7]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1014m26m_rwy]>
+				<[tmvector3d][position][-97.533889 49.094167 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap962m26m_decal]>
+				<[tmvector3d][position][-97.533889 49.094356 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-97.533889 49.090674 0]>
+				<[float64][orientation][-180.000000]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-97.533889 49.098037 0]>
+				<[float64][orientation][0.000000]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][17]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][35]>
-				<[tmvector2d][threshold2][-97.533889 49.092607]>
+				<[tmvector2d][threshold2][-97.533889 49.090100]>
 				<[tmvector2d][endpoint2][-97.533889 49.089722]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

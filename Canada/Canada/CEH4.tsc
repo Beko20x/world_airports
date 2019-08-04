@@ -4,12 +4,62 @@
 		<[string8][sname][DE WINTON SOUTH CALGARY]>
 		<[string8][lname][DE WINTON SOUTH CALGARY, Canada]>
 		<[string8][icao][CEH4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-113.824599 50.822114]>
 		<[float64][height][1022.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap940m47m_rwy]>
+				<[tmvector3d][position][-113.824599 50.822114 0]>
+				<[float64][orientation][-120.050653]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap940m47m_decal]>
+				<[tmvector3d][position][-113.824599 50.822114 0]>
+				<[float64][orientation][-120.050653]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-113.819755 50.820343 0]>
+				<[float64][orientation][-120.050653]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-113.829442 50.823884 0]>
+				<[float64][orientation][-300.050653]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap940m47m_rwy]>
+				<[tmvector3d][position][-113.818750 50.824028 0]>
+				<[float64][orientation][-178.751200]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap940m47m_decal]>
+				<[tmvector3d][position][-113.818750 50.824028 0]>
+				<[float64][orientation][-178.751200]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-113.818635 50.820701 0]>
+				<[float64][orientation][-178.751200]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-113.818865 50.827355 0]>
+				<[float64][orientation][-358.751200]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

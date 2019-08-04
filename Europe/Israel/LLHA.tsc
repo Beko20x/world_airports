@@ -12,16 +12,42 @@
 		<[vector2_float64][tower_position][35.041950 32.811381]>
 		<[float64][tower_height][8.5]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1287m33m_rwy]>
+				<[tmvector3d][position][35.044139 32.811125 0]>
+				<[float64][orientation][-158.880532]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1122m33m_decal]>
+				<[tmvector3d][position][35.044012 32.811401 0]>
+				<[float64][orientation][-158.880592]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][35.045882 32.807330 0]>
+				<[float64][orientation][-158.880532]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][35.042141 32.815472 0]>
+				<[float64][orientation][-338.880592]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>
-				<[tmvector2d][threshold1][35.041914 32.815965]>
+				<[tmvector2d][threshold1][35.041887 32.816025]>
 				<[tmvector2d][endpoint1][35.041694 32.816444]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][34]>
-				<[tmvector2d][threshold2][35.046073 32.806915]>
+				<[tmvector2d][threshold2][35.046136 32.806778]>
 				<[tmvector2d][endpoint2][35.046583 32.805806]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

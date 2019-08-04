@@ -4,22 +4,48 @@
 		<[string8][sname][PINCHER CREEK]>
 		<[string8][lname][PINCHER CREEK, Canada]>
 		<[string8][icao][CZPC]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-113.997221 49.520558]>
 		<[float64][height][1189.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2021m47m_rwy]>
+				<[tmvector3d][position][-113.997221 49.520558 0]>
+				<[float64][orientation][-90.000000]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m47m_decal]>
+				<[tmvector3d][position][-113.998910 49.520558 0]>
+				<[float64][orientation][-90.000000]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][-113.989405 49.520558 0]>
+				<[float64][orientation][-90.000000]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][-114.008415 49.520558 0]>
+				<[float64][orientation][-270.000000]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][07]>
-				<[tmvector2d][threshold1][-114.010015 49.520558]>
+				<[tmvector2d][threshold1][-114.009422 49.520558]>
 				<[tmvector2d][endpoint1][-114.011111 49.520558]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][none]>
 				<[string8][name2][25]>
-				<[tmvector2d][threshold2][-113.986620 49.520558]>
+				<[tmvector2d][threshold2][-113.988398 49.520558]>
 				<[tmvector2d][endpoint2][-113.983331 49.520558]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

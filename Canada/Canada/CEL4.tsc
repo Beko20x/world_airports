@@ -4,12 +4,38 @@
 		<[string8][sname][HANNA]>
 		<[string8][lname][HANNA, Canada]>
 		<[string8][icao][CEL4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-111.904165 51.631391]>
 		<[float64][height][834.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1092m26m_rwy]>
+				<[tmvector3d][position][-111.904165 51.631391 0]>
+				<[float64][orientation][-134.045693]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1092m26m_decal]>
+				<[tmvector3d][position][-111.904165 51.631391 0]>
+				<[float64][orientation][-134.045693]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-111.899326 51.628485 0]>
+				<[float64][orientation][-134.045693]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-111.909004 51.634296 0]>
+				<[float64][orientation][-314.045693]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>

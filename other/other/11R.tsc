@@ -1,0 +1,87 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][BRENHAM MUNI]>
+		<[string8][lname][BRENHAM MUNI, other]>
+		<[string8][icao][11R]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-96.374281 30.218988]>
+		<[float64][height][93.9]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1848m33m_rwy]>
+				<[tmvector3d][position][-96.374281 30.218988 0]>
+				<[float64][orientation][-171.374631]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1848m33m_decal]>
+				<[tmvector3d][position][-96.374281 30.218988 0]>
+				<[float64][orientation][-171.374631]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-96.372952 30.211421 0]>
+				<[float64][orientation][-171.374631]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-96.375609 30.226554 0]>
+				<[float64][orientation][-351.374631]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][16]>
+				<[tmvector2d][threshold1][-96.375710 30.227127]>
+				<[tmvector2d][endpoint1][-96.375710 30.227127]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][omni]>
+				<[string8][name2][34]>
+				<[tmvector2d][threshold2][-96.372852 30.210848]>
+				<[tmvector2d][endpoint2][-96.372852 30.210848]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][22.86]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-96.374908 30.226993]>
+				<[float64][heading][351.40]>
+				<[string8][name][Hold Short Rwy 17]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-96.372136 30.211191]>
+				<[float64][heading][171.40]>
+				<[string8][name][Hold Short Rwy 34]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-96.372443 30.216315]>
+				<[float64][heading][261.40]>
+				<[string8][name][Ramp]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-96.372350 30.215934]>
+				<[float64][heading][261.40]>
+				<[string8][name][Southern Flyer FBO]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][11R_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

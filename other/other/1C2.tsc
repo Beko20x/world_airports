@@ -1,0 +1,106 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Howell New Lenox]>
+		<[string8][lname][Howell New Lenox, other]>
+		<[string8][icao][1C2]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-87.920770 41.479815]>
+		<[float64][height][229.5]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap893m19m_rwy]>
+				<[tmvector3d][position][-87.920770 41.479815 0]>
+				<[float64][orientation][-133.120272]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap836m19m_decal]>
+				<[tmvector3d][position][-87.920528 41.479645 0]>
+				<[float64][orientation][-133.120197]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-87.917487 41.477512 0]>
+				<[float64][orientation][-133.120272]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-87.923568 41.481779 0]>
+				<[float64][orientation][-313.120197]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap722m19m_rwy]>
+				<[tmvector3d][position][-87.921899 41.479825 0]>
+				<[float64][orientation][-45.790356]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap627m19m_decal]>
+				<[tmvector3d][position][-87.922190 41.479613 0]>
+				<[float64][orientation][-45.790449]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\23_decal]>
+				<[tmvector3d][position][-87.920038 41.481181 0]>
+				<[float64][orientation][-45.790356]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\05_decal]>
+				<[tmvector3d][position][-87.924341 41.478045 0]>
+				<[float64][orientation][-225.790449]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][13]>
+				<[tmvector2d][threshold1][-87.924125 41.482169]>
+				<[tmvector2d][endpoint1][-87.924608 41.482508]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][31]>
+				<[tmvector2d][threshold2][-87.916931 41.477122]>
+				<[tmvector2d][endpoint2][-87.916931 41.477122]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][05]>
+				<[tmvector2d][threshold1][-87.924855 41.477670]>
+				<[tmvector2d][endpoint1][-87.924994 41.477569]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][23]>
+				<[tmvector2d][threshold2][-87.919524 41.481555]>
+				<[tmvector2d][endpoint2][-87.918803 41.482081]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][1C2_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

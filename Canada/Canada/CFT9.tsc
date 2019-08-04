@@ -4,22 +4,48 @@
 		<[string8][sname][ZAMA LAKE]>
 		<[string8][lname][ZAMA LAKE, Canada]>
 		<[string8][icao][CFT9]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-118.887915 59.061531]>
 		<[float64][height][378.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1300m26m_rwy]>
+				<[tmvector3d][position][-118.887915 59.061531 0]>
+				<[float64][orientation][-142.649706]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1170m26m_decal]>
+				<[tmvector3d][position][-118.887915 59.061531 0]>
+				<[float64][orientation][-142.649706]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-118.882552 59.057918 0]>
+				<[float64][orientation][-142.649706]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-118.893278 59.065143 0]>
+				<[float64][orientation][-322.649706]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>
-				<[tmvector2d][threshold1][-118.894138 59.065722]>
+				<[tmvector2d][threshold1][-118.893998 59.065628]>
 				<[tmvector2d][endpoint1][-118.894719 59.066114]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][30]>
-				<[tmvector2d][threshold2][-118.881692 59.057339]>
+				<[tmvector2d][threshold2][-118.881832 59.057433]>
 				<[tmvector2d][endpoint2][-118.881111 59.056947]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

@@ -1,0 +1,125 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][WHEELER AAF]>
+		<[string8][lname][WHEELER AAF, Hawaii]>
+		<[string8][icao][PHHI]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-158.037796 21.481439]>
+		<[float64][height][254.5]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-158.033516 21.476718]>
+		<[float64][tower_height][272.5]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1700m68m_rwy]>
+				<[tmvector3d][position][-158.037796 21.481439 0]>
+				<[float64][orientation][-68.640010]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1564m68m_decal]>
+				<[tmvector3d][position][-158.036995 21.481731 0]>
+				<[float64][orientation][-68.639971]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\24_decal]>
+				<[tmvector3d][position][-158.030938 21.483935 0]>
+				<[float64][orientation][-68.640010]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\06_decal]>
+				<[tmvector3d][position][-158.043052 21.479527 0]>
+				<[float64][orientation][-248.639971]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-158.037166 21.479012 0]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][06]>
+				<[tmvector2d][threshold1][-158.043795 21.479256]>
+				<[tmvector2d][endpoint1][-158.045397 21.478673]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][24]>
+				<[tmvector2d][threshold2][-158.030195 21.484205]>
+				<[tmvector2d][endpoint2][-158.030195 21.484205]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][89.92]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+			<[tmsimulator_helipad][element][0]
+				<[tmvector2d][position][-158.037168 21.479012]>
+				<[string8][type_name][building]>
+				<[float64][radius][13.9]>
+				<[float64][heading][158.37]>
+				<[float64][height][0]>
+				<[string8][name][H1]>
+			>
+			<[tmsimulator_helipad][element][1]
+				<[tmvector2d][position][-158.037166 21.479012]>
+				<[string8][type_name][building]>
+				<[float64][radius][8]>
+				<[float64][heading][166.19]>
+				<[float64][height][0]>
+				<[string8][name][Helipad]>
+			>
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-158.042284 21.477403]>
+				<[float64][heading][199.75]>
+				<[string8][name][Apron 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-158.042482 21.477463]>
+				<[float64][heading][199.75]>
+				<[string8][name][Apron 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-158.042682 21.477503]>
+				<[float64][heading][199.75]>
+				<[string8][name][Apron 3]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-158.042863 21.477543]>
+				<[float64][heading][199.75]>
+				<[string8][name][Apron 4]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-158.043069 21.477575]>
+				<[float64][heading][199.75]>
+				<[string8][name][Apron 5]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-158.042308 21.480953]>
+				<[float64][heading][250.35]>
+				<[string8][name][North 1]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-158.042426 21.481228]>
+				<[float64][heading][250.35]>
+				<[string8][name][North 2]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][PHHI_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

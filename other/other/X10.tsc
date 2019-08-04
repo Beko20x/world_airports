@@ -1,0 +1,61 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][BELLE GLADE STATE MUNI]>
+		<[string8][lname][BELLE GLADE STATE MUNI, other]>
+		<[string8][icao][X10]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-80.662362 26.700833]>
+		<[float64][height][4.3]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1140m19m_rwy]>
+				<[tmvector3d][position][-80.662362 26.700833 0]>
+				<[float64][orientation][-90.000000]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1045m19m_decal]>
+				<[tmvector3d][position][-80.662131 26.700833 0]>
+				<[float64][orientation][-90.000000]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\27_decal]>
+				<[tmvector3d][position][-80.657486 26.700833 0]>
+				<[float64][orientation][-90.000000]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\09_decal]>
+				<[tmvector3d][position][-80.666776 26.700833 0]>
+				<[float64][orientation][-270.000000]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][09]>
+				<[tmvector2d][threshold1][-80.667366 26.700833]>
+				<[tmvector2d][endpoint1][-80.668056 26.700833]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][27]>
+				<[tmvector2d][threshold2][-80.656897 26.700833]>
+				<[tmvector2d][endpoint2][-80.656667 26.700833]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][15.24]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
+>

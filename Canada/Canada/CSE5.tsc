@@ -4,12 +4,38 @@
 		<[string8][sname][MONTMAGNY]>
 		<[string8][lname][MONTMAGNY, Canada]>
 		<[string8][icao][CSE5]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-70.515834 47.001389]>
 		<[float64][height][11.3]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_rwy]>
+				<[tmvector3d][position][-70.515834 47.001389 0]>
+				<[float64][orientation][-61.619154]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap910m26m_decal]>
+				<[tmvector3d][position][-70.515834 47.001389 0]>
+				<[float64][orientation][-61.619154]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-70.511207 47.003093 0]>
+				<[float64][orientation][-61.619154]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-70.520460 46.999684 0]>
+				<[float64][orientation][-241.619154]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

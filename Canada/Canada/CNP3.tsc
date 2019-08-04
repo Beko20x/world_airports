@@ -4,12 +4,80 @@
 		<[string8][sname][Arnprior South Renfrew Muni]>
 		<[string8][lname][Arnprior South Renfrew Muni, Canada]>
 		<[string8][icao][CNP3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-76.365139 45.409306]>
 		<[float64][height][109.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m26m_rwy]>
+				<[tmvector3d][position][-76.365139 45.409306 0]>
+				<[float64][orientation][-85.560847]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m26m_decal]>
+				<[tmvector3d][position][-76.365139 45.409306 0]>
+				<[float64][orientation][-85.560847]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-76.358374 45.409674 0]>
+				<[float64][orientation][-85.560847]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-76.371904 45.408937 0]>
+				<[float64][orientation][-265.560847]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap840m40m_rwy]>
+				<[tmvector3d][position][-76.370417 45.412084 0]>
+				<[float64][orientation][-27.422011]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap840m40m_decal]>
+				<[tmvector3d][position][-76.370417 45.412084 0]>
+				<[float64][orientation][-27.422011]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\22_decal]>
+				<[tmvector3d][position][-76.368503 45.414673 0]>
+				<[float64][orientation][-27.422011]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\04_decal]>
+				<[tmvector3d][position][-76.372331 45.409494 0]>
+				<[float64][orientation][-207.422011]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\gravel\rap779m19m_rwy]>
+				<[tmvector3d][position][-76.365417 45.412361 0]>
+				<[float64][orientation][-147.580513]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-76.363199 45.409909 0]>
+				<[float64][orientation][-147.580513]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-76.367635 45.414813 0]>
+				<[float64][orientation][-327.580513]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

@@ -4,12 +4,38 @@
 		<[string8][sname][MARATHON]>
 		<[string8][lname][MARATHON, Canada]>
 		<[string8][icao][CYSP]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-86.344445 48.755278]>
 		<[float64][height][315.5]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1188m33m_rwy]>
+				<[tmvector3d][position][-86.344445 48.755278 0]>
+				<[float64][orientation][-153.241357]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1122m33m_decal]>
+				<[tmvector3d][position][-86.344632 48.755523 0]>
+				<[float64][orientation][-153.241469]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\34_decal]>
+				<[tmvector3d][position][-86.341572 48.751523 0]>
+				<[float64][orientation][-153.241357]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\16_decal]>
+				<[tmvector3d][position][-86.347691 48.759523 0]>
+				<[float64][orientation][-333.241469]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][16]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][34]>
-				<[tmvector2d][threshold2][-86.341379 48.751270]>
+				<[tmvector2d][threshold2][-86.341207 48.751046]>
 				<[tmvector2d][endpoint2][-86.340833 48.750556]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

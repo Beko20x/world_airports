@@ -4,12 +4,38 @@
 		<[string8][sname][FOX HARBOUR]>
 		<[string8][lname][FOX HARBOUR, Canada]>
 		<[string8][icao][CFH4]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-63.461112 45.870000]>
 		<[float64][height][18.9]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1508m26m_rwy]>
+				<[tmvector3d][position][-63.461112 45.870000 0]>
+				<[float64][orientation][-126.045677]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1508m26m_decal]>
+				<[tmvector3d][position][-63.461112 45.870000 0]>
+				<[float64][orientation][-126.045677]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-63.454047 45.866420 0]>
+				<[float64][orientation][-126.045677]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-63.468176 45.873580 0]>
+				<[float64][orientation][-306.045677]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][15]>

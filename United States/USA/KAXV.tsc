@@ -10,16 +10,42 @@
 		<[float64][height][278.0]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_rwy]>
+				<[tmvector3d][position][-84.298949 40.493389 0]>
+				<[float64][orientation][-76.538390]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1254m33m_decal]>
+				<[tmvector3d][position][-84.298135 40.493537 0]>
+				<[float64][orientation][-76.538362]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-84.291780 40.494694 0]>
+				<[float64][orientation][-76.538390]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-84.304490 40.492380 0]>
+				<[float64][orientation][-256.538362]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>
-				<[tmvector2d][threshold1][-84.305776 40.492146]>
+				<[tmvector2d][threshold1][-84.305240 40.492244]>
 				<[tmvector2d][endpoint1][-84.307694 40.491797]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
 				<[string8][reil1][none]>
 				<[string8][name2][26]>
-				<[tmvector2d][threshold2][-84.290850 40.494863]>
+				<[tmvector2d][threshold2][-84.291030 40.494830]>
 				<[tmvector2d][endpoint2][-84.290203 40.494981]>
 				<[string8][appltsys2][rail]>
 				<[string8][papi2][left]>
@@ -28,7 +54,7 @@
 			>
 			<[tmsimulator_runway][element][1]
 				<[string8][name1][18]>
-				<[tmvector2d][threshold1][-84.303006 40.487873]>
+				<[tmvector2d][threshold1][-84.303006 40.495086]>
 				<[tmvector2d][endpoint1][-84.303006 40.495881]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>

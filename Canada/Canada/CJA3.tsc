@@ -4,12 +4,38 @@
 		<[string8][sname][MORDEN]>
 		<[string8][lname][MORDEN, Canada]>
 		<[string8][icao][CJA3]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-98.059028 49.210139]>
 		<[float64][height][289.6]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m26m_rwy]>
+				<[tmvector3d][position][-98.059028 49.210139 0]>
+				<[float64][orientation][-106.453962]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1222m26m_decal]>
+				<[tmvector3d][position][-98.059028 49.210139 0]>
+				<[float64][orientation][-106.453962]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\28_decal]>
+				<[tmvector3d][position][-98.051994 49.208782 0]>
+				<[float64][orientation][-106.453962]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\10_decal]>
+				<[tmvector3d][position][-98.066061 49.211496 0]>
+				<[float64][orientation][-286.453962]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][10]>

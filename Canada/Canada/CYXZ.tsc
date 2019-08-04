@@ -4,12 +4,38 @@
 		<[string8][sname][WAWA]>
 		<[string8][lname][WAWA, Canada]>
 		<[string8][icao][CYXZ]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-84.786667 47.966667]>
 		<[float64][height][287.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1353m33m_rwy]>
+				<[tmvector3d][position][-84.786667 47.966667 0]>
+				<[float64][orientation][-23.519003]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1155m33m_decal]>
+				<[tmvector3d][position][-84.787230 47.965801 0]>
+				<[float64][orientation][-23.519355]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\21_decal]>
+				<[tmvector3d][position][-84.784529 47.969956 0]>
+				<[float64][orientation][-23.519003]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\03_decal]>
+				<[tmvector3d][position][-84.789931 47.961645 0]>
+				<[float64][orientation][-203.519355]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][03]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][left]>
 				<[string8][reil1][omni]>
 				<[string8][name2][21]>
-				<[tmvector2d][threshold2][-84.784926 47.969344]>
+				<[tmvector2d][threshold2][-84.784182 47.970490]>
 				<[tmvector2d][endpoint2][-84.783056 47.972222]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][left]>

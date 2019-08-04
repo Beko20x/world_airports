@@ -12,10 +12,60 @@
 		<[vector2_float64][tower_position][-98.038898 29.698614]>
 		<[float64][tower_height][216.1]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1650m33m_rwy]>
+				<[tmvector3d][position][-98.043737 29.702143 0]>
+				<[float64][orientation][-180.711993]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1485m33m_decal]>
+				<[tmvector3d][position][-98.043747 29.701441 0]>
+				<[float64][orientation][-180.711998]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-98.043835 29.695277 0]>
+				<[float64][orientation][-180.711993]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-98.043658 29.707605 0]>
+				<[float64][orientation][-0.711998]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1650m33m_rwy]>
+				<[tmvector3d][position][-98.040711 29.706843 0]>
+				<[float64][orientation][-135.873292]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1650m33m_decal]>
+				<[tmvector3d][position][-98.040711 29.706843 0]>
+				<[float64][orientation][-135.873292]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-98.035296 29.701994 0]>
+				<[float64][orientation][-135.873292]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-98.046126 29.711692 0]>
+				<[float64][orientation][-315.873292]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][17]>
-				<[tmvector2d][threshold1][-98.043774 29.699539]>
+				<[tmvector2d][threshold1][-98.043651 29.708114]>
 				<[tmvector2d][endpoint1][-98.043631 29.709517]>
 				<[string8][appltsys1][none]>
 				<[string8][papi1][left]>
@@ -47,6 +97,41 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-98.038345 29.697117]>
+				<[float64][heading][42.27]>
+				<[string8][name][Alpha Aircraft Services]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-98.038743 29.699249]>
+				<[float64][heading][223.88]>
+				<[string8][name][City Terminal Flight Services]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-98.035908 29.705265]>
+				<[float64][heading][224.12]>
+				<[string8][name][GA Ramp]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][-98.045569 29.712388]>
+				<[float64][heading][270.00]>
+				<[string8][name][Hold Short Rwy 13]>
+			>
+			<[tmsimulator_parking_position][element][4]
+				<[tmvector2d][position][-98.042412 29.709666]>
+				<[float64][heading][264.00]>
+				<[string8][name][Hold Short Rwy 17]>
+			>
+			<[tmsimulator_parking_position][element][5]
+				<[tmvector2d][position][-98.036417 29.701684]>
+				<[float64][heading][45.80]>
+				<[string8][name][Hold Short Rwy 31]>
+			>
+			<[tmsimulator_parking_position][element][6]
+				<[tmvector2d][position][-98.042965 29.696152]>
+				<[float64][heading][225.80]>
+				<[string8][name][Hold Short Rwy 35]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

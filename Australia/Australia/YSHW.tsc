@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][150.955108 -33.995752]>
 		<[float64][tower_height][78.0]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap693m33m_rwy]>
+				<[tmvector3d][position][150.952077 -33.995644 0]>
+				<[float64][orientation][-123.859985]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap693m33m_decal]>
+				<[tmvector3d][position][150.952077 -33.995644 0]>
+				<[float64][orientation][-123.859985]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][150.954454 -33.996966 0]>
+				<[float64][orientation][-123.859985]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][150.949701 -33.994322 0]>
+				<[float64][orientation][-303.859985]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>
@@ -91,6 +117,26 @@
 				<[tmvector2d][position][150.953794 -33.994744]>
 				<[float64][heading][118.41]>
 				<[string8][name][Military Ramp 9]>
+			>
+			<[tmsimulator_parking_position][element][12]
+				<[tmvector2d][position][150.951544 -33.994206]>
+				<[float64][heading][125.75]>
+				<[string8][name][VIP Hangar 1]>
+			>
+			<[tmsimulator_parking_position][element][13]
+				<[tmvector2d][position][150.951406 -33.994454]>
+				<[float64][heading][123.36]>
+				<[string8][name][VIP Hangar 2]>
+			>
+			<[tmsimulator_parking_position][element][14]
+				<[tmvector2d][position][150.954270 -33.995721]>
+				<[float64][heading][301.70]>
+				<[string8][name][West Hangar 1]>
+			>
+			<[tmsimulator_parking_position][element][15]
+				<[tmvector2d][position][150.954097 -33.995948]>
+				<[float64][heading][303.69]>
+				<[string8][name][West Hangar 2]>
 			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]

@@ -4,7 +4,7 @@
 		<[string8][sname][MASSET]>
 		<[string8][lname][MASSET, Canada]>
 		<[string8][icao][CZMT]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-132.117645 54.024807]>
 		<[float64][height][7.6]>
@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-132.109249 54.020430]>
 		<[float64][tower_height][82.6]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_rwy]>
+				<[tmvector3d][position][-132.117645 54.024807 0]>
+				<[float64][orientation][-144.745513]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1551m33m_decal]>
+				<[tmvector3d][position][-132.117645 54.024807 0]>
+				<[float64][orientation][-144.745513]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\31_decal]>
+				<[tmvector3d][position][-132.111485 54.019687 0]>
+				<[float64][orientation][-144.745513]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\13_decal]>
+				<[tmvector3d][position][-132.123805 54.029927 0]>
+				<[float64][orientation][-324.745513]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][13]>

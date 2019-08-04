@@ -4,7 +4,7 @@
 		<[string8][sname][North Bay Jack Garland]>
 		<[string8][lname][North Bay Jack Garland, Canada]>
 		<[string8][icao][CYYB]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-79.424220 46.363061]>
 		<[float64][height][370.3]>
@@ -12,6 +12,71 @@
 		<[vector2_float64][tower_position][-79.428567 46.358049]>
 		<[float64][tower_height][393.2]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap3060m68m_rwy]>
+				<[tmvector3d][position][-79.424220 46.363061 0]>
+				<[float64][orientation][-65.277595]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap3060m68m_decal]>
+				<[tmvector3d][position][-79.424220 46.363061 0]>
+				<[float64][orientation][-65.277595]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-79.406879 46.368571 0]>
+				<[float64][orientation][-65.277595]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\08_decal]>
+				<[tmvector3d][position][-79.441562 46.357551 0]>
+				<[float64][orientation][-245.277595]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1410m47m_rwy]>
+				<[tmvector3d][position][-79.424995 46.364027 0]>
+				<[float64][orientation][-167.254228]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1410m47m_decal]>
+				<[tmvector3d][position][-79.424995 46.364027 0]>
+				<[float64][orientation][-167.254228]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-79.423243 46.358684 0]>
+				<[float64][orientation][-167.254228]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-79.426746 46.369370 0]>
+				<[float64][orientation][-347.254228]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-79.435227 46.357300 0]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-79.429547 46.358165 0]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][object]>
+				<[string8][geometry][..\..\objects\runways\heli1_obj]>
+				<[tmvector3d][position][-79.435519 46.356510 0]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][08]>

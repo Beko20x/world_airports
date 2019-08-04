@@ -4,12 +4,38 @@
 		<[string8][sname][WAINWRIGHT FIELD 21]>
 		<[string8][lname][WAINWRIGHT FIELD 21, Canada]>
 		<[string8][icao][CFP7]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-111.100556 52.830557]>
 		<[float64][height][685.8]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2068m47m_rwy]>
+				<[tmvector3d][position][-111.100556 52.830557 0]>
+				<[float64][orientation][-127.597515]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2068m47m_decal]>
+				<[tmvector3d][position][-111.100556 52.830557 0]>
+				<[float64][orientation][-127.597515]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-111.089522 52.825424 0]>
+				<[float64][orientation][-127.597515]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-111.111589 52.835690 0]>
+				<[float64][orientation][-307.597515]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

@@ -1,0 +1,89 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Lubeck Blankensee]>
+		<[string8][lname][Lubeck Blankensee, Germany]>
+		<[string8][icao][EDHL]>
+		<[string8][country][de]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][10.717059 53.804963]>
+		<[float64][height][16.2]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][10.701758 53.805031]>
+		<[float64][tower_height][41.1]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2108m68m_rwy]>
+				<[tmvector3d][position][10.717059 53.804963 0]>
+				<[float64][orientation][-71.972526]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1836m68m_decal]>
+				<[tmvector3d][position][10.719230 53.805380 0]>
+				<[float64][orientation][-71.972358]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][10.731127 53.807667 0]>
+				<[float64][orientation][-71.972526]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][10.707333 53.803094 0]>
+				<[float64][orientation][-251.972358]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][10.706229 53.802882]>
+				<[tmvector2d][endpoint1][10.701886 53.802047]>
+				<[string8][appltsys1][sals]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][10.732231 53.807879]>
+				<[tmvector2d][endpoint2][10.732231 53.807879]>
+				<[string8][appltsys2][sals]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][60.05]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][10.702530 53.804483]>
+				<[float64][heading][35.13]>
+				<[string8][name][Apron]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][10.704729 53.805955]>
+				<[float64][heading][312.28]>
+				<[string8][name][Grass Ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][10.705279 53.806426]>
+				<[float64][heading][312.62]>
+				<[string8][name][Round Hangar]>
+			>
+			<[tmsimulator_parking_position][element][3]
+				<[tmvector2d][position][10.703088 53.799871]>
+				<[float64][heading][270.00]>
+				<[string8][name][South Hangar]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][EDHL_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

@@ -4,7 +4,7 @@
 		<[string8][sname][Yorkton Muni]>
 		<[string8][lname][Yorkton Muni, Canada]>
 		<[string8][icao][CYQV]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-102.462226 51.265282]>
 		<[float64][height][498.3]>
@@ -12,6 +12,74 @@
 		<[vector2_float64][tower_position][-102.464361 51.259071]>
 		<[float64][tower_height][508.1]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1457m47m_rwy]>
+				<[tmvector3d][position][-102.462226 51.265282 0]>
+				<[float64][orientation][-45.000029]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1457m47m_decal]>
+				<[tmvector3d][position][-102.462226 51.265282 0]>
+				<[float64][orientation][-45.000029]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\21_decal]>
+				<[tmvector3d][position][-102.455431 51.269534 0]>
+				<[float64][orientation][-45.000029]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\03_decal]>
+				<[tmvector3d][position][-102.469021 51.261030 0]>
+				<[float64][orientation][-225.000029]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap342m19m_rwy]>
+				<[tmvector3d][position][-102.461431 51.265568 0]>
+				<[float64][orientation][-134.999824]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap342m19m_decal]>
+				<[tmvector3d][position][-102.461431 51.265568 0]>
+				<[float64][orientation][-134.999824]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-102.461865 51.265840 0]>
+				<[float64][orientation][-134.999824]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-102.460996 51.265296 0]>
+				<[float64][orientation][-314.999824]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\gravel\rap760m40m_rwy]>
+				<[tmvector3d][position][-102.456793 51.262666 0]>
+				<[float64][orientation][-134.999668]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-102.453767 51.260773 0]>
+				<[float64][orientation][-134.999668]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-102.459818 51.264559 0]>
+				<[float64][orientation][-314.999668]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][03]>

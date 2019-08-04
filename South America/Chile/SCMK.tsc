@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-73.740127 -43.896626]>
 		<[float64][tower_height][35.7]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap817m19m_rwy]>
+				<[tmvector3d][position][-73.738669 -43.894443 0]>
+				<[float64][orientation][-191.999951]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap817m19m_decal]>
+				<[tmvector3d][position][-73.738669 -43.894443 0]>
+				<[float64][orientation][-191.999951]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-73.739542 -43.897400 0]>
+				<[float64][orientation][-191.999951]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-73.737797 -43.891486 0]>
+				<[float64][orientation][-11.999951]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][18]>
@@ -32,6 +58,21 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-73.739994 -43.896783]>
+				<[float64][heading][70.14]>
+				<[string8][name][Apron Start 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-73.740019 -43.896639]>
+				<[float64][heading][99.46]>
+				<[string8][name][Apron Start 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-73.739973 -43.896495]>
+				<[float64][heading][143.97]>
+				<[string8][name][Apron Start 3]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

@@ -12,6 +12,32 @@
 		<[vector2_float64][tower_position][-73.720340 -42.346894]>
 		<[float64][tower_height][197.8]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2021m47m_rwy]>
+				<[tmvector3d][position][-73.715833 -42.340278 0]>
+				<[float64][orientation][-184.001009]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2021m47m_decal]>
+				<[tmvector3d][position][-73.715833 -42.340278 0]>
+				<[float64][orientation][-184.001009]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\35_decal]>
+				<[tmvector3d][position][-73.716627 -42.348666 0]>
+				<[float64][orientation][-184.001009]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\17_decal]>
+				<[tmvector3d][position][-73.715039 -42.331890 0]>
+				<[float64][orientation][-4.001009]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][17]>
@@ -32,6 +58,21 @@
 		<[list_tmsimulator_helipad][helipads][]
 		>
 		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-73.719617 -42.349057]>
+				<[float64][heading][87.51]>
+				<[string8][name][Terminal 1]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-73.719557 -42.348553]>
+				<[float64][heading][92.82]>
+				<[string8][name][Terminal 2]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-73.719504 -42.348103]>
+				<[float64][heading][94.97]>
+				<[string8][name][Terminal 3]>
+			>
 		>
 		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
 			<[tmsimulator_scenery_cultivation][element][0]

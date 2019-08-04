@@ -4,12 +4,38 @@
 		<[string8][sname][HEARST RENE FONTAINE MUNI]>
 		<[string8][lname][HEARST RENE FONTAINE MUNI, Canada]>
 		<[string8][icao][CYHF]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-83.685971 49.714028]>
 		<[float64][height][252.1]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_rwy]>
+				<[tmvector3d][position][-83.685971 49.714028 0]>
+				<[float64][orientation][-32.879205]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1386m33m_decal]>
+				<[tmvector3d][position][-83.685971 49.714028 0]>
+				<[float64][orientation][-32.879205]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\22_decal]>
+				<[tmvector3d][position][-83.681351 49.718649 0]>
+				<[float64][orientation][-32.879205]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\04_decal]>
+				<[tmvector3d][position][-83.690590 49.709407 0]>
+				<[float64][orientation][-212.879205]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][04]>

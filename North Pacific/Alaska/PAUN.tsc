@@ -1,0 +1,123 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Unalakleet]>
+		<[string8][lname][Unalakleet, Alaska]>
+		<[string8][icao][PAUN]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-160.800974 63.890126]>
+		<[float64][height][20.7]>
+		<[float64][size][5000]>
+		<[vector2_float64][tower_position][-160.795878 63.882225]>
+		<[float64][tower_height][21.6]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_rwy]>
+				<[tmvector3d][position][-160.800974 63.890126 0]>
+				<[float64][orientation][-164.159046]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1833m47m_decal]>
+				<[tmvector3d][position][-160.800974 63.890126 0]>
+				<[float64][orientation][-164.159046]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\33_decal]>
+				<[tmvector3d][position][-160.796217 63.882749 0]>
+				<[float64][orientation][-164.159046]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\15_decal]>
+				<[tmvector3d][position][-160.805730 63.897504 0]>
+				<[float64][orientation][-344.159046]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap624m26m_rwy]>
+				<[tmvector3d][position][-160.792888 63.883053 0]>
+				<[float64][orientation][-98.421568]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap624m26m_decal]>
+				<[tmvector3d][position][-160.792888 63.883053 0]>
+				<[float64][orientation][-98.421568]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\26_decal]>
+				<[tmvector3d][position][-160.788050 63.882738 0]>
+				<[float64][orientation][-98.421568]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\8_decal]>
+				<[tmvector3d][position][-160.797725 63.883368 0]>
+				<[float64][orientation][-278.421568]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][15]>
+				<[tmvector2d][threshold1][-160.806064 63.898022]>
+				<[tmvector2d][endpoint1][-160.806064 63.898022]>
+				<[string8][appltsys1][malsr]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][33]>
+				<[tmvector2d][threshold2][-160.795883 63.882231]>
+				<[tmvector2d][endpoint2][-160.795883 63.882231]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][uni]>
+				<[float64][width][46.02]>
+			>
+			<[tmsimulator_runway][element][1]
+				<[string8][name1][8]>
+				<[tmvector2d][threshold1][-160.799025 63.883453]>
+				<[tmvector2d][endpoint1][-160.799025 63.883453]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][left]>
+				<[string8][reil1][none]>
+				<[string8][name2][26]>
+				<[tmvector2d][threshold2][-160.786750 63.882653]>
+				<[tmvector2d][endpoint2][-160.786750 63.882653]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][left]>
+				<[string8][reil2][none]>
+				<[float64][width][24.08]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+			<[tmsimulator_parking_position][element][0]
+				<[tmvector2d][position][-160.798974 63.882818]>
+				<[float64][heading][165.55]>
+				<[string8][name][Bering Air Ramp]>
+			>
+			<[tmsimulator_parking_position][element][1]
+				<[tmvector2d][position][-160.798136 63.881343]>
+				<[float64][heading][345.29]>
+				<[string8][name][ERA Alaska Ramp]>
+			>
+			<[tmsimulator_parking_position][element][2]
+				<[tmvector2d][position][-160.796600 63.880310]>
+				<[float64][heading][343.34]>
+				<[string8][name][GA Parking]>
+			>
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][PAUN_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

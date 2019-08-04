@@ -4,12 +4,38 @@
 		<[string8][sname][LAC LA BICHE]>
 		<[string8][lname][LAC LA BICHE, Canada]>
 		<[string8][icao][CYLB]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-112.031665 54.770277]>
 		<[float64][height][574.2]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1782m33m_rwy]>
+				<[tmvector3d][position][-112.031665 54.770277 0]>
+				<[float64][orientation][-129.386767]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1782m33m_decal]>
+				<[tmvector3d][position][-112.031665 54.770277 0]>
+				<[float64][orientation][-129.386767]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29_decal]>
+				<[tmvector3d][position][-112.021968 54.765684 0]>
+				<[float64][orientation][-129.386767]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11_decal]>
+				<[tmvector3d][position][-112.041362 54.774869 0]>
+				<[float64][orientation][-309.386767]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11]>

@@ -1,0 +1,67 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][MINEOLA WISENER FLD]>
+		<[string8][lname][MINEOLA WISENER FLD, other]>
+		<[string8][icao][3F9]>
+		<[string8][country][]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-95.510804 32.676683]>
+		<[float64][height][130.8]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap988m19m_rwy]>
+				<[tmvector3d][position][-95.510804 32.676683 0]>
+				<[float64][orientation][-180.591863]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap988m19m_decal]>
+				<[tmvector3d][position][-95.510804 32.676683 0]>
+				<[float64][orientation][-180.591863]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\36_decal]>
+				<[tmvector3d][position][-95.510851 32.672829 0]>
+				<[float64][orientation][-180.591863]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\18_decal]>
+				<[tmvector3d][position][-95.510757 32.680537 0]>
+				<[float64][orientation][-0.591863]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][18]>
+				<[tmvector2d][threshold1][-95.510750 32.681083]>
+				<[tmvector2d][endpoint1][-95.510750 32.681083]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][36]>
+				<[tmvector2d][threshold2][-95.510858 32.672283]>
+				<[tmvector2d][endpoint2][-95.510858 32.672283]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][12.19]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+		<[list_tmsimulator_scenery_cultivation][cultivation_files][]
+			<[tmsimulator_scenery_cultivation][element][0]
+				<[string8][filename][3F9_bcn]>
+				<[bool][auto_height][true]>
+			>
+		>
+	>
+>

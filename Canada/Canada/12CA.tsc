@@ -1,0 +1,61 @@
+<[file][][]
+	<[tmsimulator_scenery_place][][]
+		<[string8][type][airport]>
+		<[string8][sname][Faber Vineyards]>
+		<[string8][lname][Faber Vineyards, Canada]>
+		<[string8][icao][12CA]>
+		<[string8][country][us]>
+		<[string8][coordinate_system][lonlat]>
+		<[vector2_float64][position][-121.169112 38.109642]>
+		<[float64][height][21.3]>
+		<[float64][size][5000]>
+		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap561m33m_rwy]>
+				<[tmvector3d][position][-121.169112 38.109642 0]>
+				<[float64][orientation][-85.999925]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap561m33m_decal]>
+				<[tmvector3d][position][-121.169112 38.109642 0]>
+				<[float64][orientation][-85.999925]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\25_decal]>
+				<[tmvector3d][position][-121.166689 38.109776 0]>
+				<[float64][orientation][-85.999925]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\07_decal]>
+				<[tmvector3d][position][-121.171535 38.109509 0]>
+				<[float64][orientation][-265.999925]>
+			>
+		>
+		<[list_tmsimulator_runway][runways][]
+			<[tmsimulator_runway][element][0]
+				<[string8][name1][07]>
+				<[tmvector2d][threshold1][-121.172242 38.109470]>
+				<[tmvector2d][endpoint1][-121.172242 38.109470]>
+				<[string8][appltsys1][none]>
+				<[string8][papi1][none]>
+				<[string8][reil1][none]>
+				<[string8][name2][25]>
+				<[tmvector2d][threshold2][-121.165982 38.109814]>
+				<[tmvector2d][endpoint2][-121.165982 38.109814]>
+				<[string8][appltsys2][none]>
+				<[string8][papi2][none]>
+				<[string8][reil2][none]>
+				<[float64][width][30.48]>
+			>
+		>
+		<[list_tmsimulator_helipad][helipads][]
+		>
+		<[list_tmsimulator_parking_position][parking_positions][]
+		>
+	>
+>

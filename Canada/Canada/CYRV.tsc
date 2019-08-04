@@ -4,12 +4,38 @@
 		<[string8][sname][REVELSTOKE]>
 		<[string8][lname][REVELSTOKE, Canada]>
 		<[string8][icao][CYRV]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-118.183335 50.966666]>
 		<[float64][height][444.7]>
 		<[float64][size][5000]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1482m26m_rwy]>
+				<[tmvector3d][position][-118.183335 50.966666 0]>
+				<[float64][orientation][-137.621633]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap1378m26m_decal]>
+				<[tmvector3d][position][-118.183775 50.966969 0]>
+				<[float64][orientation][-137.621819]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\30_decal]>
+				<[tmvector3d][position][-118.177768 50.962823 0]>
+				<[float64][orientation][-137.621633]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\12_decal]>
+				<[tmvector3d][position][-118.189782 50.971115 0]>
+				<[float64][orientation][-317.621819]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][12]>
@@ -19,7 +45,7 @@
 				<[string8][papi1][none]>
 				<[string8][reil1][none]>
 				<[string8][name2][30]>
-				<[tmvector2d][threshold2][-118.177088 50.962354]>
+				<[tmvector2d][threshold2][-118.177186 50.962421]>
 				<[tmvector2d][endpoint2][-118.176306 50.961814]>
 				<[string8][appltsys2][none]>
 				<[string8][papi2][none]>

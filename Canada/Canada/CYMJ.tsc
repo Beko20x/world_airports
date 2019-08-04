@@ -4,7 +4,7 @@
 		<[string8][sname][Moose Jaw Air Vice Marshal C M McEwen]>
 		<[string8][lname][Moose Jaw Air Vice Marshal C M McEwen, Canada]>
 		<[string8][icao][CYMJ]>
-		<[string8][country][ca]>
+		<[string8][country][us]>
 		<[string8][coordinate_system][lonlat]>
 		<[vector2_float64][position][-105.559772 50.332662]>
 		<[float64][height][576.7]>
@@ -12,6 +12,80 @@
 		<[vector2_float64][tower_position][-105.560018 50.336451]>
 		<[float64][tower_height][601.1]>
 		<[bool][autoheight][true]>
+		<[list_tmsimulator_scenery_object][objects][]
+			<[tmsimulator_scenery_object][element][0]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2585m47m_rwy]>
+				<[tmvector3d][position][-105.559772 50.332662 0]>
+				<[float64][orientation][-118.611208]>
+			>
+			<[tmsimulator_scenery_object][element][1]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2585m47m_decal]>
+				<[tmvector3d][position][-105.559772 50.332662 0]>
+				<[float64][orientation][-118.611208]>
+			>
+			<[tmsimulator_scenery_object][element][2]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29R_decal]>
+				<[tmvector3d][position][-105.545042 50.327533 0]>
+				<[float64][orientation][-118.611208]>
+			>
+			<[tmsimulator_scenery_object][element][3]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11L_decal]>
+				<[tmvector3d][position][-105.574503 50.337791 0]>
+				<[float64][orientation][-298.611208]>
+			>
+			<[tmsimulator_scenery_object][element][4]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2256m47m_rwy]>
+				<[tmvector3d][position][-105.561500 50.327645 0]>
+				<[float64][orientation][-118.600077]>
+			>
+			<[tmsimulator_scenery_object][element][5]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap2256m47m_decal]>
+				<[tmvector3d][position][-105.561500 50.327645 0]>
+				<[float64][orientation][-118.600077]>
+			>
+			<[tmsimulator_scenery_object][element][6]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\29L_decal]>
+				<[tmvector3d][position][-105.548683 50.323184 0]>
+				<[float64][orientation][-118.600077]>
+			>
+			<[tmsimulator_scenery_object][element][7]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\11R_decal]>
+				<[tmvector3d][position][-105.574317 50.332106 0]>
+				<[float64][orientation][-298.600077]>
+			>
+			<[tmsimulator_scenery_object][element][8]
+				<[string8][type][ground]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_rwy]>
+				<[tmvector3d][position][-105.554818 50.330148 0]>
+				<[float64][orientation][-43.586084]>
+			>
+			<[tmsimulator_scenery_object][element][9]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\asphalt\rap924m33m_decal]>
+				<[tmvector3d][position][-105.554818 50.330148 0]>
+				<[float64][orientation][-43.586084]>
+			>
+			<[tmsimulator_scenery_object][element][10]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\21_decal]>
+				<[tmvector3d][position][-105.551090 50.332648 0]>
+				<[float64][orientation][-43.586084]>
+			>
+			<[tmsimulator_scenery_object][element][11]
+				<[string8][type][decal]>
+				<[string8][geometry][..\..\objects\runways\numbers\03_decal]>
+				<[tmvector3d][position][-105.558546 50.327648 0]>
+				<[float64][orientation][-223.586084]>
+			>
+		>
 		<[list_tmsimulator_runway][runways][]
 			<[tmsimulator_runway][element][0]
 				<[string8][name1][11L]>
